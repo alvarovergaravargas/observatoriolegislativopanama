@@ -1,0 +1,2303 @@
+{
+  "fecha_extraccion": "20260311_085320",
+  "fuente": "https://sistemas.asamblea.gob.pa/segLegis/viewsPublico/SeguimientoLegislativo",
+  "total_proyectos": 714,
+  "total_leyes": 71,
+  "total_diputados": 198,
+  "etapas": {
+    "Preliminar": 116,
+    "Retirado por proponente": 28,
+    "Primer Debate": 167,
+    "Archivado": 52,
+    "Enviado a subcomisión para analisis": 104,
+    "Segundo Debate": 102,
+    "Negado": 42,
+    "Ley": 71,
+    "Enviado al Ejecutivo": 13,
+    "Tercer Debate": 1,
+    "Objetado por Ejecutivo": 11,
+    "Segundo Debate(Objetado)": 3,
+    "Suspendido": 3,
+    "Tercer Debate(Objetado)": 1
+  },
+  "timeline": {
+    "2024-07": 76,
+    "2024-08": 59,
+    "2024-09": 53,
+    "2024-10": 29,
+    "2024-11": 1,
+    "2025-01": 30,
+    "2025-02": 16,
+    "2025-03": 24,
+    "2025-04": 12,
+    "2025-06": 2,
+    "2025-07": 101,
+    "2025-08": 81,
+    "2025-09": 74,
+    "2025-10": 56,
+    "2026-01": 49,
+    "2026-02": 31,
+    "2026-03": 20
+  },
+  "diputados": [
+    {
+      "nombre": "MIGUEL ÁNGEL CAMPOS LIMA",
+      "proyectos": 175,
+      "leyes": 16,
+      "etapas": {
+        "Preliminar": 17,
+        "Primer Debate": 45,
+        "Segundo Debate": 41,
+        "Enviado a subcomisión para analisis": 22,
+        "Archivado": 11,
+        "Enviado al Ejecutivo": 4,
+        "Retirado por proponente": 4,
+        "Objetado por Ejecutivo": 6,
+        "Ley": 16,
+        "Negado": 7,
+        "Segundo Debate(Objetado)": 1,
+        "Suspendido": 1
+      }
+    },
+    {
+      "nombre": "JANINE PRADO CASTAÑO",
+      "proyectos": 145,
+      "leyes": 14,
+      "etapas": {
+        "Preliminar": 15,
+        "Primer Debate": 34,
+        "Segundo Debate": 34,
+        "Enviado a subcomisión para analisis": 22,
+        "Negado": 6,
+        "Ley": 14,
+        "Archivado": 9,
+        "Enviado al Ejecutivo": 2,
+        "Retirado por proponente": 5,
+        "Suspendido": 1,
+        "Objetado por Ejecutivo": 3
+      }
+    },
+    {
+      "nombre": "JORGE ISAAC BLOISE IGLESIAS",
+      "proyectos": 142,
+      "leyes": 14,
+      "etapas": {
+        "Preliminar": 8,
+        "Primer Debate": 33,
+        "Segundo Debate": 34,
+        "Enviado a subcomisión para analisis": 21,
+        "Negado": 10,
+        "Ley": 14,
+        "Archivado": 6,
+        "Retirado por proponente": 6,
+        "Enviado al Ejecutivo": 4,
+        "Objetado por Ejecutivo": 4,
+        "Segundo Debate(Objetado)": 1,
+        "Suspendido": 1
+      }
+    },
+    {
+      "nombre": "LENÍN ALBERTO ULATE RODRÍGUEZ",
+      "proyectos": 139,
+      "leyes": 12,
+      "etapas": {
+        "Preliminar": 14,
+        "Primer Debate": 33,
+        "Enviado a subcomisión para analisis": 28,
+        "Segundo Debate": 26,
+        "Archivado": 7,
+        "Enviado al Ejecutivo": 3,
+        "Retirado por proponente": 4,
+        "Objetado por Ejecutivo": 4,
+        "Ley": 12,
+        "Negado": 7,
+        "Suspendido": 1
+      }
+    },
+    {
+      "nombre": "ROBERTO JOSÉ FEDERICO ZÚÑIGA ALVARADO",
+      "proyectos": 129,
+      "leyes": 16,
+      "etapas": {
+        "Preliminar": 12,
+        "Primer Debate": 27,
+        "Archivado": 6,
+        "Enviado a subcomisión para analisis": 22,
+        "Segundo Debate": 26,
+        "Enviado al Ejecutivo": 4,
+        "Objetado por Ejecutivo": 4,
+        "Retirado por proponente": 3,
+        "Ley": 16,
+        "Negado": 7,
+        "Segundo Debate(Objetado)": 1,
+        "Suspendido": 1
+      }
+    },
+    {
+      "nombre": "LUIS HENRIQUE DUKE WALKER",
+      "proyectos": 118,
+      "leyes": 10,
+      "etapas": {
+        "Preliminar": 12,
+        "Primer Debate": 29,
+        "Segundo Debate": 21,
+        "Enviado a subcomisión para analisis": 22,
+        "Ley": 10,
+        "Enviado al Ejecutivo": 2,
+        "Retirado por proponente": 5,
+        "Archivado": 9,
+        "Negado": 5,
+        "Suspendido": 1,
+        "Objetado por Ejecutivo": 2
+      }
+    },
+    {
+      "nombre": "JORGE ALBERTO GONZÁLEZ LÓPEZ",
+      "proyectos": 111,
+      "leyes": 12,
+      "etapas": {
+        "Preliminar": 6,
+        "Primer Debate": 29,
+        "Enviado a subcomisión para analisis": 24,
+        "Segundo Debate": 22,
+        "Archivado": 5,
+        "Retirado por proponente": 4,
+        "Ley": 12,
+        "Suspendido": 1,
+        "Enviado al Ejecutivo": 1,
+        "Objetado por Ejecutivo": 3,
+        "Negado": 4
+      }
+    },
+    {
+      "nombre": "ALEXANDRA MARÍA BRENES SAMANIEGO",
+      "proyectos": 110,
+      "leyes": 6,
+      "etapas": {
+        "Preliminar": 15,
+        "Primer Debate": 23,
+        "Retirado por proponente": 6,
+        "Negado": 7,
+        "Enviado a subcomisión para analisis": 18,
+        "Segundo Debate": 27,
+        "Enviado al Ejecutivo": 1,
+        "Archivado": 4,
+        "Ley": 6,
+        "Suspendido": 1,
+        "Objetado por Ejecutivo": 2
+      }
+    },
+    {
+      "nombre": "YAMIRELIZ DAYMIRELKIS CHONG SMITH",
+      "proyectos": 108,
+      "leyes": 13,
+      "etapas": {
+        "Preliminar": 11,
+        "Primer Debate": 25,
+        "Archivado": 6,
+        "Segundo Debate": 25,
+        "Enviado a subcomisión para analisis": 16,
+        "Enviado al Ejecutivo": 1,
+        "Retirado por proponente": 2,
+        "Ley": 13,
+        "Negado": 5,
+        "Suspendido": 1,
+        "Objetado por Ejecutivo": 3
+      }
+    },
+    {
+      "nombre": "YARELIS ANAYANSI RODRÍGUEZ BATISTA",
+      "proyectos": 108,
+      "leyes": 15,
+      "etapas": {
+        "Preliminar": 10,
+        "Primer Debate": 23,
+        "Segundo Debate": 25,
+        "Enviado a subcomisión para analisis": 12,
+        "Archivado": 8,
+        "Retirado por proponente": 2,
+        "Enviado al Ejecutivo": 3,
+        "Ley": 15,
+        "Negado": 6,
+        "Suspendido": 1,
+        "Objetado por Ejecutivo": 3
+      }
+    },
+    {
+      "nombre": "EDUARDO ALEJANDRO GAITÁN BEITÍA",
+      "proyectos": 107,
+      "leyes": 12,
+      "etapas": {
+        "Preliminar": 11,
+        "Primer Debate": 32,
+        "Enviado a subcomisión para analisis": 17,
+        "Segundo Debate": 16,
+        "Archivado": 5,
+        "Enviado al Ejecutivo": 3,
+        "Ley": 12,
+        "Negado": 6,
+        "Retirado por proponente": 2,
+        "Objetado por Ejecutivo": 3
+      }
+    },
+    {
+      "nombre": "PATSY CRISTINA LEE RENTERÍA DE HUANG",
+      "proyectos": 94,
+      "leyes": 9,
+      "etapas": {
+        "Preliminar": 9,
+        "Primer Debate": 24,
+        "Archivado": 4,
+        "Segundo Debate": 21,
+        "Enviado a subcomisión para analisis": 14,
+        "Enviado al Ejecutivo": 4,
+        "Objetado por Ejecutivo": 3,
+        "Ley": 9,
+        "Retirado por proponente": 2,
+        "Negado": 4
+      }
+    },
+    {
+      "nombre": "JHONATHAN EDIR VEGA",
+      "proyectos": 94,
+      "leyes": 8,
+      "etapas": {
+        "Preliminar": 8,
+        "Primer Debate": 23,
+        "Enviado a subcomisión para analisis": 14,
+        "Segundo Debate": 21,
+        "Archivado": 5,
+        "Retirado por proponente": 6,
+        "Ley": 8,
+        "Enviado al Ejecutivo": 2,
+        "Objetado por Ejecutivo": 3,
+        "Negado": 4
+      }
+    },
+    {
+      "nombre": "WALKIRIA A. CHANDLER D´ORCY",
+      "proyectos": 89,
+      "leyes": 11,
+      "etapas": {
+        "Preliminar": 7,
+        "Archivado": 5,
+        "Primer Debate": 18,
+        "Segundo Debate": 17,
+        "Enviado al Ejecutivo": 2,
+        "Enviado a subcomisión para analisis": 17,
+        "Retirado por proponente": 3,
+        "Ley": 11,
+        "Negado": 6,
+        "Objetado por Ejecutivo": 3
+      }
+    },
+    {
+      "nombre": "MANUEL ALBERTO SAMANIEGO RODRÍGUEZ",
+      "proyectos": 87,
+      "leyes": 12,
+      "etapas": {
+        "Primer Debate": 19,
+        "Segundo Debate": 15,
+        "Preliminar": 3,
+        "Enviado a subcomisión para analisis": 22,
+        "Ley": 12,
+        "Retirado por proponente": 4,
+        "Archivado": 2,
+        "Negado": 4,
+        "Objetado por Ejecutivo": 4,
+        "Enviado al Ejecutivo": 2
+      }
+    },
+    {
+      "nombre": "AUGUSTO EFRAÍN PALACIOS MUÑOZ",
+      "proyectos": 83,
+      "leyes": 10,
+      "etapas": {
+        "Preliminar": 8,
+        "Primer Debate": 19,
+        "Segundo Debate": 21,
+        "Enviado a subcomisión para analisis": 14,
+        "Archivado": 3,
+        "Retirado por proponente": 3,
+        "Ley": 10,
+        "Objetado por Ejecutivo": 3,
+        "Negado": 2
+      }
+    },
+    {
+      "nombre": "OLGA PAULETTE THOMAS HORLY",
+      "proyectos": 82,
+      "leyes": 10,
+      "etapas": {
+        "Preliminar": 6,
+        "Primer Debate": 19,
+        "Segundo Debate": 17,
+        "Enviado a subcomisión para analisis": 13,
+        "Retirado por proponente": 3,
+        "Archivado": 3,
+        "Objetado por Ejecutivo": 4,
+        "Ley": 10,
+        "Suspendido": 1,
+        "Negado": 4,
+        "Enviado al Ejecutivo": 2
+      }
+    },
+    {
+      "nombre": "CARLOS EDUARDO SALDAÑA LÓPEZ",
+      "proyectos": 79,
+      "leyes": 10,
+      "etapas": {
+        "Primer Debate": 17,
+        "Preliminar": 4,
+        "Enviado a subcomisión para analisis": 14,
+        "Segundo Debate": 18,
+        "Archivado": 2,
+        "Enviado al Ejecutivo": 1,
+        "Retirado por proponente": 5,
+        "Ley": 10,
+        "Segundo Debate(Objetado)": 1,
+        "Negado": 4,
+        "Objetado por Ejecutivo": 3
+      }
+    },
+    {
+      "nombre": "JOSÉ ANTONIO PÉREZ BARBONI",
+      "proyectos": 78,
+      "leyes": 11,
+      "etapas": {
+        "Primer Debate": 13,
+        "Archivado": 6,
+        "Enviado a subcomisión para analisis": 13,
+        "Segundo Debate": 19,
+        "Negado": 7,
+        "Enviado al Ejecutivo": 1,
+        "Tercer Debate": 1,
+        "Objetado por Ejecutivo": 4,
+        "Retirado por proponente": 2,
+        "Ley": 11,
+        "Suspendido": 1
+      }
+    },
+    {
+      "nombre": "NEFTALÍ OMAR ZAMORA IBARRA",
+      "proyectos": 78,
+      "leyes": 8,
+      "etapas": {
+        "Preliminar": 4,
+        "Primer Debate": 22,
+        "Negado": 4,
+        "Enviado a subcomisión para analisis": 17,
+        "Segundo Debate": 12,
+        "Archivado": 4,
+        "Objetado por Ejecutivo": 4,
+        "Ley": 8,
+        "Enviado al Ejecutivo": 2,
+        "Retirado por proponente": 1
+      }
+    },
+    {
+      "nombre": "MANUEL CHENG PEÑALBA",
+      "proyectos": 70,
+      "leyes": 12,
+      "etapas": {
+        "Preliminar": 3,
+        "Enviado al Ejecutivo": 2,
+        "Archivado": 2,
+        "Enviado a subcomisión para analisis": 14,
+        "Segundo Debate": 14,
+        "Primer Debate": 12,
+        "Objetado por Ejecutivo": 3,
+        "Ley": 12,
+        "Segundo Debate(Objetado)": 1,
+        "Retirado por proponente": 2,
+        "Suspendido": 1,
+        "Negado": 4
+      }
+    },
+    {
+      "nombre": "ARIANA MARISÍN COBA MARTÍNEZ",
+      "proyectos": 63,
+      "leyes": 11,
+      "etapas": {
+        "Preliminar": 4,
+        "Primer Debate": 22,
+        "Enviado a subcomisión para analisis": 7,
+        "Segundo Debate": 9,
+        "Ley": 11,
+        "Archivado": 3,
+        "Enviado al Ejecutivo": 1,
+        "Objetado por Ejecutivo": 2,
+        "Retirado por proponente": 2,
+        "Negado": 2
+      }
+    },
+    {
+      "nombre": "RICARDO AGUSTÍN VIGIL LÓPEZ",
+      "proyectos": 55,
+      "leyes": 9,
+      "etapas": {
+        "Preliminar": 6,
+        "Enviado a subcomisión para analisis": 10,
+        "Retirado por proponente": 4,
+        "Primer Debate": 10,
+        "Segundo Debate": 7,
+        "Ley": 9,
+        "Enviado al Ejecutivo": 1,
+        "Objetado por Ejecutivo": 4,
+        "Archivado": 2,
+        "Negado": 2
+      }
+    },
+    {
+      "nombre": "FRANCISCO JAVIER BREA TRISTÁN",
+      "proyectos": 53,
+      "leyes": 7,
+      "etapas": {
+        "Primer Debate": 18,
+        "Preliminar": 2,
+        "Archivado": 3,
+        "Enviado a subcomisión para analisis": 8,
+        "Segundo Debate": 8,
+        "Ley": 7,
+        "Enviado al Ejecutivo": 1,
+        "Objetado por Ejecutivo": 1,
+        "Negado": 3,
+        "Retirado por proponente": 2
+      }
+    },
+    {
+      "nombre": "ROBERTO ARCHIBOLD CHUITO",
+      "proyectos": 51,
+      "leyes": 7,
+      "etapas": {
+        "Preliminar": 4,
+        "Primer Debate": 12,
+        "Archivado": 3,
+        "Enviado a subcomisión para analisis": 10,
+        "Segundo Debate": 7,
+        "Ley": 7,
+        "Enviado al Ejecutivo": 3,
+        "Retirado por proponente": 3,
+        "Objetado por Ejecutivo": 1,
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "BETSERAI AYIZE RICHARDS",
+      "proyectos": 49,
+      "leyes": 9,
+      "etapas": {
+        "Enviado a subcomisión para analisis": 13,
+        "Segundo Debate": 5,
+        "Objetado por Ejecutivo": 4,
+        "Retirado por proponente": 3,
+        "Primer Debate": 10,
+        "Ley": 9,
+        "Suspendido": 1,
+        "Negado": 3,
+        "Archivado": 1
+      }
+    },
+    {
+      "nombre": "MEDIN JIMÉNEZ PITTI",
+      "proyectos": 47,
+      "leyes": 4,
+      "etapas": {
+        "Preliminar": 3,
+        "Primer Debate": 11,
+        "Enviado a subcomisión para analisis": 9,
+        "Segundo Debate": 9,
+        "Retirado por proponente": 2,
+        "Archivado": 2,
+        "Enviado al Ejecutivo": 2,
+        "Objetado por Ejecutivo": 2,
+        "Negado": 3,
+        "Ley": 4
+      }
+    },
+    {
+      "nombre": "GRACIELA MERCEDES HERNÁNDEZ LACAYO",
+      "proyectos": 47,
+      "leyes": 7,
+      "etapas": {
+        "Enviado a subcomisión para analisis": 8,
+        "Segundo Debate": 11,
+        "Archivado": 4,
+        "Primer Debate": 8,
+        "Objetado por Ejecutivo": 4,
+        "Negado": 5,
+        "Ley": 7
+      }
+    },
+    {
+      "nombre": "ERNESTO CEDEÑO",
+      "proyectos": 45,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 7,
+        "Archivado": 8,
+        "Primer Debate": 14,
+        "Segundo Debate": 8,
+        "Enviado a subcomisión para analisis": 4,
+        "Retirado por proponente": 1,
+        "Enviado al Ejecutivo": 2,
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "LUIS EDUARDO CAMACHO CASTRO",
+      "proyectos": 41,
+      "leyes": 3,
+      "etapas": {
+        "Preliminar": 7,
+        "Archivado": 2,
+        "Segundo Debate": 4,
+        "Retirado por proponente": 1,
+        "Primer Debate": 12,
+        "Enviado a subcomisión para analisis": 5,
+        "Enviado al Ejecutivo": 2,
+        "Negado": 2,
+        "Objetado por Ejecutivo": 1,
+        "Ley": 3,
+        "Segundo Debate(Objetado)": 2
+      }
+    },
+    {
+      "nombre": "ERNESTO CEDEÑO ALVARADO",
+      "proyectos": 40,
+      "leyes": 3,
+      "etapas": {
+        "Preliminar": 3,
+        "Archivado": 4,
+        "Primer Debate": 5,
+        "Enviado a subcomisión para analisis": 11,
+        "Segundo Debate": 3,
+        "Tercer Debate": 1,
+        "Objetado por Ejecutivo": 4,
+        "Ley": 3,
+        "Negado": 6
+      }
+    },
+    {
+      "nombre": "MARCOS ENRIQUE CASTILLERO BARAHONA",
+      "proyectos": 40,
+      "leyes": 3,
+      "etapas": {
+        "Preliminar": 1,
+        "Archivado": 4,
+        "Primer Debate": 6,
+        "Segundo Debate": 13,
+        "Enviado a subcomisión para analisis": 10,
+        "Objetado por Ejecutivo": 1,
+        "Ley": 3,
+        "Retirado por proponente": 1,
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "BETSERAI RICHARDS",
+      "proyectos": 39,
+      "leyes": 1,
+      "etapas": {
+        "Preliminar": 8,
+        "Primer Debate": 15,
+        "Enviado a subcomisión para analisis": 5,
+        "Segundo Debate": 7,
+        "Archivado": 2,
+        "Negado": 1,
+        "Ley": 1
+      }
+    },
+    {
+      "nombre": "JORGE LUIS HERRERA",
+      "proyectos": 38,
+      "leyes": 8,
+      "etapas": {
+        "Preliminar": 1,
+        "Primer Debate": 9,
+        "Enviado a subcomisión para analisis": 8,
+        "Segundo Debate": 6,
+        "Ley": 8,
+        "Enviado al Ejecutivo": 2,
+        "Objetado por Ejecutivo": 2,
+        "Retirado por proponente": 1,
+        "Archivado": 1
+      }
+    },
+    {
+      "nombre": "EDWIN ANTONIO VERGARA CASTILLO",
+      "proyectos": 36,
+      "leyes": 6,
+      "etapas": {
+        "Primer Debate": 14,
+        "Enviado a subcomisión para analisis": 6,
+        "Preliminar": 1,
+        "Segundo Debate": 4,
+        "Retirado por proponente": 2,
+        "Archivado": 1,
+        "Objetado por Ejecutivo": 1,
+        "Ley": 6,
+        "Enviado al Ejecutivo": 1
+      }
+    },
+    {
+      "nombre": "YUZAIDA ANDREA MARÍN NATERON DE AGUILAR",
+      "proyectos": 35,
+      "leyes": 3,
+      "etapas": {
+        "Preliminar": 7,
+        "Primer Debate": 8,
+        "Enviado a subcomisión para analisis": 6,
+        "Segundo Debate": 7,
+        "Retirado por proponente": 1,
+        "Objetado por Ejecutivo": 2,
+        "Ley": 3,
+        "Enviado al Ejecutivo": 1
+      }
+    },
+    {
+      "nombre": "JOSÉ LUIS VARELA RODRÍGUEZ",
+      "proyectos": 33,
+      "leyes": 7,
+      "etapas": {
+        "Archivado": 2,
+        "Primer Debate": 5,
+        "Segundo Debate": 9,
+        "Segundo Debate(Objetado)": 1,
+        "Retirado por proponente": 2,
+        "Enviado a subcomisión para analisis": 3,
+        "Ley": 7,
+        "Enviado al Ejecutivo": 1,
+        "Objetado por Ejecutivo": 2,
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "GERTRUDIS RODRÍGUEZ DE GRACIA",
+      "proyectos": 31,
+      "leyes": 3,
+      "etapas": {
+        "Preliminar": 4,
+        "Enviado a subcomisión para analisis": 9,
+        "Primer Debate": 6,
+        "Segundo Debate": 5,
+        "Ley": 3,
+        "Archivado": 2,
+        "Objetado por Ejecutivo": 2
+      }
+    },
+    {
+      "nombre": "ARQUESIO ARIAS FELIX",
+      "proyectos": 31,
+      "leyes": 1,
+      "etapas": {
+        "Preliminar": 7,
+        "Archivado": 2,
+        "Primer Debate": 10,
+        "Enviado a subcomisión para analisis": 5,
+        "Retirado por proponente": 2,
+        "Objetado por Ejecutivo": 1,
+        "Segundo Debate": 2,
+        "Ley": 1,
+        "Enviado al Ejecutivo": 1
+      }
+    },
+    {
+      "nombre": "RONALD AMETH DE GRACIA MORENO",
+      "proyectos": 31,
+      "leyes": 6,
+      "etapas": {
+        "Preliminar": 2,
+        "Primer Debate": 7,
+        "Enviado a subcomisión para analisis": 2,
+        "Retirado por proponente": 2,
+        "Segundo Debate": 6,
+        "Ley": 6,
+        "Segundo Debate(Objetado)": 1,
+        "Negado": 1,
+        "Enviado al Ejecutivo": 3,
+        "Objetado por Ejecutivo": 1
+      }
+    },
+    {
+      "nombre": "JOSE PEREZ BARBONI",
+      "proyectos": 31,
+      "leyes": 0,
+      "etapas": {
+        "Primer Debate": 8,
+        "Enviado a subcomisión para analisis": 4,
+        "Preliminar": 3,
+        "Segundo Debate": 7,
+        "Archivado": 3,
+        "Negado": 1,
+        "Retirado por proponente": 2,
+        "Enviado al Ejecutivo": 2,
+        "Objetado por Ejecutivo": 1
+      }
+    },
+    {
+      "nombre": "ORLANDO VLADIMIR CARRASQUILLA BONILLA",
+      "proyectos": 29,
+      "leyes": 3,
+      "etapas": {
+        "Preliminar": 1,
+        "Primer Debate": 6,
+        "Enviado a subcomisión para analisis": 4,
+        "Segundo Debate": 8,
+        "Retirado por proponente": 3,
+        "Ley": 3,
+        "Objetado por Ejecutivo": 2,
+        "Segundo Debate(Objetado)": 1,
+        "Enviado al Ejecutivo": 1
+      }
+    },
+    {
+      "nombre": "JULIO DE LA GUARDIA ARROCHA",
+      "proyectos": 27,
+      "leyes": 4,
+      "etapas": {
+        "Preliminar": 4,
+        "Primer Debate": 7,
+        "Enviado a subcomisión para analisis": 6,
+        "Archivado": 2,
+        "Segundo Debate": 2,
+        "Retirado por proponente": 1,
+        "Ley": 4,
+        "Objetado por Ejecutivo": 1
+      }
+    },
+    {
+      "nombre": "DIDIANO PINILLA RÍOS",
+      "proyectos": 27,
+      "leyes": 5,
+      "etapas": {
+        "Preliminar": 2,
+        "Primer Debate": 9,
+        "Enviado a subcomisión para analisis": 1,
+        "Segundo Debate": 6,
+        "Ley": 5,
+        "Objetado por Ejecutivo": 2,
+        "Segundo Debate(Objetado)": 1,
+        "Enviado al Ejecutivo": 1
+      }
+    },
+    {
+      "nombre": "RAPHAEL BUCHANAN JOSEPH",
+      "proyectos": 26,
+      "leyes": 1,
+      "etapas": {
+        "Preliminar": 5,
+        "Archivado": 2,
+        "Primer Debate": 8,
+        "Enviado a subcomisión para analisis": 5,
+        "Segundo Debate": 2,
+        "Objetado por Ejecutivo": 1,
+        "Retirado por proponente": 1,
+        "Ley": 1,
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "CRISPIANO ADAMES NAVARRO",
+      "proyectos": 26,
+      "leyes": 4,
+      "etapas": {
+        "Archivado": 2,
+        "Preliminar": 3,
+        "Segundo Debate": 5,
+        "Primer Debate": 4,
+        "Retirado por proponente": 2,
+        "Enviado a subcomisión para analisis": 6,
+        "Ley": 4
+      }
+    },
+    {
+      "nombre": "DANA D. CASTAÑEDA GUARDIA",
+      "proyectos": 24,
+      "leyes": 3,
+      "etapas": {
+        "Preliminar": 2,
+        "Primer Debate": 11,
+        "Enviado a subcomisión para analisis": 4,
+        "Segundo Debate": 2,
+        "Ley": 3,
+        "Segundo Debate(Objetado)": 1,
+        "Suspendido": 1
+      }
+    },
+    {
+      "nombre": "ISAAC MOSQUERA RIVAS",
+      "proyectos": 23,
+      "leyes": 1,
+      "etapas": {
+        "Preliminar": 7,
+        "Archivado": 2,
+        "Primer Debate": 7,
+        "Enviado a subcomisión para analisis": 3,
+        "Segundo Debate": 3,
+        "Ley": 1
+      }
+    },
+    {
+      "nombre": "LILIA EMERITA BATISTA RODRIGUEZ",
+      "proyectos": 23,
+      "leyes": 1,
+      "etapas": {
+        "Preliminar": 4,
+        "Primer Debate": 7,
+        "Archivado": 1,
+        "Segundo Debate": 3,
+        "Objetado por Ejecutivo": 2,
+        "Negado": 1,
+        "Enviado al Ejecutivo": 1,
+        "Enviado a subcomisión para analisis": 1,
+        "Suspendido": 1,
+        "Ley": 1,
+        "Tercer Debate(Objetado)": 1
+      }
+    },
+    {
+      "nombre": "CARLOS AGUSTIN AFU DECEREGA",
+      "proyectos": 22,
+      "leyes": 1,
+      "etapas": {
+        "Preliminar": 2,
+        "Primer Debate": 7,
+        "Enviado a subcomisión para analisis": 5,
+        "Segundo Debate": 5,
+        "Ley": 1,
+        "Segundo Debate(Objetado)": 1,
+        "Objetado por Ejecutivo": 1
+      }
+    },
+    {
+      "nombre": "GRACIELA HERNANDEZ",
+      "proyectos": 22,
+      "leyes": 0,
+      "etapas": {
+        "Primer Debate": 8,
+        "Archivado": 4,
+        "Preliminar": 3,
+        "Segundo Debate": 4,
+        "Enviado a subcomisión para analisis": 1,
+        "Negado": 1,
+        "Enviado al Ejecutivo": 1
+      }
+    },
+    {
+      "nombre": "YESICA ROMERO GARCÍA",
+      "proyectos": 22,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 1,
+        "Primer Debate": 8,
+        "Enviado a subcomisión para analisis": 7,
+        "Segundo Debate": 3,
+        "Objetado por Ejecutivo": 1,
+        "Retirado por proponente": 2
+      }
+    },
+    {
+      "nombre": "ARIEL ULISES VALLARINO APARICIO",
+      "proyectos": 22,
+      "leyes": 3,
+      "etapas": {
+        "Preliminar": 4,
+        "Primer Debate": 5,
+        "Ley": 3,
+        "Enviado a subcomisión para analisis": 3,
+        "Segundo Debate": 3,
+        "Enviado al Ejecutivo": 2,
+        "Objetado por Ejecutivo": 1,
+        "Archivado": 1
+      }
+    },
+    {
+      "nombre": "EDUARDO ENRIQUE VÁSQUEZ GUTIÉRREZ",
+      "proyectos": 22,
+      "leyes": 4,
+      "etapas": {
+        "Primer Debate": 6,
+        "Enviado a subcomisión para analisis": 3,
+        "Segundo Debate": 5,
+        "Ley": 4,
+        "Segundo Debate(Objetado)": 1,
+        "Retirado por proponente": 2,
+        "Objetado por Ejecutivo": 1
+      }
+    },
+    {
+      "nombre": "JAIRO ARIEL SALAZAR RAMIREZ",
+      "proyectos": 21,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 7,
+        "Primer Debate": 9,
+        "Retirado por proponente": 1,
+        "Enviado a subcomisión para analisis": 3,
+        "Segundo Debate": 1
+      }
+    },
+    {
+      "nombre": "ROGELIO RICARDO REVELLO TEM",
+      "proyectos": 21,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 4,
+        "Primer Debate": 9,
+        "Archivado": 2,
+        "Enviado a subcomisión para analisis": 3,
+        "Enviado al Ejecutivo": 1,
+        "Segundo Debate": 2
+      }
+    },
+    {
+      "nombre": "JAMIS GASPAR ACOSTA GUERRA",
+      "proyectos": 21,
+      "leyes": 3,
+      "etapas": {
+        "Preliminar": 4,
+        "Archivado": 2,
+        "Segundo Debate": 5,
+        "Primer Debate": 4,
+        "Negado": 1,
+        "Ley": 3,
+        "Enviado a subcomisión para analisis": 2
+      }
+    },
+    {
+      "nombre": "NELSON JACKSON PALMA",
+      "proyectos": 20,
+      "leyes": 0,
+      "etapas": {
+        "Primer Debate": 7,
+        "Preliminar": 4,
+        "Archivado": 1,
+        "Segundo Debate": 4,
+        "Enviado a subcomisión para analisis": 1,
+        "Segundo Debate(Objetado)": 1,
+        "Retirado por proponente": 1,
+        "Enviado al Ejecutivo": 1
+      }
+    },
+    {
+      "nombre": "MANUEL CHENG",
+      "proyectos": 19,
+      "leyes": 1,
+      "etapas": {
+        "Preliminar": 4,
+        "Primer Debate": 6,
+        "Archivado": 1,
+        "Enviado a subcomisión para analisis": 2,
+        "Segundo Debate": 4,
+        "Retirado por proponente": 1,
+        "Ley": 1
+      }
+    },
+    {
+      "nombre": "SHIRLEY DE LA ROSA CASTAÑEDAS VALENTÍN",
+      "proyectos": 19,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 6,
+        "Primer Debate": 5,
+        "Archivado": 2,
+        "Enviado a subcomisión para analisis": 1,
+        "Segundo Debate": 4,
+        "Retirado por proponente": 1
+      }
+    },
+    {
+      "nombre": "TOMAS GABRIEL BENAVIDES AGUILAR",
+      "proyectos": 19,
+      "leyes": 1,
+      "etapas": {
+        "Primer Debate": 7,
+        "Preliminar": 3,
+        "Archivado": 1,
+        "Enviado a subcomisión para analisis": 4,
+        "Retirado por proponente": 1,
+        "Segundo Debate": 2,
+        "Ley": 1
+      }
+    },
+    {
+      "nombre": "ALAIN ALBENIS CEDEÑO HERRERA",
+      "proyectos": 18,
+      "leyes": 2,
+      "etapas": {
+        "Primer Debate": 7,
+        "Enviado a subcomisión para analisis": 3,
+        "Segundo Debate": 4,
+        "Objetado por Ejecutivo": 2,
+        "Ley": 2
+      }
+    },
+    {
+      "nombre": "MINISTERIO DE RELACIONES EXTERIORES",
+      "proyectos": 18,
+      "leyes": 17,
+      "etapas": {
+        "Ley": 17,
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "VÍCTOR DE JESÚS CASTILLO CORTEZ",
+      "proyectos": 17,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 5,
+        "Primer Debate": 5,
+        "Enviado a subcomisión para analisis": 3,
+        "Enviado al Ejecutivo": 1,
+        "Segundo Debate": 2,
+        "Objetado por Ejecutivo": 1
+      }
+    },
+    {
+      "nombre": "MANUEL COHEN SALERNO",
+      "proyectos": 17,
+      "leyes": 5,
+      "etapas": {
+        "Preliminar": 1,
+        "Primer Debate": 7,
+        "Ley": 5,
+        "Segundo Debate": 2,
+        "Enviado a subcomisión para analisis": 1,
+        "Objetado por Ejecutivo": 1
+      }
+    },
+    {
+      "nombre": "FLOR ISABEL BRENES MEDINA",
+      "proyectos": 14,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 3,
+        "Enviado a subcomisión para analisis": 3,
+        "Segundo Debate": 3,
+        "Primer Debate": 3,
+        "Objetado por Ejecutivo": 1,
+        "Segundo Debate(Objetado)": 1
+      }
+    },
+    {
+      "nombre": "BOLIVAR ENRIQUE ESCALA VERGARA",
+      "proyectos": 14,
+      "leyes": 1,
+      "etapas": {
+        "Preliminar": 4,
+        "Primer Debate": 5,
+        "Ley": 1,
+        "Segundo Debate": 3,
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "NAYELIS NOEMÍ GONZÁLEZ GONZÁLEZ",
+      "proyectos": 14,
+      "leyes": 2,
+      "etapas": {
+        "Preliminar": 2,
+        "Primer Debate": 2,
+        "Segundo Debate": 4,
+        "Archivado": 2,
+        "Enviado a subcomisión para analisis": 1,
+        "Ley": 2,
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "JAIME EDGARDO VARGAS CENTELLA",
+      "proyectos": 14,
+      "leyes": 0,
+      "etapas": {
+        "Archivado": 1,
+        "Preliminar": 3,
+        "Primer Debate": 5,
+        "Enviado a subcomisión para analisis": 2,
+        "Segundo Debate": 3
+      }
+    },
+    {
+      "nombre": "BENISIO ENISIO ROBINSON GONZÁLEZ",
+      "proyectos": 13,
+      "leyes": 2,
+      "etapas": {
+        "Preliminar": 4,
+        "Primer Debate": 4,
+        "Segundo Debate": 1,
+        "Enviado a subcomisión para analisis": 1,
+        "Retirado por proponente": 1,
+        "Ley": 2
+      }
+    },
+    {
+      "nombre": "ANA MARÍA POVEDA HERRERA",
+      "proyectos": 13,
+      "leyes": 1,
+      "etapas": {
+        "Preliminar": 2,
+        "Segundo Debate": 3,
+        "Primer Debate": 5,
+        "Ley": 1,
+        "Enviado a subcomisión para analisis": 1,
+        "Objetado por Ejecutivo": 1
+      }
+    },
+    {
+      "nombre": "JUAN DOMINGO DÍAZ CONCEPCIÓN",
+      "proyectos": 13,
+      "leyes": 0,
+      "etapas": {
+        "Primer Debate": 5,
+        "Preliminar": 3,
+        "Objetado por Ejecutivo": 1,
+        "Segundo Debate": 2,
+        "Archivado": 1,
+        "Enviado al Ejecutivo": 1
+      }
+    },
+    {
+      "nombre": "JAVIER FRANCISCO SUCRE MEJIA",
+      "proyectos": 13,
+      "leyes": 1,
+      "etapas": {
+        "Negado": 1,
+        "Segundo Debate": 1,
+        "Primer Debate": 3,
+        "Preliminar": 1,
+        "Objetado por Ejecutivo": 1,
+        "Segundo Debate(Objetado)": 1,
+        "Ley": 1,
+        "Enviado a subcomisión para analisis": 3,
+        "Retirado por proponente": 1
+      }
+    },
+    {
+      "nombre": "RAUL GILBERTO PINEDA VERGARA",
+      "proyectos": 12,
+      "leyes": 2,
+      "etapas": {
+        "Preliminar": 3,
+        "Archivado": 2,
+        "Ley": 2,
+        "Segundo Debate": 5
+      }
+    },
+    {
+      "nombre": "MERCEDES A. GALVEZ USEDA",
+      "proyectos": 11,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 2,
+        "Primer Debate": 5,
+        "Archivado": 1,
+        "Segundo Debate": 2,
+        "Enviado a subcomisión para analisis": 1
+      }
+    },
+    {
+      "nombre": "NIXSON ANDRADE RODRÍGUEZ",
+      "proyectos": 11,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 4,
+        "Enviado a subcomisión para analisis": 5,
+        "Primer Debate": 2
+      }
+    },
+    {
+      "nombre": "MELVIN HAMET PÉREZ FERNÁNDEZ",
+      "proyectos": 11,
+      "leyes": 1,
+      "etapas": {
+        "Preliminar": 3,
+        "Primer Debate": 3,
+        "Segundo Debate": 2,
+        "Ley": 1,
+        "Retirado por proponente": 1,
+        "Enviado a subcomisión para analisis": 1
+      }
+    },
+    {
+      "nombre": "ARIEL ANÍBAL RÍOS ZAPATA",
+      "proyectos": 11,
+      "leyes": 1,
+      "etapas": {
+        "Preliminar": 3,
+        "Primer Debate": 3,
+        "Segundo Debate": 1,
+        "Enviado a subcomisión para analisis": 1,
+        "Objetado por Ejecutivo": 1,
+        "Ley": 1,
+        "Retirado por proponente": 1
+      }
+    },
+    {
+      "nombre": "JOAN MANUEL GUEVARA RODRÍGUEZ",
+      "proyectos": 11,
+      "leyes": 1,
+      "etapas": {
+        "Archivado": 1,
+        "Primer Debate": 4,
+        "Segundo Debate": 2,
+        "Enviado a subcomisión para analisis": 2,
+        "Enviado al Ejecutivo": 1,
+        "Ley": 1
+      }
+    },
+    {
+      "nombre": "ELIECER CASTRELLÓN BARRIOS",
+      "proyectos": 10,
+      "leyes": 1,
+      "etapas": {
+        "Primer Debate": 4,
+        "Enviado a subcomisión para analisis": 1,
+        "Segundo Debate": 2,
+        "Objetado por Ejecutivo": 2,
+        "Ley": 1
+      }
+    },
+    {
+      "nombre": "BERTA NIDIA MORENO FLORES",
+      "proyectos": 9,
+      "leyes": 2,
+      "etapas": {
+        "Preliminar": 2,
+        "Primer Debate": 3,
+        "Enviado a subcomisión para analisis": 1,
+        "Ley": 2,
+        "Segundo Debate": 1
+      }
+    },
+    {
+      "nombre": "GABRIEL ANDRÉS SOLÍS ARIAS",
+      "proyectos": 9,
+      "leyes": 0,
+      "etapas": {
+        "Primer Debate": 4,
+        "Segundo Debate": 2,
+        "Enviado a subcomisión para analisis": 3
+      }
+    },
+    {
+      "nombre": "DARYELIS YAMILETH APONTE RODRÍGUEZ DE RAMÍREZ",
+      "proyectos": 8,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 4,
+        "Primer Debate": 1,
+        "Segundo Debate": 1,
+        "Enviado a subcomisión para analisis": 1,
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "MARCO MAURICIO RANGEL VIDALES",
+      "proyectos": 8,
+      "leyes": 1,
+      "etapas": {
+        "Preliminar": 2,
+        "Primer Debate": 3,
+        "Enviado a subcomisión para analisis": 1,
+        "Segundo Debate": 1,
+        "Ley": 1
+      }
+    },
+    {
+      "nombre": "JOSEPH ISAZA",
+      "proyectos": 8,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 3,
+        "Negado": 1,
+        "Primer Debate": 2,
+        "Enviado a subcomisión para analisis": 2
+      }
+    },
+    {
+      "nombre": "OSMAN CAMILO GÓMEZ",
+      "proyectos": 8,
+      "leyes": 1,
+      "etapas": {
+        "Enviado a subcomisión para analisis": 3,
+        "Primer Debate": 1,
+        "Segundo Debate": 2,
+        "Objetado por Ejecutivo": 1,
+        "Ley": 1
+      }
+    },
+    {
+      "nombre": "IVEET JULISSA VARGAS BATISTA",
+      "proyectos": 7,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 2,
+        "Primer Debate": 3,
+        "Segundo Debate": 2
+      }
+    },
+    {
+      "nombre": "LUIS ENRIQUE BATISTA CASTILLO",
+      "proyectos": 7,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 1,
+        "Archivado": 1,
+        "Primer Debate": 2,
+        "Segundo Debate": 2,
+        "Objetado por Ejecutivo": 1
+      }
+    },
+    {
+      "nombre": "SARA J. MAGALLON CAICEDO DE RUIZ",
+      "proyectos": 7,
+      "leyes": 0,
+      "etapas": {
+        "Archivado": 1,
+        "Preliminar": 1,
+        "Objetado por Ejecutivo": 1,
+        "Primer Debate": 3,
+        "Retirado por proponente": 1
+      }
+    },
+    {
+      "nombre": "ROSALIA ELLIS SANTO",
+      "proyectos": 7,
+      "leyes": 1,
+      "etapas": {
+        "Primer Debate": 1,
+        "Preliminar": 1,
+        "Segundo Debate": 2,
+        "Objetado por Ejecutivo": 1,
+        "Enviado a subcomisión para analisis": 1,
+        "Ley": 1
+      }
+    },
+    {
+      "nombre": "MINISTERIO DE ECONOMIA Y FINANZAS",
+      "proyectos": 7,
+      "leyes": 6,
+      "etapas": {
+        "Ley": 6,
+        "Retirado por proponente": 1
+      }
+    },
+    {
+      "nombre": "CÉSAR SANTAMARÍA CEDEÑO",
+      "proyectos": 6,
+      "leyes": 1,
+      "etapas": {
+        "Preliminar": 2,
+        "Archivado": 1,
+        "Primer Debate": 1,
+        "Ley": 1,
+        "Enviado a subcomisión para analisis": 1
+      }
+    },
+    {
+      "nombre": "ALBERTO DAVID NAVARRO SÁNCHEZ",
+      "proyectos": 6,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 2,
+        "Archivado": 1,
+        "Enviado a subcomisión para analisis": 2,
+        "Segundo Debate": 1
+      }
+    },
+    {
+      "nombre": "TATIANA ELOISA MORALES DE RAMOS",
+      "proyectos": 6,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 1,
+        "Segundo Debate": 2,
+        "Primer Debate": 1,
+        "Enviado a subcomisión para analisis": 1,
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "NESTOR ANTONIO GUARDIA JAEN",
+      "proyectos": 6,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 3,
+        "Segundo Debate": 2,
+        "Primer Debate": 1
+      }
+    },
+    {
+      "nombre": "ARNULFO ANTONIO ARIAS OLIVARES",
+      "proyectos": 5,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 3,
+        "Enviado a subcomisión para analisis": 1,
+        "Primer Debate": 1
+      }
+    },
+    {
+      "nombre": "LYDIA NORAYS CABALLERO CADASTRE",
+      "proyectos": 5,
+      "leyes": 0,
+      "etapas": {
+        "Primer Debate": 2,
+        "Segundo Debate": 1,
+        "Enviado a subcomisión para analisis": 2
+      }
+    },
+    {
+      "nombre": "CANDY CHEN",
+      "proyectos": 5,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 3,
+        "Negado": 2
+      }
+    },
+    {
+      "nombre": "PEDRO JOSÉ QUIJANO MERIDA",
+      "proyectos": 5,
+      "leyes": 1,
+      "etapas": {
+        "Primer Debate": 2,
+        "Enviado a subcomisión para analisis": 1,
+        "Segundo Debate": 1,
+        "Ley": 1
+      }
+    },
+    {
+      "nombre": "NICOLÁS ADAMES ARIAS",
+      "proyectos": 5,
+      "leyes": 0,
+      "etapas": {
+        "Primer Debate": 3,
+        "Archivado": 1,
+        "Enviado a subcomisión para analisis": 1
+      }
+    },
+    {
+      "nombre": "ELSA LILIA ESPINOZA ROSAS",
+      "proyectos": 5,
+      "leyes": 2,
+      "etapas": {
+        "Archivado": 1,
+        "Ley": 2,
+        "Retirado por proponente": 1,
+        "Primer Debate": 1
+      }
+    },
+    {
+      "nombre": "MINISTERIO DE COMERCIO E INDUSTRIAS",
+      "proyectos": 4,
+      "leyes": 3,
+      "etapas": {
+        "Ley": 3,
+        "Retirado por proponente": 1
+      }
+    },
+    {
+      "nombre": "JOANA YAMILETH CEDEÑO PINO DE ALGUERO",
+      "proyectos": 4,
+      "leyes": 0,
+      "etapas": {
+        "Primer Debate": 3,
+        "Objetado por Ejecutivo": 1
+      }
+    },
+    {
+      "nombre": "EMILSA ESPINOSA",
+      "proyectos": 4,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 3,
+        "Primer Debate": 1
+      }
+    },
+    {
+      "nombre": "MARGARETH JULIENE PIMENTEL DÍAZ",
+      "proyectos": 4,
+      "leyes": 0,
+      "etapas": {
+        "Segundo Debate": 2,
+        "Primer Debate": 2
+      }
+    },
+    {
+      "nombre": "JUSTINO ANTONIO BANDA AGUIRRE",
+      "proyectos": 4,
+      "leyes": 0,
+      "etapas": {
+        "Primer Debate": 4
+      }
+    },
+    {
+      "nombre": "LUIS MIGUEL CHARRIS ÁBREGO",
+      "proyectos": 4,
+      "leyes": 1,
+      "etapas": {
+        "Primer Debate": 2,
+        "Enviado a subcomisión para analisis": 1,
+        "Ley": 1
+      }
+    },
+    {
+      "nombre": "MINISTERIO DE CULTURA",
+      "proyectos": 4,
+      "leyes": 3,
+      "etapas": {
+        "Ley": 3,
+        "Enviado al Ejecutivo": 1
+      }
+    },
+    {
+      "nombre": "MINISTERIO DE GOBIERNO",
+      "proyectos": 3,
+      "leyes": 2,
+      "etapas": {
+        "Retirado por proponente": 1,
+        "Ley": 2
+      }
+    },
+    {
+      "nombre": "MAIQUELY DEL CARMEN AÑINO MEDINA DE BARRIOS",
+      "proyectos": 3,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 1,
+        "Archivado": 1,
+        "Segundo Debate": 1
+      }
+    },
+    {
+      "nombre": "ALEJANDRO SALAZAR ZORRILLA",
+      "proyectos": 3,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 1,
+        "Primer Debate": 1,
+        "Enviado al Ejecutivo": 1
+      }
+    },
+    {
+      "nombre": "KEVIN ARMANDO CARRILLO BERKELEY",
+      "proyectos": 3,
+      "leyes": 0,
+      "etapas": {
+        "Primer Debate": 2,
+        "Enviado a subcomisión para analisis": 1
+      }
+    },
+    {
+      "nombre": "ABELARDO ENRIQUE ANTONÍO QUIJANO",
+      "proyectos": 3,
+      "leyes": 0,
+      "etapas": {
+        "Segundo Debate": 1,
+        "Preliminar": 1,
+        "Primer Debate": 1
+      }
+    },
+    {
+      "nombre": "ARIEL AUGUSTO ORTEGA DE LEON",
+      "proyectos": 3,
+      "leyes": 0,
+      "etapas": {
+        "Segundo Debate": 2,
+        "Enviado a subcomisión para analisis": 1
+      }
+    },
+    {
+      "nombre": "ALEXANDER ELIECER MORENO",
+      "proyectos": 3,
+      "leyes": 1,
+      "etapas": {
+        "Segundo Debate": 1,
+        "Ley": 1,
+        "Primer Debate": 1
+      }
+    },
+    {
+      "nombre": "JOSÉ ANDRÉS GONZÁLEZ QUINZADA",
+      "proyectos": 3,
+      "leyes": 0,
+      "etapas": {
+        "Objetado por Ejecutivo": 1,
+        "Primer Debate": 2
+      }
+    },
+    {
+      "nombre": "EDILBERTO ANTONIO GUERRERO LÓPEZ",
+      "proyectos": 3,
+      "leyes": 1,
+      "etapas": {
+        "Primer Debate": 1,
+        "Negado": 1,
+        "Ley": 1
+      }
+    },
+    {
+      "nombre": "CARLITO SAAVEDRA MARTÍNEZ",
+      "proyectos": 3,
+      "leyes": 0,
+      "etapas": {
+        "Enviado a subcomisión para analisis": 1,
+        "Negado": 1,
+        "Primer Debate": 1
+      }
+    },
+    {
+      "nombre": "GUMERCINDA EDITH PÉREZ CEDEÑO DE POLO",
+      "proyectos": 2,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 2
+      }
+    },
+    {
+      "nombre": "RICARDO ALEJANDRO VALENCIA ARIAS",
+      "proyectos": 2,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 1,
+        "Enviado al Ejecutivo": 1
+      }
+    },
+    {
+      "nombre": "PROCURADURIA DE LA ADMINISTRACION",
+      "proyectos": 2,
+      "leyes": 0,
+      "etapas": {
+        "Enviado a subcomisión para analisis": 2
+      }
+    },
+    {
+      "nombre": "URANIS MARIELA MORENO S. DE MONTENEGRO",
+      "proyectos": 2,
+      "leyes": 0,
+      "etapas": {
+        "Enviado a subcomisión para analisis": 1,
+        "Objetado por Ejecutivo": 1
+      }
+    },
+    {
+      "nombre": "MINISTERIO DE LA PRESIDENCIA",
+      "proyectos": 2,
+      "leyes": 0,
+      "etapas": {
+        "Primer Debate": 1,
+        "Enviado a subcomisión para analisis": 1
+      }
+    },
+    {
+      "nombre": "EDUARD ABDEL RANGEL GONZÁLEZ",
+      "proyectos": 2,
+      "leyes": 1,
+      "etapas": {
+        "Enviado a subcomisión para analisis": 1,
+        "Ley": 1
+      }
+    },
+    {
+      "nombre": "VIRGILIO SOUSA",
+      "proyectos": 2,
+      "leyes": 0,
+      "etapas": {
+        "Segundo Debate": 1,
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "GRETTEL DENISSE GARRIDO VERGARA DE QUIROZ",
+      "proyectos": 2,
+      "leyes": 0,
+      "etapas": {
+        "Segundo Debate": 2
+      }
+    },
+    {
+      "nombre": "MINISTERIO DE TRABAJO Y DESARROLLO LABORAL",
+      "proyectos": 2,
+      "leyes": 1,
+      "etapas": {
+        "Enviado al Ejecutivo": 1,
+        "Ley": 1
+      }
+    },
+    {
+      "nombre": "MINISTERIO DEL CANAL",
+      "proyectos": 2,
+      "leyes": 2,
+      "etapas": {
+        "Ley": 2
+      }
+    },
+    {
+      "nombre": "BENICIO ENACIO ROBINSON GRAJALES",
+      "proyectos": 2,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 2
+      }
+    },
+    {
+      "nombre": "DAYANA BERNAL VASQUEZ",
+      "proyectos": 2,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 2
+      }
+    },
+    {
+      "nombre": "LUIS MENCOMO",
+      "proyectos": 2,
+      "leyes": 0,
+      "etapas": {
+        "Negado": 1,
+        "Archivado": 1
+      }
+    },
+    {
+      "nombre": "LUIS CARLOS MANUEL GÓMEZ RUDY",
+      "proyectos": 2,
+      "leyes": 0,
+      "etapas": {
+        "Negado": 2
+      }
+    },
+    {
+      "nombre": "LISELL CHAVEZ",
+      "proyectos": 2,
+      "leyes": 0,
+      "etapas": {
+        "Archivado": 2
+      }
+    },
+    {
+      "nombre": "JULIO CESAR GARCIA",
+      "proyectos": 2,
+      "leyes": 0,
+      "etapas": {
+        "Archivado": 1,
+        "Primer Debate": 1
+      }
+    },
+    {
+      "nombre": "MINISTERIO DE VIVIENDA Y ORDENAMIENTO TERRITORIAL",
+      "proyectos": 2,
+      "leyes": 2,
+      "etapas": {
+        "Ley": 2
+      }
+    },
+    {
+      "nombre": "SERGIO RAFAEL GALVEZ EVERS",
+      "proyectos": 2,
+      "leyes": 0,
+      "etapas": {
+        "Primer Debate": 1,
+        "Segundo Debate": 1
+      }
+    },
+    {
+      "nombre": "MINISTERIO DE SALUD",
+      "proyectos": 2,
+      "leyes": 2,
+      "etapas": {
+        "Ley": 2
+      }
+    },
+    {
+      "nombre": "MINISTERIO DE EDUCACION",
+      "proyectos": 2,
+      "leyes": 0,
+      "etapas": {
+        "Segundo Debate": 2
+      }
+    },
+    {
+      "nombre": "PROCURADURIA GENERAL DE LA NACION",
+      "proyectos": 2,
+      "leyes": 1,
+      "etapas": {
+        "Negado": 1,
+        "Ley": 1
+      }
+    },
+    {
+      "nombre": "CARLOS SOLIS",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 1
+      }
+    },
+    {
+      "nombre": "LILIA ZURITA",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Segundo Debate": 1
+      }
+    },
+    {
+      "nombre": "YANELINE UREÑA",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Segundo Debate": 1
+      }
+    },
+    {
+      "nombre": "CELSO ARENAS",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "MAYNOR GUERRA",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Enviado a subcomisión para analisis": 1
+      }
+    },
+    {
+      "nombre": "IRIS VILLARREAL",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 1
+      }
+    },
+    {
+      "nombre": "CECILIA SALDAÑA",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Archivado": 1
+      }
+    },
+    {
+      "nombre": "STHEFANY BATISTA",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 1
+      }
+    },
+    {
+      "nombre": "DOMINGA BEJERANO MITRE",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Primer Debate": 1
+      }
+    },
+    {
+      "nombre": "MINISTERIO DE DESARROLLO SOCIAL",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Primer Debate": 1
+      }
+    },
+    {
+      "nombre": "EFRAIN RAMOS",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 1
+      }
+    },
+    {
+      "nombre": "DAVID RABUM SIERRA",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 1
+      }
+    },
+    {
+      "nombre": "STEFANY PEÑALBA",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Primer Debate": 1
+      }
+    },
+    {
+      "nombre": "ANGEL CUAN",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Primer Debate": 1
+      }
+    },
+    {
+      "nombre": "JAVIER BALDEOLIVAR",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 1
+      }
+    },
+    {
+      "nombre": "HONORIO BERNAL RAMOS",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 1
+      }
+    },
+    {
+      "nombre": "ALAÍN ALBENIS CEDEÑO NAVARRO",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Primer Debate": 1
+      }
+    },
+    {
+      "nombre": "LAURA QUIEL",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 1
+      }
+    },
+    {
+      "nombre": "ELÍAS MAGDALENO BEKER ELINTON",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Segundo Debate": 1
+      }
+    },
+    {
+      "nombre": "Edgardo Reeder Gonzales",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 1
+      }
+    },
+    {
+      "nombre": "ISIS CABALLERO",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 1
+      }
+    },
+    {
+      "nombre": "JORGE FERNÁNDEZ",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Enviado a subcomisión para analisis": 1
+      }
+    },
+    {
+      "nombre": "LUIS ALDEANO",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Archivado": 1
+      }
+    },
+    {
+      "nombre": "RAMON ANTONIO MENDOZA DANGOND",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Archivado": 1
+      }
+    },
+    {
+      "nombre": "IVIS BONILLA DE TORRES",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Primer Debate": 1
+      }
+    },
+    {
+      "nombre": "JUDITH CASTILLO",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Archivado": 1
+      }
+    },
+    {
+      "nombre": "LUIS OMAR ORTEGA RIVERA",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Archivado": 1
+      }
+    },
+    {
+      "nombre": "ALEXIS GOMEZ",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Archivado": 1
+      }
+    },
+    {
+      "nombre": "IZABEL CAMPOS",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "MOISÉS ABDUL WILSON",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 1
+      }
+    },
+    {
+      "nombre": "PABLO POVEDA",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "GUILLERMO MEDINA",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 1
+      }
+    },
+    {
+      "nombre": "STEFHANY BATISTA",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Preliminar": 1
+      }
+    },
+    {
+      "nombre": "MARTIR POLANCO",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Archivado": 1
+      }
+    },
+    {
+      "nombre": "AIMEE ELISSA WITTGREEN KAPELL",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Archivado": 1
+      }
+    },
+    {
+      "nombre": "OLMEDO ESPINOZA",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Archivado": 1
+      }
+    },
+    {
+      "nombre": "PATER CHATLANI CHANDIRAMANI",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Archivado": 1
+      }
+    },
+    {
+      "nombre": "GISELLE DE LA HOZ",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Primer Debate": 1
+      }
+    },
+    {
+      "nombre": "MARTA ESTELA SANDOYA BARSALLO",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Enviado a subcomisión para analisis": 1
+      }
+    },
+    {
+      "nombre": "Luis Carlos Rodriguez",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "EDUARDO ABDIEL NÚÑEZ",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Primer Debate": 1
+      }
+    },
+    {
+      "nombre": "ENOEL JIMENEZ",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "MARCELINO ARENAS PEÑA",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Primer Debate": 1
+      }
+    },
+    {
+      "nombre": "ADELA RAMOS",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Primer Debate": 1
+      }
+    },
+    {
+      "nombre": "MIRIAM MENDOZA",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Enviado a subcomisión para analisis": 1
+      }
+    },
+    {
+      "nombre": "HIGINIO GONZÁLEZ BENCHIMAN",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Archivado": 1
+      }
+    },
+    {
+      "nombre": "CARLOS ISAEL HO SOLIS",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Enviado a subcomisión para analisis": 1
+      }
+    },
+    {
+      "nombre": "MINISTERIO DE DESARROLLO AGROPECUARIO",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Enviado a subcomisión para analisis": 1
+      }
+    },
+    {
+      "nombre": "DALMACIA ICELA VIRZI DELIJA DE RODRÍGUEZ",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Enviado a subcomisión para analisis": 1
+      }
+    },
+    {
+      "nombre": "EDUARDO LEBLANC GONZALEZ",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Retirado por proponente": 1
+      }
+    },
+    {
+      "nombre": "JOSE CLARA",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "JUAN ALARCON",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Enviado a subcomisión para analisis": 1
+      }
+    },
+    {
+      "nombre": "MAYLIN MICHELLE PRINCE RUIZ",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Retirado por proponente": 1
+      }
+    },
+    {
+      "nombre": "IRIS RIVERA",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "CORINA CANO",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "ALVARO BOYD",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "LUIS PINEDO",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "IVAN ALVAREZ",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "ANGELA JIMENEZ",
+      "proyectos": 1,
+      "leyes": 0,
+      "etapas": {
+        "Enviado a subcomisión para analisis": 1
+      }
+    }
+  ]
+}
