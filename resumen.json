@@ -1,23 +1,23 @@
 {
-  "fecha_extraccion": "20260311_085320",
+  "fecha_extraccion": "20260525_213353",
   "fuente": "https://sistemas.asamblea.gob.pa/segLegis/viewsPublico/SeguimientoLegislativo",
-  "total_proyectos": 714,
-  "total_leyes": 71,
+  "total_proyectos": 787,
+  "total_leyes": 82,
   "total_diputados": 71,
   "etapas": {
-    "Preliminar": 116,
-    "Retirado por proponente": 28,
-    "Primer Debate": 167,
-    "Archivado": 52,
-    "Enviado a subcomisión para analisis": 104,
-    "Segundo Debate": 102,
-    "Negado": 42,
-    "Ley": 71,
-    "Enviado al Ejecutivo": 13,
-    "Tercer Debate": 1,
-    "Objetado por Ejecutivo": 11,
-    "Segundo Debate(Objetado)": 3,
-    "Suspendido": 3,
+    "Primer Debate": 165,
+    "Segundo Debate": 166,
+    "Preliminar": 80,
+    "Negado": 53,
+    "Archivado": 62,
+    "Retirado por proponente": 39,
+    "Enviado al Ejecutivo": 27,
+    "Enviado a subcomisión para analisis": 82,
+    "Tercer Debate": 3,
+    "Suspendido": 5,
+    "Ley": 82,
+    "Objetado por Ejecutivo": 18,
+    "Segundo Debate(Objetado)": 4,
     "Tercer Debate(Objetado)": 1
   },
   "timeline": {
@@ -37,7 +37,8 @@
     "2025-10": 56,
     "2026-01": 49,
     "2026-02": 31,
-    "2026-03": 20
+    "2026-03": 61,
+    "2026-04": 32
   },
   "diputados": [
     {
@@ -49,20 +50,20 @@
       "foto": "https://espaciocivico.org/api/drive-image/1PcyW_d-3bt3tmy--LTGi-0b29Aqpimax",
       "perfil": "https://espaciocivico.org/diputados/ernesto-cedeno",
       "slug": "ernesto-cedeno",
-      "proyectos": 43,
-      "leyes": 1,
-      "co_patrocinios": 42,
+      "proyectos": 48,
+      "leyes": 2,
+      "co_patrocinios": 47,
       "etapas": {
+        "Negado": 7,
+        "Segundo Debate": 9,
         "Preliminar": 7,
-        "Archivado": 7,
-        "Primer Debate": 10,
-        "Segundo Debate": 6,
-        "Enviado a subcomisión para analisis": 5,
-        "Retirado por proponente": 1,
+        "Archivado": 8,
+        "Primer Debate": 8,
+        "Retirado por proponente": 2,
         "Enviado al Ejecutivo": 1,
-        "Tercer Debate": 1,
-        "Ley": 1,
-        "Negado": 4
+        "Objetado por Ejecutivo": 2,
+        "Enviado a subcomisión para analisis": 2,
+        "Ley": 2
       }
     },
     {
@@ -76,14 +77,37 @@
       "slug": "eduardo-gaitan",
       "proyectos": 23,
       "leyes": 0,
-      "co_patrocinios": 84,
+      "co_patrocinios": 89,
       "etapas": {
-        "Primer Debate": 11,
-        "Preliminar": 5,
-        "Enviado a subcomisión para analisis": 2,
-        "Segundo Debate": 2,
+        "Primer Debate": 9,
+        "Preliminar": 3,
+        "Segundo Debate": 3,
+        "Enviado a subcomisión para analisis": 4,
         "Archivado": 2,
-        "Objetado por Ejecutivo": 1
+        "Enviado al Ejecutivo": 1,
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "Alexandra Brenes",
+      "partido": "Coalición Vamos",
+      "circuito": "8-2",
+      "provincia": "Panamá",
+      "suplente": "Kareen García",
+      "foto": "https://espaciocivico.org/api/drive-image/1WXR4HeE_hvLDjR9igLCi33w6Rah2EpoJ",
+      "perfil": "https://espaciocivico.org/diputados/alexandra-brenes",
+      "slug": "alexandra-brenes",
+      "proyectos": 22,
+      "leyes": 0,
+      "co_patrocinios": 95,
+      "etapas": {
+        "Primer Debate": 5,
+        "Segundo Debate": 8,
+        "Retirado por proponente": 2,
+        "Preliminar": 2,
+        "Negado": 2,
+        "Archivado": 2,
+        "Enviado a subcomisión para analisis": 1
       }
     },
     {
@@ -97,36 +121,34 @@
       "slug": "jorge-bloise-iglesias",
       "proyectos": 22,
       "leyes": 0,
-      "co_patrocinios": 120,
+      "co_patrocinios": 129,
       "etapas": {
-        "Primer Debate": 4,
-        "Segundo Debate": 10,
-        "Enviado a subcomisión para analisis": 2,
-        "Negado": 4,
-        "Retirado por proponente": 1,
-        "Preliminar": 1
+        "Segundo Debate": 12,
+        "Retirado por proponente": 3,
+        "Primer Debate": 3,
+        "Negado": 4
       }
     },
     {
-      "nombre": "Alexandra Brenes",
+      "nombre": "Janine Prado",
       "partido": "Coalición Vamos",
-      "circuito": "8-2",
-      "provincia": "Panamá",
-      "suplente": "Kareen García",
-      "foto": "https://espaciocivico.org/api/drive-image/1WXR4HeE_hvLDjR9igLCi33w6Rah2EpoJ",
-      "perfil": "https://espaciocivico.org/diputados/alexandra-brenes",
-      "slug": "alexandra-brenes",
-      "proyectos": 19,
+      "circuito": "9-1",
+      "provincia": "Veraguas",
+      "suplente": "Francisco Jaen",
+      "foto": "https://espaciocivico.org/api/drive-image/1M6i3K-1YCPExJixXNfk58EXAPV9nTCwP",
+      "perfil": "https://espaciocivico.org/diputados/janine-prado",
+      "slug": "janine-prado",
+      "proyectos": 20,
       "leyes": 0,
-      "co_patrocinios": 91,
+      "co_patrocinios": 137,
       "etapas": {
         "Preliminar": 5,
-        "Retirado por proponente": 2,
-        "Segundo Debate": 6,
-        "Primer Debate": 2,
+        "Primer Debate": 4,
+        "Segundo Debate": 4,
+        "Negado": 2,
         "Archivado": 2,
-        "Negado": 1,
-        "Enviado a subcomisión para analisis": 1
+        "Enviado a subcomisión para analisis": 2,
+        "Retirado por proponente": 1
       }
     },
     {
@@ -139,39 +161,17 @@
       "perfil": "https://espaciocivico.org/diputados/manuel-cheng",
       "slug": "manuel-cheng",
       "proyectos": 19,
-      "leyes": 3,
-      "co_patrocinios": 70,
+      "leyes": 5,
+      "co_patrocinios": 78,
       "etapas": {
-        "Preliminar": 5,
-        "Primer Debate": 5,
-        "Enviado al Ejecutivo": 2,
+        "Primer Debate": 6,
+        "Preliminar": 2,
+        "Segundo Debate": 2,
+        "Ley": 5,
         "Archivado": 1,
         "Retirado por proponente": 1,
-        "Ley": 3,
-        "Segundo Debate": 1,
+        "Negado": 1,
         "Enviado a subcomisión para analisis": 1
-      }
-    },
-    {
-      "nombre": "Janine Prado",
-      "partido": "Coalición Vamos",
-      "circuito": "9-1",
-      "provincia": "Veraguas",
-      "suplente": "Francisco Jaen",
-      "foto": "https://espaciocivico.org/api/drive-image/1M6i3K-1YCPExJixXNfk58EXAPV9nTCwP",
-      "perfil": "https://espaciocivico.org/diputados/janine-prado",
-      "slug": "janine-prado",
-      "proyectos": 18,
-      "leyes": 0,
-      "co_patrocinios": 127,
-      "etapas": {
-        "Preliminar": 3,
-        "Primer Debate": 5,
-        "Negado": 3,
-        "Archivado": 1,
-        "Enviado a subcomisión para analisis": 3,
-        "Segundo Debate": 2,
-        "Retirado por proponente": 1
       }
     },
     {
@@ -183,16 +183,17 @@
       "foto": "https://espaciocivico.org/api/drive-image/1dJMS71bHvC3LW-KcddiP3oQ888jxlEXY",
       "perfil": "https://espaciocivico.org/diputados/marcos-castillero",
       "slug": "marcos-castillero",
-      "proyectos": 17,
+      "proyectos": 18,
       "leyes": 1,
-      "co_patrocinios": 23,
+      "co_patrocinios": 26,
       "etapas": {
-        "Segundo Debate": 6,
-        "Enviado a subcomisión para analisis": 6,
-        "Primer Debate": 1,
+        "Primer Debate": 2,
+        "Segundo Debate": 5,
+        "Retirado por proponente": 2,
+        "Enviado a subcomisión para analisis": 5,
+        "Enviado al Ejecutivo": 1,
         "Ley": 1,
         "Archivado": 1,
-        "Retirado por proponente": 1,
         "Negado": 1
       }
     },
@@ -207,13 +208,14 @@
       "slug": "crispiano-adames",
       "proyectos": 16,
       "leyes": 1,
-      "co_patrocinios": 10,
+      "co_patrocinios": 11,
       "etapas": {
-        "Segundo Debate": 3,
+        "Segundo Debate": 2,
         "Primer Debate": 3,
         "Preliminar": 2,
         "Retirado por proponente": 2,
         "Enviado a subcomisión para analisis": 4,
+        "Objetado por Ejecutivo": 1,
         "Archivado": 1,
         "Ley": 1
       }
@@ -227,39 +229,61 @@
       "foto": "https://espaciocivico.org/api/drive-image/1g1lq6mRDeY-qB6I9C0QLC7mTQyBikJlv",
       "perfil": "https://espaciocivico.org/diputados/graciela-hernandez",
       "slug": "graciela-hernandez",
-      "proyectos": 14,
+      "proyectos": 16,
       "leyes": 1,
-      "co_patrocinios": 55,
+      "co_patrocinios": 58,
       "etapas": {
         "Primer Debate": 4,
-        "Archivado": 2,
+        "Segundo Debate": 4,
+        "Tercer Debate": 1,
+        "Archivado": 1,
         "Negado": 3,
-        "Enviado a subcomisión para analisis": 1,
-        "Segundo Debate": 1,
         "Preliminar": 2,
         "Ley": 1
       }
     },
     {
-      "nombre": "José Pérez Barboni",
-      "partido": "Movimiento Otro Camino",
-      "circuito": "8-3",
+      "nombre": "Luis Duke",
+      "partido": "Coalición Vamos",
+      "circuito": "8-2",
       "provincia": "Panamá",
-      "suplente": "Kevin 'Robinho' Carrillo",
-      "foto": "https://espaciocivico.org/api/drive-image/1jdQaEAFfkqKtIVahwrTSz0AuFmYjhrde",
-      "perfil": "https://espaciocivico.org/diputados/jose-perez-barboni",
-      "slug": "jose-perez-barboni",
-      "proyectos": 14,
-      "leyes": 2,
-      "co_patrocinios": 95,
+      "suplente": "Grettel Garrido",
+      "foto": "https://espaciocivico.org/api/drive-image/1qu3Y5QOuHgVHbvCgM4IVvPcL7pj-as8G",
+      "perfil": "https://espaciocivico.org/diputados/luis-duke",
+      "slug": "luis-duke",
+      "proyectos": 16,
+      "leyes": 1,
+      "co_patrocinios": 110,
       "etapas": {
-        "Primer Debate": 3,
+        "Primer Debate": 2,
+        "Archivado": 3,
         "Segundo Debate": 2,
-        "Enviado a subcomisión para analisis": 2,
-        "Negado": 2,
+        "Enviado a subcomisión para analisis": 3,
+        "Retirado por proponente": 2,
+        "Ley": 1,
+        "Suspendido": 1,
         "Enviado al Ejecutivo": 1,
-        "Objetado por Ejecutivo": 1,
-        "Ley": 2,
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "Patsy Lee Rentería",
+      "partido": "Partido Popular",
+      "circuito": "13-4",
+      "provincia": "Panamá Oeste",
+      "suplente": "Ezequiel Cedeño",
+      "foto": "https://espaciocivico.org/api/drive-image/1j-BLrnzwbewFubNVYPQmsx7XYPiQX_Wo",
+      "perfil": "https://espaciocivico.org/diputados/patsy-lee-renteria",
+      "slug": "patsy-lee-renteria",
+      "proyectos": 15,
+      "leyes": 0,
+      "co_patrocinios": 86,
+      "etapas": {
+        "Preliminar": 1,
+        "Primer Debate": 6,
+        "Segundo Debate": 5,
+        "Enviado al Ejecutivo": 1,
+        "Negado": 1,
         "Archivado": 1
       }
     },
@@ -272,14 +296,40 @@
       "foto": "https://espaciocivico.org/api/drive-image/1urCE70K7_QPFh6hzfx8trAmUBVeHZxRj",
       "perfil": "https://espaciocivico.org/diputados/jairo-salazar",
       "slug": "jairo-salazar",
-      "proyectos": 13,
+      "proyectos": 14,
       "leyes": 0,
-      "co_patrocinios": 8,
+      "co_patrocinios": 9,
       "etapas": {
-        "Preliminar": 3,
-        "Primer Debate": 6,
+        "Primer Debate": 5,
+        "Segundo Debate": 2,
+        "Enviado al Ejecutivo": 1,
+        "Objetado por Ejecutivo": 1,
         "Retirado por proponente": 1,
-        "Enviado a subcomisión para analisis": 3
+        "Enviado a subcomisión para analisis": 2,
+        "Preliminar": 2
+      }
+    },
+    {
+      "nombre": "José Pérez Barboni",
+      "partido": "Movimiento Otro Camino",
+      "circuito": "8-3",
+      "provincia": "Panamá",
+      "suplente": "Kevin 'Robinho' Carrillo",
+      "foto": "https://espaciocivico.org/api/drive-image/1jdQaEAFfkqKtIVahwrTSz0AuFmYjhrde",
+      "perfil": "https://espaciocivico.org/diputados/jose-perez-barboni",
+      "slug": "jose-perez-barboni",
+      "proyectos": 13,
+      "leyes": 2,
+      "co_patrocinios": 100,
+      "etapas": {
+        "Enviado al Ejecutivo": 2,
+        "Segundo Debate": 2,
+        "Primer Debate": 1,
+        "Enviado a subcomisión para analisis": 2,
+        "Negado": 1,
+        "Objetado por Ejecutivo": 2,
+        "Ley": 2,
+        "Archivado": 1
       }
     },
     {
@@ -293,123 +343,34 @@
       "slug": "lenin-alberto-ulate",
       "proyectos": 13,
       "leyes": 0,
-      "co_patrocinios": 126,
+      "co_patrocinios": 133,
       "etapas": {
-        "Preliminar": 2,
-        "Primer Debate": 5,
-        "Segundo Debate": 1,
-        "Enviado a subcomisión para analisis": 3,
-        "Enviado al Ejecutivo": 1,
-        "Archivado": 1
-      }
-    },
-    {
-      "nombre": "Luis Duke",
-      "partido": "Coalición Vamos",
-      "circuito": "8-2",
-      "provincia": "Panamá",
-      "suplente": "Grettel Garrido",
-      "foto": "https://espaciocivico.org/api/drive-image/1qu3Y5QOuHgVHbvCgM4IVvPcL7pj-as8G",
-      "perfil": "https://espaciocivico.org/diputados/luis-duke",
-      "slug": "luis-duke",
-      "proyectos": 13,
-      "leyes": 1,
-      "co_patrocinios": 105,
-      "etapas": {
-        "Preliminar": 1,
-        "Primer Debate": 3,
-        "Enviado a subcomisión para analisis": 2,
-        "Archivado": 2,
-        "Segundo Debate": 2,
-        "Retirado por proponente": 1,
-        "Ley": 1,
-        "Suspendido": 1
-      }
-    },
-    {
-      "nombre": "Patsy Lee Rentería",
-      "partido": "Partido Popular",
-      "circuito": "13-4",
-      "provincia": "Panamá Oeste",
-      "suplente": "Ezequiel Cedeño",
-      "foto": "https://espaciocivico.org/api/drive-image/1j-BLrnzwbewFubNVYPQmsx7XYPiQX_Wo",
-      "perfil": "https://espaciocivico.org/diputados/patsy-lee-renteria",
-      "slug": "patsy-lee-renteria",
-      "proyectos": 13,
-      "leyes": 0,
-      "co_patrocinios": 81,
-      "etapas": {
-        "Preliminar": 3,
-        "Primer Debate": 5,
-        "Segundo Debate": 2,
-        "Enviado a subcomisión para analisis": 1,
-        "Enviado al Ejecutivo": 1,
-        "Archivado": 1
-      }
-    },
-    {
-      "nombre": "Walkiria Chandler",
-      "partido": "Coalición Vamos",
-      "circuito": "8-3",
-      "provincia": "Panamá",
-      "suplente": "Charlie Ho",
-      "foto": "https://espaciocivico.org/api/drive-image/1VmiaUx0rzlt-Zj2v4hcYcM1EpV0ai2XD",
-      "perfil": "https://espaciocivico.org/diputados/walkiria-chandler",
-      "slug": "walkiria-chandler",
-      "proyectos": 12,
-      "leyes": 0,
-      "co_patrocinios": 77,
-      "etapas": {
-        "Preliminar": 1,
+        "Segundo Debate": 4,
         "Primer Debate": 4,
-        "Enviado a subcomisión para analisis": 5,
-        "Segundo Debate": 1,
-        "Retirado por proponente": 1
-      }
-    },
-    {
-      "nombre": "Jamis Acosta",
-      "partido": "Realizando Metas",
-      "circuito": "4-1",
-      "provincia": "Chiriquí",
-      "suplente": "Estefani Barrios",
-      "foto": "https://espaciocivico.org/api/drive-image/1AJ3xto-Z0RPTQfL6y_E7R2gc5DDTu5OE",
-      "perfil": "https://espaciocivico.org/diputados/jamis-acosta",
-      "slug": "jamis-acosta",
-      "proyectos": 11,
-      "leyes": 1,
-      "co_patrocinios": 10,
-      "etapas": {
+        "Objetado por Ejecutivo": 1,
         "Archivado": 2,
-        "Segundo Debate": 2,
-        "Primer Debate": 2,
-        "Negado": 1,
-        "Preliminar": 1,
-        "Ley": 1,
         "Enviado a subcomisión para analisis": 2
       }
     },
     {
-      "nombre": "Luis Camacho Castro",
-      "partido": "Realizando Metas",
-      "circuito": "8-2",
+      "nombre": "Neftalí Zamora",
+      "partido": "Coalición Vamos",
+      "circuito": "8-5",
       "provincia": "Panamá",
-      "suplente": "Hilda Guzman De Boyd",
-      "foto": "https://espaciocivico.org/api/drive-image/1IepU3c-QMYJreqNIGzZ0EhWT0ZAYi_Kh",
-      "perfil": "https://espaciocivico.org/diputados/luis-camacho-castro",
-      "slug": "luis-camacho-castro",
-      "proyectos": 11,
+      "suplente": "Daryelis Aponte",
+      "foto": "https://espaciocivico.org/api/drive-image/1geqBMqEZSodIQSn8rP4Yw-jf2toM09XZ",
+      "perfil": "https://espaciocivico.org/diputados/neftali-zamora",
+      "slug": "neftali-zamora",
+      "proyectos": 13,
       "leyes": 1,
-      "co_patrocinios": 30,
+      "co_patrocinios": 75,
       "etapas": {
-        "Preliminar": 1,
-        "Primer Debate": 2,
-        "Enviado al Ejecutivo": 1,
-        "Negado": 2,
-        "Ley": 1,
-        "Segundo Debate(Objetado)": 1,
-        "Enviado a subcomisión para analisis": 2,
-        "Archivado": 1
+        "Primer Debate": 7,
+        "Negado": 1,
+        "Segundo Debate": 2,
+        "Archivado": 1,
+        "Enviado a subcomisión para analisis": 1,
+        "Ley": 1
       }
     },
     {
@@ -418,15 +379,16 @@
       "circuito": "8-2",
       "provincia": "Panamá",
       "suplente": "José Andrés González",
-      "foto": "https://espaciocivico.org/api/drive-image/1CDpks0hALy6EBT17Y2afzUvqAWkP92cC",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/yarelis-rodriguez",
       "slug": "yarelis-rodriguez",
-      "proyectos": 11,
-      "leyes": 0,
-      "co_patrocinios": 97,
+      "proyectos": 13,
+      "leyes": 1,
+      "co_patrocinios": 101,
       "etapas": {
+        "Primer Debate": 3,
         "Segundo Debate": 4,
-        "Primer Debate": 2,
+        "Ley": 1,
         "Archivado": 2,
         "Negado": 1,
         "Objetado por Ejecutivo": 2
@@ -441,57 +403,58 @@
       "foto": "https://espaciocivico.org/api/drive-image/1YUtF-yJooFQNig4wD88dwxjilYEDA5__",
       "perfil": "https://espaciocivico.org/diputados/dana-castaneda",
       "slug": "dana-castaneda",
-      "proyectos": 10,
+      "proyectos": 12,
       "leyes": 0,
-      "co_patrocinios": 14,
+      "co_patrocinios": 17,
       "etapas": {
         "Preliminar": 1,
+        "Segundo Debate": 3,
         "Primer Debate": 6,
         "Enviado a subcomisión para analisis": 1,
-        "Suspendido": 1,
-        "Segundo Debate": 1
+        "Suspendido": 1
       }
     },
     {
-      "nombre": "Neftalí Zamora",
-      "partido": "Coalición Vamos",
-      "circuito": "8-5",
+      "nombre": "Luis Camacho Castro",
+      "partido": "Realizando Metas",
+      "circuito": "8-2",
       "provincia": "Panamá",
-      "suplente": "Daryelis Aponte",
-      "foto": "https://espaciocivico.org/api/drive-image/1geqBMqEZSodIQSn8rP4Yw-jf2toM09XZ",
-      "perfil": "https://espaciocivico.org/diputados/neftali-zamora",
-      "slug": "neftali-zamora",
-      "proyectos": 10,
-      "leyes": 0,
-      "co_patrocinios": 68,
+      "suplente": "Hilda Guzman De Boyd",
+      "foto": "https://espaciocivico.org/api/drive-image/1IepU3c-QMYJreqNIGzZ0EhWT0ZAYi_Kh",
+      "perfil": "https://espaciocivico.org/diputados/luis-camacho-castro",
+      "slug": "luis-camacho-castro",
+      "proyectos": 12,
+      "leyes": 2,
+      "co_patrocinios": 33,
       "etapas": {
         "Preliminar": 1,
-        "Negado": 1,
-        "Primer Debate": 3,
-        "Segundo Debate": 2,
-        "Archivado": 1,
-        "Enviado a subcomisión para analisis": 1,
-        "Objetado por Ejecutivo": 1
+        "Retirado por proponente": 1,
+        "Primer Debate": 2,
+        "Ley": 2,
+        "Negado": 2,
+        "Segundo Debate(Objetado)": 1,
+        "Enviado a subcomisión para analisis": 2,
+        "Archivado": 1
       }
     },
     {
-      "nombre": "Roberto Zuñiga",
+      "nombre": "Walkiria Chandler",
       "partido": "Coalición Vamos",
-      "circuito": "8-4",
+      "circuito": "8-3",
       "provincia": "Panamá",
-      "suplente": "Herminia Thompson",
-      "foto": "https://espaciocivico.org/api/drive-image/1ikvRFnKl6U2bMNySKm5amHNDKYppcskS",
-      "perfil": "https://espaciocivico.org/diputados/roberto-zuniga",
-      "slug": "roberto-zuniga",
-      "proyectos": 10,
-      "leyes": 1,
-      "co_patrocinios": 119,
+      "suplente": "Charlie Ho",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "perfil": "https://espaciocivico.org/diputados/walkiria-chandler",
+      "slug": "walkiria-chandler",
+      "proyectos": 12,
+      "leyes": 0,
+      "co_patrocinios": 82,
       "etapas": {
-        "Preliminar": 4,
-        "Primer Debate": 2,
-        "Archivado": 1,
-        "Segundo Debate": 2,
-        "Ley": 1
+        "Primer Debate": 4,
+        "Segundo Debate": 1,
+        "Enviado a subcomisión para analisis": 5,
+        "Objetado por Ejecutivo": 1,
+        "Retirado por proponente": 1
       }
     },
     {
@@ -503,16 +466,121 @@
       "foto": "https://espaciocivico.org/api/drive-image/18m7F6P_TB9lBbgQDViHVpfOz7elwLnDK",
       "perfil": "https://espaciocivico.org/diputados/carlos-saldana",
       "slug": "carlos-saldana",
-      "proyectos": 9,
+      "proyectos": 11,
+      "leyes": 2,
+      "co_patrocinios": 71,
+      "etapas": {
+        "Segundo Debate": 4,
+        "Primer Debate": 3,
+        "Retirado por proponente": 1,
+        "Ley": 2,
+        "Archivado": 1
+      }
+    },
+    {
+      "nombre": "Jamis Acosta",
+      "partido": "Realizando Metas",
+      "circuito": "4-1",
+      "provincia": "Chiriquí",
+      "suplente": "Estefani Barrios",
+      "foto": "https://espaciocivico.org/api/drive-image/1AJ3xto-Z0RPTQfL6y_E7R2gc5DDTu5OE",
+      "perfil": "https://espaciocivico.org/diputados/jamis-acosta",
+      "slug": "jamis-acosta",
+      "proyectos": 11,
       "leyes": 1,
-      "co_patrocinios": 70,
+      "co_patrocinios": 11,
+      "etapas": {
+        "Archivado": 2,
+        "Enviado al Ejecutivo": 1,
+        "Segundo Debate": 1,
+        "Objetado por Ejecutivo": 1,
+        "Negado": 1,
+        "Primer Debate": 2,
+        "Ley": 1,
+        "Enviado a subcomisión para analisis": 2
+      }
+    },
+    {
+      "nombre": "Miguel Ángel Campos",
+      "partido": "Coalición Vamos",
+      "circuito": "9-1",
+      "provincia": "Veraguas",
+      "suplente": "Sara Itzela Gómez Castillo",
+      "foto": "https://espaciocivico.org/api/drive-image/1hcMWMaf8IEKqoOgsfK81PBJDFKmT3BZl",
+      "perfil": "https://espaciocivico.org/diputados/miguel-angel-campos",
+      "slug": "miguel-angel-campos",
+      "proyectos": 11,
+      "leyes": 2,
+      "co_patrocinios": 182,
+      "etapas": {
+        "Segundo Debate": 4,
+        "Primer Debate": 2,
+        "Enviado a subcomisión para analisis": 1,
+        "Segundo Debate(Objetado)": 1,
+        "Ley": 2,
+        "Archivado": 1
+      }
+    },
+    {
+      "nombre": "Roberto Zuñiga",
+      "partido": "Coalición Vamos",
+      "circuito": "8-4",
+      "provincia": "Panamá",
+      "suplente": "Herminia Thompson",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "perfil": "https://espaciocivico.org/diputados/roberto-zuniga",
+      "slug": "roberto-zuniga",
+      "proyectos": 11,
+      "leyes": 1,
+      "co_patrocinios": 123,
+      "etapas": {
+        "Primer Debate": 1,
+        "Segundo Debate": 4,
+        "Archivado": 1,
+        "Enviado a subcomisión para analisis": 1,
+        "Enviado al Ejecutivo": 1,
+        "Preliminar": 2,
+        "Ley": 1
+      }
+    },
+    {
+      "nombre": "Francisco Brea",
+      "partido": "Partido Panameñista",
+      "circuito": "9-3",
+      "provincia": "Veraguas",
+      "suplente": "Melvin 'El Maestro' Perez",
+      "foto": "https://espaciocivico.org/api/drive-image/1Y3Ain4tNLQHmbw3eqealTt79AESfx0Fc",
+      "perfil": "https://espaciocivico.org/diputados/francisco-brea",
+      "slug": "francisco-brea",
+      "proyectos": 9,
+      "leyes": 2,
+      "co_patrocinios": 52,
       "etapas": {
         "Primer Debate": 3,
+        "Segundo Debate": 3,
+        "Enviado al Ejecutivo": 1,
+        "Ley": 2
+      }
+    },
+    {
+      "nombre": "Jorge González",
+      "partido": "Coalición Vamos",
+      "circuito": "8-5",
+      "provincia": "Panamá",
+      "suplente": "Iveet Vargas Batista",
+      "foto": "https://espaciocivico.org/api/drive-image/1M5jz4Dz0AgT_nZJg5qoqI4-O3zY0podR",
+      "perfil": "https://espaciocivico.org/diputados/jorge-gonzalez",
+      "slug": "jorge-gonzalez",
+      "proyectos": 9,
+      "leyes": 0,
+      "co_patrocinios": 110,
+      "etapas": {
+        "Archivado": 2,
+        "Primer Debate": 1,
         "Preliminar": 1,
-        "Segundo Debate": 2,
-        "Retirado por proponente": 1,
-        "Ley": 1,
-        "Archivado": 1
+        "Enviado a subcomisión para analisis": 3,
+        "Segundo Debate": 1,
+        "Enviado al Ejecutivo": 1
       }
     },
     {
@@ -526,14 +594,13 @@
       "slug": "medin-jimenez-pitti",
       "proyectos": 9,
       "leyes": 0,
-      "co_patrocinios": 38,
+      "co_patrocinios": 41,
       "etapas": {
-        "Preliminar": 2,
-        "Enviado a subcomisión para analisis": 2,
+        "Primer Debate": 2,
+        "Enviado a subcomisión para analisis": 1,
         "Archivado": 1,
-        "Primer Debate": 1,
-        "Segundo Debate": 1,
-        "Enviado al Ejecutivo": 1,
+        "Segundo Debate": 3,
+        "Objetado por Ejecutivo": 1,
         "Retirado por proponente": 1
       }
     },
@@ -548,13 +615,33 @@
       "slug": "ricardo-vigil-lopez",
       "proyectos": 9,
       "leyes": 0,
-      "co_patrocinios": 46,
+      "co_patrocinios": 49,
       "etapas": {
-        "Preliminar": 2,
-        "Retirado por proponente": 4,
-        "Enviado a subcomisión para analisis": 1,
-        "Segundo Debate": 1,
+        "Primer Debate": 1,
+        "Retirado por proponente": 5,
+        "Preliminar": 1,
+        "Enviado al Ejecutivo": 1,
         "Objetado por Ejecutivo": 1
+      }
+    },
+    {
+      "nombre": "Yamireliz Chong",
+      "partido": "Coalición Vamos",
+      "circuito": "3-1",
+      "provincia": "Colón",
+      "suplente": "Moises Abdul Wilson",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "perfil": "https://espaciocivico.org/diputados/yamireliz-chong",
+      "slug": "yamireliz-chong",
+      "proyectos": 9,
+      "leyes": 0,
+      "co_patrocinios": 109,
+      "etapas": {
+        "Primer Debate": 3,
+        "Preliminar": 2,
+        "Segundo Debate": 2,
+        "Objetado por Ejecutivo": 1,
+        "Enviado a subcomisión para analisis": 1
       }
     },
     {
@@ -568,12 +655,33 @@
       "slug": "ariana-coba",
       "proyectos": 8,
       "leyes": 2,
-      "co_patrocinios": 55,
+      "co_patrocinios": 59,
       "etapas": {
-        "Preliminar": 2,
-        "Primer Debate": 3,
+        "Primer Debate": 4,
+        "Enviado a subcomisión para analisis": 1,
         "Ley": 2,
         "Archivado": 1
+      }
+    },
+    {
+      "nombre": "Ariel Vallarino",
+      "partido": "Realizando Metas",
+      "circuito": "8-5",
+      "provincia": "Panamá",
+      "suplente": "Luis Charris",
+      "foto": "https://espaciocivico.org/api/drive-image/16MpaO-gztotezPMdr19ma3iaoLb3_7pN",
+      "perfil": "https://espaciocivico.org/diputados/ariel-vallarino",
+      "slug": "ariel-vallarino",
+      "proyectos": 8,
+      "leyes": 1,
+      "co_patrocinios": 19,
+      "etapas": {
+        "Primer Debate": 3,
+        "Preliminar": 1,
+        "Ley": 1,
+        "Enviado a subcomisión para analisis": 1,
+        "Segundo Debate": 1,
+        "Objetado por Ejecutivo": 1
       }
     },
     {
@@ -587,91 +695,13 @@
       "slug": "augusto-palacios",
       "proyectos": 8,
       "leyes": 1,
-      "co_patrocinios": 75,
+      "co_patrocinios": 81,
       "etapas": {
-        "Preliminar": 1,
-        "Primer Debate": 3,
-        "Segundo Debate": 2,
+        "Tercer Debate": 1,
+        "Segundo Debate": 4,
+        "Primer Debate": 1,
         "Ley": 1,
         "Negado": 1
-      }
-    },
-    {
-      "nombre": "Francisco Brea",
-      "partido": "Partido Panameñista",
-      "circuito": "9-3",
-      "provincia": "Veraguas",
-      "suplente": "Melvin 'El Maestro' Perez",
-      "foto": "https://espaciocivico.org/api/drive-image/1Y3Ain4tNLQHmbw3eqealTt79AESfx0Fc",
-      "perfil": "https://espaciocivico.org/diputados/francisco-brea",
-      "slug": "francisco-brea",
-      "proyectos": 8,
-      "leyes": 2,
-      "co_patrocinios": 45,
-      "etapas": {
-        "Primer Debate": 3,
-        "Segundo Debate": 2,
-        "Enviado a subcomisión para analisis": 1,
-        "Ley": 2
-      }
-    },
-    {
-      "nombre": "Jorge González",
-      "partido": "Coalición Vamos",
-      "circuito": "8-5",
-      "provincia": "Panamá",
-      "suplente": "Iveet Vargas Batista",
-      "foto": "https://espaciocivico.org/api/drive-image/1M5jz4Dz0AgT_nZJg5qoqI4-O3zY0podR",
-      "perfil": "https://espaciocivico.org/diputados/jorge-gonzalez",
-      "slug": "jorge-gonzalez",
-      "proyectos": 8,
-      "leyes": 0,
-      "co_patrocinios": 103,
-      "etapas": {
-        "Archivado": 1,
-        "Primer Debate": 2,
-        "Preliminar": 1,
-        "Enviado a subcomisión para analisis": 3,
-        "Segundo Debate": 1
-      }
-    },
-    {
-      "nombre": "Miguel Ángel Campos",
-      "partido": "Coalición Vamos",
-      "circuito": "9-1",
-      "provincia": "Veraguas",
-      "suplente": "Sara Itzela Gómez Castillo",
-      "foto": "https://espaciocivico.org/api/drive-image/1hcMWMaf8IEKqoOgsfK81PBJDFKmT3BZl",
-      "perfil": "https://espaciocivico.org/diputados/miguel-angel-campos",
-      "slug": "miguel-angel-campos",
-      "proyectos": 8,
-      "leyes": 2,
-      "co_patrocinios": 167,
-      "etapas": {
-        "Enviado a subcomisión para analisis": 1,
-        "Segundo Debate": 2,
-        "Primer Debate": 2,
-        "Ley": 2,
-        "Archivado": 1
-      }
-    },
-    {
-      "nombre": "Yamireliz Chong",
-      "partido": "Coalición Vamos",
-      "circuito": "3-1",
-      "provincia": "Colón",
-      "suplente": "Moises Abdul Wilson",
-      "foto": "https://espaciocivico.org/api/drive-image/1clc288nbtAKzM6R_yPggugkcSqBSN_R1",
-      "perfil": "https://espaciocivico.org/diputados/yamireliz-chong",
-      "slug": "yamireliz-chong",
-      "proyectos": 8,
-      "leyes": 0,
-      "co_patrocinios": 100,
-      "etapas": {
-        "Preliminar": 3,
-        "Segundo Debate": 2,
-        "Enviado a subcomisión para analisis": 2,
-        "Primer Debate": 1
       }
     },
     {
@@ -683,13 +713,97 @@
       "foto": "https://espaciocivico.org/api/drive-image/1sHTH7XpmzCdJcpXpGG5SMD09l4_NpL3x",
       "perfil": "https://espaciocivico.org/diputados/isaac-mosquera",
       "slug": "isaac-mosquera",
-      "proyectos": 7,
+      "proyectos": 8,
       "leyes": 0,
-      "co_patrocinios": 16,
+      "co_patrocinios": 18,
       "etapas": {
-        "Preliminar": 4,
+        "Archivado": 1,
+        "Primer Debate": 3,
+        "Preliminar": 1,
+        "Enviado a subcomisión para analisis": 1,
+        "Tercer Debate": 1,
+        "Negado": 1
+      }
+    },
+    {
+      "nombre": "Lilia Batista",
+      "partido": "Realizando Metas",
+      "circuito": "13-4",
+      "provincia": "Panamá Oeste",
+      "suplente": "Ariel Ortega",
+      "foto": "https://espaciocivico.org/api/drive-image/1qbJMf2FNxBUDSKzOE1zQOy3imsGfHBC2",
+      "perfil": "https://espaciocivico.org/diputados/lilia-batista",
+      "slug": "lilia-batista",
+      "proyectos": 8,
+      "leyes": 0,
+      "co_patrocinios": 20,
+      "etapas": {
+        "Preliminar": 2,
+        "Segundo Debate": 2,
+        "Enviado a subcomisión para analisis": 1,
+        "Suspendido": 1,
+        "Objetado por Ejecutivo": 1,
+        "Tercer Debate(Objetado)": 1
+      }
+    },
+    {
+      "nombre": "Paulette Thomas",
+      "partido": "Coalición Vamos",
+      "circuito": "8-3",
+      "provincia": "Panamá",
+      "suplente": "Edilberto Guerrero",
+      "foto": "https://espaciocivico.org/api/drive-image/1srtYX5JwXU2jT8wpfL8pJo8V0ChK0JIT",
+      "perfil": "https://espaciocivico.org/diputados/paulette-thomas",
+      "slug": "paulette-thomas",
+      "proyectos": 8,
+      "leyes": 3,
+      "co_patrocinios": 81,
+      "etapas": {
+        "Segundo Debate": 3,
+        "Enviado a subcomisión para analisis": 1,
+        "Primer Debate": 1,
+        "Ley": 3
+      }
+    },
+    {
+      "nombre": "Raúl Pineda",
+      "partido": "Partido Revolucionario Democrático",
+      "circuito": "8-2",
+      "provincia": "Panamá",
+      "suplente": "Joana Cedeño",
+      "foto": "https://espaciocivico.org/api/drive-image/1NUJpKCIyY7uNj23WAfPSnnuvcuYySFVY",
+      "perfil": "https://espaciocivico.org/diputados/raul-pineda",
+      "slug": "raul-pineda",
+      "proyectos": 8,
+      "leyes": 0,
+      "co_patrocinios": 6,
+      "etapas": {
+        "Preliminar": 2,
+        "Primer Debate": 1,
+        "Archivado": 1,
+        "Enviado al Ejecutivo": 2,
+        "Segundo Debate": 2
+      }
+    },
+    {
+      "nombre": "Yuzaida Marín",
+      "partido": "Realizando Metas",
+      "circuito": "13-4",
+      "provincia": "Panamá Oeste",
+      "suplente": "Abdiel Núñez",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "perfil": "https://espaciocivico.org/diputados/yuzaida-marin",
+      "slug": "yuzaida-marin",
+      "proyectos": 8,
+      "leyes": 1,
+      "co_patrocinios": 32,
+      "etapas": {
+        "Segundo Debate": 1,
+        "Retirado por proponente": 1,
         "Primer Debate": 2,
-        "Segundo Debate": 1
+        "Preliminar": 1,
+        "Ley": 1,
+        "Enviado a subcomisión para analisis": 2
       }
     },
     {
@@ -706,9 +820,31 @@
       "co_patrocinios": 6,
       "etapas": {
         "Negado": 1,
-        "Primer Debate": 3,
+        "Archivado": 1,
+        "Segundo Debate": 1,
         "Enviado a subcomisión para analisis": 2,
+        "Primer Debate": 1,
         "Retirado por proponente": 1
+      }
+    },
+    {
+      "nombre": "Manuel Samaniego",
+      "partido": "Coalición Vamos",
+      "circuito": "8-6",
+      "provincia": "Panamá",
+      "suplente": "Nayelis Gonzalez",
+      "foto": "https://espaciocivico.org/api/drive-image/1byzCstXS-vDLyOOH7mopVd8hq2HCT2NI",
+      "perfil": "https://espaciocivico.org/diputados/manuel-samaniego",
+      "slug": "manuel-samaniego",
+      "proyectos": 7,
+      "leyes": 1,
+      "co_patrocinios": 85,
+      "etapas": {
+        "Segundo Debate": 2,
+        "Primer Debate": 1,
+        "Enviado a subcomisión para analisis": 2,
+        "Ley": 1,
+        "Archivado": 1
       }
     },
     {
@@ -720,95 +856,15 @@
       "foto": "https://espaciocivico.org/api/drive-image/1fXApB5ybl0wk1oGyJBrEojNOvmqiSJv8",
       "perfil": "https://espaciocivico.org/diputados/jorge-herrera",
       "slug": "jorge-herrera",
-      "proyectos": 7,
+      "proyectos": 6,
       "leyes": 2,
-      "co_patrocinios": 31,
+      "co_patrocinios": 32,
       "etapas": {
         "Ley": 2,
-        "Enviado a subcomisión para analisis": 1,
-        "Objetado por Ejecutivo": 1,
-        "Primer Debate": 2,
+        "Suspendido": 1,
+        "Primer Debate": 1,
+        "Retirado por proponente": 1,
         "Archivado": 1
-      }
-    },
-    {
-      "nombre": "Paulette Thomas",
-      "partido": "Coalición Vamos",
-      "circuito": "8-3",
-      "provincia": "Panamá",
-      "suplente": "Edilberto Guerrero",
-      "foto": "https://espaciocivico.org/api/drive-image/1srtYX5JwXU2jT8wpfL8pJo8V0ChK0JIT",
-      "perfil": "https://espaciocivico.org/diputados/paulette-thomas",
-      "slug": "paulette-thomas",
-      "proyectos": 7,
-      "leyes": 3,
-      "co_patrocinios": 75,
-      "etapas": {
-        "Preliminar": 1,
-        "Primer Debate": 1,
-        "Ley": 3,
-        "Segundo Debate": 1,
-        "Retirado por proponente": 1
-      }
-    },
-    {
-      "nombre": "Yuzaida Marín",
-      "partido": "Realizando Metas",
-      "circuito": "13-4",
-      "provincia": "Panamá Oeste",
-      "suplente": "Abdiel Núñez",
-      "foto": "https://espaciocivico.org/api/drive-image/1CuWKrXk9dFZTB67s4FPOyzaFZHkyhZr_",
-      "perfil": "https://espaciocivico.org/diputados/yuzaida-marin",
-      "slug": "yuzaida-marin",
-      "proyectos": 7,
-      "leyes": 1,
-      "co_patrocinios": 28,
-      "etapas": {
-        "Preliminar": 2,
-        "Primer Debate": 1,
-        "Ley": 1,
-        "Enviado a subcomisión para analisis": 2,
-        "Segundo Debate": 1
-      }
-    },
-    {
-      "nombre": "Ariel Vallarino",
-      "partido": "Realizando Metas",
-      "circuito": "8-5",
-      "provincia": "Panamá",
-      "suplente": "Luis Charris",
-      "foto": "https://espaciocivico.org/api/drive-image/16MpaO-gztotezPMdr19ma3iaoLb3_7pN",
-      "perfil": "https://espaciocivico.org/diputados/ariel-vallarino",
-      "slug": "ariel-vallarino",
-      "proyectos": 6,
-      "leyes": 0,
-      "co_patrocinios": 16,
-      "etapas": {
-        "Primer Debate": 1,
-        "Preliminar": 1,
-        "Enviado al Ejecutivo": 2,
-        "Enviado a subcomisión para analisis": 1,
-        "Segundo Debate": 1
-      }
-    },
-    {
-      "nombre": "Betserai Richards",
-      "partido": "Seguimos",
-      "circuito": "8-6",
-      "provincia": "Panamá",
-      "suplente": "Maylin Prince",
-      "foto": "https://espaciocivico.org/api/drive-image/1_NgnTX1kUZG382WzQ9bnG1DT2HCFzoaQ",
-      "perfil": "https://espaciocivico.org/diputados/betserai-richards",
-      "slug": "betserai-richards",
-      "proyectos": 6,
-      "leyes": 0,
-      "co_patrocinios": 82,
-      "etapas": {
-        "Preliminar": 1,
-        "Enviado a subcomisión para analisis": 2,
-        "Archivado": 1,
-        "Primer Debate": 1,
-        "Objetado por Ejecutivo": 1
       }
     },
     {
@@ -824,27 +880,10 @@
       "leyes": 0,
       "co_patrocinios": 14,
       "etapas": {
-        "Primer Debate": 3,
+        "Enviado al Ejecutivo": 1,
         "Preliminar": 1,
+        "Primer Debate": 2,
         "Segundo Debate": 2
-      }
-    },
-    {
-      "nombre": "Raúl Pineda",
-      "partido": "Partido Revolucionario Democrático",
-      "circuito": "8-2",
-      "provincia": "Panamá",
-      "suplente": "Joana Cedeño",
-      "foto": "https://espaciocivico.org/api/drive-image/1NUJpKCIyY7uNj23WAfPSnnuvcuYySFVY",
-      "perfil": "https://espaciocivico.org/diputados/raul-pineda",
-      "slug": "raul-pineda",
-      "proyectos": 6,
-      "leyes": 0,
-      "co_patrocinios": 6,
-      "etapas": {
-        "Preliminar": 1,
-        "Archivado": 1,
-        "Segundo Debate": 4
       }
     },
     {
@@ -858,7 +897,7 @@
       "slug": "arquesio-arias",
       "proyectos": 5,
       "leyes": 0,
-      "co_patrocinios": 26,
+      "co_patrocinios": 27,
       "etapas": {
         "Primer Debate": 2,
         "Archivado": 1,
@@ -877,50 +916,13 @@
       "slug": "edwin-vergara",
       "proyectos": 5,
       "leyes": 0,
-      "co_patrocinios": 31,
+      "co_patrocinios": 33,
       "etapas": {
-        "Primer Debate": 2,
+        "Primer Debate": 1,
         "Preliminar": 1,
+        "Enviado al Ejecutivo": 1,
         "Archivado": 1,
         "Retirado por proponente": 1
-      }
-    },
-    {
-      "nombre": "Lilia Batista",
-      "partido": "Realizando Metas",
-      "circuito": "13-4",
-      "provincia": "Panamá Oeste",
-      "suplente": "Ariel Ortega",
-      "foto": "https://espaciocivico.org/api/drive-image/1qbJMf2FNxBUDSKzOE1zQOy3imsGfHBC2",
-      "perfil": "https://espaciocivico.org/diputados/lilia-batista",
-      "slug": "lilia-batista",
-      "proyectos": 5,
-      "leyes": 0,
-      "co_patrocinios": 18,
-      "etapas": {
-        "Primer Debate": 1,
-        "Enviado a subcomisión para analisis": 1,
-        "Suspendido": 1,
-        "Objetado por Ejecutivo": 1,
-        "Tercer Debate(Objetado)": 1
-      }
-    },
-    {
-      "nombre": "Manuel Samaniego",
-      "partido": "Coalición Vamos",
-      "circuito": "8-6",
-      "provincia": "Panamá",
-      "suplente": "Nayelis Gonzalez",
-      "foto": "https://espaciocivico.org/api/drive-image/1byzCstXS-vDLyOOH7mopVd8hq2HCT2NI",
-      "perfil": "https://espaciocivico.org/diputados/manuel-samaniego",
-      "slug": "manuel-samaniego",
-      "proyectos": 5,
-      "leyes": 1,
-      "co_patrocinios": 82,
-      "etapas": {
-        "Primer Debate": 1,
-        "Enviado a subcomisión para analisis": 3,
-        "Ley": 1
       }
     },
     {
@@ -936,47 +938,45 @@
       "leyes": 0,
       "co_patrocinios": 24,
       "etapas": {
-        "Preliminar": 1,
+        "Segundo Debate": 3,
         "Primer Debate": 1,
-        "Enviado a subcomisión para analisis": 1,
-        "Segundo Debate": 2
+        "Enviado al Ejecutivo": 1
       }
     },
     {
-      "nombre": "Tomas Benavides",
-      "partido": "Realizando Metas",
-      "circuito": "9-2",
-      "provincia": "Veraguas",
-      "suplente": "Ricardo Martinelli Linares",
-      "foto": "https://espaciocivico.org/api/drive-image/1jut9OWQ0kDwtST7BWOkS0UCeU5303_Ux",
-      "perfil": "https://espaciocivico.org/diputados/tomas-benavides",
-      "slug": "tomas-benavides",
-      "proyectos": 5,
-      "leyes": 0,
-      "co_patrocinios": 14,
-      "etapas": {
-        "Primer Debate": 2,
-        "Preliminar": 2,
-        "Enviado a subcomisión para analisis": 1
-      }
-    },
-    {
-      "nombre": "Carlos Afú",
-      "partido": "Cambio Democrático",
-      "circuito": "7-1",
-      "provincia": "Los Santos",
-      "suplente": "Uranis Montenegro",
-      "foto": "https://espaciocivico.org/api/drive-image/1nFZ08mVklRAT7rAYk8Rfwd6xM4dyFm39",
-      "perfil": "https://espaciocivico.org/diputados/carlos-afu",
-      "slug": "carlos-afu",
+      "nombre": "Betserai Richards",
+      "partido": "Seguimos",
+      "circuito": "8-6",
+      "provincia": "Panamá",
+      "suplente": "Maylin Prince",
+      "foto": "https://espaciocivico.org/api/drive-image/1_NgnTX1kUZG382WzQ9bnG1DT2HCFzoaQ",
+      "perfil": "https://espaciocivico.org/diputados/betserai-richards",
+      "slug": "betserai-richards",
       "proyectos": 4,
       "leyes": 0,
-      "co_patrocinios": 18,
+      "co_patrocinios": 96,
       "etapas": {
-        "Preliminar": 1,
+        "Primer Debate": 2,
         "Enviado a subcomisión para analisis": 1,
-        "Segundo Debate(Objetado)": 1,
-        "Primer Debate": 1
+        "Archivado": 1
+      }
+    },
+    {
+      "nombre": "Gertrudis Rodríguez",
+      "partido": "Cambio Democrático",
+      "circuito": "12-3",
+      "provincia": "Ngöbe Buglé",
+      "suplente": "Cesar Pineda",
+      "foto": "https://espaciocivico.org/api/drive-image/1n3SFVXjEaAjceYAyFNWQpdHLngauAlGj",
+      "perfil": "https://espaciocivico.org/diputados/gertrudis-rodriguez",
+      "slug": "gertrudis-rodriguez",
+      "proyectos": 4,
+      "leyes": 0,
+      "co_patrocinios": 29,
+      "etapas": {
+        "Segundo Debate": 1,
+        "Enviado a subcomisión para analisis": 2,
+        "Objetado por Ejecutivo": 1
       }
     },
     {
@@ -992,27 +992,9 @@
       "leyes": 1,
       "co_patrocinios": 23,
       "etapas": {
-        "Preliminar": 1,
+        "Primer Debate": 2,
         "Enviado a subcomisión para analisis": 1,
-        "Ley": 1,
-        "Primer Debate": 1
-      }
-    },
-    {
-      "nombre": "Roberto Archibold",
-      "partido": "Partido Panameñista",
-      "circuito": "12-1",
-      "provincia": "Ngöbe Buglé",
-      "suplente": "Rosalia \"Beligo\" Ellis",
-      "foto": "https://espaciocivico.org/api/drive-image/1vnUYdZM57guE55fT821CJpq0NZyXINko",
-      "perfil": "https://espaciocivico.org/diputados/roberto-archibold",
-      "slug": "roberto-archibold",
-      "proyectos": 4,
-      "leyes": 0,
-      "co_patrocinios": 47,
-      "etapas": {
-        "Enviado a subcomisión para analisis": 3,
-        "Enviado al Ejecutivo": 1
+        "Ley": 1
       }
     },
     {
@@ -1021,16 +1003,53 @@
       "circuito": "3-1",
       "provincia": "Colón",
       "suplente": "Lalo' Antonio",
-      "foto": "https://espaciocivico.org/api/drive-image/1l64FLwc0g2vmPoSlnMbRWcIzT0BBthgE",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/rogelio-revello",
       "slug": "rogelio-revello",
       "proyectos": 4,
       "leyes": 0,
-      "co_patrocinios": 17,
+      "co_patrocinios": 19,
       "etapas": {
-        "Primer Debate": 2,
+        "Primer Debate": 1,
+        "Enviado al Ejecutivo": 1,
         "Preliminar": 1,
         "Enviado a subcomisión para analisis": 1
+      }
+    },
+    {
+      "nombre": "Tomas Benavides",
+      "partido": "Realizando Metas",
+      "circuito": "9-2",
+      "provincia": "Veraguas",
+      "suplente": "Ricardo Martinelli Linares",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "perfil": "https://espaciocivico.org/diputados/tomas-benavides",
+      "slug": "tomas-benavides",
+      "proyectos": 4,
+      "leyes": 0,
+      "co_patrocinios": 16,
+      "etapas": {
+        "Segundo Debate": 1,
+        "Primer Debate": 2,
+        "Enviado a subcomisión para analisis": 1
+      }
+    },
+    {
+      "nombre": "Carlos Afú",
+      "partido": "Cambio Democrático",
+      "circuito": "7-1",
+      "provincia": "Los Santos",
+      "suplente": "Uranis Montenegro",
+      "foto": "https://espaciocivico.org/api/drive-image/1nFZ08mVklRAT7rAYk8Rfwd6xM4dyFm39",
+      "perfil": "https://espaciocivico.org/diputados/carlos-afu",
+      "slug": "carlos-afu",
+      "proyectos": 3,
+      "leyes": 0,
+      "co_patrocinios": 19,
+      "etapas": {
+        "Enviado al Ejecutivo": 1,
+        "Enviado a subcomisión para analisis": 1,
+        "Primer Debate": 1
       }
     },
     {
@@ -1044,28 +1063,11 @@
       "slug": "flor-brenes",
       "proyectos": 3,
       "leyes": 0,
-      "co_patrocinios": 11,
+      "co_patrocinios": 13,
       "etapas": {
         "Segundo Debate": 1,
         "Enviado a subcomisión para analisis": 1,
-        "Segundo Debate(Objetado)": 1
-      }
-    },
-    {
-      "nombre": "Gertrudis Rodríguez",
-      "partido": "Cambio Democrático",
-      "circuito": "12-3",
-      "provincia": "Ngöbe Buglé",
-      "suplente": "Cesar Pineda",
-      "foto": "https://espaciocivico.org/api/drive-image/1n3SFVXjEaAjceYAyFNWQpdHLngauAlGj",
-      "perfil": "https://espaciocivico.org/diputados/gertrudis-rodriguez",
-      "slug": "gertrudis-rodriguez",
-      "proyectos": 3,
-      "leyes": 0,
-      "co_patrocinios": 28,
-      "etapas": {
-        "Enviado a subcomisión para analisis": 2,
-        "Objetado por Ejecutivo": 1
+        "Enviado al Ejecutivo": 1
       }
     },
     {
@@ -1078,10 +1080,10 @@
       "perfil": "https://espaciocivico.org/diputados/jose-luis-varela",
       "slug": "jose-luis-varela",
       "proyectos": 3,
-      "leyes": 0,
-      "co_patrocinios": 30,
+      "leyes": 1,
+      "co_patrocinios": 32,
       "etapas": {
-        "Segundo Debate": 1,
+        "Ley": 1,
         "Enviado a subcomisión para analisis": 2
       }
     },
@@ -1096,9 +1098,27 @@
       "slug": "manuel-cohen",
       "proyectos": 3,
       "leyes": 0,
-      "co_patrocinios": 14,
+      "co_patrocinios": 15,
       "etapas": {
-        "Primer Debate": 3
+        "Segundo Debate": 1,
+        "Primer Debate": 2
+      }
+    },
+    {
+      "nombre": "Roberto Archibold",
+      "partido": "Partido Panameñista",
+      "circuito": "12-1",
+      "provincia": "Ngöbe Buglé",
+      "suplente": "Rosalia \"Beligo\" Ellis",
+      "foto": "https://espaciocivico.org/api/drive-image/1vnUYdZM57guE55fT821CJpq0NZyXINko",
+      "perfil": "https://espaciocivico.org/diputados/roberto-archibold",
+      "slug": "roberto-archibold",
+      "proyectos": 3,
+      "leyes": 0,
+      "co_patrocinios": 49,
+      "etapas": {
+        "Enviado a subcomisión para analisis": 2,
+        "Segundo Debate": 1
       }
     },
     {
@@ -1107,12 +1127,12 @@
       "circuito": "7-2",
       "provincia": "Los Santos",
       "suplente": "Luis Enrique Batista",
-      "foto": "https://espaciocivico.org/api/drive-image/1UVWdM7SQlFSbtmT1LFx6zHjJ7stYrIXR",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/ronald-de-gracia",
       "slug": "ronald-de-gracia",
       "proyectos": 3,
       "leyes": 1,
-      "co_patrocinios": 28,
+      "co_patrocinios": 29,
       "etapas": {
         "Retirado por proponente": 1,
         "Segundo Debate": 1,
@@ -1125,14 +1145,32 @@
       "circuito": "13-1",
       "provincia": "Panamá Oeste",
       "suplente": "Ricardo Valencia",
-      "foto": "https://espaciocivico.org/api/drive-image/1gW-I7YUMSYAYP-8xtuRTuNF9jX-mcCH5",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/shirley-castanedas",
       "slug": "shirley-castanedas",
       "proyectos": 3,
       "leyes": 0,
+      "co_patrocinios": 19,
+      "etapas": {
+        "Segundo Debate": 1,
+        "Preliminar": 2
+      }
+    },
+    {
+      "nombre": "Victor Castillo",
+      "partido": "Realizando Metas",
+      "circuito": "3-1",
+      "provincia": "Colón",
+      "suplente": "Alejandro Salazar",
+      "foto": "https://espaciocivico.org/api/drive-image/1hSYeYwas_z-dnZz4wHuEK5d2dY2b-bdW",
+      "perfil": "https://espaciocivico.org/diputados/victor-castillo",
+      "slug": "victor-castillo",
+      "proyectos": 3,
+      "leyes": 0,
       "co_patrocinios": 16,
       "etapas": {
-        "Preliminar": 3
+        "Preliminar": 2,
+        "Segundo Debate(Objetado)": 1
       }
     },
     {
@@ -1141,14 +1179,16 @@
       "circuito": "1-1",
       "provincia": "Bocas del Toro",
       "suplente": "Elias Beker",
-      "foto": "https://espaciocivico.org/api/drive-image/1uGcarNpw4uxMJ2cpmukAGm3WLFFPj5DY",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/yesica-romero",
       "slug": "yesica-romero",
       "proyectos": 3,
       "leyes": 0,
-      "co_patrocinios": 19,
+      "co_patrocinios": 20,
       "etapas": {
-        "Primer Debate": 3
+        "Enviado al Ejecutivo": 1,
+        "Segundo Debate": 1,
+        "Primer Debate": 1
       }
     },
     {
@@ -1162,9 +1202,10 @@
       "slug": "alain-cedeno",
       "proyectos": 2,
       "leyes": 0,
-      "co_patrocinios": 17,
+      "co_patrocinios": 18,
       "etapas": {
-        "Primer Debate": 2
+        "Primer Debate": 1,
+        "Enviado a subcomisión para analisis": 1
       }
     },
     {
@@ -1180,7 +1221,7 @@
       "leyes": 0,
       "co_patrocinios": 25,
       "etapas": {
-        "Segundo Debate": 2
+        "Enviado al Ejecutivo": 2
       }
     },
     {
@@ -1196,7 +1237,7 @@
       "leyes": 0,
       "co_patrocinios": 4,
       "etapas": {
-        "Preliminar": 1,
+        "Primer Debate": 1,
         "Segundo Debate": 1
       }
     },
@@ -1213,7 +1254,8 @@
       "leyes": 0,
       "co_patrocinios": 6,
       "etapas": {
-        "Enviado a subcomisión para analisis": 2
+        "Negado": 1,
+        "Enviado a subcomisión para analisis": 1
       }
     },
     {
@@ -1222,15 +1264,31 @@
       "circuito": "8-6",
       "provincia": "Panamá",
       "suplente": "Claudina Herrera Rodríguez",
-      "foto": "https://espaciocivico.org/api/drive-image/1rO4y1MfZdU8mIGaHWRLWgTInVJm2YjFk",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/raphael-buchanan",
       "slug": "raphael-buchanan",
       "proyectos": 2,
       "leyes": 0,
-      "co_patrocinios": 24,
+      "co_patrocinios": 26,
       "etapas": {
-        "Preliminar": 1,
-        "Enviado a subcomisión para analisis": 1
+        "Segundo Debate": 1,
+        "Enviado al Ejecutivo": 1
+      }
+    },
+    {
+      "nombre": "Benicio Robinson",
+      "partido": "Partido Revolucionario Democrático",
+      "circuito": "1-1",
+      "provincia": "Bocas del Toro",
+      "suplente": "Benisio Jr Minchi Chi",
+      "foto": "https://espaciocivico.org/api/drive-image/1YkmbwhY4rvz3SJkKGOT9JGYkBaIaEDKd",
+      "perfil": "https://espaciocivico.org/diputados/benicio-robinson",
+      "slug": "benicio-robinson",
+      "proyectos": 1,
+      "leyes": 0,
+      "co_patrocinios": 3,
+      "etapas": {
+        "Enviado al Ejecutivo": 1
       }
     },
     {
@@ -1244,7 +1302,7 @@
       "slug": "eduardo-vasquez",
       "proyectos": 1,
       "leyes": 0,
-      "co_patrocinios": 21,
+      "co_patrocinios": 22,
       "etapas": {
         "Segundo Debate": 1
       }
@@ -1260,9 +1318,9 @@
       "slug": "eliecer-castrellon",
       "proyectos": 1,
       "leyes": 0,
-      "co_patrocinios": 9,
+      "co_patrocinios": 11,
       "etapas": {
-        "Primer Debate": 1
+        "Segundo Debate": 1
       }
     },
     {
@@ -1298,36 +1356,6 @@
       }
     },
     {
-      "nombre": "Victor Castillo",
-      "partido": "Realizando Metas",
-      "circuito": "3-1",
-      "provincia": "Colón",
-      "suplente": "Alejandro Salazar",
-      "foto": "https://espaciocivico.org/api/drive-image/1hSYeYwas_z-dnZz4wHuEK5d2dY2b-bdW",
-      "perfil": "https://espaciocivico.org/diputados/victor-castillo",
-      "slug": "victor-castillo",
-      "proyectos": 1,
-      "leyes": 0,
-      "co_patrocinios": 16,
-      "etapas": {
-        "Preliminar": 1
-      }
-    },
-    {
-      "nombre": "Benicio Robinson",
-      "partido": "Partido Revolucionario Democrático",
-      "circuito": "1-1",
-      "provincia": "Bocas del Toro",
-      "suplente": "Benisio Jr Minchi Chi",
-      "foto": "https://espaciocivico.org/api/drive-image/1YkmbwhY4rvz3SJkKGOT9JGYkBaIaEDKd",
-      "perfil": "https://espaciocivico.org/diputados/benicio-robinson",
-      "slug": "benicio-robinson",
-      "proyectos": 0,
-      "leyes": 0,
-      "co_patrocinios": 2,
-      "etapas": {}
-    },
-    {
       "nombre": "Jaime Vargas",
       "partido": "Partido Revolucionario Democrático",
       "circuito": "5-2",
@@ -1338,7 +1366,7 @@
       "slug": "jaime-vargas",
       "proyectos": 0,
       "leyes": 0,
-      "co_patrocinios": 14,
+      "co_patrocinios": 16,
       "etapas": {}
     },
     {
@@ -1388,8 +1416,14 @@
     {
       "nombre": "MINISTERIO DE RELACIONES EXTERIORES",
       "tipo": "ejecutivo",
-      "proyectos": 18,
+      "proyectos": 22,
       "leyes": 17
+    },
+    {
+      "nombre": "MINISTERIO DE ECONOMIA Y FINANZAS",
+      "tipo": "ejecutivo",
+      "proyectos": 8,
+      "leyes": 6
     },
     {
       "nombre": "JOSEPH ISAZA",
@@ -1398,22 +1432,16 @@
       "leyes": 0
     },
     {
-      "nombre": "MINISTERIO DE ECONOMIA Y FINANZAS",
-      "tipo": "ejecutivo",
-      "proyectos": 7,
-      "leyes": 6
+      "nombre": "CANDY CHEN",
+      "tipo": "ciudadano",
+      "proyectos": 5,
+      "leyes": 0
     },
     {
       "nombre": "MINISTERIO DE COMERCIO E INDUSTRIAS",
       "tipo": "ejecutivo",
       "proyectos": 4,
       "leyes": 3
-    },
-    {
-      "nombre": "CANDY CHEN",
-      "tipo": "ciudadano",
-      "proyectos": 4,
-      "leyes": 0
     },
     {
       "nombre": "EMILSA ESPINOSA",
@@ -1425,7 +1453,19 @@
       "nombre": "MINISTERIO DE CULTURA",
       "tipo": "ejecutivo",
       "proyectos": 4,
-      "leyes": 3
+      "leyes": 4
+    },
+    {
+      "nombre": "MINISTERIO DE LA PRESIDENCIA",
+      "tipo": "ejecutivo",
+      "proyectos": 3,
+      "leyes": 0
+    },
+    {
+      "nombre": "JULIO CESAR GARCIA",
+      "tipo": "ciudadano",
+      "proyectos": 3,
+      "leyes": 0
     },
     {
       "nombre": "MINISTERIO DE GOBIERNO",
@@ -1434,13 +1474,19 @@
       "leyes": 2
     },
     {
-      "nombre": "PROCURADURIA DE LA ADMINISTRACION",
-      "tipo": "ejecutivo",
+      "nombre": "COMISION DE ECONOMIA Y FINANZAS",
+      "tipo": "ciudadano",
       "proyectos": 2,
       "leyes": 0
     },
     {
-      "nombre": "MINISTERIO DE LA PRESIDENCIA",
+      "nombre": "DAVID RABUM SIERRA",
+      "tipo": "ciudadano",
+      "proyectos": 2,
+      "leyes": 0
+    },
+    {
+      "nombre": "PROCURADURIA DE LA ADMINISTRACION",
       "tipo": "ejecutivo",
       "proyectos": 2,
       "leyes": 0
@@ -1455,7 +1501,7 @@
       "nombre": "MINISTERIO DE TRABAJO Y DESARROLLO LABORAL",
       "tipo": "ejecutivo",
       "proyectos": 2,
-      "leyes": 1
+      "leyes": 2
     },
     {
       "nombre": "MINISTERIO DEL CANAL",
@@ -1470,19 +1516,7 @@
       "leyes": 0
     },
     {
-      "nombre": "LUIS MENCOMO",
-      "tipo": "ciudadano",
-      "proyectos": 2,
-      "leyes": 0
-    },
-    {
       "nombre": "LUIS CARLOS MANUEL GÓMEZ RUDY",
-      "tipo": "ciudadano",
-      "proyectos": 2,
-      "leyes": 0
-    },
-    {
-      "nombre": "JULIO CESAR GARCIA",
       "tipo": "ciudadano",
       "proyectos": 2,
       "leyes": 0
@@ -1510,6 +1544,66 @@
       "tipo": "ejecutivo",
       "proyectos": 2,
       "leyes": 1
+    },
+    {
+      "nombre": "EDUCACION",
+      "tipo": "ciudadano",
+      "proyectos": 1,
+      "leyes": 0
+    },
+    {
+      "nombre": "RAUL MONTENEGRO",
+      "tipo": "ciudadano",
+      "proyectos": 1,
+      "leyes": 0
+    },
+    {
+      "nombre": "CREDENCIALES",
+      "tipo": "ciudadano",
+      "proyectos": 1,
+      "leyes": 0
+    },
+    {
+      "nombre": "EDWIN CEPEDA",
+      "tipo": "ciudadano",
+      "proyectos": 1,
+      "leyes": 0
+    },
+    {
+      "nombre": "ADRIAN HERNANDEZ",
+      "tipo": "ciudadano",
+      "proyectos": 1,
+      "leyes": 0
+    },
+    {
+      "nombre": "ROGELIO VÁSQUEZ",
+      "tipo": "ciudadano",
+      "proyectos": 1,
+      "leyes": 0
+    },
+    {
+      "nombre": "JOSUE ORTIZ",
+      "tipo": "ciudadano",
+      "proyectos": 1,
+      "leyes": 0
+    },
+    {
+      "nombre": "ENRIQUE DE OBARRIO",
+      "tipo": "ciudadano",
+      "proyectos": 1,
+      "leyes": 0
+    },
+    {
+      "nombre": "Heidy Caballero",
+      "tipo": "ciudadano",
+      "proyectos": 1,
+      "leyes": 0
+    },
+    {
+      "nombre": "Luis Gómez",
+      "tipo": "ciudadano",
+      "proyectos": 1,
+      "leyes": 0
     },
     {
       "nombre": "CARLOS SOLIS",
@@ -1566,19 +1660,7 @@
       "leyes": 0
     },
     {
-      "nombre": "DAVID RABUM SIERRA",
-      "tipo": "ciudadano",
-      "proyectos": 1,
-      "leyes": 0
-    },
-    {
       "nombre": "STEFANY PEÑALBA",
-      "tipo": "ciudadano",
-      "proyectos": 1,
-      "leyes": 0
-    },
-    {
-      "nombre": "ANGEL CUAN",
       "tipo": "ciudadano",
       "proyectos": 1,
       "leyes": 0
@@ -1591,6 +1673,12 @@
     },
     {
       "nombre": "HONORIO BERNAL RAMOS",
+      "tipo": "ciudadano",
+      "proyectos": 1,
+      "leyes": 0
+    },
+    {
+      "nombre": "LAURA QUIEL",
       "tipo": "ciudadano",
       "proyectos": 1,
       "leyes": 0
@@ -1644,6 +1732,12 @@
       "leyes": 0
     },
     {
+      "nombre": "IZABEL CAMPOS",
+      "tipo": "ciudadano",
+      "proyectos": 1,
+      "leyes": 0
+    },
+    {
       "nombre": "PABLO POVEDA",
       "tipo": "ciudadano",
       "proyectos": 1,
@@ -1669,6 +1763,12 @@
     },
     {
       "nombre": "MARTIR POLANCO",
+      "tipo": "ciudadano",
+      "proyectos": 1,
+      "leyes": 0
+    },
+    {
+      "nombre": "LUIS MENCOMO",
       "tipo": "ciudadano",
       "proyectos": 1,
       "leyes": 0
@@ -1746,13 +1846,7 @@
       "leyes": 0
     },
     {
-      "nombre": "CORINA CANO",
-      "tipo": "ciudadano",
-      "proyectos": 1,
-      "leyes": 0
-    },
-    {
-      "nombre": "LUIS PINEDO",
+      "nombre": "ALVARO BOYD",
       "tipo": "ciudadano",
       "proyectos": 1,
       "leyes": 0
@@ -1773,47 +1867,47 @@
   "por_partido": {
     "Coalición Vamos": {
       "diputados": 19,
-      "proyectos": 333,
-      "leyes": 22
+      "proyectos": 360,
+      "leyes": 27
     },
     "Movimiento Otro Camino": {
       "diputados": 3,
-      "proyectos": 171,
-      "leyes": 14
+      "proyectos": 183,
+      "leyes": 16
     },
     "Partido Panameñista": {
       "diputados": 8,
-      "proyectos": 157,
-      "leyes": 17
+      "proyectos": 165,
+      "leyes": 20
     },
     "Realizando Metas": {
       "diputados": 14,
-      "proyectos": 144,
-      "leyes": 14
+      "proyectos": 162,
+      "leyes": 18
     },
     "Partido Revolucionario Democrático": {
       "diputados": 13,
-      "proyectos": 132,
-      "leyes": 8
+      "proyectos": 142,
+      "leyes": 9
     },
     "Partido Popular": {
       "diputados": 2,
-      "proyectos": 101,
+      "proyectos": 109,
+      "leyes": 11
+    },
+    "Seguimos": {
+      "diputados": 1,
+      "proyectos": 100,
       "leyes": 10
     },
     "Cambio Democrático": {
       "diputados": 8,
-      "proyectos": 94,
-      "leyes": 9
-    },
-    "Seguimos": {
-      "diputados": 1,
-      "proyectos": 88,
+      "proyectos": 96,
       "leyes": 10
     },
     "Movimiento Liberal Republicano Nacionalista": {
       "diputados": 1,
-      "proyectos": 23,
+      "proyectos": 26,
       "leyes": 1
     },
     "Partido Alianza": {
@@ -1825,62 +1919,62 @@
   "por_provincia": {
     "Panamá": {
       "diputados": 25,
-      "proyectos": 416,
-      "leyes": 23
+      "proyectos": 453,
+      "leyes": 30
     },
     "Panamá Oeste": {
       "diputados": 8,
-      "proyectos": 247,
-      "leyes": 23
+      "proyectos": 269,
+      "leyes": 26
     },
     "Veraguas": {
       "diputados": 5,
-      "proyectos": 223,
-      "leyes": 19
+      "proyectos": 240,
+      "leyes": 20
     },
     "Chiriquí": {
       "diputados": 9,
-      "proyectos": 191,
-      "leyes": 19
+      "proyectos": 201,
+      "leyes": 20
     },
     "Colón": {
       "diputados": 5,
-      "proyectos": 151,
-      "leyes": 13
+      "proyectos": 165,
+      "leyes": 14
     },
     "Coclé": {
       "diputados": 5,
-      "proyectos": 92,
-      "leyes": 12
+      "proyectos": 97,
+      "leyes": 13
     },
     "Herrera": {
       "diputados": 3,
-      "proyectos": 76,
-      "leyes": 11
+      "proyectos": 80,
+      "leyes": 13
     },
     "Ngöbe Buglé": {
       "diputados": 3,
-      "proyectos": 68,
-      "leyes": 7
+      "proyectos": 70,
+      "leyes": 8
     },
     "Los Santos": {
       "diputados": 2,
-      "proyectos": 48,
-      "leyes": 6
+      "proyectos": 49,
+      "leyes": 8
     },
     "Guna Yala": {
       "diputados": 2,
-      "proyectos": 38,
+      "proyectos": 40,
       "leyes": 1
     },
     "Emberá-Wounaan": {
       "diputados": 2,
-      "proyectos": 29,
+      "proyectos": 34,
       "leyes": 1
     },
     "Bocas del Toro": {
       "diputados": 2,
-      "proyectos": 24,
+      "proyectos": 27,
       "leyes": 0
     }
   }
