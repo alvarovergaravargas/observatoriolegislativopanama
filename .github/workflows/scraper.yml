@@ -10,10 +10,14 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repositorio
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Configurar Python 3.11
         uses: actions/setup-python@v5
@@ -39,5 +43,5 @@ jobs:
             echo "Sin cambios en los datos."
           else
             git commit -m "datos: actualización automática $(date -u '+%Y-%m-%d %H:%M UTC')"
-            git push
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
           fi
