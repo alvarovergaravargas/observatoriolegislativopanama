@@ -46,6 +46,20 @@ def encontrar_diputado(pn, dip_norm):
         if len(w) >= 2 and w[-1] in wp and w[0] in wp: return d
     return None
 
+_INSTITUCIONES = ('MINISTERIO', 'PROCURADURIA', 'ORGANO EJECUTIVO',
+                  'PODER EJECUTIVO', 'PRESIDENCIA DE LA REPUBLICA',
+                  'ASAMBLEA NACIONAL', 'TRIBUNAL', 'CONTRALORIA',
+                  'DEFENSORIA', 'AUTORIDAD', 'INSTITUTO', 'JUNTA')
+
+def clasificar_proponente(nombre):
+    # Chequear el prefijo H.D antes de normalizar (normalizar lo elimina)
+    if nombre.strip().upper().startswith('H.D'):
+        return 'diputado'
+    n = normalizar(nombre)
+    if any(n.startswith(k) for k in _INSTITUCIONES):
+        return 'ejecutivo'
+    return 'ciudadano'
+
 
 # ─────────────────────────────────────────────
 # SCRAPER 1: PROYECTOS LEGISLATIVOS
@@ -220,7 +234,8 @@ def scrape_diputados(page):
 def generar_resumen(datos, dips, ts):
     dip_norm = [(normalizar(d['nombre']), d) for d in dips]
 
-    prod = defaultdict(lambda: {'proyectos':0,'leyes':0,'etapas':{}})
+    prod  = defaultdict(lambda: {'proyectos':0,'leyes':0,'co_patrocinios':0,'etapas':{}})
+    otros = defaultdict(lambda: {'tipo':'','proyectos':0,'leyes':0})
     meses, etapas = {}, {}
 
     for r in datos:
@@ -231,24 +246,41 @@ def generar_resumen(datos, dips, ts):
             meses[k] = meses.get(k, 0) + 1
         # Etapas
         etapas[r['etapa']] = etapas.get(r['etapa'], 0) + 1
-        # Por diputado
-        for p in r['proponente'].split(','):
-            pn = normalizar(p.strip())
-            if not pn: continue
-            dip = encontrar_diputado(pn, dip_norm)
-            if dip:
-                key = dip['nombre']
-                prod[key]['proyectos'] += 1
-                if r['etapa'] == 'Ley': prod[key]['leyes'] += 1
-                et = prod[key]['etapas']
-                et[r['etapa']] = et.get(r['etapa'], 0) + 1
+
+        es_ley = r['etapa'] == 'Ley'
+        proponentes = [p.strip() for p in r['proponente'].split(',') if p.strip()]
+
+        for i, p in enumerate(proponentes):
+            tipo = clasificar_proponente(p)
+            if tipo == 'diputado':
+                pn  = normalizar(p)
+                dip = encontrar_diputado(pn, dip_norm)
+                if dip:
+                    key = dip['nombre']
+                    if i == 0:  # proponente principal
+                        prod[key]['proyectos'] += 1
+                        if es_ley: prod[key]['leyes'] += 1
+                        et = prod[key]['etapas']
+                        et[r['etapa']] = et.get(r['etapa'], 0) + 1
+                    else:  # co-patrocinador
+                        prod[key]['co_patrocinios'] += 1
+            elif i == 0:  # ministerio o ciudadano como proponente principal
+                otros[p]['tipo']      = tipo
+                otros[p]['proyectos'] += 1
+                if es_ley: otros[p]['leyes'] += 1
 
     # Enriquecer diputados
     diputados_enriq = []
     for d in dips:
-        p = prod.get(d['nombre'], {'proyectos':0,'leyes':0,'etapas':{}})
+        p = prod.get(d['nombre'], {'proyectos':0,'leyes':0,'co_patrocinios':0,'etapas':{}})
         diputados_enriq.append({**d, **p})
     diputados_enriq.sort(key=lambda x: x['proyectos'], reverse=True)
+
+    # Otros proponentes ordenados por proyectos desc
+    otros_proponentes = [
+        {'nombre': k, 'tipo': v['tipo'], 'proyectos': v['proyectos'], 'leyes': v['leyes']}
+        for k, v in sorted(otros.items(), key=lambda x: -x[1]['proyectos'])
+    ]
 
     # Por partido y provincia: cada proyecto cuenta UNA vez por partido
     # aunque lo firmen 19 diputados del mismo partido
@@ -289,6 +321,7 @@ def generar_resumen(datos, dips, ts):
         'etapas': etapas,
         'timeline': dict(sorted(meses.items())),
         'diputados': diputados_enriq,
+        'otros_proponentes': otros_proponentes,
         'por_partido': pp_final,
         'por_provincia': pv_final,
     }
