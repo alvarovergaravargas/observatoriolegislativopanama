@@ -346,25 +346,34 @@ function showTab(name){
   document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('active',names[i]===name));
   document.querySelectorAll('.tab-content').forEach(c=>c.classList.remove('active'));
   document.getElementById('tab-'+name).classList.add('active');
-  if(name==='general'&&!tabInited.general&&D){renderGeneral();tabInited.general=true}
-  if(name==='partidos'&&!tabInited.partidos&&D){renderPartidos();tabInited.partidos=true}
-  if(name==='proponentes'&&!tabInited.proponentes&&D){renderProponentes();tabInited.proponentes=true}
+  if(!D) return;
+  if(name==='general'&&!tabInited.general){try{renderGeneral();}catch(e){console.error('General:',e)}tabInited.general=true}
+  if(name==='diputados'&&filtered.length===0){try{initTable();}catch(e){console.error('Table:',e)}}
+  if(name==='partidos'&&!tabInited.partidos){try{renderPartidos();}catch(e){console.error('Partidos:',e)}tabInited.partidos=true}
+  if(name==='proponentes'&&!tabInited.proponentes){try{renderProponentes();}catch(e){console.error('Proponentes:',e)}tabInited.proponentes=true}
 }
 
 // ── LOAD ──────────────────────────────────────────
 async function loadData(){
+  let raw;
   try{
     const res=await fetch('resumen.json');
-    if(!res.ok)throw new Error();
-    const raw=await res.json();
-    D=raw.datos?processRaw(raw):raw;
-    const ts=D.fecha_extraccion||'';
-    document.getElementById('last-update').textContent=ts
-      ?ts.replace(/(\d{4})(\d{2})(\d{2})_(\d{2})(\d{2})(\d{2})/,'$3/$2/$1 $4:$5'):'—';
-    renderKPI(); renderGeneral(); tabInited.general=true; initTable();
+    if(!res.ok)throw new Error('HTTP '+res.status);
+    raw=await res.json();
   }catch(e){
-    document.getElementById('kpi-grid').innerHTML=`<div class="loader" style="grid-column:1/-1">⚠️ Error cargando datos</div>`;
+    console.error('Fetch error:',e);
+    document.getElementById('kpi-grid').innerHTML=`<div class="loader" style="grid-column:1/-1">⚠️ Error cargando datos: ${e.message}</div>`;
+    return;
   }
+
+  D = raw.datos ? processRaw(raw) : raw;
+  const ts = D.fecha_extraccion||'';
+  document.getElementById('last-update').textContent = ts
+    ? ts.replace(/(\d{4})(\d{2})(\d{2})_(\d{2})(\d{2})(\d{2})/,'$3/$2/$1 $4:$5') : '—';
+
+  try{ renderKPI(); }catch(e){ console.error('KPI error:',e); }
+  try{ renderGeneral(); tabInited.general=true; }catch(e){ console.error('General error:',e); }
+  try{ initTable(); }catch(e){ console.error('Table error:',e); }
 }
 
 function processRaw(raw){
@@ -469,7 +478,7 @@ function renderGeneral(){
 
 // ── PARTIDOS ──────────────────────────────────────
 function renderPartidos(){
-  const pp=D.por_partido;if(!pp||!Object.keys(pp).length)return;
+  const pp=D&&D.por_partido;if(!pp||!Object.keys(pp).length){document.getElementById('partido-cards').innerHTML='<p style="font-family:var(--fm);color:var(--muted);padding:20px">Sin datos de partidos.</p>';return;}
   const entries=Object.entries(pp).sort((a,b)=>(b[1].proyectos||0)-(a[1].proyectos||0));
   const labels=entries.map(e=>e[0]);
   const colors=labels.map(l=>PC[l]||'#64748b');
@@ -522,7 +531,7 @@ function renderPartidos(){
 
 // ── OTROS PROPONENTES ─────────────────────────────
 function renderProponentes(){
-  const otros=D.otros_proponentes||[];
+  const otros=(D&&D.otros_proponentes)||[];
   const ejecutivo=otros.filter(o=>o.tipo==='ejecutivo');
   const ciudadano=otros.filter(o=>o.tipo==='ciudadano');
   const totEjProy=ejecutivo.reduce((s,o)=>s+o.proyectos,0);
@@ -579,8 +588,8 @@ function setMetric(m){
 }
 
 function buildFiltered(){
-  const q=document.getElementById('search').value.toLowerCase();
-  filtered=D.diputados.map(d=>{
+  const q=(document.getElementById('search')||{value:''}).value.toLowerCase();
+  filtered=(D&&D.diputados||[]).map(d=>{
     const ef=d.proyectos>0?+((d.leyes/d.proyectos)*100).toFixed(1):0;
     const topEtapa=Object.entries(d.etapas||{}).sort((a,b)=>b[1]-a[1])[0]?.[0]||'-';
     return{...d,efectividad:ef,topEtapa};
