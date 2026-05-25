@@ -224,6 +224,24 @@ tr:hover .dep-avatar{border-color:var(--acc)}
 .vt-btn{padding:7px 13px;font-family:var(--fm);font-size:.73rem;border:none;background:none;color:var(--muted);cursor:pointer;transition:all .15s}
 .vt-btn.active{background:var(--surface2);color:var(--text)}
 
+/* PANAMA MAP */
+.prov-shape{stroke:#0e1623;stroke-width:1.5;fill:var(--border);transition:fill .25s,opacity .2s;cursor:pointer}
+.prov-shape:hover{opacity:.85;stroke-width:2.5;stroke:#fff}
+.map-tooltip{position:absolute;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:8px 12px;font-family:var(--fm);font-size:.72rem;pointer-events:none;z-index:50;box-shadow:0 8px 24px rgba(0,0,0,.4);white-space:nowrap;display:none}
+.map-tooltip.show{display:block}
+.map-wrap{position:relative}
+.map-legend{display:flex;align-items:center;gap:8px;font-family:var(--fm);font-size:.65rem;color:var(--muted);margin-top:12px}
+.map-legend-bar{flex:1;height:8px;border-radius:4px;background:linear-gradient(90deg,rgba(59,130,246,.15),rgba(59,130,246,.9))}
+.map-timeline-note{font-family:var(--fm);font-size:.72rem;color:var(--acc2);background:rgba(245,158,11,.08);border:1px solid rgba(245,158,11,.2);border-radius:6px;padding:5px 12px;display:none;align-items:center;gap:8px;margin-bottom:12px}
+.map-timeline-note.show{display:flex}
+
+/* MODAL TABS */
+.modal-tabs{display:flex;border-bottom:1px solid var(--border);padding:0 24px}
+.modal-tab{padding:10px 16px;font-family:var(--fm);font-size:.75rem;color:var(--muted);border:none;background:none;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;transition:all .15s}
+.modal-tab:hover{color:var(--text)}
+.modal-tab.active{color:var(--acc);border-bottom-color:var(--acc)}
+.modal-tab-pane{display:none}.modal-tab-pane.active{display:block}
+
 /* DEP GRID */
 .dep-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:var(--gap);margin-bottom:40px}
 .dep-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);overflow:hidden;transition:border-color .2s,transform .2s,box-shadow .2s}
@@ -300,6 +318,48 @@ tr:hover .dep-avatar{border-color:var(--acc)}
   <div class="card" style="margin-bottom:var(--gap)">
     <div class="card-title">Top 20 diputados — propuestos vs co-patrocinios</div>
     <div class="ch xtall"><canvas id="c-bar"></canvas></div>
+  </div>
+  <div class="card" style="margin-bottom:var(--gap)">
+    <div class="card-title" style="--ct:var(--acc3)">Actividad legislativa por provincia</div>
+    <div class="map-timeline-note" id="map-tl-note">
+      <span id="map-tl-text"></span>
+      <button onclick="clearMonthFilter()" style="margin-left:auto;background:none;border:1px solid rgba(245,158,11,.4);color:var(--acc2);font-family:var(--fm);font-size:.65rem;border-radius:4px;padding:2px 8px;cursor:pointer">✕ Limpiar</button>
+    </div>
+    <div class="map-wrap" id="map-wrap">
+      <svg id="panama-map" viewBox="0 0 820 360" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block">
+        <path class="prov-shape" id="pmap-Bocas_del_Toro"    d="M8,20 L175,12 L162,118 L98,138 L20,128 L6,80 Z"/>
+        <path class="prov-shape" id="pmap-Chiriqui"          d="M6,80 L20,128 L98,138 L128,232 L58,278 L6,228 Z"/>
+        <path class="prov-shape" id="pmap-Ngabe_Bugle"       d="M98,138 L162,118 L175,12 L285,18 L298,102 L268,172 L198,192 L128,232 Z"/>
+        <path class="prov-shape" id="pmap-Veraguas"          d="M268,172 L298,102 L285,18 L388,10 L408,122 L388,202 L328,252 L278,232 Z"/>
+        <path class="prov-shape" id="pmap-Cocle"             d="M388,10 L468,8 L488,112 L462,168 L408,168 L408,122 Z"/>
+        <path class="prov-shape" id="pmap-Herrera"           d="M278,232 L328,252 L348,312 L292,342 L238,308 Z"/>
+        <path class="prov-shape" id="pmap-Los_Santos"        d="M328,252 L388,202 L408,168 L462,168 L458,282 L412,358 L338,352 L292,342 L348,312 Z"/>
+        <path class="prov-shape" id="pmap-Colon"             d="M468,8 L582,4 L596,122 L556,148 L488,112 Z"/>
+        <path class="prov-shape" id="pmap-Panama_Oeste"      d="M488,112 L556,148 L568,212 L520,252 L468,232 L462,168 Z"/>
+        <path class="prov-shape" id="pmap-Panama"            d="M582,4 L702,8 L722,162 L682,242 L602,272 L568,212 L556,148 L596,122 Z"/>
+        <path class="prov-shape" id="pmap-Guna_Yala"         d="M582,4 L702,8 L728,68 L680,92 L618,82 L580,62 Z"/>
+        <path class="prov-shape" id="pmap-Darien"            d="M702,8 L820,22 L820,322 L752,348 L702,292 L682,242 L722,162 Z"/>
+        <!-- Labels -->
+        <text x="88" y="72" font-family="DM Mono" font-size="9" fill="#5a7499" text-anchor="middle" pointer-events="none">Bocas</text>
+        <text x="55" y="185" font-family="DM Mono" font-size="9" fill="#5a7499" text-anchor="middle" pointer-events="none">Chiriquí</text>
+        <text x="200" y="155" font-family="DM Mono" font-size="8" fill="#5a7499" text-anchor="middle" pointer-events="none">Ngäbe-Buglé</text>
+        <text x="338" y="145" font-family="DM Mono" font-size="9" fill="#5a7499" text-anchor="middle" pointer-events="none">Veraguas</text>
+        <text x="438" y="95" font-family="DM Mono" font-size="9" fill="#5a7499" text-anchor="middle" pointer-events="none">Coclé</text>
+        <text x="290" y="295" font-family="DM Mono" font-size="8" fill="#5a7499" text-anchor="middle" pointer-events="none">Herrera</text>
+        <text x="390" y="290" font-family="DM Mono" font-size="9" fill="#5a7499" text-anchor="middle" pointer-events="none">Los Santos</text>
+        <text x="532" y="75" font-family="DM Mono" font-size="9" fill="#5a7499" text-anchor="middle" pointer-events="none">Colón</text>
+        <text x="510" y="200" font-family="DM Mono" font-size="8" fill="#5a7499" text-anchor="middle" pointer-events="none">Pmá. Oeste</text>
+        <text x="630" y="155" font-family="DM Mono" font-size="9" fill="#5a7499" text-anchor="middle" pointer-events="none">Panamá</text>
+        <text x="648" y="38" font-family="DM Mono" font-size="8" fill="#5a7499" text-anchor="middle" pointer-events="none">Guna Yala</text>
+        <text x="762" y="185" font-family="DM Mono" font-size="9" fill="#5a7499" text-anchor="middle" pointer-events="none">Darién</text>
+      </svg>
+      <div class="map-tooltip" id="map-tooltip"></div>
+    </div>
+    <div class="map-legend">
+      <span>0</span>
+      <div class="map-legend-bar"></div>
+      <span id="map-legend-max">máx.</span>
+    </div>
   </div>
 </div>
 
@@ -386,7 +446,7 @@ tr:hover .dep-avatar{border-color:var(--acc)}
 
 </div>
 
-<!-- MODAL LEYES -->
+<!-- MODAL PROYECTOS -->
 <div class="modal-overlay" id="modal-overlay" onclick="closeModal(event)">
   <div class="modal" onclick="event.stopPropagation()">
     <div class="modal-header">
@@ -395,6 +455,10 @@ tr:hover .dep-avatar{border-color:var(--acc)}
         <div class="modal-sub" id="modal-sub"></div>
       </div>
       <button class="modal-close" onclick="closeModal()">✕ Cerrar</button>
+    </div>
+    <div class="modal-tabs" id="modal-tabs">
+      <button class="modal-tab active" id="mtab-todos" onclick="switchModalTab('todos')">Todos los proyectos</button>
+      <button class="modal-tab" id="mtab-leyes" onclick="switchModalTab('leyes')">Leyes aprobadas</button>
     </div>
     <div class="modal-body" id="modal-body"></div>
   </div>
@@ -413,26 +477,56 @@ let tabInited = { general: false, partidos: false, proponentes: false };
 let gsTimeout = null;
 
 // ── MODAL ─────────────────────────────────────────
+let _modalDep = null;
 function showLeyes(idx){
   const dep = sortedDeps[idx];
   if(!dep) return;
-  const leyes = dep.leyes_detalle || [];
-  if(!leyes.length) return;
+  _modalDep = dep;
   document.getElementById('modal-title').textContent = dep.nombre;
-  document.getElementById('modal-sub').textContent =
-    `${leyes.length} ley${leyes.length>1?'es':''} aprobada${leyes.length>1?'s':''} como proponente principal`;
-  document.getElementById('modal-body').innerHTML = leyes.map((l,i)=>`
-    <div class="ley-item">
-      <div class="ley-num">Ficha<br>${l.ficha}</div>
-      <div class="ley-info">
-        <div class="ley-titulo">${l.titulo||'Sin título registrado'}</div>
-        <div class="ley-meta">
-          <span>📅 ${l.fecha}</span>
-        </div>
-      </div>
-    </div>`).join('');
+  const leyes = dep.leyes_detalle || [];
+  const todos = dep.proyectos_detalle || [];
+  const hasTodos = todos.length > 0;
+  document.getElementById('modal-tabs').style.display = hasTodos ? '' : 'none';
+  document.getElementById('modal-sub').textContent = hasTodos
+    ? `${todos.length} proyecto${todos.length>1?'s':''} · ${leyes.length} ley${leyes.length>1?'es':''}`
+    : `${leyes.length} ley${leyes.length>1?'es':''} aprobada${leyes.length>1?'s':''}`;
+  switchModalTab(hasTodos ? 'todos' : 'leyes');
   document.getElementById('modal-overlay').classList.add('open');
   document.body.style.overflow='hidden';
+}
+function switchModalTab(tab){
+  document.getElementById('mtab-todos').classList.toggle('active', tab==='todos');
+  document.getElementById('mtab-leyes').classList.toggle('active', tab==='leyes');
+  const dep = _modalDep;
+  if(!dep) return;
+  if(tab==='todos'){
+    const items = dep.proyectos_detalle || dep.leyes_detalle || [];
+    document.getElementById('modal-body').innerHTML = items.length
+      ? items.map(l=>`
+        <div class="ley-item">
+          <div class="ley-num">Ficha<br>${l.ficha}</div>
+          <div class="ley-info">
+            <div class="ley-titulo">${l.titulo||'Sin título registrado'}</div>
+            <div class="ley-meta">
+              <span>📅 ${l.fecha}</span>
+              ${l.etapa?`<span class="badge ${etapaClass(l.etapa)}" style="padding:1px 7px">${l.etapa}</span>`:''}
+            </div>
+          </div>
+        </div>`).join('')
+      : '<div class="gs-empty">Sin proyectos registrados</div>';
+  } else {
+    const leyes = dep.leyes_detalle || [];
+    document.getElementById('modal-body').innerHTML = leyes.length
+      ? leyes.map(l=>`
+        <div class="ley-item">
+          <div class="ley-num">Ficha<br>${l.ficha}</div>
+          <div class="ley-info">
+            <div class="ley-titulo">${l.titulo||'Sin título registrado'}</div>
+            <div class="ley-meta"><span>📅 ${l.fecha}</span></div>
+          </div>
+        </div>`).join('')
+      : '<div class="gs-empty">Sin leyes aprobadas como proponente principal</div>';
+  }
 }
 function closeModal(e){
   if(e&&e.target!==document.getElementById('modal-overlay'))return;
@@ -633,10 +727,18 @@ function renderGeneral(){
       backgroundColor:tlVals.map((v,i)=>i===tlVals.length-1?'#f59e0b':`rgba(59,130,246,${.35+.6*v/maxTl})`),
       borderRadius:5,borderSkipped:false}]},
     options:{responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{display:false},tooltip:{backgroundColor:'#0e1623',borderColor:'#1a2940',borderWidth:1,
-        callbacks:{label:ctx=>` ${ctx.raw} proyectos`}}},
+      plugins:{legend:{display:false},
+        tooltip:{backgroundColor:'#0e1623',borderColor:'#1a2940',borderWidth:1,
+          callbacks:{label:ctx=>` ${ctx.raw} proyectos — clic para filtrar`}}},
       scales:{x:{grid:{color:'rgba(255,255,255,.03)'},ticks:{color:'#5a7499',font:{family:'DM Mono',size:10},maxRotation:45}},
-        y:{grid:{color:'rgba(255,255,255,.03)'},ticks:{color:'#5a7499',font:{family:'DM Mono',size:10}}}}}
+        y:{grid:{color:'rgba(255,255,255,.03)'},ticks:{color:'#5a7499',font:{family:'DM Mono',size:10}}}},
+      onClick:(evt,els)=>{
+        if(!els.length)return;
+        const idx=els[0].index;
+        const key=tlKeys[idx];   // "YYYY-MM"
+        const lbl=labels[idx];
+        setMonthFilter(key, lbl);
+      }}
   });
 
   const entries=Object.entries(D.etapas).sort((a,b)=>b[1]-a[1]);
@@ -658,6 +760,8 @@ function renderGeneral(){
     const lbl=e.length>26?e.slice(0,24)+'…':e;
     return`<div class="f-row"><div class="f-lbl" title="${e}">${lbl}</div><div class="f-wrap"><div class="f-bar" style="width:${Math.max(pct,3)}%;background:${fCol[e]||'#64748b'}">${n}</div></div></div>`;
   }).join('');
+
+  try{ renderMap(); }catch(e){ console.error('Map:',e); }
 
   const top=[...D.diputados].sort((a,b)=>(b.proyectos||0)-(a.proyectos||0)).slice(0,20);
   new Chart(document.getElementById('c-bar'),{
@@ -774,6 +878,75 @@ function renderProponentes(){
   renderList('prop-ciudadano',ciudadano,'#f59e0b');
 }
 
+// ── MONTH FILTER (timeline click) ─────────────────
+let selectedMonth = null;
+function setMonthFilter(monthKey, label){
+  selectedMonth = monthKey;
+  const note = document.getElementById('map-tl-note');
+  const txt  = document.getElementById('map-tl-text');
+  if(note && txt){ txt.textContent = `Filtrando por: ${label}`; note.classList.add('show'); }
+  buildFiltered(); page=1;
+  showTab('diputados');
+  viewMode==='grid' ? renderGrid() : renderTable();
+}
+function clearMonthFilter(){
+  selectedMonth = null;
+  const note = document.getElementById('map-tl-note');
+  if(note) note.classList.remove('show');
+  buildFiltered(); page=1;
+  viewMode==='grid' ? renderGrid() : renderTable();
+}
+
+// ── PROVINCE MAP ───────────────────────────────────
+const PROV_MAP = {
+  'Bocas del Toro':'Bocas_del_Toro','Chiriquí':'Chiriqui','Chiriqui':'Chiriqui',
+  'Comarca Ngäbe-Buglé':'Ngabe_Bugle','Ngäbe-Buglé':'Ngabe_Bugle',
+  'Veraguas':'Veraguas','Coclé':'Cocle','Cocle':'Cocle',
+  'Herrera':'Herrera','Los Santos':'Los_Santos',
+  'Colón':'Colon','Colon':'Colon','Panamá Oeste':'Panama_Oeste',
+  'Panamá':'Panama','Panama':'Panama',
+  'Comarca Guna Yala':'Guna_Yala','Guna Yala':'Guna_Yala',
+  'Darién':'Darien','Darien':'Darien',
+};
+function renderMap(){
+  const pp = D && D.por_provincia;
+  if(!pp || !document.getElementById('panama-map')) return;
+  const vals = Object.values(pp).map(v=>v.proyectos||0);
+  const maxV = Math.max(...vals, 1);
+  document.getElementById('map-legend-max').textContent = maxV + ' proy.';
+  const tooltip = document.getElementById('map-tooltip');
+  const mapWrap = document.getElementById('map-wrap');
+
+  Object.entries(pp).forEach(([prov, data])=>{
+    const id = PROV_MAP[prov];
+    if(!id) return;
+    const el = document.getElementById('pmap-'+id);
+    if(!el) return;
+    const intensity = (data.proyectos||0) / maxV;
+    const alpha = 0.12 + intensity * 0.78;
+    el.style.fill = `rgba(59,130,246,${alpha.toFixed(2)})`;
+    el.addEventListener('mouseenter', ev=>{
+      tooltip.innerHTML = `<b style="color:var(--text)">${prov}</b><br>
+        <span style="color:var(--acc)">${data.proyectos||0} proyectos</span> &nbsp;
+        <span style="color:var(--acc3)">${data.leyes||0} leyes</span><br>
+        <span style="color:var(--muted)">${data.diputados||0} diputados</span>`;
+      tooltip.classList.add('show');
+    });
+    el.addEventListener('mousemove', ev=>{
+      const rect = mapWrap.getBoundingClientRect();
+      tooltip.style.left = (ev.clientX - rect.left + 12) + 'px';
+      tooltip.style.top  = (ev.clientY - rect.top  - 10) + 'px';
+    });
+    el.addEventListener('mouseleave', ()=>tooltip.classList.remove('show'));
+    el.addEventListener('click', ()=>{
+      showTab('diputados');
+      if(!selectedProvinces.has(prov)){ selectedProvinces.add(prov); }
+      buildChips(); buildFiltered(); page=1;
+      viewMode==='grid' ? renderGrid() : renderTable();
+    });
+  });
+}
+
 // ── CHIPS & VIEW ──────────────────────────────────
 function buildChips(){
   if(!D)return;
@@ -866,6 +1039,12 @@ function buildFiltered(){
     if(q&&!d.nombre.toLowerCase().includes(q)&&!(d.partido||'').toLowerCase().includes(q)&&!(d.provincia||'').toLowerCase().includes(q))return false;
     if(selectedParties.size>0&&!selectedParties.has(d.partido))return false;
     if(selectedProvinces.size>0&&!selectedProvinces.has(d.provincia))return false;
+    if(selectedMonth){
+      const [yr,mo]=selectedMonth.split('-');
+      const suffix=`-${mo}-${yr}`;
+      const items=(d.proyectos_detalle||d.leyes_detalle||[]);
+      if(!items.some(p=>p.fecha&&p.fecha.endsWith(suffix)))return false;
+    }
     return true;
   });
 }
@@ -932,7 +1111,7 @@ function renderTable(){
         </div>
       </td>
       <td class="num c-purple col-md">${d.co_patrocinios||0}</td>
-      <td class="num c-green col-md">${(d.leyes_detalle||[]).length>0?`<span class="leyes-btn" onclick="showLeyes(${(page-1)*PAGE+i})">${d.leyes||0}</span>`:(d.leyes||0)}</td>
+      <td class="num c-green col-md">${(d.proyectos||0)>0?`<span class="leyes-btn" onclick="showLeyes(${(page-1)*PAGE+i})">${d.leyes||0}</span>`:(d.leyes||0)}</td>
       <td class="col-sm"><span class="badge ${etapaClass(topEt)}">${topEt}</span></td>
     </tr>`;
   }).join('');

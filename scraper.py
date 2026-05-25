@@ -234,7 +234,7 @@ def scrape_diputados(page):
 def generar_resumen(datos, dips, ts):
     dip_norm = [(normalizar(d['nombre']), d) for d in dips]
 
-    prod  = defaultdict(lambda: {'proyectos':0,'leyes':0,'co_patrocinios':0,'etapas':{},'leyes_detalle':[]})
+    prod  = defaultdict(lambda: {'proyectos':0,'leyes':0,'co_patrocinios':0,'etapas':{},'leyes_detalle':[],'proyectos_detalle':[]})
     otros = defaultdict(lambda: {'tipo':'','proyectos':0,'leyes':0})
     meses, etapas = {}, {}
 
@@ -259,11 +259,18 @@ def generar_resumen(datos, dips, ts):
                     key = dip['nombre']
                     if i == 0:  # proponente principal
                         prod[key]['proyectos'] += 1
+                        titulo = r['titulo'] or r['anteproyecto'] or r['proyecto']
+                        prod[key]['proyectos_detalle'].append({
+                            'ficha': r['ficha'],
+                            'titulo': titulo,
+                            'fecha':  r['fecha_presentacion'],
+                            'etapa':  r['etapa'],
+                        })
                         if es_ley:
                             prod[key]['leyes'] += 1
                             prod[key]['leyes_detalle'].append({
                                 'ficha': r['ficha'],
-                                'titulo': r['titulo'] or r['anteproyecto'] or r['proyecto'],
+                                'titulo': titulo,
                                 'fecha':  r['fecha_presentacion'],
                             })
                         et = prod[key]['etapas']
@@ -278,7 +285,7 @@ def generar_resumen(datos, dips, ts):
     # Enriquecer diputados
     diputados_enriq = []
     for d in dips:
-        p = prod.get(d['nombre'], {'proyectos':0,'leyes':0,'co_patrocinios':0,'etapas':{},'leyes_detalle':[]})
+        p = prod.get(d['nombre'], {'proyectos':0,'leyes':0,'co_patrocinios':0,'etapas':{},'leyes_detalle':[],'proyectos_detalle':[]})
         diputados_enriq.append({**d, **p})
     diputados_enriq.sort(key=lambda x: x['proyectos'], reverse=True)
 
