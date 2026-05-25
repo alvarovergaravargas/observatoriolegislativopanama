@@ -185,6 +185,62 @@ tr:hover .dep-avatar{border-color:var(--acc)}
 @media(max-width:768px){.kpi-grid{grid-template-columns:repeat(2,1fr)}.grid2{grid-template-columns:1fr}.wide{grid-column:1}.header-meta{text-align:left}.col-md{display:none}.prop-grid{grid-template-columns:1fr}}
 @media(max-width:480px){.kpi-grid{grid-template-columns:1fr 1fr}.search-box{width:100%}.sec-hdr{flex-direction:column;align-items:flex-start}.col-sm{display:none}.prop-summary{grid-template-columns:1fr 1fr}}
 @media(max-width:360px){.kpi-grid{grid-template-columns:1fr}h1{font-size:1rem}}
+
+/* GLOBAL SEARCH */
+.gs-wrap{position:relative;margin-bottom:calc(var(--gap)*1.2)}
+.gs-inner{display:flex;align-items:center;gap:10px;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:10px 18px;transition:border-color .2s,box-shadow .2s;cursor:text}
+.gs-wrap.active .gs-inner{border-color:var(--acc);box-shadow:0 0 0 3px rgba(59,130,246,.12)}
+.gs-icon{font-size:1rem;flex-shrink:0;opacity:.45}
+.gs-input{flex:1;background:none;border:none;outline:none;color:var(--text);font-family:var(--fd);font-size:clamp(.88rem,1.8vw,1rem);caret-color:var(--acc)}
+.gs-input::placeholder{color:var(--muted)}
+.gs-kbd{font-family:var(--fm);font-size:.63rem;color:var(--muted);background:var(--bg);border:1px solid var(--border);border-radius:4px;padding:2px 7px;white-space:nowrap;flex-shrink:0}
+.gs-dropdown{display:none;position:absolute;top:calc(100% + 6px);left:0;right:0;background:var(--surface);border:1px solid var(--border);border-radius:12px;box-shadow:0 16px 40px rgba(0,0,0,.45);z-index:200;overflow:hidden;max-height:420px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--border) transparent}
+.gs-dropdown.open{display:block;animation:fadeIn .15s ease}
+.gs-group{padding:8px 14px 4px;font-family:var(--fm);font-size:.62rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);border-top:1px solid var(--border)}
+.gs-group:first-child{border-top:none}
+.gs-item{display:flex;align-items:center;gap:10px;padding:10px 14px;cursor:pointer;transition:background .1s}
+.gs-item:hover{background:rgba(59,130,246,.08)}
+.gs-avatar{width:30px;height:30px;border-radius:50%;object-fit:cover;flex-shrink:0;border:1px solid var(--border)}
+.gs-name{font-size:.85rem;font-weight:600}
+.gs-sub{font-family:var(--fm);font-size:.68rem;color:var(--muted);margin-top:1px}
+.gs-dropdown mark{background:rgba(59,130,246,.28);color:var(--text);border-radius:2px;padding:0 1px}
+.gs-empty{padding:20px;text-align:center;font-family:var(--fm);font-size:.78rem;color:var(--muted)}
+
+/* FILTER CHIPS */
+.filter-bar{display:flex;flex-direction:column;gap:8px;margin-bottom:14px}
+.chips-row{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.chip-lbl{font-family:var(--fm);font-size:.62rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;white-space:nowrap;flex-shrink:0;min-width:58px}
+.chip{background:var(--bg);border:1px solid var(--border);color:var(--muted);border-radius:20px;padding:4px 10px;font-family:var(--fm);font-size:.67rem;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:4px;white-space:nowrap;line-height:1.4}
+.chip:hover{border-color:var(--cc,var(--acc));color:var(--text)}
+.chip.active{border-color:var(--cc,var(--acc));color:var(--cc,var(--acc));background:var(--surface2)}
+.chip-dot{width:6px;height:6px;border-radius:50%;background:var(--cc,var(--acc));flex-shrink:0;display:none}
+.chip.active .chip-dot{display:inline-block}
+.filter-clear{font-family:var(--fm);font-size:.67rem;color:var(--acc4);cursor:pointer;border:1px solid rgba(239,68,68,.3);background:none;padding:4px 9px;border-radius:20px;transition:background .15s;display:none;align-items:center;gap:3px}
+.filter-clear:hover{background:rgba(239,68,68,.1)}
+.filter-clear.visible{display:inline-flex}
+
+/* VIEW TOGGLE */
+.vt-btns{display:flex;background:var(--bg);border:1px solid var(--border);border-radius:8px;overflow:hidden}
+.vt-btn{padding:7px 13px;font-family:var(--fm);font-size:.73rem;border:none;background:none;color:var(--muted);cursor:pointer;transition:all .15s}
+.vt-btn.active{background:var(--surface2);color:var(--text)}
+
+/* DEP GRID */
+.dep-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:var(--gap);margin-bottom:40px}
+.dep-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);overflow:hidden;transition:border-color .2s,transform .2s,box-shadow .2s}
+.dep-card:hover{border-color:var(--acc);transform:translateY(-3px);box-shadow:0 10px 28px rgba(0,0,0,.25)}
+.dep-card-top{position:relative;height:110px;background:var(--surface2);display:flex;align-items:center;justify-content:center}
+.dep-card-photo{width:80px;height:80px;border-radius:50%;object-fit:cover;border:3px solid var(--border);transition:border-color .2s;display:block}
+.dep-card:hover .dep-card-photo{border-color:var(--acc)}
+.dep-card-photo-placeholder{width:80px;height:80px;border-radius:50%;background:var(--border);display:flex;align-items:center;justify-content:center;font-size:2rem}
+.dep-card-rank{position:absolute;top:8px;left:8px;font-family:var(--fm);font-size:.6rem;color:var(--muted);background:var(--bg);border:1px solid var(--border);border-radius:20px;padding:2px 7px}
+.dep-card-body{padding:12px 14px 14px}
+.dep-card-name{font-size:.8rem;font-weight:700;line-height:1.3;margin-bottom:3px}
+.dep-card-party{font-family:var(--fm);font-size:.63rem;font-weight:600;margin-bottom:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dep-card-prov{font-family:var(--fm);font-size:.62rem;color:var(--muted);margin-bottom:8px}
+.dep-card-bars{display:flex;flex-direction:column;gap:4px;margin-bottom:8px}
+.dep-card-leyes{cursor:pointer}
+.dep-card-leyes .badge{cursor:pointer}
+.dep-card-leyes .badge:hover{filter:brightness(1.15)}
 </style>
 </head>
 <body>
@@ -206,6 +262,16 @@ tr:hover .dep-avatar{border-color:var(--acc)}
 
 <div class="kpi-grid" id="kpi-grid">
   <div class="loader" style="grid-column:1/-1"><div class="spinner"></div> Cargando…</div>
+</div>
+
+<!-- GLOBAL SEARCH -->
+<div class="gs-wrap" id="gs-wrap">
+  <div class="gs-inner" onclick="document.getElementById('global-search').focus()">
+    <span class="gs-icon">🔍</span>
+    <input type="text" id="global-search" class="gs-input" placeholder="Buscar diputado, partido o proponente…" autocomplete="off" oninput="gsInput(this.value)">
+    <span class="gs-kbd">Esc</span>
+  </div>
+  <div class="gs-dropdown" id="gs-dropdown"></div>
 </div>
 
 <div class="tabs">
@@ -247,13 +313,21 @@ tr:hover .dep-avatar{border-color:var(--acc)}
         <button class="mt-btn" id="mt-cosp" onclick="setMetric('co_patrocinios')">Co-patrocinios</button>
       </div>
       <input type="text" class="search-box" id="search" placeholder="🔍  Buscar diputado…">
+      <div class="vt-btns">
+        <button class="vt-btn active" id="vt-table" onclick="setView('table')">☰ Tabla</button>
+        <button class="vt-btn" id="vt-grid" onclick="setView('grid')">⊞ Tarjetas</button>
+      </div>
     </div>
   </div>
-  <div style="display:flex;gap:16px;margin-bottom:14px;font-family:var(--fm);font-size:.72rem;color:var(--muted);flex-wrap:wrap">
+  <div class="filter-bar">
+    <div class="chips-row" id="chip-partidos"></div>
+    <div class="chips-row" id="chip-provincias"></div>
+  </div>
+  <div style="display:flex;gap:16px;margin-bottom:12px;font-family:var(--fm);font-size:.72rem;color:var(--muted);flex-wrap:wrap">
     <span><span style="display:inline-block;width:10px;height:10px;background:var(--acc);border-radius:2px;margin-right:4px"></span>P = Propuestos — autor principal del proyecto</span>
     <span><span style="display:inline-block;width:10px;height:10px;background:var(--acc5);border-radius:2px;margin-right:4px"></span>C = Co-patrocinios — firmante en proyectos de otros</span>
   </div>
-  <div class="tbl-wrap">
+  <div class="tbl-wrap" id="tbl-wrap">
     <div class="tbl-scroll">
       <table id="tbl">
         <thead>
@@ -273,6 +347,7 @@ tr:hover .dep-avatar{border-color:var(--acc)}
     </div>
     <div class="pag" id="pag"></div>
   </div>
+  <div class="dep-grid" id="dep-grid" style="display:none"></div>
 </div>
 
 <!-- TAB PARTIDOS -->
@@ -332,8 +407,10 @@ tr:hover .dep-avatar{border-color:var(--acc)}
 
 <script>
 let D = null, filtered = [], sortedDeps = [], sortCol = 'proyectos', sortDir = 'desc', page = 1, metrica = 'proyectos';
+let viewMode = 'table', selectedParties = new Set(), selectedProvinces = new Set();
 const PAGE = 15;
 let tabInited = { general: false, partidos: false, proponentes: false };
+let gsTimeout = null;
 
 // ── MODAL ─────────────────────────────────────────
 function showLeyes(idx){
@@ -362,7 +439,67 @@ function closeModal(e){
   document.getElementById('modal-overlay').classList.remove('open');
   document.body.style.overflow='';
 }
-document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape'){ closeModal(); gsClose(); }
+});
+
+// ── GLOBAL SEARCH ─────────────────────────────────
+function gsClose(){
+  const drop=document.getElementById('gs-dropdown');
+  const wrap=document.getElementById('gs-wrap');
+  const inp=document.getElementById('global-search');
+  if(drop){drop.innerHTML='';drop.classList.remove('open');}
+  if(wrap)wrap.classList.remove('active');
+  if(inp)inp.value='';
+}
+function gsInput(val){
+  clearTimeout(gsTimeout);
+  const wrap=document.getElementById('gs-wrap');
+  const drop=document.getElementById('gs-dropdown');
+  if(!val||val.length<2){drop.innerHTML='';drop.classList.remove('open');wrap.classList.remove('active');return;}
+  wrap.classList.add('active');
+  gsTimeout=setTimeout(()=>{
+    if(!D){drop.innerHTML='<div class="gs-empty">Cargando datos…</div>';drop.classList.add('open');return;}
+    const ql=val.toLowerCase();
+    const deps=(D.diputados||[]).filter(d=>d.nombre.toLowerCase().includes(ql)||(d.partido||'').toLowerCase().includes(ql)||(d.provincia||'').toLowerCase().includes(ql)).slice(0,5);
+    const parties=Object.keys(D.por_partido||{}).filter(p=>p.toLowerCase().includes(ql)).slice(0,3);
+    const otros=(D.otros_proponentes||[]).filter(o=>o.nombre.toLowerCase().includes(ql)).slice(0,3);
+    if(!deps.length&&!parties.length&&!otros.length){
+      drop.innerHTML=`<div class="gs-empty">Sin resultados para "${val}"</div>`;
+      drop.classList.add('open');return;
+    }
+    const re=new RegExp('('+val.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi');
+    const hl=t=>t.replace(re,'<mark>$1</mark>');
+    let html='';
+    if(deps.length){
+      html+='<div class="gs-group">Diputados</div>';
+      html+=deps.map(d=>`<div class="gs-item" onclick="gsGo('dep','${d.nombre.replace(/'/g,"\\'")}')">
+        ${d.foto?`<img class="gs-avatar" src="${d.foto}" onerror="this.style.display='none'">`:''}<div><div class="gs-name">${hl(d.nombre)}</div><div class="gs-sub">${d.partido||''} · ${d.provincia||''}</div></div></div>`).join('');
+    }
+    if(parties.length){
+      html+='<div class="gs-group">Partidos</div>';
+      html+=parties.map(p=>`<div class="gs-item" onclick="gsGo('partido','')"><div><div class="gs-name">${hl(p)}</div><div class="gs-sub">${(D.por_partido[p]||{}).proyectos||0} proyectos</div></div></div>`).join('');
+    }
+    if(otros.length){
+      html+='<div class="gs-group">Otros Proponentes</div>';
+      html+=otros.map(o=>`<div class="gs-item" onclick="gsGo('proponente','')"><div><div class="gs-name">${hl(o.nombre)}</div><div class="gs-sub">${o.proyectos} proyecto${o.proyectos>1?'s':''}</div></div></div>`).join('');
+    }
+    drop.innerHTML=html;drop.classList.add('open');
+  },180);
+}
+function gsGo(type,val){
+  gsClose();
+  if(type==='dep'){
+    showTab('diputados');
+    const s=document.getElementById('search');
+    if(s){s.value=val;buildFiltered();page=1;viewMode==='grid'?renderGrid():renderTable();}
+  }else if(type==='partido'){ showTab('partidos'); }
+  else{ showTab('proponentes'); }
+}
+document.addEventListener('click',e=>{
+  const wrap=document.getElementById('gs-wrap');
+  if(wrap&&!wrap.contains(e.target))gsClose();
+});
 
 const EC = {
   'Ley':'#10b981','Preliminar':'#3b82f6','Primer Debate':'#f59e0b',
@@ -637,6 +774,75 @@ function renderProponentes(){
   renderList('prop-ciudadano',ciudadano,'#f59e0b');
 }
 
+// ── CHIPS & VIEW ──────────────────────────────────
+function buildChips(){
+  if(!D)return;
+  const parties=[...new Set((D.diputados||[]).map(d=>d.partido).filter(Boolean))].sort();
+  const provinces=[...new Set((D.diputados||[]).map(d=>d.provincia).filter(Boolean))].sort();
+  const hasFilter=selectedParties.size>0||selectedProvinces.size>0;
+  const cpEl=document.getElementById('chip-partidos');
+  const cvEl=document.getElementById('chip-provincias');
+  if(!cpEl||!cvEl)return;
+  cpEl.innerHTML=`<span class="chip-lbl">Partido</span>`+
+    parties.map(p=>`<button class="chip${selectedParties.has(p)?' active':''}" style="--cc:${PC[p]||'#64748b'}" onclick="toggleChip('party','${p.replace(/'/g,"\\'")}')"><span class="chip-dot"></span>${p.replace(/^(Partido|Movimiento)\s/,'')}</button>`).join('')+
+    `<button class="filter-clear${hasFilter?' visible':''}" onclick="clearFilters()">✕ Limpiar</button>`;
+  cvEl.innerHTML=`<span class="chip-lbl">Provincia</span>`+
+    provinces.map(p=>`<button class="chip${selectedProvinces.has(p)?' active':''}" style="--cc:var(--acc2)" onclick="toggleChip('prov','${p.replace(/'/g,"\\'")}')"><span class="chip-dot"></span>${p}</button>`).join('');
+}
+function toggleChip(type,val){
+  if(type==='party'){if(selectedParties.has(val))selectedParties.delete(val);else selectedParties.add(val);}
+  else{if(selectedProvinces.has(val))selectedProvinces.delete(val);else selectedProvinces.add(val);}
+  buildChips();buildFiltered();page=1;viewMode==='grid'?renderGrid():renderTable();
+}
+function clearFilters(){
+  selectedParties.clear();selectedProvinces.clear();
+  const s=document.getElementById('search');if(s)s.value='';
+  buildChips();buildFiltered();page=1;viewMode==='grid'?renderGrid():renderTable();
+}
+function setView(mode){
+  viewMode=mode;
+  document.getElementById('vt-table').classList.toggle('active',mode==='table');
+  document.getElementById('vt-grid').classList.toggle('active',mode==='grid');
+  const tw=document.getElementById('tbl-wrap');
+  const dg=document.getElementById('dep-grid');
+  if(tw)tw.style.display=mode==='table'?'':'none';
+  if(dg)dg.style.display=mode==='grid'?'':'none';
+  buildFiltered();
+  if(mode==='grid')renderGrid();else{page=1;renderTable();}
+}
+function renderGrid(){
+  const sorted=[...filtered].sort((a,b)=>{
+    const av=a[sortCol],bv=b[sortCol];
+    if(typeof av==='string')return sortDir==='asc'?av.localeCompare(bv,undefined,{sensitivity:'base'}):bv.localeCompare(av,undefined,{sensitivity:'base'});
+    return sortDir==='asc'?av-bv:bv-av;
+  });
+  sortedDeps=sorted;
+  const maxProp=Math.max(...sorted.map(d=>d.proyectos||0),1);
+  const maxCosp=Math.max(...sorted.map(d=>d.co_patrocinios||0),1);
+  document.getElementById('dep-grid').innerHTML=sorted.map((d,i)=>{
+    const pc=PC[d.partido]||'#64748b';
+    const bwProp=Math.round((d.proyectos||0)/maxProp*100);
+    const bwCosp=Math.round((d.co_patrocinios||0)/maxCosp*100);
+    const leyes=(d.leyes_detalle||[]).length;
+    const fotoEl=d.foto
+      ?`<a href="${d.perfil||'#'}" target="_blank" rel="noopener"><img class="dep-card-photo" src="${d.foto}" alt="${d.nombre}" onerror="this.outerHTML='<div class=dep-card-photo-placeholder>👤</div>'"></a>`
+      :`<div class="dep-card-photo-placeholder">👤</div>`;
+    return`<div class="dep-card fade-in" style="animation-delay:${Math.min(i,20)*.03}s">
+      <div class="dep-card-top">${fotoEl}<div class="dep-card-rank">#${i+1}</div></div>
+      <div class="dep-card-body">
+        <div class="dep-card-name">${d.nombre}</div>
+        <div class="dep-card-party" style="color:${pc}">${d.partido||'—'}</div>
+        <div class="dep-card-prov">${d.provincia||'—'}</div>
+        <div class="dep-card-bars">
+          <div class="dbar-row"><div class="dbar-lbl c-blue" data-tip="Propuestos">P</div><div class="dbar-wrap"><div class="dbar-fill" style="width:${bwProp}%;background:var(--acc)"></div></div><div class="dbar-val c-blue">${d.proyectos||0}</div></div>
+          <div class="dbar-row"><div class="dbar-lbl c-purple" data-tip="Co-patrocinios">C</div><div class="dbar-wrap"><div class="dbar-fill" style="width:${bwCosp}%;background:var(--acc5)"></div></div><div class="dbar-val c-purple">${d.co_patrocinios||0}</div></div>
+        </div>
+        ${leyes>0?`<div class="dep-card-leyes" onclick="showLeyes(${i})"><span class="badge etapa-ley">${leyes} ley${leyes>1?'es':''}</span></div>`:''}
+      </div>
+    </div>`;
+  }).join('');
+}
+
 // ── TABLE ──────────────────────────────────────────
 function setMetric(m){
   metrica=m;
@@ -656,12 +862,18 @@ function buildFiltered(){
     const ef=d.proyectos>0?+((d.leyes/d.proyectos)*100).toFixed(1):0;
     const topEtapa=Object.entries(d.etapas||{}).sort((a,b)=>b[1]-a[1])[0]?.[0]||'-';
     return{...d,efectividad:ef,topEtapa};
-  }).filter(d=>!q||d.nombre.toLowerCase().includes(q)||(d.partido||'').toLowerCase().includes(q)||(d.provincia||'').toLowerCase().includes(q));
+  }).filter(d=>{
+    if(q&&!d.nombre.toLowerCase().includes(q)&&!(d.partido||'').toLowerCase().includes(q)&&!(d.provincia||'').toLowerCase().includes(q))return false;
+    if(selectedParties.size>0&&!selectedParties.has(d.partido))return false;
+    if(selectedProvinces.size>0&&!selectedProvinces.has(d.provincia))return false;
+    return true;
+  });
 }
 
 function initTable(){
+  buildChips();
   buildFiltered();
-  document.getElementById('search').addEventListener('input',()=>{buildFiltered();page=1;renderTable()});
+  document.getElementById('search').addEventListener('input',()=>{buildFiltered();page=1;viewMode==='grid'?renderGrid():renderTable()});
   document.querySelectorAll('thead th[data-col]').forEach(th=>{
     th.addEventListener('click',()=>{
       const col=th.dataset.col;
@@ -743,7 +955,7 @@ function goPage(p){
   const pages=Math.ceil(filtered.length/PAGE);
   if(p<1||p>pages)return;
   page=p;renderTable();
-  document.querySelector('.tbl-wrap').scrollIntoView({behavior:'smooth',block:'start'});
+  const tw=document.getElementById('tbl-wrap');if(tw)tw.scrollIntoView({behavior:'smooth',block:'start'});
 }
 
 loadData();
