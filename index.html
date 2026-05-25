@@ -357,7 +357,7 @@ function showTab(name){
 async function loadData(){
   let raw;
   try{
-    const res=await fetch('resumen.json');
+    const res=await fetch('resumen.json?t='+Date.now());
     if(!res.ok)throw new Error('HTTP '+res.status);
     raw=await res.json();
   }catch(e){

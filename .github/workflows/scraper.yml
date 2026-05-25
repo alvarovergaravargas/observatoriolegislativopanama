@@ -34,6 +34,11 @@ jobs:
       - name: Ejecutar scraper
         run: python scraper.py
 
+      - name: Verificar archivos generados
+        run: |
+          echo "=== resumen.json ==="
+          python -c "import json; d=json.load(open('resumen.json')); print('Fecha:', d['fecha_extraccion']); print('Proyectos:', d['total_proyectos']); print('Diputados:', d['total_diputados'])"
+
       - name: Commit y push de datos actualizados
         run: |
           git config user.name "github-actions[bot]"
@@ -44,4 +49,5 @@ jobs:
           else
             git commit -m "datos: actualización automática $(date -u '+%Y-%m-%d %H:%M UTC')"
             git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
+            echo "Push exitoso."
           fi
