@@ -225,11 +225,16 @@ tr:hover .dep-avatar{border-color:var(--acc)}
 .vt-btn.active{background:var(--surface2);color:var(--text)}
 
 /* PANAMA MAP */
-.prov-shape{stroke:#0e1623;stroke-width:1.5;fill:var(--border);transition:fill .25s,opacity .2s;cursor:pointer}
-.prov-shape:hover{opacity:.85;stroke-width:2.5;stroke:#fff}
+.panama-map-base{width:100%;height:auto;display:block;filter:saturate(.15) contrast(1.08) brightness(.82);opacity:.9}
+.map-overlay{position:absolute;inset:0;width:100%;height:100%;display:block}
+.prov-shape{stroke:#e2e8f0;stroke-width:2.5;fill:rgba(59,130,246,.18);transition:fill .25s,stroke-width .2s,opacity .2s,transform .2s;cursor:pointer;filter:drop-shadow(0 4px 10px rgba(0,0,0,.35))}
+.prov-shape:hover{opacity:.95;stroke-width:4;fill:rgba(245,158,11,.85)}
+.map-label{font-family:var(--fm);font-size:14px;fill:#dbeafe;text-anchor:middle;paint-order:stroke;stroke:#07111f;stroke-width:5;stroke-linejoin:round;pointer-events:none}
+.map-value{font-family:var(--fm);font-size:11px;fill:#93c5fd;text-anchor:middle;paint-order:stroke;stroke:#07111f;stroke-width:4;stroke-linejoin:round;pointer-events:none}
+#panama-map text:not(.map-label):not(.map-value){display:none}
 .map-tooltip{position:absolute;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:8px 12px;font-family:var(--fm);font-size:.72rem;pointer-events:none;z-index:50;box-shadow:0 8px 24px rgba(0,0,0,.4);white-space:nowrap;display:none}
 .map-tooltip.show{display:block}
-.map-wrap{position:relative}
+.map-wrap{position:relative;overflow:hidden;border-radius:10px;background:linear-gradient(180deg,rgba(59,130,246,.04),rgba(16,185,129,.03))}
 .map-legend{display:flex;align-items:center;gap:8px;font-family:var(--fm);font-size:.65rem;color:var(--muted);margin-top:12px}
 .map-legend-bar{flex:1;height:8px;border-radius:4px;background:linear-gradient(90deg,rgba(59,130,246,.15),rgba(59,130,246,.9))}
 .map-timeline-note{font-family:var(--fm);font-size:.72rem;color:var(--acc2);background:rgba(245,158,11,.08);border:1px solid rgba(245,158,11,.2);border-radius:6px;padding:5px 12px;display:none;align-items:center;gap:8px;margin-bottom:12px}
@@ -326,19 +331,20 @@ tr:hover .dep-avatar{border-color:var(--acc)}
       <button onclick="clearMonthFilter()" style="margin-left:auto;background:none;border:1px solid rgba(245,158,11,.4);color:var(--acc2);font-family:var(--fm);font-size:.65rem;border-radius:4px;padding:2px 8px;cursor:pointer">✕ Limpiar</button>
     </div>
     <div class="map-wrap" id="map-wrap">
-      <svg id="panama-map" viewBox="0 0 820 360" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block">
-        <path class="prov-shape" id="pmap-Bocas_del_Toro"    d="M8,20 L175,12 L162,118 L98,138 L20,128 L6,80 Z"/>
-        <path class="prov-shape" id="pmap-Chiriqui"          d="M6,80 L20,128 L98,138 L128,232 L58,278 L6,228 Z"/>
-        <path class="prov-shape" id="pmap-Ngabe_Bugle"       d="M98,138 L162,118 L175,12 L285,18 L298,102 L268,172 L198,192 L128,232 Z"/>
-        <path class="prov-shape" id="pmap-Veraguas"          d="M268,172 L298,102 L285,18 L388,10 L408,122 L388,202 L328,252 L278,232 Z"/>
-        <path class="prov-shape" id="pmap-Cocle"             d="M388,10 L468,8 L488,112 L462,168 L408,168 L408,122 Z"/>
-        <path class="prov-shape" id="pmap-Herrera"           d="M278,232 L328,252 L348,312 L292,342 L238,308 Z"/>
-        <path class="prov-shape" id="pmap-Los_Santos"        d="M328,252 L388,202 L408,168 L462,168 L458,282 L412,358 L338,352 L292,342 L348,312 Z"/>
-        <path class="prov-shape" id="pmap-Colon"             d="M468,8 L582,4 L596,122 L556,148 L488,112 Z"/>
-        <path class="prov-shape" id="pmap-Panama_Oeste"      d="M488,112 L556,148 L568,212 L520,252 L468,232 L462,168 Z"/>
-        <path class="prov-shape" id="pmap-Panama"            d="M582,4 L702,8 L722,162 L682,242 L602,272 L568,212 L556,148 L596,122 Z"/>
-        <path class="prov-shape" id="pmap-Guna_Yala"         d="M582,4 L702,8 L728,68 L680,92 L618,82 L580,62 Z"/>
-        <path class="prov-shape" id="pmap-Darien"            d="M702,8 L820,22 L820,322 L752,348 L702,292 L682,242 L722,162 Z"/>
+      <img class="panama-map-base" src="panama-map.svg" alt="Mapa administrativo de Panama">
+      <svg id="panama-map" class="map-overlay" viewBox="0 0 1246.094 627.938" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle class="prov-shape" id="pmap-Bocas_del_Toro" cx="150" cy="190" r="18"/>
+        <circle class="prov-shape" id="pmap-Chiriqui" cx="180" cy="330" r="18"/>
+        <circle class="prov-shape" id="pmap-Ngabe_Bugle" cx="325" cy="303" r="18"/>
+        <circle class="prov-shape" id="pmap-Veraguas" cx="438" cy="390" r="18"/>
+        <circle class="prov-shape" id="pmap-Cocle" cx="550" cy="322" r="18"/>
+        <circle class="prov-shape" id="pmap-Herrera" cx="512" cy="434" r="18"/>
+        <circle class="prov-shape" id="pmap-Los_Santos" cx="590" cy="493" r="18"/>
+        <circle class="prov-shape" id="pmap-Colon" cx="562" cy="228" r="18"/>
+        <circle class="prov-shape" id="pmap-Panama_Oeste" cx="660" cy="270" r="18"/>
+        <circle class="prov-shape" id="pmap-Panama" cx="765" cy="208" r="18"/>
+        <circle class="prov-shape" id="pmap-Guna_Yala" cx="982" cy="174" r="18"/>
+        <circle class="prov-shape" id="pmap-Darien" cx="1035" cy="424" r="18"/>
         <!-- Labels -->
         <text x="88" y="72" font-family="DM Mono" font-size="9" fill="#5a7499" text-anchor="middle" pointer-events="none">Bocas</text>
         <text x="55" y="185" font-family="DM Mono" font-size="9" fill="#5a7499" text-anchor="middle" pointer-events="none">Chiriquí</text>
@@ -352,6 +358,18 @@ tr:hover .dep-avatar{border-color:var(--acc)}
         <text x="630" y="155" font-family="DM Mono" font-size="9" fill="#5a7499" text-anchor="middle" pointer-events="none">Panamá</text>
         <text x="648" y="38" font-family="DM Mono" font-size="8" fill="#5a7499" text-anchor="middle" pointer-events="none">Guna Yala</text>
         <text x="762" y="185" font-family="DM Mono" font-size="9" fill="#5a7499" text-anchor="middle" pointer-events="none">Darién</text>
+        <text class="map-label" x="150" y="158">Bocas</text><text class="map-value" id="pmap-value-Bocas_del_Toro" x="150" y="210"></text>
+        <text class="map-label" x="180" y="298">Chiriqui</text><text class="map-value" id="pmap-value-Chiriqui" x="180" y="350"></text>
+        <text class="map-label" x="325" y="271">Ngabe-Bugle</text><text class="map-value" id="pmap-value-Ngabe_Bugle" x="325" y="323"></text>
+        <text class="map-label" x="438" y="358">Veraguas</text><text class="map-value" id="pmap-value-Veraguas" x="438" y="410"></text>
+        <text class="map-label" x="550" y="290">Cocle</text><text class="map-value" id="pmap-value-Cocle" x="550" y="342"></text>
+        <text class="map-label" x="512" y="402">Herrera</text><text class="map-value" id="pmap-value-Herrera" x="512" y="454"></text>
+        <text class="map-label" x="590" y="461">Los Santos</text><text class="map-value" id="pmap-value-Los_Santos" x="590" y="513"></text>
+        <text class="map-label" x="562" y="196">Colon</text><text class="map-value" id="pmap-value-Colon" x="562" y="248"></text>
+        <text class="map-label" x="660" y="238">Panama Oeste</text><text class="map-value" id="pmap-value-Panama_Oeste" x="660" y="290"></text>
+        <text class="map-label" x="765" y="176">Panama</text><text class="map-value" id="pmap-value-Panama" x="765" y="228"></text>
+        <text class="map-label" x="982" y="142">Guna Yala</text><text class="map-value" id="pmap-value-Guna_Yala" x="982" y="194"></text>
+        <text class="map-label" x="1035" y="392">Darien</text><text class="map-value" id="pmap-value-Darien" x="1035" y="444"></text>
       </svg>
       <div class="map-tooltip" id="map-tooltip"></div>
     </div>
@@ -924,26 +942,30 @@ function renderMap(){
     if(!el) return;
     const intensity = (data.proyectos||0) / maxV;
     const alpha = 0.12 + intensity * 0.78;
+    const radius = 13 + intensity * 18;
+    const val = document.getElementById('pmap-value-'+id);
     el.style.fill = `rgba(59,130,246,${alpha.toFixed(2)})`;
-    el.addEventListener('mouseenter', ev=>{
+    el.setAttribute('r', radius.toFixed(1));
+    if(val) val.textContent = `${data.proyectos||0} proy.`;
+    el.onmouseenter = ev=>{
       tooltip.innerHTML = `<b style="color:var(--text)">${prov}</b><br>
         <span style="color:var(--acc)">${data.proyectos||0} proyectos</span> &nbsp;
         <span style="color:var(--acc3)">${data.leyes||0} leyes</span><br>
         <span style="color:var(--muted)">${data.diputados||0} diputados</span>`;
       tooltip.classList.add('show');
-    });
-    el.addEventListener('mousemove', ev=>{
+    };
+    el.onmousemove = ev=>{
       const rect = mapWrap.getBoundingClientRect();
       tooltip.style.left = (ev.clientX - rect.left + 12) + 'px';
       tooltip.style.top  = (ev.clientY - rect.top  - 10) + 'px';
-    });
-    el.addEventListener('mouseleave', ()=>tooltip.classList.remove('show'));
-    el.addEventListener('click', ()=>{
+    };
+    el.onmouseleave = ()=>tooltip.classList.remove('show');
+    el.onclick = ()=>{
       showTab('diputados');
       if(!selectedProvinces.has(prov)){ selectedProvinces.add(prov); }
       buildChips(); buildFiltered(); page=1;
       viewMode==='grid' ? renderGrid() : renderTable();
-    });
+    };
   });
 }
 
