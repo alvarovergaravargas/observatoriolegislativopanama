@@ -38,9 +38,18 @@ h1 span{color:var(--acc)}
 .tab-content{display:none}.tab-content.active{display:block}
 
 /* KPI */
+.kpi-totals{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--gap);margin-bottom:var(--gap)}
+.kpi-breakdown-hdr{display:flex;align-items:center;gap:10px;margin-bottom:calc(var(--gap)*.6)}
+.kpi-breakdown-hdr-label{font-family:var(--fm);font-size:.62rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;white-space:nowrap}
+.kpi-breakdown-hdr-line{flex:1;height:1px;background:var(--border)}
+.kpi-breakdown-hdr-sum{font-family:var(--fm);font-size:.6rem;color:var(--muted);white-space:nowrap}
 .kpi-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:var(--gap);margin-bottom:calc(var(--gap)*1.5)}
 .kpi{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:clamp(16px,2.5vw,26px);position:relative;overflow:hidden;transition:transform .2s,border-color .3s,box-shadow .3s}
 .kpi:hover{transform:translateY(-3px);border-color:var(--kc,var(--acc));box-shadow:0 8px 32px rgba(0,0,0,.3)}
+.kpi-pct{display:flex;align-items:center;gap:6px;margin-top:10px}
+.kpi-pct-track{flex:1;height:3px;background:rgba(255,255,255,.08);border-radius:2px;overflow:hidden}
+.kpi-pct-fill{height:100%;border-radius:2px;background:var(--kc,var(--acc));transition:width .8s cubic-bezier(.4,0,.2,1)}
+.kpi-pct-lbl{font-family:var(--fm);font-size:.6rem;color:var(--muted);min-width:32px;text-align:right}
 .kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--kc,var(--acc)),transparent)}
 .kpi::after{content:'';position:absolute;bottom:-30px;right:-10px;width:80px;height:80px;border-radius:50%;background:radial-gradient(circle,color-mix(in srgb,var(--kc,var(--acc)) 12%,transparent),transparent 70%);pointer-events:none}
 .kpi-label{font-family:var(--fm);font-size:clamp(.6rem,1.2vw,.7rem);color:var(--muted);text-transform:uppercase;letter-spacing:.1em;margin-bottom:8px}
@@ -182,9 +191,9 @@ tr:hover .dep-avatar{border-color:var(--acc)}
 .leyes-btn:hover{color:#fff;background:rgba(16,185,129,.25);text-decoration:none}
 
 @media(max-width:1024px){.kpi-grid{grid-template-columns:repeat(3,1fr)}.prop-summary{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:768px){.kpi-grid{grid-template-columns:repeat(2,1fr)}.grid2{grid-template-columns:1fr}.wide{grid-column:1}.header-meta{text-align:left}.col-md{display:none}.prop-grid{grid-template-columns:1fr}}
-@media(max-width:480px){.kpi-grid{grid-template-columns:1fr 1fr}.search-box{width:100%}.sec-hdr{flex-direction:column;align-items:flex-start}.col-sm{display:none}.prop-summary{grid-template-columns:1fr 1fr}}
-@media(max-width:360px){.kpi-grid{grid-template-columns:1fr}h1{font-size:1rem}}
+@media(max-width:768px){.kpi-totals{grid-template-columns:1fr 1fr}.kpi-grid{grid-template-columns:repeat(2,1fr)}.grid2{grid-template-columns:1fr}.wide{grid-column:1}.header-meta{text-align:left}.col-md{display:none}.prop-grid{grid-template-columns:1fr}}
+@media(max-width:480px){.kpi-totals{grid-template-columns:1fr 1fr}.kpi-grid{grid-template-columns:1fr 1fr}.search-box{width:100%}.sec-hdr{flex-direction:column;align-items:flex-start}.col-sm{display:none}.prop-summary{grid-template-columns:1fr 1fr}}
+@media(max-width:360px){.kpi-totals{grid-template-columns:1fr}.kpi-grid{grid-template-columns:1fr}h1{font-size:1rem}}
 
 /* GLOBAL SEARCH */
 .gs-wrap{position:relative;margin-bottom:calc(var(--gap)*1.2)}
@@ -304,9 +313,15 @@ tr:hover .dep-avatar{border-color:var(--acc)}
   </div>
 </header>
 
-<div class="kpi-grid" id="kpi-grid">
+<div class="kpi-totals" id="kpi-totals">
   <div class="loader" style="grid-column:1/-1"><div class="spinner"></div> Cargando…</div>
 </div>
+<div class="kpi-breakdown-hdr" id="kpi-breakdown-hdr" style="display:none">
+  <span class="kpi-breakdown-hdr-label">Desglose por estado del proyecto</span>
+  <div class="kpi-breakdown-hdr-line"></div>
+  <span class="kpi-breakdown-hdr-sum" id="kpi-breakdown-sum"></span>
+</div>
+<div class="kpi-grid" id="kpi-grid"></div>
 
 <!-- GLOBAL SEARCH -->
 <div class="gs-wrap" id="gs-wrap">
@@ -753,7 +768,7 @@ async function loadData(){
     raw=await res.json();
   }catch(e){
     console.error('Fetch error:',e);
-    document.getElementById('kpi-grid').innerHTML=`<div class="loader" style="grid-column:1/-1">⚠️ Error cargando datos: ${e.message}</div>`;
+    document.getElementById('kpi-totals').innerHTML=`<div class="loader" style="grid-column:1/-1">⚠️ Error cargando datos: ${e.message}</div>`;
     return;
   }
 
@@ -792,22 +807,53 @@ function processRaw(raw){
 
 // ── KPI ───────────────────────────────────────────
 function renderKPI(){
-  const tasa=((D.total_leyes/D.total_proyectos)*100).toFixed(1);
-  const archNeg=(D.etapas['Archivado']||0)+(D.etapas['Negado']||0);
-  const debate=(D.etapas['Primer Debate']||0)+(D.etapas['Segundo Debate']||0)+(D.etapas['Tercer Debate']||0);
-  const cards=[
-    {l:'Total proyectos',v:D.total_proyectos,s:'Desde jul 2024',c:'#3b82f6'},
-    {l:'Leyes aprobadas',v:D.total_leyes,s:`${tasa}% tasa de aprobación`,c:'#10b981'},
-    {l:'Diputados',v:D.total_diputados,s:'Asamblea Nacional',c:'#f59e0b'},
-    {l:'Arch. / Negados',v:archNeg,s:'Sin avance legislativo',c:'#ef4444'},
-    {l:'En debate activo',v:debate,s:'1°, 2° y 3er debate',c:'#a78bfa'},
+  const total = D.total_proyectos;
+  const tasa = ((D.total_leyes/total)*100).toFixed(1);
+
+  // Fila superior: totales globales (no son subconjuntos entre sí)
+  const totals=[
+    {l:'Total proyectos',v:total,s:'Desde jul 2024',c:'#3b82f6'},
+    {l:'Diputados activos',v:D.total_diputados,s:'Asamblea Nacional',c:'#f59e0b'},
   ];
-  document.getElementById('kpi-grid').innerHTML=cards.map((c,i)=>`
+  document.getElementById('kpi-totals').innerHTML=totals.map((c,i)=>`
     <div class="kpi fade-in" style="--kc:${c.c};animation-delay:${i*.08}s">
+      <div class="kpi-label">${c.l}</div>
+      <div class="kpi-value" id="kt${i}">0</div>
+      <div class="kpi-sub">${c.s}</div>
+    </div>`).join('');
+  totals.forEach((c,i)=>countUp(document.getElementById(`kt${i}`),c.v,i*80));
+
+  // Partición exhaustiva: 5 grupos que suman exactamente total
+  const enAnalisis=(D.etapas['Preliminar']||0)+(D.etapas['Enviado a subcomisión para analisis']||0);
+  const enDebate=(D.etapas['Primer Debate']||0)+(D.etapas['Segundo Debate']||0)+(D.etapas['Tercer Debate']||0);
+  const anteEjec=(D.etapas['Enviado al Ejecutivo']||0)+(D.etapas['Objetado por Ejecutivo']||0)+(D.etapas['Segundo Debate(Objetado)']||0)+(D.etapas['Tercer Debate(Objetado)']||0);
+  const sinAvance=(D.etapas['Archivado']||0)+(D.etapas['Negado']||0)+(D.etapas['Retirado por proponente']||0)+(D.etapas['Suspendido']||0);
+  const sumaGrupos=enAnalisis+enDebate+anteEjec+D.total_leyes+sinAvance;
+
+  const hdr=document.getElementById('kpi-breakdown-hdr');
+  const sumEl=document.getElementById('kpi-breakdown-sum');
+  if(hdr){hdr.style.display='flex';}
+  if(sumEl){sumEl.textContent=`${sumaGrupos} de ${total} proyectos`;}
+
+  const cards=[
+    {l:'En análisis',v:enAnalisis,s:'Preliminar · subcomisión',c:'#3b82f6'},
+    {l:'En debate',v:enDebate,s:'1°, 2° y 3er debate',c:'#f59e0b'},
+    {l:'Ante el Ejecutivo',v:anteEjec,s:'Enviado · objetado',c:'#a78bfa'},
+    {l:'Leyes aprobadas',v:D.total_leyes,s:`${tasa}% tasa de aprobación`,c:'#10b981'},
+    {l:'Sin avance',v:sinAvance,s:'Arch. · negados · retirados',c:'#ef4444'},
+  ];
+  document.getElementById('kpi-grid').innerHTML=cards.map((c,i)=>{
+    const pct=total>0?(c.v/total*100).toFixed(1):0;
+    return`<div class="kpi fade-in" style="--kc:${c.c};animation-delay:${i*.08}s">
       <div class="kpi-label">${c.l}</div>
       <div class="kpi-value" id="kv${i}">0</div>
       <div class="kpi-sub">${c.s}</div>
-    </div>`).join('');
+      <div class="kpi-pct">
+        <div class="kpi-pct-track"><div class="kpi-pct-fill" style="width:${pct}%"></div></div>
+        <div class="kpi-pct-lbl">${pct}%</div>
+      </div>
+    </div>`;
+  }).join('');
   cards.forEach((c,i)=>countUp(document.getElementById(`kv${i}`),c.v,i*80));
 }
 
