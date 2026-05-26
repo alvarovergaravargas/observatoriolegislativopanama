@@ -397,10 +397,29 @@ def generar_resumen(datos, dips, ts, metricas=None):
         for k, v in sorted(otros.items(), key=lambda x: -x[1]['proyectos'])
     ]
 
+    # Etapa groups for map filter aggregations
+    ETAPA_GROUPS = {
+        'Ley':       {'Ley'},
+        'debate':    {'Primer Debate','Segundo Debate','Tercer Debate','Enviado al Ejecutivo',
+                      'Objetado por Ejecutivo','Segundo Debate(Objetado)','Tercer Debate(Objetado)'},
+        'analisis':  {'Preliminar','Enviado a subcomisión para analisis'},
+        'sinAvance': {'Archivado','Negado','Retirado por proponente','Suspendido'},
+    }
+    YEARS = ['2024', '2025', '2026']
+
+    def get_etapa_group(etapa):
+        for g, vals in ETAPA_GROUPS.items():
+            if etapa in vals: return g
+        return 'sinAvance'
+
     # Por partido y provincia: cada proyecto cuenta UNA vez por partido
     # aunque lo firmen 19 diputados del mismo partido
     por_partido  = defaultdict(lambda: {'diputados':0,'proyectos':set(),'leyes':set()})
     por_provincia = defaultdict(lambda: {'diputados':0,'proyectos':set(),'leyes':set()})
+    # por_provincia_filtros[prov][year_key][etapa_group] = {fichas}
+    pv_filtros = defaultdict(lambda: {
+        y: {eg: set() for eg in list(ETAPA_GROUPS.keys())+['all']} for y in YEARS+['all']
+    })
 
     for r in datos:
         partidos_proy, provincias_proy = set(), set()
@@ -414,9 +433,17 @@ def generar_resumen(datos, dips, ts, metricas=None):
         for partido in partidos_proy:
             por_partido[partido]['proyectos'].add(r['ficha'])
             if r['etapa'] == 'Ley': por_partido[partido]['leyes'].add(r['ficha'])
+        yr = (r['fecha_presentacion'].split('-') or ['','',''])
+        yr = yr[2] if len(yr) == 3 else ''
+        eg = get_etapa_group(r['etapa'])
         for prov in provincias_proy:
             por_provincia[prov]['proyectos'].add(r['ficha'])
             if r['etapa'] == 'Ley': por_provincia[prov]['leyes'].add(r['ficha'])
+            pv_filtros[prov]['all']['all'].add(r['ficha'])
+            pv_filtros[prov]['all'][eg].add(r['ficha'])
+            if yr in YEARS:
+                pv_filtros[prov][yr]['all'].add(r['ficha'])
+                pv_filtros[prov][yr][eg].add(r['ficha'])
 
     for d in dips:
         por_partido[d['partido']]['diputados'] += 1
@@ -426,6 +453,10 @@ def generar_resumen(datos, dips, ts, metricas=None):
                 for k,v in sorted(por_partido.items(), key=lambda x:-len(x[1]['proyectos']))}
     pv_final = {k: {'diputados':v['diputados'],'proyectos':len(v['proyectos']),'leyes':len(v['leyes'])}
                 for k,v in sorted(por_provincia.items(), key=lambda x:-len(x[1]['proyectos']))}
+    pv_filtros_final = {
+        prov: {yr: {eg: len(s) for eg, s in egs.items()} for yr, egs in yrs.items()}
+        for prov, yrs in pv_filtros.items()
+    }
 
     return {
         'fecha_extraccion': ts,
@@ -440,6 +471,7 @@ def generar_resumen(datos, dips, ts, metricas=None):
         'otros_proponentes': otros_proponentes,
         'por_partido': pp_final,
         'por_provincia': pv_final,
+        'por_provincia_filtros': pv_filtros_final,
     }
 
 

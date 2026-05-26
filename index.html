@@ -250,6 +250,17 @@ tr:hover .dep-avatar{border-color:var(--acc)}
 .map-legend-bar{flex:1;height:8px;border-radius:4px;background:linear-gradient(90deg,rgba(59,130,246,.15),rgba(59,130,246,.9))}
 .map-timeline-note{font-family:var(--fm);font-size:.72rem;color:var(--acc2);background:rgba(245,158,11,.08);border:1px solid rgba(245,158,11,.2);border-radius:6px;padding:5px 12px;display:none;align-items:center;gap:8px;margin-bottom:12px}
 .map-timeline-note.show{display:flex}
+/* MAP FILTERS */
+.map-filter-bar{display:flex;gap:10px;flex-wrap:wrap;align-items:flex-start;margin-bottom:14px;padding:12px 14px;background:var(--surface2);border:1px solid var(--border);border-radius:10px}
+.map-filter-group{display:flex;align-items:center;gap:5px;flex-wrap:wrap}
+.map-filter-sep{width:1px;height:20px;background:var(--border);flex-shrink:0;align-self:center}
+.map-filter-lbl{font-family:var(--fm);font-size:.58rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;white-space:nowrap;flex-shrink:0;margin-right:2px}
+.map-chip{background:var(--bg);border:1px solid var(--border);color:var(--muted);border-radius:20px;padding:3px 9px;font-family:var(--fm);font-size:.63rem;cursor:pointer;transition:all .15s;white-space:nowrap;line-height:1.5}
+.map-chip:hover{border-color:var(--acc3);color:var(--text)}
+.map-chip.active{border-color:var(--acc3);color:var(--acc3);background:rgba(16,185,129,.08)}
+.map-no-prov{font-family:var(--fm);font-size:.72rem;color:var(--muted);text-align:center;padding:14px 0;display:none}
+.map-no-prov.show{display:block}
+@media(max-width:640px){.map-filter-sep{display:none}.map-filter-bar{gap:8px;padding:10px 12px}}
 
 /* MODAL TABS */
 .modal-tabs{display:flex;border-bottom:1px solid var(--border);padding:0 24px}
@@ -418,6 +429,35 @@ tr:hover .dep-avatar{border-color:var(--acc)}
   </div>
   <div class="card" style="margin-bottom:var(--gap)">
     <div class="card-title" style="--ct:var(--acc3)">Actividad legislativa por provincia</div>
+
+    <!-- FILTROS DEL MAPA -->
+    <div class="map-filter-bar">
+      <div class="map-filter-group">
+        <span class="map-filter-lbl">Estado</span>
+        <button class="map-chip active" data-mftype="etapa" data-mfval="all"       onclick="setMapFilter('etapa','all')">Todos</button>
+        <button class="map-chip"        data-mftype="etapa" data-mfval="Ley"        onclick="setMapFilter('etapa','Ley')">✓ Leyes</button>
+        <button class="map-chip"        data-mftype="etapa" data-mfval="debate"     onclick="setMapFilter('etapa','debate')">En debate</button>
+        <button class="map-chip"        data-mftype="etapa" data-mfval="analisis"   onclick="setMapFilter('etapa','analisis')">Preliminar</button>
+        <button class="map-chip"        data-mftype="etapa" data-mfval="sinAvance"  onclick="setMapFilter('etapa','sinAvance')">Sin avance</button>
+      </div>
+      <div class="map-filter-sep"></div>
+      <div class="map-filter-group">
+        <span class="map-filter-lbl">Año</span>
+        <button class="map-chip active" data-mftype="year" data-mfval="all"  onclick="setMapFilter('year','all')">Todos</button>
+        <button class="map-chip"        data-mftype="year" data-mfval="2024" onclick="setMapFilter('year','2024')">2024</button>
+        <button class="map-chip"        data-mftype="year" data-mfval="2025" onclick="setMapFilter('year','2025')">2025</button>
+        <button class="map-chip"        data-mftype="year" data-mfval="2026" onclick="setMapFilter('year','2026')">2026</button>
+      </div>
+      <div class="map-filter-sep"></div>
+      <div class="map-filter-group">
+        <span class="map-filter-lbl">Proponente</span>
+        <button class="map-chip active" data-mftype="tipo" data-mfval="diputados" onclick="setMapFilter('tipo','diputados')">Diputados</button>
+        <button class="map-chip"        data-mftype="tipo" data-mfval="ejecutivo" onclick="setMapFilter('tipo','ejecutivo')">Ejecutivo</button>
+        <button class="map-chip"        data-mftype="tipo" data-mfval="ciudadana" onclick="setMapFilter('tipo','ciudadana')">Ciudadana</button>
+      </div>
+    </div>
+    <div class="map-no-prov" id="map-no-prov">Los proyectos del <strong>Ejecutivo</strong> y de <strong>iniciativa ciudadana</strong> no tienen circunscripción provincial — se presentan ante la Asamblea desde el nivel nacional.</div>
+
     <div class="map-timeline-note" id="map-tl-note">
       <span id="map-tl-text"></span>
       <button onclick="clearMonthFilter()" style="margin-left:auto;background:none;border:1px solid rgba(245,158,11,.4);color:var(--acc2);font-family:var(--fm);font-size:.65rem;border-radius:4px;padding:2px 8px;cursor:pointer">✕ Limpiar</button>
@@ -708,6 +748,58 @@ const PAGE = 15;
 let tabInited = { general: false, diputados: false, monitoreo: false, partidos: false, proponentes: false, costos: false };
 let gsTimeout = null;
 let tableInited = false;
+let mapEtapaFilter = 'all', mapYearFilter = 'all', mapTipoFilter = 'diputados';
+
+const MAP_ETAPA_LABELS = {
+  'Ley':'Leyes aprobadas','debate':'En debate (1°/2°/3er)','analisis':'En análisis','sinAvance':'Sin avance'
+};
+
+function getMapData(){
+  if(mapTipoFilter!=='diputados') return {};
+  const pf=D&&D.por_provincia_filtros, pp=D&&D.por_provincia||{};
+  if(pf){
+    const yKey=mapYearFilter==='all'?'all':mapYearFilter;
+    const eKey=mapEtapaFilter==='all'?'all':mapEtapaFilter;
+    const result={};
+    Object.entries(pf).forEach(([prov,yrs])=>{
+      const cnt=(yrs[yKey]||{})[eKey]||0;
+      const leyes=(mapEtapaFilter==='all'||mapEtapaFilter==='Ley')?(yrs[yKey]||{})['Ley']||0:0;
+      result[prov]={proyectos:cnt,leyes:leyes,diputados:(pp[prov]||{}).diputados||0};
+    });
+    Object.entries(pp).forEach(([prov,v])=>{if(!result[prov])result[prov]={proyectos:0,leyes:0,diputados:v.diputados||0};});
+    return result;
+  }
+  return pp;
+}
+
+function getMapTotals(){
+  const otros=D&&D.otros_proponentes||[];
+  if(mapTipoFilter==='ejecutivo') return otros.filter(o=>o.tipo==='ejecutivo').reduce((s,o)=>s+(o.proyectos||0),0);
+  if(mapTipoFilter==='ciudadana') return otros.filter(o=>o.tipo==='ciudadano').reduce((s,o)=>s+(o.proyectos||0),0);
+  return 0;
+}
+
+function setMapFilter(type,val){
+  if(type==='etapa') mapEtapaFilter=val;
+  else if(type==='year') mapYearFilter=val;
+  else if(type==='tipo') mapTipoFilter=val;
+  // Actualizar chips activos del tipo modificado
+  document.querySelectorAll(`.map-chip[data-mftype="${type}"]`).forEach(btn=>{
+    btn.classList.toggle('active', btn.dataset.mfval===val);
+  });
+  // Mostrar aviso para ejecutivo/ciudadana
+  const noProv=document.getElementById('map-no-prov');
+  if(noProv){
+    const isNonProv=mapTipoFilter!=='diputados';
+    noProv.classList.toggle('show',isNonProv);
+    if(isNonProv){
+      const total=getMapTotals();
+      const label=mapTipoFilter==='ejecutivo'?'Ejecutivo':'Ciudadana';
+      noProv.innerHTML=`Los proyectos de <strong>${label}</strong> no tienen circunscripción provincial — se presentan a nivel nacional. <span style="color:var(--acc2);font-family:var(--fm)">Total: ${total} proyecto${total!==1?'s':''}</span>`;
+    }
+  }
+  renderMap();
+}
 
 // ── MODAL ─────────────────────────────────────────
 let _modalDep = null;
@@ -1209,7 +1301,7 @@ function clearMonthFilter(){
 // ── PROVINCE MAP ───────────────────────────────────
 const PROV_MAP = {
   'Bocas del Toro':'Bocas_del_Toro','Chiriquí':'Chiriqui','Chiriqui':'Chiriqui',
-  'Comarca Ngäbe-Buglé':'Ngabe_Bugle','Ngäbe-Buglé':'Ngabe_Bugle',
+  'Comarca Ngäbe-Buglé':'Ngabe_Bugle','Ngäbe-Buglé':'Ngabe_Bugle','Ngöbe Buglé':'Ngabe_Bugle',
   'Veraguas':'Veraguas','Coclé':'Cocle','Cocle':'Cocle',
   'Herrera':'Herrera','Los Santos':'Los_Santos',
   'Colón':'Colon','Colon':'Colon','Panamá Oeste':'Panama_Oeste',
@@ -1217,78 +1309,95 @@ const PROV_MAP = {
   'Comarca Guna Yala':'Guna_Yala','Guna Yala':'Guna_Yala',
   'Darién':'Darien','Darien':'Darien',
 };
+const MAP_ALL_IDS=['Bocas_del_Toro','Chiriqui','Ngabe_Bugle','Veraguas','Cocle','Herrera','Los_Santos','Colon','Panama_Oeste','Panama','Guna_Yala','Darien'];
+
 function renderMap(){
-  const pp = D && D.por_provincia;
-  if(!pp || !document.getElementById('panama-map')) return;
-  const vals = Object.values(pp).map(v=>v.proyectos||0);
-  const maxV = Math.max(...vals, 1);
-  document.getElementById('map-legend-max').textContent = maxV + ' proy.';
+  if(!document.getElementById('panama-map')) return;
   const tooltip = document.getElementById('map-tooltip');
   const mapWrap = document.getElementById('map-wrap');
+  if(!mapWrap) return;
+
+  const pp = D ? getMapData() : {};
+  const vals = Object.values(pp).map(v=>v.proyectos||0);
+  const maxV = Math.max(...vals, 1);
+  const hasData = vals.some(v=>v>0);
+  document.getElementById('map-legend-max').textContent = hasData ? maxV+' proy.' : '—';
+
+  // Reset all circles to minimum state before applying filtered data
+  MAP_ALL_IDS.forEach(id=>{
+    const el=document.getElementById('pmap-'+id);
+    if(el){el.style.fill='rgba(59,130,246,0.10)';el.setAttribute('r','13');}
+    const vEl=document.getElementById('pmap-value-'+id);
+    if(vEl) vEl.textContent='';
+  });
+
+  // Helper: mostrar tooltip en coordenadas absolutas
+  const showTip=(el,cx,cy,offsetY=0)=>{
+    const rect=mapWrap.getBoundingClientRect();
+    tooltip.innerHTML=el.dataset.tipHtml||'';
+    tooltip.style.left=(cx-rect.left+12)+'px';
+    tooltip.style.top=(cy-rect.top-10+offsetY)+'px';
+    tooltip.classList.add('show');
+  };
 
   Object.entries(pp).forEach(([prov, data])=>{
     const id = PROV_MAP[prov];
     if(!id) return;
     const el = document.getElementById('pmap-'+id);
     if(!el) return;
-    const intensity = (data.proyectos||0) / maxV;
-    const alpha = 0.12 + intensity * 0.78;
-    const radius = 13 + intensity * 18;
-    const val = document.getElementById('pmap-value-'+id);
-    el.style.fill = `rgba(59,130,246,${alpha.toFixed(2)})`;
-    el.setAttribute('r', radius.toFixed(1));
-    if(val) val.textContent = `${data.proyectos||0} proy.`;
 
-    // Contenido del tooltip
-    const tipHtml = `<b style="color:var(--text)">${prov}</b><br>
+    const intensity = (data.proyectos||0)/maxV;
+    el.style.fill = `rgba(59,130,246,${(0.12+intensity*0.78).toFixed(2)})`;
+    el.setAttribute('r', (13+intensity*18).toFixed(1));
+
+    const vEl=document.getElementById('pmap-value-'+id);
+    if(vEl) vEl.textContent=data.proyectos||0;
+
+    // Guardar contenido en data-attribute para que handlers táctiles lo lean siempre actualizado
+    const filtroLabel = mapEtapaFilter!=='all'?`<br><span style="color:var(--acc2);font-size:.65rem">${MAP_ETAPA_LABELS[mapEtapaFilter]||''}</span>`:'';
+    const yearLabel   = mapYearFilter!=='all'?` · ${mapYearFilter}`:'';
+    el.dataset.tipHtml = `<b style="color:var(--text)">${prov}</b>${yearLabel}<br>
       <span style="color:var(--acc)">${data.proyectos||0} proyectos</span> &nbsp;
       <span style="color:var(--acc3)">${data.leyes||0} leyes</span><br>
-      <span style="color:var(--muted)">${data.diputados||0} diputados</span>`;
+      <span style="color:var(--muted)">${data.diputados||0} diputados</span>${filtroLabel}`;
+    el.dataset.mapProv = prov; // para navegación en touch
 
-    // Helper: mostrar tooltip en coordenadas de cliente
-    const showTip = (cx, cy)=>{
-      const rect = mapWrap.getBoundingClientRect();
-      tooltip.innerHTML = tipHtml;
-      tooltip.style.left = (cx - rect.left + 12) + 'px';
-      tooltip.style.top  = (cy - rect.top  - 10) + 'px';
-      tooltip.classList.add('show');
-    };
-
-    // Acción de navegación compartida entre click y touch
-    const navigate = ()=>{
+    // ── Mouse (inline → overwrite-safe en cada render) ──
+    el.onmouseenter = ev=>showTip(el,ev.clientX,ev.clientY);
+    el.onmousemove  = ev=>showTip(el,ev.clientX,ev.clientY);
+    el.onmouseleave = ()=>tooltip.classList.remove('show');
+    el.onclick = ()=>{
       showTab('diputados');
       if(!selectedProvinces.has(prov)) selectedProvinces.add(prov);
       buildChips(); buildFiltered(); page=1;
       viewMode==='grid' ? renderGrid() : renderTable();
     };
 
-    // ── Mouse ──
-    el.onmouseenter = ev=> showTip(ev.clientX, ev.clientY);
-    el.onmousemove  = ev=> showTip(ev.clientX, ev.clientY);
-    el.onmouseleave = ()=> tooltip.classList.remove('show');
-    el.onclick = navigate;
-
-    // ── Touch ──
-    let touchTimer = null;
-    el.addEventListener('touchstart', ev=>{
-      if(ev.touches.length !== 1) return;
-      const t = ev.touches[0];
-      // Mostrar tooltip encima del dedo (−70px) para que no quede tapado
-      showTip(t.clientX, t.clientY - 70);
-    }, {passive: true});
-
-    el.addEventListener('touchend', ev=>{
-      // Ocultar el tooltip tras 1.8 s y navegar
-      clearTimeout(touchTimer);
-      touchTimer = setTimeout(()=> tooltip.classList.remove('show'), 1800);
-      navigate();
-    }, {passive: true});
-
-    el.addEventListener('touchmove', ()=>{
-      // Si el usuario está scrolleando, ocultar inmediatamente
-      clearTimeout(touchTimer);
-      tooltip.classList.remove('show');
-    }, {passive: true});
+    // ── Touch (addEventListener, agregar solo una vez) ──
+    if(!el.dataset.mapInited){
+      el.dataset.mapInited='1';
+      let touchTimer=null;
+      el.addEventListener('touchstart',ev=>{
+        if(ev.touches.length!==1) return;
+        const t=ev.touches[0];
+        showTip(el,t.clientX,t.clientY,-70); // mostrar encima del dedo
+      },{passive:true});
+      el.addEventListener('touchend',()=>{
+        clearTimeout(touchTimer);
+        touchTimer=setTimeout(()=>tooltip.classList.remove('show'),1800);
+        const p=el.dataset.mapProv;
+        if(p){
+          showTab('diputados');
+          if(!selectedProvinces.has(p)) selectedProvinces.add(p);
+          buildChips(); buildFiltered(); page=1;
+          viewMode==='grid' ? renderGrid() : renderTable();
+        }
+      },{passive:true});
+      el.addEventListener('touchmove',()=>{
+        clearTimeout(touchTimer);
+        tooltip.classList.remove('show');
+      },{passive:true});
+    }
   });
 }
 
