@@ -294,6 +294,35 @@ tr:hover .dep-avatar{border-color:var(--acc)}
 .mini-fill{height:100%;border-radius:999px;background:var(--acc3)}
 .monitor-src{font-family:var(--fm);font-size:.65rem;color:var(--muted);margin-top:10px}
 @media(max-width:1024px){.monitor-summary{grid-template-columns:repeat(2,1fr)}.monitor-grid{grid-template-columns:1fr}}
+
+/* COSTOS */
+.costo-kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--gap);margin-bottom:calc(var(--gap)*1.5)}
+.costo-year-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--gap);margin-bottom:var(--gap)}
+.costo-year-card{background:var(--surface2);border:1px solid var(--border);border-radius:var(--r);padding:20px;position:relative;overflow:hidden}
+.costo-year-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--acc3),transparent)}
+.costo-year-title{font-family:var(--fm);font-size:.62rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:10px}
+.costo-year-total{font-size:1.5rem;font-weight:800;color:var(--acc3);margin-bottom:4px}
+.costo-year-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:14px}
+.costo-year-stat-val{font-family:var(--fm);font-size:.82rem;font-weight:600;color:var(--text)}
+.costo-year-stat-lbl{font-family:var(--fm);font-size:.6rem;color:var(--muted);margin-top:2px}
+.money{color:var(--acc3);font-family:var(--fm)}
+.money-sm{color:var(--acc3);font-family:var(--fm);font-size:.75rem}
+.costo-tbl-wrap{overflow-x:auto}
+.costo-tbl{width:100%;border-collapse:collapse;font-family:var(--fm);font-size:.75rem}
+.costo-tbl thead th{padding:10px 14px;text-align:left;color:var(--muted);font-weight:500;font-size:.65rem;text-transform:uppercase;letter-spacing:.06em;border-bottom:1px solid var(--border);white-space:nowrap}
+.costo-tbl tbody td{padding:10px 14px;border-bottom:1px solid rgba(26,41,64,.5);vertical-align:middle}
+.costo-tbl tbody tr:last-child td{border-bottom:none}
+.costo-tbl tbody tr:hover{background:rgba(255,255,255,.02)}
+.costo-rank{font-weight:700;color:var(--muted);width:36px;text-align:center}
+.costo-bar-wrap{height:5px;background:var(--border);border-radius:3px;overflow:hidden;min-width:80px}
+.costo-bar-fill{height:100%;border-radius:3px;background:var(--acc3)}
+.metodologia-box{background:linear-gradient(135deg,rgba(59,130,246,.05),rgba(167,139,250,.03));border:1px solid rgba(59,130,246,.18);border-radius:var(--r);padding:24px;margin-top:var(--gap)}
+.metodologia-title{font-size:.85rem;font-weight:700;color:var(--acc);margin-bottom:10px}
+.metodologia-body{font-family:var(--fm);font-size:.7rem;color:var(--muted);line-height:1.9}
+.metodologia-body strong{color:var(--text)}
+@media(max-width:1024px){.costo-kpi-grid{grid-template-columns:repeat(2,1fr)}.costo-year-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:768px){.costo-year-grid{grid-template-columns:1fr}}
+@media(max-width:480px){.costo-kpi-grid{grid-template-columns:1fr 1fr}}
 </style>
 </head>
 <body>
@@ -339,6 +368,7 @@ tr:hover .dep-avatar{border-color:var(--acc)}
   <button class="tab" onclick="showTab('monitoreo')">📋 Monitoreo</button>
   <button class="tab" onclick="showTab('partidos')">🏛 Partidos</button>
   <button class="tab" onclick="showTab('proponentes')">🏢 Otros proponentes</button>
+  <button class="tab" onclick="showTab('costos')">💰 Costo Legislativo</button>
 </div>
 
 <!-- TAB GENERAL -->
@@ -540,6 +570,82 @@ tr:hover .dep-avatar{border-color:var(--acc)}
   </div>
 </div>
 
+<!-- TAB COSTOS -->
+<div id="tab-costos" class="tab-content">
+
+  <div class="costo-kpi-grid" id="costo-kpi-grid">
+    <div class="loader" style="grid-column:1/-1"><div class="spinner"></div> Calculando costos…</div>
+  </div>
+
+  <div class="sec-hdr" style="margin-bottom:var(--gap)">
+    <div class="sec-title" style="--ct:var(--acc3)">Costo acumulado por año</div>
+  </div>
+  <div class="costo-year-grid" id="costo-year-grid"></div>
+
+  <div class="sec-hdr" style="margin-bottom:calc(var(--gap)*.6)">
+    <div class="sec-title">Top 30 proyectos — mayor costo estimado</div>
+    <span style="font-family:var(--fm);font-size:.65rem;color:var(--muted)">Suma del costo proporcional de cada diputado asociado al proyecto</span>
+  </div>
+  <div class="card" style="margin-bottom:var(--gap)">
+    <div class="costo-tbl-wrap">
+      <table class="costo-tbl">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Proyecto</th>
+            <th>Año</th>
+            <th>Etapa</th>
+            <th style="text-align:center">Diputados</th>
+            <th style="text-align:right">Costo estimado</th>
+            <th style="min-width:110px">vs promedio</th>
+          </tr>
+        </thead>
+        <tbody id="costo-proy-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="sec-hdr" style="margin-bottom:calc(var(--gap)*.6)">
+    <div class="sec-title" style="--ct:var(--acc5)">Costo acumulado por diputado</div>
+    <span style="font-family:var(--fm);font-size:.65rem;color:var(--muted)">Planilla mensual + salario fijo USD 7,000 × meses activos</span>
+  </div>
+  <div class="card" style="margin-bottom:var(--gap)">
+    <div class="costo-tbl-wrap">
+      <table class="costo-tbl">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Diputado</th>
+            <th style="text-align:right">Planilla mensual</th>
+            <th style="text-align:right">Salario fijo</th>
+            <th style="text-align:right">Costo mensual</th>
+            <th style="text-align:center">Meses</th>
+            <th>Costo acumulado</th>
+            <th style="text-align:center">Proyectos</th>
+            <th style="text-align:right">Costo / proyecto</th>
+          </tr>
+        </thead>
+        <tbody id="costo-dip-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="sec-hdr" style="margin-bottom:calc(var(--gap)*.6)">
+    <div class="sec-title" style="--ct:var(--acc2)">Costo estimado por etapa legislativa</div>
+  </div>
+  <div class="card" style="margin-bottom:var(--gap)">
+    <div class="ch tall"><canvas id="c-costo-etapa"></canvas></div>
+  </div>
+
+  <div class="metodologia-box">
+    <div class="metodologia-title">Advertencia metodológica</div>
+    <div class="metodologia-body">
+      Este dashboard presenta una <strong>estimación proporcional del costo legislativo</strong>, no un costo contable exacto. El modelo calcula el costo mensual de cada diputado sumando su planilla mensual más un salario fijo de <strong>USD 7,000</strong>. Ese costo se multiplica por los meses activos en cada año y se divide entre la cantidad de proyectos en que participó el diputado (como proponente o co-proponente) en ese mismo año. El costo estimado de cada proyecto es la suma de la porción proporcional asignada por cada diputado asociado. El periodo de análisis inicia en <strong>julio de 2024</strong>. Los diputados sin planilla registrada aportan únicamente el salario fijo. <strong>Los proyectos firmados por diputados suplentes se contabilizan bajo el diputado principal</strong> al que suplen, utilizando el registro de suplencias de espaciocivico.org. El resultado es una aproximación analítica útil para comparación y seguimiento del gasto legislativo, no para fines contables.
+    </div>
+  </div>
+
+</div>
+
 </div>
 
 <!-- MODAL PROYECTOS -->
@@ -566,11 +672,11 @@ tr:hover .dep-avatar{border-color:var(--acc)}
 </footer>
 
 <script>
-let D = null, filtered = [], sortedDeps = [], monitorSorted = [], sortCol = 'proyectos', sortDir = 'desc', page = 1, metrica = 'proyectos';
+let D = null, DATOS_RAW = [], filtered = [], sortedDeps = [], monitorSorted = [], sortCol = 'proyectos', sortDir = 'desc', page = 1, metrica = 'proyectos';
 let viewMode = 'table', selectedParties = new Set(), selectedProvinces = new Set();
 let monitorSortCol = 'planilla_valor', monitorSortDir = 'desc', monitorInited = false;
 const PAGE = 15;
-let tabInited = { general: false, diputados: false, monitoreo: false, partidos: false, proponentes: false };
+let tabInited = { general: false, diputados: false, monitoreo: false, partidos: false, proponentes: false, costos: false };
 let gsTimeout = null;
 
 // ── MODAL ─────────────────────────────────────────
@@ -747,7 +853,7 @@ function countUp(el, target, delay=0){
 
 // ── TABS ──────────────────────────────────────────
 function showTab(name){
-  const names=['general','diputados','monitoreo','partidos','proponentes'];
+  const names=['general','diputados','monitoreo','partidos','proponentes','costos'];
   document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('active',names[i]===name));
   document.querySelectorAll('.tab-content').forEach(c=>c.classList.remove('active'));
   document.getElementById('tab-'+name).classList.add('active');
@@ -757,15 +863,21 @@ function showTab(name){
   if(name==='monitoreo'&&!tabInited.monitoreo){try{initMonitor();}catch(e){console.error('Monitoreo:',e)}tabInited.monitoreo=true}
   if(name==='partidos'&&!tabInited.partidos){try{renderPartidos();}catch(e){console.error('Partidos:',e)}tabInited.partidos=true}
   if(name==='proponentes'&&!tabInited.proponentes){try{renderProponentes();}catch(e){console.error('Proponentes:',e)}tabInited.proponentes=true}
+  if(name==='costos'&&!tabInited.costos){try{renderCostos();}catch(e){console.error('Costos:',e)}tabInited.costos=true}
 }
 
 // ── LOAD ──────────────────────────────────────────
 async function loadData(){
-  let raw;
+  let raw, rawDatos;
   try{
-    const res=await fetch('resumen.json?t='+Date.now());
+    const t=Date.now();
+    const [res, resDatos]=await Promise.all([
+      fetch('resumen.json?t='+t),
+      fetch('datos.json?t='+t),
+    ]);
     if(!res.ok)throw new Error('HTTP '+res.status);
     raw=await res.json();
+    if(resDatos.ok) rawDatos=await resDatos.json();
   }catch(e){
     console.error('Fetch error:',e);
     document.getElementById('kpi-totals').innerHTML=`<div class="loader" style="grid-column:1/-1">⚠️ Error cargando datos: ${e.message}</div>`;
@@ -773,6 +885,7 @@ async function loadData(){
   }
 
   D = raw.datos ? processRaw(raw) : raw;
+  DATOS_RAW = (rawDatos?.datos) || [];
   const ts = D.fecha_extraccion||'';
   document.getElementById('last-update').textContent = ts
     ? ts.replace(/(\d{4})(\d{2})(\d{2})_(\d{2})(\d{2})(\d{2})/,'$3/$2/$1 $4:$5') : '—';
@@ -1389,6 +1502,314 @@ function goPage(p){
   if(p<1||p>pages)return;
   page=p;renderTable();
   const tw=document.getElementById('tbl-wrap');if(tw)tw.scrollIntoView({behavior:'smooth',block:'start'});
+}
+
+// ── COSTOS ────────────────────────────────────────
+const SALARIO_FIJO = 7000;
+const PERIODO_INICIO = {year:2024, month:7};
+
+function getLastClosedMonth(){
+  const now = new Date();
+  const m = now.getMonth(); // 0-indexed; 0 = Jan
+  return m === 0
+    ? {year: now.getFullYear()-1, month:12}
+    : {year: now.getFullYear(), month:m};
+}
+
+function getYearMonths(y){
+  const last = getLastClosedMonth();
+  const {year:sy, month:sm} = PERIODO_INICIO;
+  if(y < sy || y > last.year) return 0;
+  const from = (y===sy) ? sm : 1;
+  const to   = (y===last.year) ? last.month : 12;
+  return Math.max(0, to - from + 1);
+}
+
+function getTotalMonths(){
+  const last = getLastClosedMonth();
+  let tot = 0;
+  for(let y=PERIODO_INICIO.year; y<=last.year; y++) tot += getYearMonths(y);
+  return tot;
+}
+
+function normarC(s){
+  return (s||'').toUpperCase().trim()
+    .normalize('NFD').replace(/[̀-ͯ]/g,'')
+    .replace(/^H\.D\.?S?\.?\s+/,'')
+    .replace(/\s+/,' ').trim();
+}
+
+// Devuelve el nombre del diputado PRINCIPAL que corresponde a rawName,
+// buscando primero entre principales y luego entre suplentes.
+// Los suplentes se tratan como el diputado al que suplen.
+function matchDipC(rawName, normIdx, supMap, supEntries){
+  const pn = normarC(rawName);
+  const w  = pn.split(' ');
+
+  // 1. Exacto — principal
+  let m = normIdx.find(d=>d.norm===pn);
+  if(m) return m.orig;
+
+  // 2. Últimas 2 palabras — principal
+  if(w.length>=2){
+    const tail=w.slice(-2).join(' ');
+    if(tail.length>4){ m=normIdx.find(d=>d.norm.endsWith(tail)); if(m) return m.orig; }
+  }
+
+  // 3. Subconjunto: todas las palabras del nombre corto aparecen en el nombre largo — principal
+  m=normIdx.find(d=>{
+    const dw=d.norm.split(' ');
+    return dw.length>=2 && dw.every(wd=>pn.includes(wd));
+  });
+  if(m) return m.orig;
+
+  // 4. Exacto — suplente → devuelve principal
+  if(supMap[pn]) return supMap[pn];
+
+  // 5. Últimas 2 palabras — suplente
+  if(w.length>=2){
+    const tail=w.slice(-2).join(' ');
+    if(tail.length>4){
+      const found=supEntries.find(([sn])=>sn.endsWith(tail));
+      if(found) return found[1];
+    }
+  }
+
+  // 6. Subconjunto — suplente
+  const sf=supEntries.find(([sn])=>{
+    const sw=sn.split(' ');
+    return sw.length>=2 && sw.every(wd=>pn.includes(wd));
+  });
+  if(sf) return sf[1];
+
+  return null;
+}
+
+function calcCostos(){
+  if(!D || !DATOS_RAW.length) return null;
+
+  const last = getLastClosedMonth();
+  const years = [];
+  for(let y=PERIODO_INICIO.year; y<=last.year; y++) years.push(y);
+
+  const dips = D.diputados||[];
+  const normIdx = dips.map(d=>({orig:d.nombre, norm:normarC(d.nombre)}));
+
+  // Mapa suplente → diputado principal (usando campo suplente de espaciocivico.org)
+  const supMap = {};
+  dips.forEach(d=>{
+    if(d.suplente&&d.suplente.trim()) supMap[normarC(d.suplente)]=d.nombre;
+  });
+  const supEntries = Object.entries(supMap);
+
+  // Construir mapa de participación: {nombre: {año: Set<ficha>}}
+  const partMap = {};
+  dips.forEach(d=>{ partMap[d.nombre] = {}; });
+
+  DATOS_RAW.forEach(r=>{
+    const parts=(r.fecha_presentacion||'').split('-');
+    if(parts.length!==3) return;
+    const y=parseInt(parts[2]);
+    if(!years.includes(y)) return;
+    (r.proponente||'').split(',').forEach(p=>{
+      p=p.trim();
+      if(!p.toUpperCase().startsWith('H.D')) return;
+      const matched=matchDipC(p, normIdx, supMap, supEntries);
+      if(!matched) return;
+      if(!partMap[matched][y]) partMap[matched][y]=new Set();
+      partMap[matched][y].add(r.ficha);
+    });
+  });
+
+  // Calcular costos por diputado y asignar a proyectos
+  const projectCosts = {};
+  const dipCosts = [];
+  let totalCost = 0;
+
+  dips.forEach(d=>{
+    const planilla = Number(d.planilla_valor)||0;
+    const costoMensual = planilla + SALARIO_FIJO;
+    const byYear = {};
+    let costoAcumulado = 0;
+
+    years.forEach(y=>{
+      const meses = getYearMonths(y);
+      if(!meses) return;
+      const fichas = partMap[d.nombre]?.[y] || new Set();
+      const proyCount = fichas.size;
+      const costoAnual = costoMensual * meses;
+      const costoPorProy = proyCount>0 ? costoAnual/proyCount : 0;
+      costoAcumulado += costoAnual;
+      byYear[y] = {meses, proyectos:proyCount, costoAnual, costoPorProy};
+      fichas.forEach(ficha=>{
+        projectCosts[ficha]=(projectCosts[ficha]||0)+costoPorProy;
+      });
+    });
+
+    totalCost += costoAcumulado;
+    const totalProy = Object.values(byYear).reduce((s,v)=>s+v.proyectos,0);
+    dipCosts.push({
+      nombre:d.nombre, partido:d.partido, foto:d.foto,
+      planilla, costoMensual, costoAcumulado,
+      totalMeses:getTotalMonths(), totalProy,
+      costoPorProy: totalProy>0 ? costoAcumulado/totalProy : 0,
+      byYear,
+    });
+  });
+  dipCosts.sort((a,b)=>b.costoAcumulado-a.costoAcumulado);
+
+  // Proyectos con costo
+  const proyectos = DATOS_RAW
+    .filter(r=>projectCosts[r.ficha]>0)
+    .map(r=>({
+      ficha:r.ficha,
+      titulo:(r.titulo||r.anteproyecto||r.proyecto||'—'),
+      year:parseInt((r.fecha_presentacion||'').split('-')[2])||0,
+      etapa:r.etapa,
+      proponente:r.proponente||'',
+      costo:projectCosts[r.ficha],
+    }));
+  proyectos.sort((a,b)=>b.costo-a.costo);
+
+  // Totales por año
+  const byYearTotals={};
+  years.forEach(y=>{
+    const proyYear=new Set(DATOS_RAW.filter(r=>parseInt((r.fecha_presentacion||'').split('-')[2])===y).map(r=>r.ficha)).size;
+    byYearTotals[y]={
+      meses:getYearMonths(y),
+      costoTotal:dipCosts.reduce((s,d)=>s+(d.byYear[y]?.costoAnual||0),0),
+      proyectos:proyYear,
+    };
+  });
+
+  // Costos por etapa
+  const etapaCosts={};
+  proyectos.forEach(p=>{
+    etapaCosts[p.etapa]=(etapaCosts[p.etapa]||0)+p.costo;
+  });
+
+  const avgCosto = proyectos.length>0 ? proyectos.reduce((s,p)=>s+p.costo,0)/proyectos.length : 0;
+
+  return {dipCosts, proyectos, byYearTotals, etapaCosts, totalCost, avgCosto, years};
+}
+
+function renderCostos(){
+  const C = calcCostos();
+  if(!C){
+    document.getElementById('costo-kpi-grid').innerHTML='<div class="loader" style="grid-column:1/-1">Sin datos disponibles. Asegúrate de que datos.json esté generado.</div>';
+    return;
+  }
+  const {dipCosts, proyectos, byYearTotals, etapaCosts, totalCost, avgCosto, years} = C;
+
+  const fmtUSD  = v=>'B/. '+Math.round(v).toLocaleString('es-PA');
+  const fmtUSDk = v=>'B/. '+Math.round(v/1000)+'K';
+  const last = getLastClosedMonth();
+  const meses_es=['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
+  const topDip = dipCosts[0];
+  const topProy = proyectos[0];
+
+  // KPI cards
+  document.getElementById('costo-kpi-grid').innerHTML=[
+    {l:'Costo legislativo total',v:fmtUSD(totalCost),s:`Jul 2024 — ${meses_es[last.month-1]} ${last.year}`,c:'#10b981'},
+    {l:'Costo promedio por proyecto',v:fmtUSD(avgCosto),s:`${proyectos.length} proyectos con participación`,c:'#3b82f6'},
+    {l:'Diputado mayor costo',v:topDip?.nombre||'—',s:topDip?fmtUSD(topDip.costoAcumulado):'',c:'#f59e0b',txt:true},
+    {l:'Proyecto mayor costo',v:topProy?(topProy.titulo.length>52?topProy.titulo.slice(0,50)+'…':topProy.titulo):'—',s:topProy?fmtUSD(topProy.costo):'',c:'#a78bfa',txt:true},
+  ].map((k,i)=>`
+    <div class="kpi fade-in" style="--kc:${k.c};animation-delay:${i*.08}s">
+      <div class="kpi-label">${k.l}</div>
+      <div class="kpi-value" style="${k.txt?`font-size:1rem;line-height:1.3;color:${k.c}`:'font-family:var(--fm);color:var(--acc3)'}">${k.v}</div>
+      <div class="kpi-sub" style="font-family:var(--fm)">${k.s}</div>
+    </div>`).join('');
+
+  // Tarjetas por año
+  document.getElementById('costo-year-grid').innerHTML=years.map(y=>{
+    const {meses,costoTotal,proyectos:proy}=byYearTotals[y]||{meses:0,costoTotal:0,proyectos:0};
+    const prom=proy>0?costoTotal/proy:0;
+    const label=y===2024?'Jul – Dic 2024':y===last.year?`Ene – ${meses_es[last.month-1]} ${y}`:`Ene – Dic ${y}`;
+    return`<div class="costo-year-card">
+      <div class="costo-year-title">${label} · ${meses} meses activos</div>
+      <div class="costo-year-total">${fmtUSD(costoTotal)}</div>
+      <div class="costo-year-stats">
+        <div><div class="costo-year-stat-val">${meses}</div><div class="costo-year-stat-lbl">Meses</div></div>
+        <div><div class="costo-year-stat-val">${proy}</div><div class="costo-year-stat-lbl">Proyectos</div></div>
+        <div><div class="costo-year-stat-val money">${fmtUSDk(prom)}</div><div class="costo-year-stat-lbl">Prom / proy.</div></div>
+      </div>
+    </div>`;
+  }).join('');
+
+  // Tabla proyectos
+  const maxCosto=proyectos[0]?.costo||1;
+  document.getElementById('costo-proy-tbody').innerHTML=proyectos.slice(0,30).map((p,i)=>{
+    const pct=Math.round(p.costo/maxCosto*100);
+    const vsAvg=avgCosto>0?((p.costo/avgCosto-1)*100).toFixed(0):0;
+    const vsCol=p.costo>=avgCosto?'#10b981':'#5a7499';
+    const dipCount=(p.proponente||'').split(',').filter(x=>x.trim().toUpperCase().startsWith('H.D')).length;
+    return`<tr>
+      <td class="costo-rank">${i+1}</td>
+      <td style="max-width:300px">
+        <div style="font-size:.78rem;font-weight:600;line-height:1.4">${p.titulo}</div>
+        <div style="font-family:var(--fm);font-size:.62rem;color:var(--muted);margin-top:2px">Ficha ${p.ficha}</div>
+      </td>
+      <td style="font-family:var(--fm);font-size:.72rem">${p.year}</td>
+      <td><span class="badge ${etapaClass(p.etapa)}" style="font-size:.6rem">${p.etapa}</span></td>
+      <td style="font-family:var(--fm);font-size:.75rem;text-align:center">${dipCount}</td>
+      <td class="money" style="font-size:.82rem;font-weight:700;text-align:right;white-space:nowrap">${fmtUSD(p.costo)}</td>
+      <td>
+        <div class="costo-bar-wrap"><div class="costo-bar-fill" style="width:${pct}%"></div></div>
+        <div style="font-family:var(--fm);font-size:.6rem;color:${vsCol};margin-top:3px">${vsAvg>0?'+':''}${vsAvg}% vs prom.</div>
+      </td>
+    </tr>`;
+  }).join('');
+
+  // Tabla diputados
+  const maxDipCosto=dipCosts[0]?.costoAcumulado||1;
+  document.getElementById('costo-dip-tbody').innerHTML=dipCosts.map((d,i)=>{
+    const pc=PC[d.partido]||'#64748b';
+    const fotoEl=d.foto
+      ?`<img class="dep-avatar" src="${d.foto}" alt="${d.nombre}" onerror="this.style.display='none'">`
+      :`<div class="dep-avatar"></div>`;
+    const pct=Math.round(d.costoAcumulado/maxDipCosto*100);
+    return`<tr>
+      <td class="costo-rank">${i+1}</td>
+      <td><div class="dep-cell">${fotoEl}<div>
+        <div class="dep-name">${d.nombre}</div>
+        <div class="dep-sub" style="color:${pc}">${d.partido||'—'}</div>
+      </div></div></td>
+      <td class="money-sm" style="text-align:right">${d.planilla>0?'B/. '+d.planilla.toLocaleString('es-PA'):'—'}</td>
+      <td style="font-family:var(--fm);font-size:.72rem;text-align:right;color:var(--muted)">B/. 7,000</td>
+      <td class="money" style="font-size:.78rem;font-weight:700;text-align:right;white-space:nowrap">B/. ${d.costoMensual.toLocaleString('es-PA')}</td>
+      <td style="font-family:var(--fm);font-size:.75rem;text-align:center">${d.totalMeses}</td>
+      <td>
+        <div class="money" style="font-size:.8rem;font-weight:700;white-space:nowrap">${fmtUSD(d.costoAcumulado)}</div>
+        <div class="costo-bar-wrap" style="margin-top:4px"><div class="costo-bar-fill" style="width:${pct}%"></div></div>
+      </td>
+      <td style="font-family:var(--fm);font-size:.78rem;text-align:center">${d.totalProy}</td>
+      <td class="money-sm" style="text-align:right;white-space:nowrap">${d.totalProy>0?fmtUSD(d.costoPorProy):'—'}</td>
+    </tr>`;
+  }).join('');
+
+  // Gráfico por etapa
+  const etapaEntries=Object.entries(etapaCosts).sort((a,b)=>b[1]-a[1]);
+  const ctx=document.getElementById('c-costo-etapa');
+  if(ctx){
+    new Chart(ctx,{
+      type:'bar',
+      data:{
+        labels:etapaEntries.map(e=>e[0]),
+        datasets:[{data:etapaEntries.map(e=>e[1]),
+          backgroundColor:etapaEntries.map(e=>(EC[e[0]]||'#64748b')+'bb'),
+          borderRadius:5,borderSkipped:false}],
+      },
+      options:{responsive:true,maintainAspectRatio:false,
+        plugins:{legend:{display:false},
+          tooltip:{backgroundColor:'#0e1623',borderColor:'#1a2940',borderWidth:1,
+            callbacks:{label:ctx=>` B/. ${Math.round(ctx.raw).toLocaleString('es-PA')}`}}},
+        scales:{
+          x:{grid:{color:'rgba(255,255,255,.03)'},ticks:{color:'#5a7499',font:{family:'DM Mono',size:10},maxRotation:35}},
+          y:{grid:{color:'rgba(255,255,255,.03)'},ticks:{color:'#5a7499',font:{family:'DM Mono',size:10},
+            callback:v=>'B/. '+Math.round(v/1000)+'K'}}}},
+    });
+  }
 }
 
 loadData();
