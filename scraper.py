@@ -23,6 +23,7 @@ from playwright.sync_api import sync_playwright
 
 URL_LEG  = "https://sistemas.asamblea.gob.pa/segLegis/viewsPublico/SeguimientoLegislativo"
 URL_DIPS = "https://espaciocivico.org/diputados"
+URL_MONITOR = "https://espaciocivico.org/buscador/diputados-monitoreo?order=field_asistencia_comisiones_an&sort=asc"
 
 
 # ─────────────────────────────────────────────
@@ -227,11 +228,111 @@ def scrape_diputados(page):
     print(f"  Total: {len(todos)} diputados")
     return todos
 
+def parse_num(s):
+    if not s or s.strip() == '-':
+        return None
+    m = re.search(r'-?\d+(?:\.\d+)?', s)
+    return float(m.group(0)) if m else None
+
+def parse_money(s):
+    m = re.search(r'([\d,]+(?:\.\d+)?)', s or '')
+    return float(m.group(1).replace(',', '')) if m else None
+
+def slug_from_href(href):
+    return (href or '').rstrip('/').split('/')[-1]
+
+def parse_commissions(raw):
+    raw = (raw or '').strip()
+    quoted = re.findall(r'"([^"]+)"', raw)
+    if quoted:
+        return [q.strip() for q in quoted if q.strip()]
+    if not raw or raw == '-':
+        return []
+    return [raw]
+
+def scrape_metricas_diputados(page):
+    print(f"\n[3/3] Extrayendo monitoreo de {URL_MONITOR}")
+    page.goto(URL_MONITOR, wait_until="networkidle", timeout=60000)
+    page.wait_for_selector("tbody tr", timeout=20000)
+
+    try:
+        page.locator("select").nth(3).select_option("100")
+        page.wait_for_timeout(1200)
+    except Exception:
+        pass
+
+    rows = page.evaluate("""
+        () => [...document.querySelectorAll('tbody tr')].map(tr => {
+            const tds = [...tr.querySelectorAll('td')];
+            const link = tds[0]?.querySelector('a');
+            const txt = i => (tds[i]?.innerText || '').trim();
+            return {
+                nombre: link?.innerText?.trim() || '',
+                href: link?.href || '',
+                partido_monitoreo: tds[0]?.querySelector('.text-sm.text-gray-500')?.innerText?.trim() || '',
+                provincia_monitoreo: tds[1]?.querySelector('.text-sm')?.innerText?.trim() || '',
+                circuito_monitoreo: tds[1]?.querySelector('.text-xs')?.innerText?.trim() || '',
+                planilla_texto: txt(2),
+                asistencia_pleno_texto: txt(3),
+                asistencia_comisiones_texto: txt(4),
+                viajes_ponderacion_texto: txt(5),
+                declaracion_intereses_texto: txt(6),
+                declaracion_patrimonio_texto: txt(7),
+                calificacion_texto: txt(8),
+            };
+        })
+    """)
+
+    metricas = {}
+    for i, r in enumerate(rows, 1):
+        slug = slug_from_href(r.get('href'))
+        item = {
+            'nombre': r.get('nombre', ''),
+            'partido_monitoreo': r.get('partido_monitoreo', ''),
+            'provincia_monitoreo': r.get('provincia_monitoreo', ''),
+            'circuito_monitoreo': r.get('circuito_monitoreo', ''),
+            'perfil_monitoreo': r.get('href', ''),
+            'planilla_texto': r.get('planilla_texto', ''),
+            'planilla_valor': parse_money(r.get('planilla_texto', '')),
+            'asistencia_pleno': parse_num(r.get('asistencia_pleno_texto', '')),
+            'asistencia_comisiones': parse_num(r.get('asistencia_comisiones_texto', '')),
+            'viajes_ponderacion': parse_num(r.get('viajes_ponderacion_texto', '')),
+            'declaracion_intereses': parse_num(r.get('declaracion_intereses_texto', '')),
+            'declaracion_patrimonio': parse_num(r.get('declaracion_patrimonio_texto', '')),
+            'calificacion': parse_num(r.get('calificacion_texto', '')),
+            'comisiones': [],
+            'comisiones_cantidad': 0,
+        }
+        try:
+            page.goto(item['perfil_monitoreo'], wait_until="domcontentloaded", timeout=60000)
+            page.wait_for_timeout(250)
+            lines = [x.strip() for x in page.locator('body').inner_text(timeout=10000).splitlines() if x.strip()]
+            raw_commissions = ''
+            for label in ('Comisiones:', 'Comisión Principal:', 'Comision Principal:'):
+                if label in lines:
+                    idx = lines.index(label)
+                    for value in lines[idx + 1:idx + 6]:
+                        if value not in ('Documentos y Transparencia:', 'Calificación de Desempeño', 'Comisiones', 'Declaraciones Voluntarias'):
+                            raw_commissions = value
+                            break
+                if raw_commissions:
+                    break
+            item['comisiones'] = parse_commissions(raw_commissions)
+            item['comisiones_cantidad'] = len(item['comisiones'])
+        except Exception as e:
+            item['error_perfil'] = str(e)
+        metricas[slug] = item
+        if i % 10 == 0:
+            print(f"  Perfiles: {i}/{len(rows)}")
+
+    print(f"  Total monitoreo: {len(metricas)} diputados")
+    return metricas
+
 
 # ─────────────────────────────────────────────
 # GENERAR RESUMEN.JSON
 # ─────────────────────────────────────────────
-def generar_resumen(datos, dips, ts):
+def generar_resumen(datos, dips, ts, metricas=None):
     dip_norm = [(normalizar(d['nombre']), d) for d in dips]
 
     prod  = defaultdict(lambda: {'proyectos':0,'leyes':0,'co_patrocinios':0,'etapas':{},'leyes_detalle':[],'proyectos_detalle':[]})
@@ -286,7 +387,8 @@ def generar_resumen(datos, dips, ts):
     diputados_enriq = []
     for d in dips:
         p = prod.get(d['nombre'], {'proyectos':0,'leyes':0,'co_patrocinios':0,'etapas':{},'leyes_detalle':[],'proyectos_detalle':[]})
-        diputados_enriq.append({**d, **p})
+        m = (metricas or {}).get(d.get('slug')) or (metricas or {}).get(slug_from_href(d.get('perfil', ''))) or {}
+        diputados_enriq.append({**d, **p, **{k:v for k,v in m.items() if k not in ('nombre','partido_monitoreo')}})
     diputados_enriq.sort(key=lambda x: x['proyectos'], reverse=True)
 
     # Otros proponentes ordenados por proyectos desc
@@ -328,6 +430,7 @@ def generar_resumen(datos, dips, ts):
     return {
         'fecha_extraccion': ts,
         'fuente': URL_LEG,
+        'fuente_metricas': URL_MONITOR,
         'total_proyectos': len(datos),
         'total_leyes': sum(1 for r in datos if r['etapa']=='Ley'),
         'total_diputados': len(dips),
@@ -356,6 +459,7 @@ def main():
         )
         datos = scrape_proyectos(page)
         dips  = scrape_diputados(page)
+        metricas = scrape_metricas_diputados(page)
         browser.close()
 
     # Guardar datos crudos
@@ -364,11 +468,19 @@ def main():
                   f, ensure_ascii=False, indent=2)
 
     with open("diputados.json", "w", encoding="utf-8") as f:
-        json.dump({"fuente":URL_DIPS,"total":len(dips),"diputados":dips},
+        dips_metricas = []
+        for d in dips:
+            m = metricas.get(d.get('slug')) or metricas.get(slug_from_href(d.get('perfil', ''))) or {}
+            dips_metricas.append({**d, **{k:v for k,v in m.items() if k not in ('nombre','partido_monitoreo')}})
+        json.dump({"fuente":URL_DIPS,"fuente_metricas":URL_MONITOR,"total":len(dips_metricas),"diputados":dips_metricas},
+                  f, ensure_ascii=False, indent=2)
+
+    with open("metricas_diputados.json", "w", encoding="utf-8") as f:
+        json.dump({"fuente":URL_MONITOR,"total":len(metricas),"diputados":list(metricas.values())},
                   f, ensure_ascii=False, indent=2)
 
     # Generar resumen
-    resumen = generar_resumen(datos, dips, ts)
+    resumen = generar_resumen(datos, dips, ts, metricas)
     with open("resumen.json", "w", encoding="utf-8") as f:
         json.dump(resumen, f, ensure_ascii=False, indent=2)
 

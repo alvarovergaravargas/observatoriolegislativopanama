@@ -264,6 +264,27 @@ tr:hover .dep-avatar{border-color:var(--acc)}
 .dep-card-leyes{cursor:pointer}
 .dep-card-leyes .badge{cursor:pointer}
 .dep-card-leyes .badge:hover{filter:brightness(1.15)}
+
+/* MONITOREO */
+.monitor-summary{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--gap);margin-bottom:var(--gap)}
+.monitor-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:var(--gap);margin-bottom:var(--gap)}
+.monitor-note{font-family:var(--fm);font-size:.68rem;color:var(--muted);line-height:1.6}
+.monitor-table table{min-width:920px}
+.score-pill{display:inline-flex;align-items:center;justify-content:center;min-width:34px;padding:3px 8px;border-radius:20px;font-family:var(--fm);font-size:.72rem;font-weight:700}
+.score-good{background:rgba(16,185,129,.15);color:#10b981}
+.score-mid{background:rgba(245,158,11,.15);color:#f59e0b}
+.score-low{background:rgba(239,68,68,.15);color:#ef4444}
+.money-cell{font-family:var(--fm);font-weight:700;color:var(--acc2);white-space:nowrap}
+.comm-btn{border:none;background:rgba(59,130,246,.12);color:var(--acc);font-family:var(--fm);font-size:.72rem;font-weight:700;border-radius:20px;padding:4px 9px;cursor:pointer;transition:background .15s,color .15s}
+.comm-btn:hover{background:var(--acc);color:#fff}
+.comm-list{display:flex;flex-direction:column;gap:8px}
+.comm-item{padding:10px 12px;background:var(--surface2);border:1px solid var(--border);border-radius:8px;font-size:.85rem;line-height:1.35}
+.mini-bars{display:flex;flex-direction:column;gap:9px}
+.mini-row{display:grid;grid-template-columns:80px 1fr 34px;align-items:center;gap:8px;font-family:var(--fm);font-size:.68rem}
+.mini-track{height:7px;background:var(--border);border-radius:999px;overflow:hidden}
+.mini-fill{height:100%;border-radius:999px;background:var(--acc3)}
+.monitor-src{font-family:var(--fm);font-size:.65rem;color:var(--muted);margin-top:10px}
+@media(max-width:1024px){.monitor-summary{grid-template-columns:repeat(2,1fr)}.monitor-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -300,6 +321,7 @@ tr:hover .dep-avatar{border-color:var(--acc)}
 <div class="tabs">
   <button class="tab active" onclick="showTab('general')">📊 General</button>
   <button class="tab" onclick="showTab('diputados')">👤 Diputados</button>
+  <button class="tab" onclick="showTab('monitoreo')">📋 Monitoreo</button>
   <button class="tab" onclick="showTab('partidos')">🏛 Partidos</button>
   <button class="tab" onclick="showTab('proponentes')">🏢 Otros proponentes</button>
 </div>
@@ -428,6 +450,47 @@ tr:hover .dep-avatar{border-color:var(--acc)}
   <div class="dep-grid" id="dep-grid" style="display:none"></div>
 </div>
 
+<!-- TAB MONITOREO -->
+<div id="tab-monitoreo" class="tab-content">
+  <div class="monitor-summary" id="monitor-summary">
+    <div class="loader" style="grid-column:1/-1"><div class="spinner"></div></div>
+  </div>
+  <div class="monitor-grid">
+    <div class="card">
+      <div class="card-title" style="--ct:var(--acc2)">Costo de planilla vs calificación</div>
+      <div class="ch tall"><canvas id="c-monitor-planilla"></canvas></div>
+      <div class="monitor-src">Fuente: Espacio Cívico, monitoreo de planilla acumulada y asistencia.</div>
+    </div>
+    <div class="card">
+      <div class="card-title" style="--ct:var(--acc3)">Lectura rápida</div>
+      <div id="monitor-insights" class="mini-bars"></div>
+      <p class="monitor-note" style="margin-top:16px">Los valores de asistencia y calificación usan escala 1-5. La planilla corresponde al monto acumulado publicado por Espacio Cívico.</p>
+    </div>
+  </div>
+  <div class="sec-hdr">
+    <div class="sec-title">Monitoreo por diputado</div>
+    <input type="text" class="search-box" id="monitor-search" placeholder="Buscar diputado..." oninput="renderMonitorTable()">
+  </div>
+  <div class="tbl-wrap monitor-table">
+    <div class="tbl-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th data-mcol="nombre">Diputado <span class="si">↕</span></th>
+            <th data-mcol="planilla_valor" class="sorted">Planilla <span class="si">↓</span></th>
+            <th data-mcol="asistencia_pleno">Pleno <span class="si">↕</span></th>
+            <th data-mcol="asistencia_comisiones">Comisiones <span class="si">↕</span></th>
+            <th data-mcol="comisiones_cantidad">Participa en <span class="si">↕</span></th>
+            <th data-mcol="calificacion">Calificación <span class="si">↕</span></th>
+            <th class="col-md">Provincia</th>
+          </tr>
+        </thead>
+        <tbody id="monitor-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
 <!-- TAB PARTIDOS -->
 <div id="tab-partidos" class="tab-content">
   <div class="grid2" style="margin-bottom:var(--gap)">
@@ -488,10 +551,11 @@ tr:hover .dep-avatar{border-color:var(--acc)}
 </footer>
 
 <script>
-let D = null, filtered = [], sortedDeps = [], sortCol = 'proyectos', sortDir = 'desc', page = 1, metrica = 'proyectos';
+let D = null, filtered = [], sortedDeps = [], monitorSorted = [], sortCol = 'proyectos', sortDir = 'desc', page = 1, metrica = 'proyectos';
 let viewMode = 'table', selectedParties = new Set(), selectedProvinces = new Set();
+let monitorSortCol = 'planilla_valor', monitorSortDir = 'desc', monitorInited = false;
 const PAGE = 15;
-let tabInited = { general: false, partidos: false, proponentes: false };
+let tabInited = { general: false, diputados: false, monitoreo: false, partidos: false, proponentes: false };
 let gsTimeout = null;
 
 // ── MODAL ─────────────────────────────────────────
@@ -509,6 +573,20 @@ function showLeyes(idx){
     ? `${todos.length} proyecto${todos.length>1?'s':''} · ${leyes.length} ley${leyes.length>1?'es':''}`
     : `${leyes.length} ley${leyes.length>1?'es':''} aprobada${leyes.length>1?'s':''}`;
   switchModalTab(hasTodos ? 'todos' : 'leyes');
+  document.getElementById('modal-overlay').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+function showComisiones(idx){
+  const dep = monitorSorted[idx];
+  if(!dep) return;
+  _modalDep = dep;
+  const coms = dep.comisiones || [];
+  document.getElementById('modal-title').textContent = dep.nombre;
+  document.getElementById('modal-sub').textContent = `${coms.length} comisión${coms.length===1?'':'es'} registrada${coms.length===1?'':'s'}`;
+  document.getElementById('modal-tabs').style.display = 'none';
+  document.getElementById('modal-body').innerHTML = coms.length
+    ? `<div class="comm-list">${coms.map(c=>`<div class="comm-item">${c}</div>`).join('')}</div>`
+    : '<div class="gs-empty">Sin comisiones registradas en la fuente</div>';
   document.getElementById('modal-overlay').classList.add('open');
   document.body.style.overflow='hidden';
 }
@@ -654,13 +732,14 @@ function countUp(el, target, delay=0){
 
 // ── TABS ──────────────────────────────────────────
 function showTab(name){
-  const names=['general','diputados','partidos','proponentes'];
+  const names=['general','diputados','monitoreo','partidos','proponentes'];
   document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('active',names[i]===name));
   document.querySelectorAll('.tab-content').forEach(c=>c.classList.remove('active'));
   document.getElementById('tab-'+name).classList.add('active');
   if(!D) return;
   if(name==='general'&&!tabInited.general){try{renderGeneral();}catch(e){console.error('General:',e)}tabInited.general=true}
   if(name==='diputados'&&filtered.length===0){try{initTable();}catch(e){console.error('Table:',e)}}
+  if(name==='monitoreo'&&!tabInited.monitoreo){try{initMonitor();}catch(e){console.error('Monitoreo:',e)}tabInited.monitoreo=true}
   if(name==='partidos'&&!tabInited.partidos){try{renderPartidos();}catch(e){console.error('Partidos:',e)}tabInited.partidos=true}
   if(name==='proponentes'&&!tabInited.proponentes){try{renderProponentes();}catch(e){console.error('Proponentes:',e)}tabInited.proponentes=true}
 }
@@ -970,6 +1049,113 @@ function renderMap(){
 }
 
 // ── CHIPS & VIEW ──────────────────────────────────
+// MONITOREO
+function fmtMoney(v){
+  return Number.isFinite(Number(v)) ? 'B/. ' + Math.round(Number(v)).toLocaleString() : '—';
+}
+function fmtScore(v){
+  return Number.isFinite(Number(v)) ? Number(v).toFixed(1).replace('.0','') : '—';
+}
+function scoreClass(v){
+  v = Number(v);
+  if(!Number.isFinite(v)) return 'score-low';
+  if(v >= 4.5) return 'score-good';
+  if(v >= 3) return 'score-mid';
+  return 'score-low';
+}
+function monitorData(){
+  return (D&&D.diputados||[]).filter(d=>d.planilla_valor!=null||d.asistencia_pleno!=null||d.asistencia_comisiones!=null||d.calificacion!=null);
+}
+function avg(items, key){
+  const vals=items.map(d=>Number(d[key])).filter(Number.isFinite);
+  return vals.length ? vals.reduce((a,b)=>a+b,0)/vals.length : 0;
+}
+function initMonitor(){
+  document.querySelectorAll('thead th[data-mcol]').forEach(th=>{
+    th.addEventListener('click',()=>{
+      const col=th.dataset.mcol;
+      if(monitorSortCol===col)monitorSortDir=monitorSortDir==='desc'?'asc':'desc';
+      else{monitorSortCol=col;monitorSortDir=col==='nombre'?'asc':'desc'}
+      document.querySelectorAll('thead th[data-mcol]').forEach(h=>{h.classList.remove('sorted');const s=h.querySelector('.si');if(s)s.textContent='↕'});
+      th.classList.add('sorted');
+      const si=th.querySelector('.si'); if(si)si.textContent=monitorSortDir==='desc'?'↓':'↑';
+      renderMonitorTable();
+    });
+  });
+  renderMonitorSummary();
+  try{ renderMonitorChart(); }catch(e){ console.error('Monitor chart:',e); }
+  renderMonitorTable();
+}
+function renderMonitorSummary(){
+  const items=monitorData();
+  const totalPlanilla=items.reduce((s,d)=>s+(Number(d.planilla_valor)||0),0);
+  const cards=[
+    {l:'Planilla acumulada',v:Math.round(totalPlanilla),s:`${items.length} diputados monitoreados`,c:'#f59e0b',money:true},
+    {l:'Prom. pleno',v:avg(items,'asistencia_pleno'),s:'Escala 1-5',c:'#3b82f6'},
+    {l:'Prom. comisiones',v:avg(items,'asistencia_comisiones'),s:'Escala 1-5',c:'#10b981'},
+    {l:'Prom. calificación',v:avg(items,'calificacion'),s:'Desempeño ponderado',c:'#a78bfa'},
+  ];
+  document.getElementById('monitor-summary').innerHTML=cards.map((c,i)=>`
+    <div class="kpi fade-in" style="--kc:${c.c};animation-delay:${i*.08}s">
+      <div class="kpi-label">${c.l}</div>
+      <div class="kpi-value">${c.money?fmtMoney(c.v):fmtScore(c.v)}</div>
+      <div class="kpi-sub">${c.s}</div>
+    </div>`).join('');
+
+  const lowPleno=items.filter(d=>(Number(d.asistencia_pleno)||0)<3).length;
+  const highSpend=[...items].sort((a,b)=>(b.planilla_valor||0)-(a.planilla_valor||0))[0];
+  const topScore=[...items].sort((a,b)=>(b.calificacion||0)-(a.calificacion||0))[0];
+  const maxPlanilla=Math.max(...items.map(d=>Number(d.planilla_valor)||0),1);
+  document.getElementById('monitor-insights').innerHTML=[
+    {l:'Pleno',v:avg(items,'asistencia_pleno'),max:5,c:'#3b82f6',t:`Promedio ${fmtScore(avg(items,'asistencia_pleno'))}/5`},
+    {l:'Comis.',v:avg(items,'asistencia_comisiones'),max:5,c:'#10b981',t:`Promedio ${fmtScore(avg(items,'asistencia_comisiones'))}/5`},
+    {l:'Planilla',v:highSpend?.planilla_valor||0,max:maxPlanilla,c:'#f59e0b',t:`Mayor: ${highSpend?.nombre||'—'}`},
+    {l:'Alertas',v:lowPleno,max:items.length||1,c:'#ef4444',t:`${lowPleno} con pleno bajo 3/5`},
+  ].map(x=>`<div class="mini-row">
+      <span>${x.l}</span><div class="mini-track"><div class="mini-fill" style="width:${Math.max(4,Math.round((x.v/x.max)*100))}%;background:${x.c}"></div></div><span>${Number.isFinite(x.v)?Math.round(x.v):0}</span>
+      <div style="grid-column:1/-1;color:var(--muted);font-size:.65rem">${x.t}${topScore&&x.l==='Comis.'?` · Mejor calificación: ${topScore.nombre}`:''}</div>
+    </div>`).join('');
+}
+function renderMonitorChart(){
+  const top=[...monitorData()].sort((a,b)=>(b.planilla_valor||0)-(a.planilla_valor||0)).slice(0,18);
+  const ctx=document.getElementById('c-monitor-planilla');
+  if(!ctx) return;
+  new Chart(ctx,{
+    type:'bar',
+    data:{labels:top.map(d=>d.nombre.split(' ').slice(-2).join(' ')),datasets:[
+      {label:'Planilla',data:top.map(d=>d.planilla_valor||0),backgroundColor:'rgba(245,158,11,.75)',borderRadius:4,yAxisID:'y'},
+      {label:'Calificación',data:top.map(d=>d.calificacion||0),type:'line',borderColor:'#10b981',backgroundColor:'#10b981',tension:.25,yAxisID:'y1'}
+    ]},
+    options:{responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{labels:{color:'#94a3b8',font:{family:'DM Mono',size:10}}},tooltip:{backgroundColor:'#0e1623',borderColor:'#1a2940',borderWidth:1,callbacks:{label:ctx=>ctx.dataset.label==='Planilla'?` ${fmtMoney(ctx.raw)}`:` ${ctx.raw}/5`}}},
+      scales:{x:{ticks:{color:'#5a7499',font:{family:'DM Mono',size:10}},grid:{display:false}},
+        y:{beginAtZero:true,ticks:{color:'#5a7499',font:{family:'DM Mono',size:10},callback:v=>'B/. '+Number(v).toLocaleString()},grid:{color:'rgba(255,255,255,.03)'}},
+        y1:{position:'right',min:0,max:5,ticks:{color:'#10b981',font:{family:'DM Mono',size:10}},grid:{drawOnChartArea:false}}}}
+  });
+}
+function renderMonitorTable(){
+  const q=(document.getElementById('monitor-search')||{value:''}).value.toLowerCase();
+  const sorted=monitorData().filter(d=>!q||d.nombre.toLowerCase().includes(q)||(d.partido||'').toLowerCase().includes(q)||(d.provincia||'').toLowerCase().includes(q)).sort((a,b)=>{
+    const av=a[monitorSortCol], bv=b[monitorSortCol];
+    if(typeof av==='string')return monitorSortDir==='asc'?av.localeCompare(bv||'',undefined,{sensitivity:'base'}):(bv||'').localeCompare(av||'',undefined,{sensitivity:'base'});
+    return monitorSortDir==='asc'?(Number(av)||0)-(Number(bv)||0):(Number(bv)||0)-(Number(av)||0);
+  });
+  monitorSorted=sorted;
+  document.getElementById('monitor-tbody').innerHTML=sorted.map((d,i)=>{
+    const pc=PC[d.partido]||'#64748b';
+    const fotoEl=d.foto?`<img class="dep-avatar" src="${d.foto}" alt="${d.nombre}" onerror="this.style.display='none'">`:`<div class="dep-avatar"></div>`;
+    return`<tr>
+      <td><div class="dep-cell">${fotoEl}<div><div class="dep-name">${d.nombre}</div><div class="dep-sub" style="color:${pc}">${d.partido||'—'} · ${d.circuito||''}</div></div></div></td>
+      <td class="money-cell">${fmtMoney(d.planilla_valor)}</td>
+      <td class="num"><span class="score-pill ${scoreClass(d.asistencia_pleno)}">${fmtScore(d.asistencia_pleno)}</span></td>
+      <td class="num"><span class="score-pill ${scoreClass(d.asistencia_comisiones)}">${fmtScore(d.asistencia_comisiones)}</span></td>
+      <td class="num"><button class="comm-btn" onclick="showComisiones(${i})">${d.comisiones_cantidad||0}</button></td>
+      <td class="num"><span class="score-pill ${scoreClass(d.calificacion)}">${fmtScore(d.calificacion)}</span></td>
+      <td class="col-md" style="font-family:var(--fm);font-size:.75rem;color:var(--muted)">${d.provincia||'—'}</td>
+    </tr>`;
+  }).join('');
+}
+
 function buildChips(){
   if(!D)return;
   const parties=[...new Set((D.diputados||[]).map(d=>d.partido).filter(Boolean))].sort();

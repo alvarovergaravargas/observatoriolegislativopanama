@@ -76,7 +76,23 @@
           "titulo": "QUE MODIFICA Y DEROGA ARTÍCULOS DE LA LEY 350 DE 2022, QUE REGULA EL EJERCICIO DE LA ABOGACÍA EN PANAMÁ",
           "fecha": "08-01-2025"
         }
-      ]
+      ],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-4",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/ernesto-cedeno",
+      "planilla_texto": "B/. 13,800",
+      "planilla_valor": 13800.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 3.0,
+      "comisiones": [
+        "Mujer, Niñez, Juventud y Familia",
+        "Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+      ],
+      "comisiones_cantidad": 2
     },
     {
       "nombre": "Eduardo Gaitán",
@@ -99,7 +115,22 @@
         "Enviado al Ejecutivo": 1,
         "Negado": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-2",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/eduardo-gaitan",
+      "planilla_texto": "B/. 8,600",
+      "planilla_valor": 8600.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 4.6,
+      "comisiones": [
+        "Economía y Finanzas, Relaciones Exteriores"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Alexandra Brenes",
@@ -122,7 +153,22 @@
         "Archivado": 2,
         "Enviado a subcomisión para analisis": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/alexandra-brenes",
+      "planilla_texto": "B/. 151,500",
+      "planilla_valor": 151500.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
+      "comisiones": [
+        "Mujer, Niñez, Juventud y Familia"
+      ],
+      "comisiones_cantidad": 1,
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-2"
     },
     {
       "nombre": "Jorge Bloise Iglesias",
@@ -142,7 +188,22 @@
         "Primer Debate": 3,
         "Negado": 4
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-4",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/jorge-bloise-iglesias",
+      "planilla_texto": "B/. 8,800",
+      "planilla_valor": 8800.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
+      "comisiones": [
+        "Educación, Cultura y Deportes"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Janine Prado",
@@ -165,7 +226,22 @@
         "Enviado a subcomisión para analisis": 2,
         "Retirado por proponente": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Veraguas",
+      "circuito_monitoreo": "9-1",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/janine-prado",
+      "planilla_texto": "B/. 8,550",
+      "planilla_valor": 8550.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
+      "comisiones": [
+        "Gobierno, Justicia y Asuntos Constitucionales"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Manuel Cheng",
@@ -215,7 +291,22 @@
           "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 53 DE 2005, QUE DICTA NORMAS PARA LA MODERNIZACION DE LA GACETA OFICIAL, SOBRE PUBLICACION DE TEXTOS UNICOS EN FORMATO DE DATOS ABIERTOS",
           "fecha": "04-07-2024"
         }
-      ]
+      ],
+      "provincia_monitoreo": "Panamá Oeste",
+      "circuito_monitoreo": "13-1",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/manuel-cheng",
+      "planilla_texto": "B/. 27,550",
+      "planilla_valor": 27550.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 3.6,
+      "comisiones": [
+        "Infraestructura Pública y Asuntos del Canal, Comunicación y Transporte"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Marcos Castillero",
@@ -245,7 +336,22 @@
           "titulo": "QUE ESTABLECE EL MARCO LEGAL PARA FOMENTO DE LA AGRICULTURA URBANA EN PANAMA",
           "fecha": "14-08-2024"
         }
-      ]
+      ],
+      "provincia_monitoreo": "Herrera",
+      "circuito_monitoreo": "6-3",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/marcos-castillero",
+      "planilla_texto": "B/. 228,082",
+      "planilla_valor": 228082.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 3.0,
+      "comisiones": [
+        "Infraestructura Pública y Asuntos del Canal"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Crispiano Adames",
@@ -275,7 +381,22 @@
           "titulo": "QUE ESTABLECE EL MARCO NORMATIVO QUE REGULA EL USO, LA APLICACIÓN Y LA COMERCIALIZACION DE SUSTANCIAS MODELANTES Y/O DE RELLENO PERMITIDAS Y NO PERMITIDAS EN TRATAMIENTOS MEDICO-ESTETICOS",
           "fecha": "02-07-2024"
         }
-      ]
+      ],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-3",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/crispiano-adames",
+      "planilla_texto": "B/. 124,650",
+      "planilla_valor": 124650.0,
+      "asistencia_pleno": 3.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.1,
+      "comisiones": [
+        "Trabajo, Salud y Desarrollo Social"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Graciela Hernández",
@@ -304,7 +425,23 @@
           "titulo": "QUE ESTABLECE EL APROVECHAMIENTO Y UTILIZACIÓN DEL AGUA PLUVIAL EN LOS PROYECTOS DEL MINISTERIO DE EDUCACIÓN Y EL MINISTERIO DE SALUD",
           "fecha": "26-08-2024"
         }
-      ]
+      ],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-4",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/graciela-hernandez",
+      "planilla_texto": "B/. 24,450",
+      "planilla_valor": 24450.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
+      "comisiones": [
+        "Educación, Cultura y Deportes",
+        "Población, Ambiente y Desarrollo"
+      ],
+      "comisiones_cantidad": 2
     },
     {
       "nombre": "Luis Duke",
@@ -335,7 +472,22 @@
           "titulo": "QUE FACULTA A LA SECRETARIA NACIONAL DE CIENCIA, TECNOLOGIA E INNOVACION A TRANSPARENTAR, REGULAR Y ADMINISTRAR SUS PROGRAMAS DE BECAS",
           "fecha": "26-09-2024"
         }
-      ]
+      ],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-2",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/luis-duke",
+      "planilla_texto": "B/. 37,400",
+      "planilla_valor": 37400.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
+      "comisiones": [
+        "Gobierno, Justicia y Asuntos Constitucionales"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Patsy Lee Rentería",
@@ -357,7 +509,22 @@
         "Negado": 1,
         "Archivado": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Panamá Oeste",
+      "circuito_monitoreo": "13-4",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/patsy-lee-renteria",
+      "planilla_texto": "B/. 17,400",
+      "planilla_valor": 17400.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 4.6,
+      "comisiones": [
+        "Asuntos Agropecuarios, Asuntos Municipales"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Jairo Salazar",
@@ -380,7 +547,23 @@
         "Enviado a subcomisión para analisis": 2,
         "Preliminar": 2
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Colón",
+      "circuito_monitoreo": "3-1",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/jairo-salazar",
+      "planilla_texto": "B/. 77,175",
+      "planilla_valor": 77175.0,
+      "asistencia_pleno": 2.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 1.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 1.7,
+      "comisiones": [
+        "Trabajo, Salud y Desarrollo Social",
+        "Gobierno, Justicia y Asuntos Constitucionales"
+      ],
+      "comisiones_cantidad": 2
     },
     {
       "nombre": "José Pérez Barboni",
@@ -415,7 +598,22 @@
           "titulo": "QUE DECLARA PATRIMONIO CULTURAL PANAMEÑO LA RUTA COLONIAL TRANSISTMICA DE PANAMA",
           "fecha": "30-07-2024"
         }
-      ]
+      ],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-3",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/jose-perez-barboni",
+      "planilla_texto": "B/. 14,500",
+      "planilla_valor": 14500.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
+      "comisiones": [
+        "Gobierno, Justicia y Asuntos Constitucionales"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Lenin Alberto Ulate",
@@ -436,7 +634,22 @@
         "Archivado": 2,
         "Enviado a subcomisión para analisis": 2
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Panamá Oeste",
+      "circuito_monitoreo": "13-1",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/lenin-alberto-ulate",
+      "planilla_texto": "B/. 12,100",
+      "planilla_valor": 12100.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
+      "comisiones": [
+        "Población, Ambiente y Desarrollo"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Neftalí Zamora",
@@ -464,7 +677,22 @@
           "titulo": "QUE REFORMA LA LEY 105 DE 1973, QUE ORGANIZA LAS JUNTAS COMUNALES Y LA LEY 106 DE 1973, SOBRE REGIMEN MUNICIPAL Y DICTA OTRA DISPOSICION",
           "fecha": "18-07-2024"
         }
-      ]
+      ],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-5",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/neftali-zamora",
+      "planilla_texto": "B/. 15,800",
+      "planilla_valor": 15800.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
+      "comisiones": [
+        "Presupuesto, Asuntos Municipales"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Yarelis Rodríguez",
@@ -492,7 +720,23 @@
           "titulo": "QUE ESTABLECE UN MARCO LEGAL PARA LA PREVENCION, DIAGNOSTICO Y CONTROL DE LAS ENFERMEDADES NO TRANSMISIBLES",
           "fecha": "23-07-2025"
         }
-      ]
+      ],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-2",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/yarelis-rodriguez",
+      "planilla_texto": "B/. 18,800",
+      "planilla_valor": 18800.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
+      "comisiones": [
+        "Trabajo, Salud y Desarrollo Social",
+        "Población, Ambiente y Desarrollo"
+      ],
+      "comisiones_cantidad": 2
     },
     {
       "nombre": "Dana Castañeda",
@@ -513,7 +757,23 @@
         "Enviado a subcomisión para analisis": 1,
         "Suspendido": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Coclé",
+      "circuito_monitoreo": "2-3",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/dana-castaneda",
+      "planilla_texto": "B/. 120,675",
+      "planilla_valor": 120675.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 3.0,
+      "comisiones": [
+        "Mujer, Niñez, Juventud y Familia",
+        "Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+      ],
+      "comisiones_cantidad": 2
     },
     {
       "nombre": "Luis Camacho Castro",
@@ -548,7 +808,22 @@
           "titulo": "QUE SUBROGA LA LEY 7 DE 1997, QUE CREA LA DEFENSORÍA DEL PUEBLO, Y MODIFICA LA LEY 6 DE 2017, QUE CREA EL MECANISMO NACIONAL PARA LA PREVENCIÓN DE LA TORTURA Y OTROS TRATOS O PENAS CRUELES, INHUMANAS O DEGRADANTES",
           "fecha": "23-10-2024"
         }
-      ]
+      ],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-2",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/luis-camacho-castro",
+      "planilla_texto": "B/. 24,450",
+      "planilla_valor": 24450.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 3.0,
+      "comisiones": [
+        "Gobierno, Justicia y Asuntos Constitucionales"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Walkiria Chandler",
@@ -569,7 +844,22 @@
         "Objetado por Ejecutivo": 1,
         "Retirado por proponente": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-3",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/walkiria-chandler",
+      "planilla_texto": "B/. 14,300",
+      "planilla_valor": 14300.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
+      "comisiones": [
+        "Comunicación y Transporte, Relaciones Exteriores"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Carlos Saldaña",
@@ -601,7 +891,22 @@
           "titulo": "QUE REGULA LA PRODUCCION, COMERCIALIZACION Y EXPORTACION DEL CAÑAMO EN LA REPUBLICA DE PANAMA",
           "fecha": "05-08-2024"
         }
-      ]
+      ],
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/carlos-saldana",
+      "planilla_texto": "B/. 18,550",
+      "planilla_valor": 18550.0,
+      "asistencia_pleno": 4.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 4.8,
+      "comisiones": [
+        "Asuntos Agropecuarios"
+      ],
+      "comisiones_cantidad": 1,
+      "provincia_monitoreo": "Chiriquí",
+      "circuito_monitoreo": "4-1"
     },
     {
       "nombre": "Jamis Acosta",
@@ -631,7 +936,22 @@
           "titulo": "QUE ADICIONA UN ARTICULO AL CODIGO PENAL",
           "fecha": "14-01-2025"
         }
-      ]
+      ],
+      "provincia_monitoreo": "Chiriquí",
+      "circuito_monitoreo": "4-1",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/jamis-acosta",
+      "planilla_texto": "B/. 19,350",
+      "planilla_valor": 19350.0,
+      "asistencia_pleno": 4.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.4,
+      "comisiones": [
+        "Comercio y Asuntos Económicos, Infraestructura Pública y Asuntos del Canal"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Miguel Ángel Campos",
@@ -664,7 +984,23 @@
           "titulo": "QUE ADICIONA CAPITULOS A LA LEY 16 DE 1995, QUE REORGANIZA EL INSTITUTO NACIONAL DE DEPORTES, RELATIVOS AL PROGRAMA DE ALTO RENDIMIENTO DEPORTIVO Y DE MEDICINA APLICADA AL DEPORTE",
           "fecha": "06-08-2024"
         }
-      ]
+      ],
+      "provincia_monitoreo": "Veraguas",
+      "circuito_monitoreo": "9-1",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/miguel-angel-campos",
+      "planilla_texto": "B/. 11,300",
+      "planilla_valor": 11300.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 5.0,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
+      "comisiones": [
+        "Educación, Cultura y Deportes",
+        "Trabajo, Salud y Desarrollo Social"
+      ],
+      "comisiones_cantidad": 2
     },
     {
       "nombre": "Roberto Zuñiga",
@@ -693,7 +1029,22 @@
           "titulo": "QUE ADICIONA UN CAPITULO A LA LEY 16 DE 1995, QUE REORGANIZA EL INSTITUTO NACIONAL DE DEPORTES, Y DICTA OTRAS DISPOSICIONES",
           "fecha": "13-08-2024"
         }
-      ]
+      ],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-4",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/roberto-zuniga",
+      "planilla_texto": "B/. 15,500",
+      "planilla_valor": 15500.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
+      "comisiones": [
+        "Gobierno, Justicia y Asuntos Constitucionales"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Francisco Brea",
@@ -724,7 +1075,22 @@
           "titulo": "QUE MODIFICA Y ADICIONA ARTÍCULOS A LA LEY 186 DE 2020, SOBRE SOCIEDADES DE EMPRENDIMIENTO, PARA FORTALECER EL APOYO A LOS MICROEMPRENDEDORES",
           "fecha": "04-07-2024"
         }
-      ]
+      ],
+      "provincia_monitoreo": "Veraguas",
+      "circuito_monitoreo": "9-3",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/francisco-brea",
+      "planilla_texto": "B/. 29,850",
+      "planilla_valor": 29850.0,
+      "asistencia_pleno": 3.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 4.1,
+      "comisiones": [
+        "Presupuesto"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Jorge González",
@@ -746,7 +1112,22 @@
         "Segundo Debate": 1,
         "Enviado al Ejecutivo": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-5",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/jorge-gonzalez",
+      "planilla_texto": "B/. 13,400",
+      "planilla_valor": 13400.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 4.0,
+      "comisiones": [
+        "Comercio y Asuntos Económicos, Comunicación y Transporte"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Medin Jiménez Pitti",
@@ -768,7 +1149,22 @@
         "Objetado por Ejecutivo": 1,
         "Retirado por proponente": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Chiriquí",
+      "circuito_monitoreo": "4-4",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/medin-jimenez-pitti",
+      "planilla_texto": "B/. 60,800",
+      "planilla_valor": 60800.0,
+      "asistencia_pleno": 3.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.1,
+      "comisiones": [
+        "Asuntos Agropecuarios, Asuntos Municipales"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Ricardo Vigil López",
@@ -789,7 +1185,22 @@
         "Enviado al Ejecutivo": 1,
         "Objetado por Ejecutivo": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Chiriquí",
+      "circuito_monitoreo": "4-3",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/ricardo-vigil-lopez",
+      "planilla_texto": "B/. 28,825",
+      "planilla_valor": 28825.0,
+      "asistencia_pleno": 4.0,
+      "asistencia_comisiones": 2.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 4.2,
+      "comisiones": [
+        "Comercio y Asuntos Económicos, Comunicación y Transporte"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Yamireliz Chong",
@@ -810,7 +1221,22 @@
         "Objetado por Ejecutivo": 1,
         "Enviado a subcomisión para analisis": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Colón",
+      "circuito_monitoreo": "3-1",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/yamireliz-chong",
+      "planilla_texto": "B/. 10,900",
+      "planilla_valor": 10900.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
+      "comisiones": [
+        "Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Ariana Coba",
@@ -841,7 +1267,22 @@
           "titulo": "QUE ADICIONA DISPOSICIONES A LAS LEYES ORGANICAS QUE REGULAN EMPRESAS ESTATALES PARA DETERMINAR LAS PRESTACIONES LABORALES DE SERVIDORES PUBLICOS CON CIERTOS CARGOS EN ESTAS EMPRESAS",
           "fecha": "02-07-2024"
         }
-      ]
+      ],
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/ariana-coba",
+      "planilla_texto": "B/. 37,063",
+      "planilla_valor": 37063.0,
+      "asistencia_pleno": 3.0,
+      "asistencia_comisiones": 1.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.7,
+      "comisiones": [
+        "Mujer, Niñez, Juventud y Familia"
+      ],
+      "comisiones_cantidad": 1,
+      "provincia_monitoreo": "Chiriquí",
+      "circuito_monitoreo": "4-3"
     },
     {
       "nombre": "Ariel Vallarino",
@@ -869,7 +1310,22 @@
           "titulo": "QUE ESTABLECE MEDIDAS PARA LA PREVENCIÓN DE PÉRDIDAS DE ALIMENTOS Y LA PROMOCIÓN DE LA SEGURIDAD ALIMENTARIA Y DICTA OTRAS DISPOSICIONES",
           "fecha": "15-07-2025"
         }
-      ]
+      ],
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/ariel-vallarino",
+      "planilla_texto": "B/. 38,425",
+      "planilla_valor": 38425.0,
+      "asistencia_pleno": 3.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.5,
+      "comisiones": [
+        "Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+      ],
+      "comisiones_cantidad": 1,
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-5"
     },
     {
       "nombre": "Augusto Palacios",
@@ -896,7 +1352,22 @@
           "titulo": "QUE MODIFICA LA LEY 45 DE 2007, QUE DICTA NORMAS SOBRE PROTECCIÓN AL CONSUMIDOR Y DEFENSA DE LA COMPETENCIA",
           "fecha": "06-01-2025"
         }
-      ]
+      ],
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/augusto-palacios",
+      "planilla_texto": "B/. 22,300",
+      "planilla_valor": 22300.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 4.6,
+      "comisiones": [
+        "Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+      ],
+      "comisiones_cantidad": 1,
+      "provincia_monitoreo": "Chiriquí",
+      "circuito_monitoreo": "4-1"
     },
     {
       "nombre": "Isaac Mosquera",
@@ -918,7 +1389,22 @@
         "Tercer Debate": 1,
         "Negado": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Emberá-Wounaan",
+      "circuito_monitoreo": "5-1",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/isaac-mosquera",
+      "planilla_texto": "B/. 33,550",
+      "planilla_valor": 33550.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.6,
+      "comisiones": [
+        "Trabajo, Salud y Desarrollo Social"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Lilia Batista",
@@ -940,7 +1426,22 @@
         "Objetado por Ejecutivo": 1,
         "Tercer Debate(Objetado)": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Panamá Oeste",
+      "circuito_monitoreo": "13-4",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/lilia-batista",
+      "planilla_texto": "B/. 39,050",
+      "planilla_valor": 39050.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 3.0,
+      "comisiones": [
+        "Educación, Cultura y Deportes"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Paulette Thomas",
@@ -976,7 +1477,23 @@
           "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS AL CODIGO PENAL Y AL CODIGO PROCESAL PENAL",
           "fecha": "25-07-2024"
         }
-      ]
+      ],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-3",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/paulette-thomas",
+      "planilla_texto": "B/. 16,500",
+      "planilla_valor": 16500.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
+      "comisiones": [
+        "Educación, Cultura y Deportes",
+        "Mujer, Niñez, Juventud y Familia"
+      ],
+      "comisiones_cantidad": 2
     },
     {
       "nombre": "Raúl Pineda",
@@ -997,7 +1514,22 @@
         "Enviado al Ejecutivo": 2,
         "Segundo Debate": 2
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-2",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/raul-pineda",
+      "planilla_texto": "B/. 83,400",
+      "planilla_valor": 83400.0,
+      "asistencia_pleno": 1.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 1.6,
+      "comisiones": [
+        "Economía y Finanzas, Asuntos Agropecuarios"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Yuzaida Marín",
@@ -1025,7 +1557,22 @@
           "titulo": "QUE SUBROGA LA LEY 50 DE 1995, QUE PROTEGE Y FOMENTA LA LACTANCIA MATERNA",
           "fecha": "09-10-2024"
         }
-      ]
+      ],
+      "provincia_monitoreo": "Panamá Oeste",
+      "circuito_monitoreo": "13-4",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/yuzaida-marin",
+      "planilla_texto": "B/. 39,900",
+      "planilla_valor": 39900.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.6,
+      "comisiones": [
+        "Educación, Cultura y Deportes"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Javier Sucre",
@@ -1047,7 +1594,22 @@
         "Primer Debate": 1,
         "Retirado por proponente": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-4",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/javier-sucre",
+      "planilla_texto": "B/. 66,845",
+      "planilla_valor": 66845.0,
+      "asistencia_pleno": 4.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.4,
+      "comisiones": [
+        "Relaciones Exteriores, Asuntos Municipales"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Manuel Samaniego",
@@ -1074,7 +1636,22 @@
           "titulo": "QUE DICTA NORMAS PARA LA IMPLEMENTACION DE LA ECONOMIA CIRCULAR COMO ESTRATEGIA AMBIENTAL",
           "fecha": "22-07-2024"
         }
-      ]
+      ],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-6",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/manuel-samaniego",
+      "planilla_texto": "B/. 17,550",
+      "planilla_valor": 17550.0,
+      "asistencia_pleno": 4.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 3.4,
+      "comisiones": [
+        "Presupuesto, Asuntos Municipales"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Jorge Herrera",
@@ -1106,7 +1683,22 @@
           "titulo": "QUE MODIFICA UN ARTICULO DEL CODIGO PENAL, RELACIONADO CON EL DELITO DE HURTO",
           "fecha": "10-09-2024"
         }
-      ]
+      ],
+      "provincia_monitoreo": "Coclé",
+      "circuito_monitoreo": "2-4",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/jorge-herrera",
+      "planilla_texto": "B/. 35,100",
+      "planilla_valor": 35100.0,
+      "asistencia_pleno": 3.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 1.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 3.3,
+      "comisiones": [
+        "Asuntos Municipales"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Nelson Jackson",
@@ -1126,7 +1718,22 @@
         "Primer Debate": 2,
         "Segundo Debate": 2
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Colón",
+      "circuito_monitoreo": "3-2",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/nelson-jackson",
+      "planilla_texto": "B/. 92,375",
+      "planilla_valor": 92375.0,
+      "asistencia_pleno": 4.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.4,
+      "comisiones": [
+        "Economía y Finanzas"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Arquesio Arias",
@@ -1146,7 +1753,23 @@
         "Enviado a subcomisión para analisis": 1,
         "Retirado por proponente": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/arquesio-arias",
+      "planilla_texto": "B/. 32,600",
+      "planilla_valor": 32600.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 3.0,
+      "comisiones": [
+        "Población, Ambiente y Desarrollo",
+        "Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+      ],
+      "comisiones_cantidad": 2,
+      "provincia_monitoreo": "Guna Yala",
+      "circuito_monitoreo": "10-2"
     },
     {
       "nombre": "Edwin Vergara",
@@ -1167,7 +1790,23 @@
         "Archivado": 1,
         "Retirado por proponente": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Panamá Oeste",
+      "circuito_monitoreo": "13-3",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/edwin-vergara",
+      "planilla_texto": "B/. 28,450",
+      "planilla_valor": 28450.0,
+      "asistencia_pleno": 4.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 3.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.3,
+      "comisiones": [
+        "Trabajo, Salud y Desarrollo Social",
+        "Población, Ambiente y Desarrollo"
+      ],
+      "comisiones_cantidad": 2
     },
     {
       "nombre": "Orlando Carrasquilla",
@@ -1186,7 +1825,22 @@
         "Primer Debate": 1,
         "Enviado al Ejecutivo": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Coclé",
+      "circuito_monitoreo": "2-2",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/orlando-carrasquilla",
+      "planilla_texto": "B/. 16,950",
+      "planilla_valor": 16950.0,
+      "asistencia_pleno": 4.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.8,
+      "comisiones": [
+        "Comunicación y Transporte, Asuntos Agropecuarios"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Betserai Richards",
@@ -1205,7 +1859,22 @@
         "Enviado a subcomisión para analisis": 1,
         "Archivado": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/betserai-richards",
+      "planilla_texto": "B/. 30,700",
+      "planilla_valor": 30700.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
+      "comisiones": [
+        "Trabajo, Salud y Desarrollo Social"
+      ],
+      "comisiones_cantidad": 1,
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-6"
     },
     {
       "nombre": "Gertrudis Rodríguez",
@@ -1224,7 +1893,22 @@
         "Enviado a subcomisión para analisis": 2,
         "Objetado por Ejecutivo": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Ngöbe Buglé",
+      "circuito_monitoreo": "12-3",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/gertrudis-rodriguez",
+      "planilla_texto": "B/. 32,150",
+      "planilla_valor": 32150.0,
+      "asistencia_pleno": 3.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.5,
+      "comisiones": [
+        "Educación, Cultura y Deportes"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Julio de la Guardia",
@@ -1249,7 +1933,22 @@
           "titulo": "QUE CREA EL FESTIVAL CULTURAL \"GLADYS DE LA LASTRA\" Y SU PATRONATO",
           "fecha": "29-01-2025"
         }
-      ]
+      ],
+      "provincia_monitoreo": "Coclé",
+      "circuito_monitoreo": "2-1",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/julio-de-la-guardia",
+      "planilla_texto": "B/. 36,220",
+      "planilla_valor": 36220.0,
+      "asistencia_pleno": 4.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.4,
+      "comisiones": [
+        "Comercio y Asuntos Económicos, Relaciones Exteriores"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Rogelio Revello",
@@ -1269,7 +1968,22 @@
         "Preliminar": 1,
         "Enviado a subcomisión para analisis": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Colón",
+      "circuito_monitoreo": "3-1",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/rogelio-revello",
+      "planilla_texto": "B/. 34,700",
+      "planilla_valor": 34700.0,
+      "asistencia_pleno": 3.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.1,
+      "comisiones": [
+        "Infraestructura Pública y Asuntos del Canal, Comunicación y Transporte"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Tomas Benavides",
@@ -1288,7 +2002,22 @@
         "Primer Debate": 2,
         "Enviado a subcomisión para analisis": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Veraguas",
+      "circuito_monitoreo": "9-2",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/tomas-benavides",
+      "planilla_texto": "B/. 38,700",
+      "planilla_valor": 38700.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.6,
+      "comisiones": [
+        "Población, Ambiente y Desarrollo"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Carlos Afú",
@@ -1307,7 +2036,23 @@
         "Enviado a subcomisión para analisis": 1,
         "Primer Debate": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/carlos-afu",
+      "planilla_texto": "B/. 31,900",
+      "planilla_valor": 31900.0,
+      "asistencia_pleno": 3.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.1,
+      "comisiones": [
+        "Trabajo, Salud y Desarrollo Social",
+        "Población, Ambiente y Desarrollo"
+      ],
+      "comisiones_cantidad": 2,
+      "provincia_monitoreo": "Los Santos",
+      "circuito_monitoreo": "7-1"
     },
     {
       "nombre": "Flor Brenes",
@@ -1326,7 +2071,22 @@
         "Enviado a subcomisión para analisis": 1,
         "Enviado al Ejecutivo": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Guna Yala",
+      "circuito_monitoreo": "10-1",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/flor-brenes",
+      "planilla_texto": "B/. 21,750",
+      "planilla_valor": 21750.0,
+      "asistencia_pleno": 3.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.5,
+      "comisiones": [
+        "Mujer, Niñez, Juventud y Familia"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Jose Luis Varela",
@@ -1350,7 +2110,22 @@
           "titulo": "QUE INSTITUYE LA DRAMATIZACIÓN DE LA SEMANA SANTA VIVIENTE Y CREA SU PATRONATO",
           "fecha": "02-07-2025"
         }
-      ]
+      ],
+      "provincia_monitoreo": "Herrera",
+      "circuito_monitoreo": "6-2",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/jose-luis-varela",
+      "planilla_texto": "B/. 41,725",
+      "planilla_valor": 41725.0,
+      "asistencia_pleno": 2.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.3,
+      "comisiones": [
+        "Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Manuel Cohen",
@@ -1368,7 +2143,22 @@
         "Segundo Debate": 1,
         "Primer Debate": 2
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Herrera",
+      "circuito_monitoreo": "6-1",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/manuel-cohen",
+      "planilla_texto": "B/. 28,900",
+      "planilla_valor": 28900.0,
+      "asistencia_pleno": 4.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.4,
+      "comisiones": [
+        "Economía y Finanzas"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Roberto Archibold",
@@ -1386,7 +2176,22 @@
         "Enviado a subcomisión para analisis": 2,
         "Segundo Debate": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Ngöbe Buglé",
+      "circuito_monitoreo": "12-1",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/roberto-archibold",
+      "planilla_texto": "B/. 31,500",
+      "planilla_valor": 31500.0,
+      "asistencia_pleno": 3.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 1.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 1.9,
+      "comisiones": [
+        "Economía y Finanzas, Asuntos Indígenas"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Ronald de Gracia",
@@ -1411,7 +2216,22 @@
           "titulo": "QUE MODIFICA EL CODIGO PENAL Y EL CODIGO PROCESAL PENAL EN MATERIA RELACIONADA CON EL DELITO DE HURTO PECUARIO",
           "fecha": "11-07-2024"
         }
-      ]
+      ],
+      "provincia_monitoreo": "Los Santos",
+      "circuito_monitoreo": "7-2",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/ronald-de-gracia",
+      "planilla_texto": "B/. 41,525",
+      "planilla_valor": 41525.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.6,
+      "comisiones": [
+        "Trabajo, Salud y Desarrollo Social"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Shirley Castañedas",
@@ -1429,7 +2249,22 @@
         "Segundo Debate": 1,
         "Preliminar": 2
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Panamá Oeste",
+      "circuito_monitoreo": "13-1",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/shirley-castanedas",
+      "planilla_texto": "B/. 38,700",
+      "planilla_valor": 38700.0,
+      "asistencia_pleno": 4.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.4,
+      "comisiones": [
+        "Gobierno, Justicia y Asuntos Constitucionales"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Victor Castillo",
@@ -1447,7 +2282,22 @@
         "Preliminar": 2,
         "Segundo Debate(Objetado)": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Colón",
+      "circuito_monitoreo": "3-1",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/victor-castillo",
+      "planilla_texto": "B/. 14,200",
+      "planilla_valor": 14200.0,
+      "asistencia_pleno": 3.0,
+      "asistencia_comisiones": 2.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 1.9,
+      "comisiones": [
+        "Mujer, Niñez, Juventud y Familia"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Yesica Romero",
@@ -1466,7 +2316,22 @@
         "Segundo Debate": 1,
         "Primer Debate": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Bocas del Toro",
+      "circuito_monitoreo": "1-1",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/yesica-romero",
+      "planilla_texto": "B/. 62,800",
+      "planilla_valor": 62800.0,
+      "asistencia_pleno": 3.0,
+      "asistencia_comisiones": 4.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.3,
+      "comisiones": [
+        "Asuntos Municipales"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Alaín Cedeño",
@@ -1484,7 +2349,22 @@
         "Primer Debate": 1,
         "Enviado a subcomisión para analisis": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/alain-cedeno",
+      "planilla_texto": "B/. 256,500",
+      "planilla_valor": 256500.0,
+      "asistencia_pleno": 4.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.4,
+      "comisiones": [
+        "Relaciones Exteriores, Asuntos Municipales"
+      ],
+      "comisiones_cantidad": 1,
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-6"
     },
     {
       "nombre": "Didiano Pinilla",
@@ -1501,7 +2381,23 @@
       "etapas": {
         "Enviado al Ejecutivo": 2
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Veraguas",
+      "circuito_monitoreo": "9-4",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/didiano-pinilla",
+      "planilla_texto": "B/. 35,900",
+      "planilla_valor": 35900.0,
+      "asistencia_pleno": 4.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 1.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.2,
+      "comisiones": [
+        "Mujer, Niñez, Juventud y Familia",
+        "Gobierno, Justicia y Asuntos Constitucionales"
+      ],
+      "comisiones_cantidad": 2
     },
     {
       "nombre": "Néstor Guardia",
@@ -1519,7 +2415,22 @@
         "Primer Debate": 1,
         "Segundo Debate": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Coclé",
+      "circuito_monitoreo": "2-1",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/nestor-guardia",
+      "planilla_texto": "B/. 75,600",
+      "planilla_valor": 75600.0,
+      "asistencia_pleno": 3.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.1,
+      "comisiones": [
+        "Comercio y Asuntos Económicos"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Osman Camilo Gómez",
@@ -1537,7 +2448,22 @@
         "Negado": 1,
         "Enviado a subcomisión para analisis": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Chiriquí",
+      "circuito_monitoreo": "4-2",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/osman-camilo-gomez",
+      "planilla_texto": "B/. 32,400",
+      "planilla_valor": 32400.0,
+      "asistencia_pleno": 4.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.4,
+      "comisiones": [
+        "Educación, Cultura y Deportes"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Raphael Buchanan",
@@ -1555,7 +2481,22 @@
         "Segundo Debate": 1,
         "Enviado al Ejecutivo": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-6",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/raphael-buchanan",
+      "planilla_texto": "B/. 10,549",
+      "planilla_valor": 10549.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.6,
+      "comisiones": [
+        "Gobierno, Justicia y Asuntos Constitucionales"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Benicio Robinson",
@@ -1572,7 +2513,23 @@
       "etapas": {
         "Enviado al Ejecutivo": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/benicio-robinson",
+      "planilla_texto": "B/. 263,025",
+      "planilla_valor": 263025.0,
+      "asistencia_pleno": 1.0,
+      "asistencia_comisiones": 2.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 1.4,
+      "comisiones": [
+        "Población, Ambiente y Desarrollo",
+        "Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+      ],
+      "comisiones_cantidad": 2,
+      "provincia_monitoreo": "Bocas del Toro",
+      "circuito_monitoreo": "1-1"
     },
     {
       "nombre": "Eduardo Vásquez",
@@ -1589,7 +2546,22 @@
       "etapas": {
         "Segundo Debate": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Panamá Oeste",
+      "circuito_monitoreo": "13-2",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/eduardo-vasquez",
+      "planilla_texto": "B/. 41,250",
+      "planilla_valor": 41250.0,
+      "asistencia_pleno": 3.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.5,
+      "comisiones": [
+        "Presupuesto"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Eliécer Castrellón",
@@ -1606,7 +2578,22 @@
       "etapas": {
         "Segundo Debate": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Chiriquí",
+      "circuito_monitoreo": "4-6",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/eliecer-castrellon",
+      "planilla_texto": "B/. 21,200",
+      "planilla_valor": 21200.0,
+      "asistencia_pleno": 4.0,
+      "asistencia_comisiones": 1.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.0,
+      "comisiones": [
+        "Presupuesto"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Joan Guevara",
@@ -1623,7 +2610,22 @@
       "etapas": {
         "Primer Debate": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-1",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/joan-guevara",
+      "planilla_texto": "B/. 33,425",
+      "planilla_valor": 33425.0,
+      "asistencia_pleno": 3.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 3.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.4,
+      "comisiones": [
+        "Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Omar Ortega",
@@ -1640,7 +2642,22 @@
       "etapas": {
         "Archivado": 1
       },
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-2",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/omar-ortega",
+      "planilla_texto": "B/. 53,825",
+      "planilla_valor": 53825.0,
+      "asistencia_pleno": 1.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.0,
+      "comisiones": [
+        "Población, Ambiente y Desarrollo"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Jaime Vargas",
@@ -1655,7 +2672,22 @@
       "leyes": 0,
       "co_patrocinios": 16,
       "etapas": {},
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Emberá-Wounaan",
+      "circuito_monitoreo": "5-2",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/jaime-vargas",
+      "planilla_texto": "B/. 165,920",
+      "planilla_valor": 165920.0,
+      "asistencia_pleno": 4.0,
+      "asistencia_comisiones": 1.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.0,
+      "comisiones": [
+        "Mujer, Niñez, Juventud y Familia"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Jhonatan Vega",
@@ -1670,7 +2702,22 @@
       "leyes": 0,
       "co_patrocinios": 0,
       "etapas": {},
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Chiriquí",
+      "circuito_monitoreo": "4-5",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/jhonatan-vega",
+      "planilla_texto": "B/. 15,300",
+      "planilla_valor": 15300.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
+      "comisiones": [
+        "Comercio y Asuntos Económicos, Relaciones Exteriores, Asuntos Agropecuarios"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Nixon Andrade",
@@ -1685,7 +2732,22 @@
       "leyes": 0,
       "co_patrocinios": 0,
       "etapas": {},
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Ngöbe Buglé",
+      "circuito_monitoreo": "12-2",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/nixon-andrade",
+      "planilla_texto": "B/. 38,025",
+      "planilla_valor": 38025.0,
+      "asistencia_pleno": 3.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.1,
+      "comisiones": [
+        "Educación, Cultura y Deportes"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Sergio Gálvez",
@@ -1700,7 +2762,22 @@
       "leyes": 0,
       "co_patrocinios": 2,
       "etapas": {},
-      "leyes_detalle": []
+      "leyes_detalle": [],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-3",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/sergio-galvez",
+      "planilla_texto": "B/. 35,650",
+      "planilla_valor": 35650.0,
+      "asistencia_pleno": 2.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.3,
+      "comisiones": [
+        "Presupuesto, Asuntos Indígenas"
+      ],
+      "comisiones_cantidad": 1
     }
   ],
   "otros_proponentes": [
@@ -2268,5 +3345,6 @@
       "proyectos": 27,
       "leyes": 0
     }
-  }
+  },
+  "fuente_metricas": "https://espaciocivico.org/buscador/diputados-monitoreo?order=field_asistencia_comisiones_an&sort=asc"
 }
