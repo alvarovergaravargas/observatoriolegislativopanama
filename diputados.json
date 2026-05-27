@@ -1,5 +1,6 @@
 {
   "fuente": "https://espaciocivico.org/diputados",
+  "fuente_metricas": "https://espaciocivico.org/buscador/diputados-monitoreo?order=field_asistencia_comisiones_an&sort=asc",
   "total": 71,
   "diputados": [
     {
@@ -11,6 +12,8 @@
       "foto": "https://espaciocivico.org/api/drive-image/1ejkmXtc_y8DF9zRay0yZso7zN9fj72w_",
       "perfil": "https://espaciocivico.org/diputados/alain-cedeno",
       "slug": "alain-cedeno",
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-6",
       "perfil_monitoreo": "https://espaciocivico.org/diputados/alain-cedeno",
       "planilla_texto": "B/. 256,500",
       "planilla_valor": 256500.0,
@@ -23,9 +26,7 @@
       "comisiones": [
         "Relaciones Exteriores, Asuntos Municipales"
       ],
-      "comisiones_cantidad": 1,
-      "provincia_monitoreo": "Panamá",
-      "circuito_monitoreo": "8-6"
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Alexandra Brenes",
@@ -36,6 +37,8 @@
       "foto": "https://espaciocivico.org/api/drive-image/1WXR4HeE_hvLDjR9igLCi33w6Rah2EpoJ",
       "perfil": "https://espaciocivico.org/diputados/alexandra-brenes",
       "slug": "alexandra-brenes",
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-2",
       "perfil_monitoreo": "https://espaciocivico.org/diputados/alexandra-brenes",
       "planilla_texto": "B/. 151,500",
       "planilla_valor": 151500.0,
@@ -48,9 +51,7 @@
       "comisiones": [
         "Mujer, Niñez, Juventud y Familia"
       ],
-      "comisiones_cantidad": 1,
-      "provincia_monitoreo": "Panamá",
-      "circuito_monitoreo": "8-2"
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Ariana Coba",
@@ -61,6 +62,8 @@
       "foto": "https://espaciocivico.org/api/drive-image/1N1vttXu2eUdjezNaCqfFi15VqOghcB1Y",
       "perfil": "https://espaciocivico.org/diputados/ariana-coba",
       "slug": "ariana-coba",
+      "provincia_monitoreo": "Chiriquí",
+      "circuito_monitoreo": "4-3",
       "perfil_monitoreo": "https://espaciocivico.org/diputados/ariana-coba",
       "planilla_texto": "B/. 37,063",
       "planilla_valor": 37063.0,
@@ -73,9 +76,7 @@
       "comisiones": [
         "Mujer, Niñez, Juventud y Familia"
       ],
-      "comisiones_cantidad": 1,
-      "provincia_monitoreo": "Chiriquí",
-      "circuito_monitoreo": "4-3"
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Ariel Vallarino",
@@ -86,6 +87,8 @@
       "foto": "https://espaciocivico.org/api/drive-image/16MpaO-gztotezPMdr19ma3iaoLb3_7pN",
       "perfil": "https://espaciocivico.org/diputados/ariel-vallarino",
       "slug": "ariel-vallarino",
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-5",
       "perfil_monitoreo": "https://espaciocivico.org/diputados/ariel-vallarino",
       "planilla_texto": "B/. 38,425",
       "planilla_valor": 38425.0,
@@ -98,9 +101,7 @@
       "comisiones": [
         "Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
       ],
-      "comisiones_cantidad": 1,
-      "provincia_monitoreo": "Panamá",
-      "circuito_monitoreo": "8-5"
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Arquesio Arias",
@@ -111,6 +112,8 @@
       "foto": "https://espaciocivico.org/api/drive-image/1-10fdUoO7YYJH1hu8gfWXGXeZS1oh3Z5",
       "perfil": "https://espaciocivico.org/diputados/arquesio-arias",
       "slug": "arquesio-arias",
+      "provincia_monitoreo": "Guna Yala",
+      "circuito_monitoreo": "10-2",
       "perfil_monitoreo": "https://espaciocivico.org/diputados/arquesio-arias",
       "planilla_texto": "B/. 32,600",
       "planilla_valor": 32600.0,
@@ -124,9 +127,7 @@
         "Población, Ambiente y Desarrollo",
         "Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
       ],
-      "comisiones_cantidad": 2,
-      "provincia_monitoreo": "Guna Yala",
-      "circuito_monitoreo": "10-2"
+      "comisiones_cantidad": 2
     },
     {
       "nombre": "Augusto Palacios",
@@ -137,6 +138,8 @@
       "foto": "https://espaciocivico.org/api/drive-image/1OJ0lDLxr_BjudXegLPngp0DdVsaL9RlX",
       "perfil": "https://espaciocivico.org/diputados/augusto-palacios",
       "slug": "augusto-palacios",
+      "provincia_monitoreo": "Chiriquí",
+      "circuito_monitoreo": "4-1",
       "perfil_monitoreo": "https://espaciocivico.org/diputados/augusto-palacios",
       "planilla_texto": "B/. 22,300",
       "planilla_valor": 22300.0,
@@ -149,9 +152,7 @@
       "comisiones": [
         "Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
       ],
-      "comisiones_cantidad": 1,
-      "provincia_monitoreo": "Chiriquí",
-      "circuito_monitoreo": "4-1"
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Benicio Robinson",
@@ -162,6 +163,8 @@
       "foto": "https://espaciocivico.org/api/drive-image/1YkmbwhY4rvz3SJkKGOT9JGYkBaIaEDKd",
       "perfil": "https://espaciocivico.org/diputados/benicio-robinson",
       "slug": "benicio-robinson",
+      "provincia_monitoreo": "Bocas del Toro",
+      "circuito_monitoreo": "1-1",
       "perfil_monitoreo": "https://espaciocivico.org/diputados/benicio-robinson",
       "planilla_texto": "B/. 263,025",
       "planilla_valor": 263025.0,
@@ -175,9 +178,7 @@
         "Población, Ambiente y Desarrollo",
         "Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
       ],
-      "comisiones_cantidad": 2,
-      "provincia_monitoreo": "Bocas del Toro",
-      "circuito_monitoreo": "1-1"
+      "comisiones_cantidad": 2
     },
     {
       "nombre": "Betserai Richards",
@@ -188,6 +189,8 @@
       "foto": "https://espaciocivico.org/api/drive-image/1_NgnTX1kUZG382WzQ9bnG1DT2HCFzoaQ",
       "perfil": "https://espaciocivico.org/diputados/betserai-richards",
       "slug": "betserai-richards",
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-6",
       "perfil_monitoreo": "https://espaciocivico.org/diputados/betserai-richards",
       "planilla_texto": "B/. 30,700",
       "planilla_valor": 30700.0,
@@ -200,9 +203,7 @@
       "comisiones": [
         "Trabajo, Salud y Desarrollo Social"
       ],
-      "comisiones_cantidad": 1,
-      "provincia_monitoreo": "Panamá",
-      "circuito_monitoreo": "8-6"
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Carlos Afú",
@@ -213,6 +214,8 @@
       "foto": "https://espaciocivico.org/api/drive-image/1nFZ08mVklRAT7rAYk8Rfwd6xM4dyFm39",
       "perfil": "https://espaciocivico.org/diputados/carlos-afu",
       "slug": "carlos-afu",
+      "provincia_monitoreo": "Los Santos",
+      "circuito_monitoreo": "7-1",
       "perfil_monitoreo": "https://espaciocivico.org/diputados/carlos-afu",
       "planilla_texto": "B/. 31,900",
       "planilla_valor": 31900.0,
@@ -226,9 +229,7 @@
         "Trabajo, Salud y Desarrollo Social",
         "Población, Ambiente y Desarrollo"
       ],
-      "comisiones_cantidad": 2,
-      "provincia_monitoreo": "Los Santos",
-      "circuito_monitoreo": "7-1"
+      "comisiones_cantidad": 2
     },
     {
       "nombre": "Carlos Saldaña",
@@ -239,6 +240,8 @@
       "foto": "https://espaciocivico.org/api/drive-image/18m7F6P_TB9lBbgQDViHVpfOz7elwLnDK",
       "perfil": "https://espaciocivico.org/diputados/carlos-saldana",
       "slug": "carlos-saldana",
+      "provincia_monitoreo": "Chiriquí",
+      "circuito_monitoreo": "4-1",
       "perfil_monitoreo": "https://espaciocivico.org/diputados/carlos-saldana",
       "planilla_texto": "B/. 18,550",
       "planilla_valor": 18550.0,
@@ -251,9 +254,7 @@
       "comisiones": [
         "Asuntos Agropecuarios"
       ],
-      "comisiones_cantidad": 1,
-      "provincia_monitoreo": "Chiriquí",
-      "circuito_monitoreo": "4-1"
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Crispiano Adames",
@@ -1394,7 +1395,7 @@
       "circuito": "8-6",
       "provincia": "Panamá",
       "suplente": "Claudina Herrera Rodríguez",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1rO4y1MfZdU8mIGaHWRLWgTInVJm2YjFk",
       "perfil": "https://espaciocivico.org/diputados/raphael-buchanan",
       "slug": "raphael-buchanan",
       "provincia_monitoreo": "Panamá",
@@ -1494,7 +1495,7 @@
       "circuito": "8-4",
       "provincia": "Panamá",
       "suplente": "Herminia Thompson",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1ikvRFnKl6U2bMNySKm5amHNDKYppcskS",
       "perfil": "https://espaciocivico.org/diputados/roberto-zuniga",
       "slug": "roberto-zuniga",
       "provincia_monitoreo": "Panamá",
@@ -1519,7 +1520,7 @@
       "circuito": "3-1",
       "provincia": "Colón",
       "suplente": "Lalo' Antonio",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1l64FLwc0g2vmPoSlnMbRWcIzT0BBthgE",
       "perfil": "https://espaciocivico.org/diputados/rogelio-revello",
       "slug": "rogelio-revello",
       "provincia_monitoreo": "Colón",
@@ -1544,7 +1545,7 @@
       "circuito": "7-2",
       "provincia": "Los Santos",
       "suplente": "Luis Enrique Batista",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1UVWdM7SQlFSbtmT1LFx6zHjJ7stYrIXR",
       "perfil": "https://espaciocivico.org/diputados/ronald-de-gracia",
       "slug": "ronald-de-gracia",
       "provincia_monitoreo": "Los Santos",
@@ -1594,7 +1595,7 @@
       "circuito": "13-1",
       "provincia": "Panamá Oeste",
       "suplente": "Ricardo Valencia",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1gW-I7YUMSYAYP-8xtuRTuNF9jX-mcCH5",
       "perfil": "https://espaciocivico.org/diputados/shirley-castanedas",
       "slug": "shirley-castanedas",
       "provincia_monitoreo": "Panamá Oeste",
@@ -1619,7 +1620,7 @@
       "circuito": "9-2",
       "provincia": "Veraguas",
       "suplente": "Ricardo Martinelli Linares",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1jut9OWQ0kDwtST7BWOkS0UCeU5303_Ux",
       "perfil": "https://espaciocivico.org/diputados/tomas-benavides",
       "slug": "tomas-benavides",
       "provincia_monitoreo": "Veraguas",
@@ -1669,7 +1670,7 @@
       "circuito": "8-3",
       "provincia": "Panamá",
       "suplente": "Charlie Ho",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1VmiaUx0rzlt-Zj2v4hcYcM1EpV0ai2XD",
       "perfil": "https://espaciocivico.org/diputados/walkiria-chandler",
       "slug": "walkiria-chandler",
       "provincia_monitoreo": "Panamá",
@@ -1694,7 +1695,7 @@
       "circuito": "3-1",
       "provincia": "Colón",
       "suplente": "Moises Abdul Wilson",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1clc288nbtAKzM6R_yPggugkcSqBSN_R1",
       "perfil": "https://espaciocivico.org/diputados/yamireliz-chong",
       "slug": "yamireliz-chong",
       "provincia_monitoreo": "Colón",
@@ -1719,7 +1720,7 @@
       "circuito": "8-2",
       "provincia": "Panamá",
       "suplente": "José Andrés González",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1CDpks0hALy6EBT17Y2afzUvqAWkP92cC",
       "perfil": "https://espaciocivico.org/diputados/yarelis-rodriguez",
       "slug": "yarelis-rodriguez",
       "provincia_monitoreo": "Panamá",
@@ -1745,7 +1746,7 @@
       "circuito": "1-1",
       "provincia": "Bocas del Toro",
       "suplente": "Elias Beker",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1uGcarNpw4uxMJ2cpmukAGm3WLFFPj5DY",
       "perfil": "https://espaciocivico.org/diputados/yesica-romero",
       "slug": "yesica-romero",
       "provincia_monitoreo": "Bocas del Toro",
@@ -1770,7 +1771,7 @@
       "circuito": "13-4",
       "provincia": "Panamá Oeste",
       "suplente": "Abdiel Núñez",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1CuWKrXk9dFZTB67s4FPOyzaFZHkyhZr_",
       "perfil": "https://espaciocivico.org/diputados/yuzaida-marin",
       "slug": "yuzaida-marin",
       "provincia_monitoreo": "Panamá Oeste",
@@ -1789,6 +1790,5 @@
       ],
       "comisiones_cantidad": 1
     }
-  ],
-  "fuente_metricas": "https://espaciocivico.org/buscador/diputados-monitoreo?order=field_asistencia_comisiones_an&sort=asc"
+  ]
 }
