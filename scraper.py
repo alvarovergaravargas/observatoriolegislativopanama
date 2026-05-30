@@ -252,8 +252,12 @@ def parse_commissions(raw):
 
 def scrape_metricas_diputados(page):
     print(f"\n[3/3] Extrayendo monitoreo de {URL_MONITOR}")
-    page.goto(URL_MONITOR, wait_until="networkidle", timeout=60000)
-    page.wait_for_selector("tbody tr", timeout=20000)
+    try:
+        page.goto(URL_MONITOR, wait_until="networkidle", timeout=60000)
+        page.wait_for_selector("tbody tr", timeout=20000)
+    except Exception as e:
+        print(f"  ADVERTENCIA: no se pudo cargar la página de monitoreo ({e})")
+        return _fallback_metricas()
 
     try:
         page.locator("select").nth(3).select_option("100")
@@ -325,8 +329,25 @@ def scrape_metricas_diputados(page):
         if i % 10 == 0:
             print(f"  Perfiles: {i}/{len(rows)}")
 
+    if len(metricas) < 50:
+        print(f"  ADVERTENCIA: solo {len(metricas)} registros — usando datos guardados.")
+        return _fallback_metricas()
+
     print(f"  Total monitoreo: {len(metricas)} diputados")
     return metricas
+
+
+def _fallback_metricas():
+    try:
+        with open('metricas_diputados.json', encoding='utf-8') as f:
+            raw = json.load(f)
+        lista = raw.get('diputados', [])
+        metricas = {slug_from_href(d.get('perfil_monitoreo', '')): d for d in lista if d.get('nombre')}
+        print(f"  Usando metricas_diputados.json guardado: {len(metricas)} registros")
+        return metricas
+    except Exception as e:
+        print(f"  No se pudo cargar metricas_diputados.json: {e}")
+        return {}
 
 
 # ─────────────────────────────────────────────
@@ -507,9 +528,13 @@ def main():
         json.dump({"fuente":URL_DIPS,"fuente_metricas":URL_MONITOR,"total":len(dips_metricas),"diputados":dips_metricas},
                   f, ensure_ascii=False, indent=2)
 
-    with open("metricas_diputados.json", "w", encoding="utf-8") as f:
-        json.dump({"fuente":URL_MONITOR,"total":len(metricas),"diputados":list(metricas.values())},
-                  f, ensure_ascii=False, indent=2)
+    # Solo sobreescribir métricas si se obtuvieron datos frescos (>= 50 registros)
+    if len(metricas) >= 50:
+        with open("metricas_diputados.json", "w", encoding="utf-8") as f:
+            json.dump({"fuente":URL_MONITOR,"total":len(metricas),"diputados":list(metricas.values())},
+                      f, ensure_ascii=False, indent=2)
+    else:
+        print("  metricas_diputados.json conservado (datos insuficientes del sitio).")
 
     # Generar resumen
     resumen = generar_resumen(datos, dips, ts, metricas)
