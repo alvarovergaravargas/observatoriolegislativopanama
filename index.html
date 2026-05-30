@@ -709,7 +709,7 @@ tr:hover .dep-avatar{border-color:var(--acc)}
   <div class="metodologia-box">
     <div class="metodologia-title">Advertencia metodológica</div>
     <div class="metodologia-body">
-      Este dashboard presenta una <strong>estimación proporcional del costo legislativo</strong>, no un costo contable exacto. El modelo calcula el costo mensual de cada diputado sumando su planilla mensual más un salario fijo de <strong>USD 7,000</strong>. Ese costo se multiplica por los meses activos en cada año y se divide entre la cantidad de proyectos en que participó el diputado (como proponente o co-proponente) en ese mismo año. El costo estimado de cada proyecto es la suma de la porción proporcional asignada por cada diputado asociado. El periodo de análisis inicia en <strong>julio de 2024</strong>. Los diputados sin planilla registrada aportan únicamente el salario fijo. <strong>Los proyectos firmados por diputados suplentes se contabilizan bajo el diputado principal</strong> al que suplen, utilizando el registro de suplencias de espaciocivico.org. El resultado es una aproximación analítica útil para comparación y seguimiento del gasto legislativo, no para fines contables.
+      Este dashboard presenta una <strong>estimación proporcional del costo legislativo</strong>, no un costo contable exacto. El valor de planilla publicado por Espacio Cívico representa el acumulado de 9 meses, por lo que se divide entre 9 para obtener la <strong>planilla mensual</strong>. El costo mensual de cada diputado es la planilla mensual más un salario fijo de <strong>USD 7,000</strong>. Ese costo se multiplica por los meses activos en cada año (desde julio de 2024 hasta el último mes cerrado) y se divide entre la cantidad de proyectos en que participó el diputado (como proponente o co-proponente) en ese mismo año. El costo estimado de cada proyecto es la suma de la porción proporcional asignada por cada diputado asociado. El periodo de análisis inicia en <strong>julio de 2024</strong>. Los diputados sin planilla registrada aportan únicamente el salario fijo. <strong>Los proyectos firmados por diputados suplentes se contabilizan bajo el diputado principal</strong> al que suplen, utilizando el registro de suplencias de espaciocivico.org. El resultado es una aproximación analítica útil para comparación y seguimiento del gasto legislativo, no para fines contables.
     </div>
   </div>
 
@@ -1842,7 +1842,7 @@ function calcCostos(){
   let totalCost = 0;
 
   dips.forEach(d=>{
-    const planilla = Number(d.planilla_valor)||0;
+    const planilla = (Number(d.planilla_valor)||0) / 9;
     const costoMensual = planilla + SALARIO_FIJO;
     const byYear = {};
     let costoAcumulado = 0;
