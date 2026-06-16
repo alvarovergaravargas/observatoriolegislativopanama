@@ -1,5 +1,5 @@
 {
-  "fecha_extraccion": "20260615_151900",
+  "fecha_extraccion": "20260616_141348",
   "fuente": "https://sistemas.asamblea.gob.pa/segLegis/viewsPublico/SeguimientoLegislativo",
   "fuente_metricas": "https://espaciocivico.org/buscador/diputados-monitoreo?order=field_asistencia_comisiones_an&sort=asc",
   "total_proyectos": 787,
@@ -2080,6 +2080,129 @@
       "comisiones_cantidad": 1
     },
     {
+      "nombre": "Walkiria Chandler",
+      "partido": "Coalición Vamos",
+      "circuito": "8-3",
+      "provincia": "Panamá",
+      "suplente": "Charlie Ho",
+      "foto": "https://espaciocivico.org/api/drive-image/1VmiaUx0rzlt-Zj2v4hcYcM1EpV0ai2XD",
+      "perfil": "https://espaciocivico.org/diputados/walkiria-chandler",
+      "slug": "walkiria-chandler",
+      "proyectos": 14,
+      "leyes": 0,
+      "co_patrocinios": 80,
+      "etapas": {
+        "Primer Debate": 4,
+        "Segundo Debate": 2,
+        "Enviado a subcomisión para analisis": 5,
+        "Objetado por Ejecutivo": 1,
+        "Retirado por proponente": 1,
+        "Negado": 1
+      },
+      "leyes_detalle": [],
+      "proyectos_detalle": [
+        {
+          "ficha": "8283",
+          "titulo": "QUE MODIFICA UN ARTICULO DEL CODIGO PROCESAL PENAL",
+          "fecha": "09-02-2026",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8150",
+          "titulo": "QUE MODIFICA ARTICULOS DEL CODIGO PENAL Y EL CODIGO PROCESAL PENAL, SOBRE LA PRESCRIPCION DE LOS DELITOS CONTRA LA LIBERTAD E INTEGRIDAD SEXUAL CUANDO LA VICTIMA SEA MENOR DE EDAD",
+          "fecha": "06-10-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8091",
+          "titulo": "QUE MODIFICA Y ADICIONA A LA LEY 83 DE 9 DE NOVIEMBRE DE 2012, QUE REGULA EL USO DE MEDIOS ELECTRONICOS PARA LOS TRAMITES GUBERNAMENTALES",
+          "fecha": "08-09-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8025",
+          "titulo": "QUE REGULA Y LIMITA LA ACTIVIDAD DE CABILDEO EN LA REPUBLICA DE PANAMA",
+          "fecha": "18-08-2025",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "7837",
+          "titulo": "QUE MODIFICA, ADICIONA Y DEROGA DISPOSICIONES DE LA LEY 9 DE 1 DE MARZO DE 2006, CON EL OBJETIVO DE RESTAURAR Y CONSERVAR LAS POBLACIONES DE TIBURONES Y RAYAS EN LA REPUBLICA DE PANAMA",
+          "fecha": "02-04-2025",
+          "etapa": "Enviado a subcomisión para analisis"
+        },
+        {
+          "ficha": "7755",
+          "titulo": "QUE ESTABLECE EL PROCESO SUCESORIO SIMPLIFICADO ANTE NOTARIO",
+          "fecha": "20-01-2025",
+          "etapa": "Objetado por Ejecutivo"
+        },
+        {
+          "ficha": "7748",
+          "titulo": "QUE MODIFICA ARTICULOS DE LA LEY 14 DE 18 DE MAYO DE 2007, QUE ADOPTA EL CODIGO PENAL Y DE LA LEY 63 DE 28 DE AGOSTO DE 2008, QUE ADOPTA EL CODIGO PROCESAL PENAL",
+          "fecha": "15-01-2025",
+          "etapa": "Enviado a subcomisión para analisis"
+        },
+        {
+          "ficha": "7738",
+          "titulo": "QUE CREA UNA PLATAFORMA DIGITAL PARA LA PUBLICACION DE VACANTES Y SELECCION DE PERSONAL EN EL SECTOR PUBLICO",
+          "fecha": "13-01-2025",
+          "etapa": "Enviado a subcomisión para analisis"
+        },
+        {
+          "ficha": "7607",
+          "titulo": "CONSERVACION Y MANTENIMIENTO DE BIENES NACIONALES",
+          "fecha": "05-09-2024",
+          "etapa": "Retirado por proponente"
+        },
+        {
+          "ficha": "7547",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS AL TEXTO UNICO DE LA LEY 22 DE 27 DE JUNIO DE 2006",
+          "fecha": "19-08-2024",
+          "etapa": "Negado"
+        },
+        {
+          "ficha": "7529",
+          "titulo": "LEY GENERAL DE ALIMENTACION ADECUADA Y SOSTENIBLE DE LA REPUBLICA DE PANAMA",
+          "fecha": "13-08-2024",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "7486",
+          "titulo": "QUE MODIFICA EL CODIGO PENAL Y DICTA OTRAS DISPOSICIONES RELACIONADAS AL COMERCIO ILICITO Y CONTRABANDO",
+          "fecha": "30-07-2024",
+          "etapa": "Enviado a subcomisión para analisis"
+        },
+        {
+          "ficha": "7438",
+          "titulo": "QUE MODIFICA EL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL",
+          "fecha": "09-07-2024",
+          "etapa": "Enviado a subcomisión para analisis"
+        },
+        {
+          "ficha": "7405",
+          "titulo": "QUE TRANSPARENTA LAS GESTIONES DE LOS SERVIDORES PUBLICOS DE ALTA JERARQUIA",
+          "fecha": "02-07-2024",
+          "etapa": "Segundo Debate"
+        }
+      ],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-3",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/walkiria-chandler",
+      "planilla_texto": "B/. 12,500",
+      "planilla_valor": 12500.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
+      "comisiones": [
+        "Comunicación y Transporte, Relaciones Exteriores"
+      ],
+      "comisiones_cantidad": 1
+    },
+    {
       "nombre": "José Pérez Barboni",
       "partido": "Movimiento Otro Camino",
       "circuito": "8-3",
@@ -2589,122 +2712,6 @@
       "comisiones_cantidad": 1
     },
     {
-      "nombre": "Walkiria Chandler",
-      "partido": "Coalición Vamos",
-      "circuito": "8-3",
-      "provincia": "Panamá",
-      "suplente": "Charlie Ho",
-      "foto": "https://espaciocivico.org/api/drive-image/1VmiaUx0rzlt-Zj2v4hcYcM1EpV0ai2XD",
-      "perfil": "https://espaciocivico.org/diputados/walkiria-chandler",
-      "slug": "walkiria-chandler",
-      "proyectos": 13,
-      "leyes": 0,
-      "co_patrocinios": 81,
-      "etapas": {
-        "Primer Debate": 4,
-        "Segundo Debate": 2,
-        "Enviado a subcomisión para analisis": 5,
-        "Objetado por Ejecutivo": 1,
-        "Retirado por proponente": 1
-      },
-      "leyes_detalle": [],
-      "proyectos_detalle": [
-        {
-          "ficha": "8283",
-          "titulo": "QUE MODIFICA UN ARTICULO DEL CODIGO PROCESAL PENAL",
-          "fecha": "09-02-2026",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8150",
-          "titulo": "QUE MODIFICA ARTICULOS DEL CODIGO PENAL Y EL CODIGO PROCESAL PENAL, SOBRE LA PRESCRIPCION DE LOS DELITOS CONTRA LA LIBERTAD E INTEGRIDAD SEXUAL CUANDO LA VICTIMA SEA MENOR DE EDAD",
-          "fecha": "06-10-2025",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8091",
-          "titulo": "QUE MODIFICA Y ADICIONA A LA LEY 83 DE 9 DE NOVIEMBRE DE 2012, QUE REGULA EL USO DE MEDIOS ELECTRONICOS PARA LOS TRAMITES GUBERNAMENTALES",
-          "fecha": "08-09-2025",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8025",
-          "titulo": "QUE REGULA Y LIMITA LA ACTIVIDAD DE CABILDEO EN LA REPUBLICA DE PANAMA",
-          "fecha": "18-08-2025",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "7837",
-          "titulo": "QUE MODIFICA, ADICIONA Y DEROGA DISPOSICIONES DE LA LEY 9 DE 1 DE MARZO DE 2006, CON EL OBJETIVO DE RESTAURAR Y CONSERVAR LAS POBLACIONES DE TIBURONES Y RAYAS EN LA REPUBLICA DE PANAMA",
-          "fecha": "02-04-2025",
-          "etapa": "Enviado a subcomisión para analisis"
-        },
-        {
-          "ficha": "7755",
-          "titulo": "QUE ESTABLECE EL PROCESO SUCESORIO SIMPLIFICADO ANTE NOTARIO",
-          "fecha": "20-01-2025",
-          "etapa": "Objetado por Ejecutivo"
-        },
-        {
-          "ficha": "7748",
-          "titulo": "QUE MODIFICA ARTICULOS DE LA LEY 14 DE 18 DE MAYO DE 2007, QUE ADOPTA EL CODIGO PENAL Y DE LA LEY 63 DE 28 DE AGOSTO DE 2008, QUE ADOPTA EL CODIGO PROCESAL PENAL",
-          "fecha": "15-01-2025",
-          "etapa": "Enviado a subcomisión para analisis"
-        },
-        {
-          "ficha": "7738",
-          "titulo": "QUE CREA UNA PLATAFORMA DIGITAL PARA LA PUBLICACION DE VACANTES Y SELECCION DE PERSONAL EN EL SECTOR PUBLICO",
-          "fecha": "13-01-2025",
-          "etapa": "Enviado a subcomisión para analisis"
-        },
-        {
-          "ficha": "7607",
-          "titulo": "CONSERVACION Y MANTENIMIENTO DE BIENES NACIONALES",
-          "fecha": "05-09-2024",
-          "etapa": "Retirado por proponente"
-        },
-        {
-          "ficha": "7529",
-          "titulo": "LEY GENERAL DE ALIMENTACION ADECUADA Y SOSTENIBLE DE LA REPUBLICA DE PANAMA",
-          "fecha": "13-08-2024",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "7486",
-          "titulo": "QUE MODIFICA EL CODIGO PENAL Y DICTA OTRAS DISPOSICIONES RELACIONADAS AL COMERCIO ILICITO Y CONTRABANDO",
-          "fecha": "30-07-2024",
-          "etapa": "Enviado a subcomisión para analisis"
-        },
-        {
-          "ficha": "7438",
-          "titulo": "QUE MODIFICA EL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL",
-          "fecha": "09-07-2024",
-          "etapa": "Enviado a subcomisión para analisis"
-        },
-        {
-          "ficha": "7405",
-          "titulo": "QUE TRANSPARENTA LAS GESTIONES DE LOS SERVIDORES PUBLICOS DE ALTA JERARQUIA",
-          "fecha": "02-07-2024",
-          "etapa": "Segundo Debate"
-        }
-      ],
-      "provincia_monitoreo": "Panamá",
-      "circuito_monitoreo": "8-3",
-      "perfil_monitoreo": "https://espaciocivico.org/diputados/walkiria-chandler",
-      "planilla_texto": "B/. 12,500",
-      "planilla_valor": 12500.0,
-      "asistencia_pleno": 5.0,
-      "asistencia_comisiones": 5.0,
-      "viajes_ponderacion": 5.0,
-      "declaracion_intereses": null,
-      "declaracion_patrimonio": 5.0,
-      "calificacion": 5.0,
-      "comisiones": [
-        "Comunicación y Transporte, Relaciones Exteriores"
-      ],
-      "comisiones_cantidad": 1
-    },
-    {
       "nombre": "Yarelis Rodríguez",
       "partido": "Coalición Vamos",
       "circuito": "8-2",
@@ -3069,117 +3076,6 @@
       "comisiones_cantidad": 2
     },
     {
-      "nombre": "Carlos Saldaña",
-      "partido": "Coalición Vamos",
-      "circuito": "4-1",
-      "provincia": "Chiriquí",
-      "suplente": "Tatiana Morales",
-      "foto": "https://espaciocivico.org/api/drive-image/18m7F6P_TB9lBbgQDViHVpfOz7elwLnDK",
-      "perfil": "https://espaciocivico.org/diputados/carlos-saldana",
-      "slug": "carlos-saldana",
-      "proyectos": 11,
-      "leyes": 1,
-      "co_patrocinios": 71,
-      "etapas": {
-        "Segundo Debate": 4,
-        "Primer Debate": 3,
-        "Retirado por proponente": 1,
-        "Negado": 1,
-        "Ley": 1,
-        "Archivado": 1
-      },
-      "leyes_detalle": [
-        {
-          "ficha": "7508",
-          "titulo": "QUE REGULA LA PRODUCCION, COMERCIALIZACION Y EXPORTACION DEL CAÑAMO EN LA REPUBLICA DE PANAMA",
-          "fecha": "05-08-2024"
-        }
-      ],
-      "proyectos_detalle": [
-        {
-          "ficha": "8369",
-          "titulo": "QUE DECLARA PATRIMONIO INMATERIAL DE PANAMA EL FESTIVAL FOLCLORICO DEL TAMBORPELIGREÑO Y CREA SU PATRONATO",
-          "fecha": "06-04-2026",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "8286",
-          "titulo": "QUE RECONOCE AL BARRIO BOLIVAR COMO SITIO DE VALOR HISTORICO Y CULTURAL, Y DECLARA AL TAMBOR PELIGREÑO PATRIMONIO CULTURAL INMATERIAL DE PANAMA",
-          "fecha": "10-02-2026",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "8277",
-          "titulo": "QUE CREA EL SISTEMA NACIONAL DE LABORATORIOS DE REFERENCIA AGRICOLA Y PECUARIA.",
-          "fecha": "04-02-2026",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8200",
-          "titulo": "POR LA CUAL SE MODIFICA EL ARTÍCULO 32 DEL CÓDIGO PENAL",
-          "fecha": "30-10-2025",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8022",
-          "titulo": "POR LA CUAL SE SUBROGA LA LEY 70 DE 1975, QUE CREA EL INSTITUTO DE MERCADEO AGROPECUARIO Y SE DETERMINAN SUS FUNCIONES",
-          "fecha": "18-08-2025",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "7967",
-          "titulo": "QUE MODIFICA LA LEY 468 DE 2025, QUE SUBROGA LA LEY 3 DE 1985 QUE ESTABLE UN REGIMEN DE INTERESES PREFERENCIALES EN CIERTOS PRESTAMOS HIPOTECARIOS Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "28-07-2025",
-          "etapa": "Retirado por proponente"
-        },
-        {
-          "ficha": "7650",
-          "titulo": "QUE ADICIONA NORMAS AL CODIGO PENAL PARA SANCIONAR EL CONTRABANDO DE ALIMENTOS EN LA REPUBLICA DE PANAMA",
-          "fecha": "24-09-2024",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "7597",
-          "titulo": "QUE MODIFICA LA LEY 276 DE 30 DE DICIEMBRE DE 2021, QUE REGULA LA GESTION INTEGRAL DE RESIDUOS SOLIDOS EN LA REPUBLICA DE PANAMA, Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "03-09-2024",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "7547",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS AL TEXTO UNICO DE LA LEY 22 DE 27 DE JUNIO DE 2006",
-          "fecha": "19-08-2024",
-          "etapa": "Negado"
-        },
-        {
-          "ficha": "7508",
-          "titulo": "QUE REGULA LA PRODUCCION, COMERCIALIZACION Y EXPORTACION DEL CAÑAMO EN LA REPUBLICA DE PANAMA",
-          "fecha": "05-08-2024",
-          "etapa": "Ley"
-        },
-        {
-          "ficha": "7454",
-          "titulo": "QUE ESTABLECE CONTROLES PARA GARANTIZAR LA PROTECCION DE LA SEGURIDAD Y SOBERANIA ALIMENTARIA DENTRO DEL TERRITORIO NACIONAL, Y ADICIONA DISPOSICIONES AL CODIGO PENAL DE LA REPUBLICA DE PANAMA, ADOPTADO MEDIANTE LA LEY 14 DE 26 DE ABRIL DE 2007",
-          "fecha": "22-07-2024",
-          "etapa": "Archivado"
-        }
-      ],
-      "provincia_monitoreo": "Chiriquí",
-      "circuito_monitoreo": "4-1",
-      "perfil_monitoreo": "https://espaciocivico.org/diputados/carlos-saldana",
-      "planilla_texto": "B/. 16,750",
-      "planilla_valor": 16750.0,
-      "asistencia_pleno": 4.0,
-      "asistencia_comisiones": 5.0,
-      "viajes_ponderacion": 5.0,
-      "declaracion_intereses": null,
-      "declaracion_patrimonio": 5.0,
-      "calificacion": 4.8,
-      "comisiones": [
-        "Asuntos Agropecuarios"
-      ],
-      "comisiones_cantidad": 1
-    },
-    {
       "nombre": "Jamis Acosta",
       "partido": "Realizando Metas",
       "circuito": "4-1",
@@ -3289,6 +3185,110 @@
       "calificacion": 2.4,
       "comisiones": [
         "Comercio y Asuntos Económicos, Infraestructura Pública y Asuntos del Canal"
+      ],
+      "comisiones_cantidad": 1
+    },
+    {
+      "nombre": "Carlos Saldaña",
+      "partido": "Coalición Vamos",
+      "circuito": "4-1",
+      "provincia": "Chiriquí",
+      "suplente": "Tatiana Morales",
+      "foto": "https://espaciocivico.org/api/drive-image/18m7F6P_TB9lBbgQDViHVpfOz7elwLnDK",
+      "perfil": "https://espaciocivico.org/diputados/carlos-saldana",
+      "slug": "carlos-saldana",
+      "proyectos": 10,
+      "leyes": 1,
+      "co_patrocinios": 72,
+      "etapas": {
+        "Segundo Debate": 4,
+        "Primer Debate": 3,
+        "Retirado por proponente": 1,
+        "Ley": 1,
+        "Archivado": 1
+      },
+      "leyes_detalle": [
+        {
+          "ficha": "7508",
+          "titulo": "QUE REGULA LA PRODUCCION, COMERCIALIZACION Y EXPORTACION DEL CAÑAMO EN LA REPUBLICA DE PANAMA",
+          "fecha": "05-08-2024"
+        }
+      ],
+      "proyectos_detalle": [
+        {
+          "ficha": "8369",
+          "titulo": "QUE DECLARA PATRIMONIO INMATERIAL DE PANAMA EL FESTIVAL FOLCLORICO DEL TAMBORPELIGREÑO Y CREA SU PATRONATO",
+          "fecha": "06-04-2026",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "8286",
+          "titulo": "QUE RECONOCE AL BARRIO BOLIVAR COMO SITIO DE VALOR HISTORICO Y CULTURAL, Y DECLARA AL TAMBOR PELIGREÑO PATRIMONIO CULTURAL INMATERIAL DE PANAMA",
+          "fecha": "10-02-2026",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "8277",
+          "titulo": "QUE CREA EL SISTEMA NACIONAL DE LABORATORIOS DE REFERENCIA AGRICOLA Y PECUARIA.",
+          "fecha": "04-02-2026",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8200",
+          "titulo": "POR LA CUAL SE MODIFICA EL ARTÍCULO 32 DEL CÓDIGO PENAL",
+          "fecha": "30-10-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8022",
+          "titulo": "POR LA CUAL SE SUBROGA LA LEY 70 DE 1975, QUE CREA EL INSTITUTO DE MERCADEO AGROPECUARIO Y SE DETERMINAN SUS FUNCIONES",
+          "fecha": "18-08-2025",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "7967",
+          "titulo": "QUE MODIFICA LA LEY 468 DE 2025, QUE SUBROGA LA LEY 3 DE 1985 QUE ESTABLE UN REGIMEN DE INTERESES PREFERENCIALES EN CIERTOS PRESTAMOS HIPOTECARIOS Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "28-07-2025",
+          "etapa": "Retirado por proponente"
+        },
+        {
+          "ficha": "7650",
+          "titulo": "QUE ADICIONA NORMAS AL CODIGO PENAL PARA SANCIONAR EL CONTRABANDO DE ALIMENTOS EN LA REPUBLICA DE PANAMA",
+          "fecha": "24-09-2024",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "7597",
+          "titulo": "QUE MODIFICA LA LEY 276 DE 30 DE DICIEMBRE DE 2021, QUE REGULA LA GESTION INTEGRAL DE RESIDUOS SOLIDOS EN LA REPUBLICA DE PANAMA, Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "03-09-2024",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "7508",
+          "titulo": "QUE REGULA LA PRODUCCION, COMERCIALIZACION Y EXPORTACION DEL CAÑAMO EN LA REPUBLICA DE PANAMA",
+          "fecha": "05-08-2024",
+          "etapa": "Ley"
+        },
+        {
+          "ficha": "7454",
+          "titulo": "QUE ESTABLECE CONTROLES PARA GARANTIZAR LA PROTECCION DE LA SEGURIDAD Y SOBERANIA ALIMENTARIA DENTRO DEL TERRITORIO NACIONAL, Y ADICIONA DISPOSICIONES AL CODIGO PENAL DE LA REPUBLICA DE PANAMA, ADOPTADO MEDIANTE LA LEY 14 DE 26 DE ABRIL DE 2007",
+          "fecha": "22-07-2024",
+          "etapa": "Archivado"
+        }
+      ],
+      "provincia_monitoreo": "Chiriquí",
+      "circuito_monitoreo": "4-1",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/carlos-saldana",
+      "planilla_texto": "B/. 16,750",
+      "planilla_valor": 16750.0,
+      "asistencia_pleno": 4.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 4.8,
+      "comisiones": [
+        "Asuntos Agropecuarios"
       ],
       "comisiones_cantidad": 1
     },
