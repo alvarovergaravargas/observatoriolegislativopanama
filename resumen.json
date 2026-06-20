@@ -1,5 +1,5 @@
 {
-  "fecha_extraccion": "20260619_125053",
+  "fecha_extraccion": "20260620_112109",
   "fuente": "https://sistemas.asamblea.gob.pa/segLegis/viewsPublico/SeguimientoLegislativo",
   "fuente_metricas": "https://espaciocivico.org/buscador/diputados-monitoreo?order=field_asistencia_comisiones_an&sort=asc",
   "total_proyectos": 787,
@@ -585,15 +585,14 @@
       "foto": "https://espaciocivico.org/api/drive-image/1LtL0bmfKWnmQ-JRnFNMQrLKBz-jYqzWL",
       "perfil": "https://espaciocivico.org/diputados/jorge-bloise-iglesias",
       "slug": "jorge-bloise-iglesias",
-      "proyectos": 24,
+      "proyectos": 23,
       "leyes": 0,
-      "co_patrocinios": 127,
+      "co_patrocinios": 128,
       "etapas": {
         "Segundo Debate": 13,
         "Retirado por proponente": 3,
         "Primer Debate": 3,
-        "Negado": 4,
-        "Enviado al Ejecutivo": 1
+        "Negado": 4
       },
       "leyes_detalle": [],
       "proyectos_detalle": [
@@ -698,12 +697,6 @@
           "titulo": "QUE ESTABLECE UN SISTEMA DE EVALUACION CONTINUA MEDIANTE PRUEBAS ESTANDARIZADAS NACIONALES E INTERNACIONALES (SECAPE) Y DEROGA LA LEY 434 DE 13 DE MAYO DE 2024",
           "fecha": "17-03-2025",
           "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "8371",
-          "titulo": "QUE RECONOCE EL PAGO DE LOS APORTES REALIZADOS, POR EXTENSION DE JUBILACION, A LOS EDUCADORES JUBILADOS DE LAS PROMOCIONE DE 1972 Y 1973 CERTIFICADOS POR LA CAJA DE SEGURO SOCIAL",
-          "fecha": "28-01-2025",
-          "etapa": "Enviado al Ejecutivo"
         },
         {
           "ficha": "7733",
@@ -1717,12 +1710,12 @@
       "foto": "https://espaciocivico.org/api/drive-image/1urCE70K7_QPFh6hzfx8trAmUBVeHZxRj",
       "perfil": "https://espaciocivico.org/diputados/jairo-salazar",
       "slug": "jairo-salazar",
-      "proyectos": 15,
+      "proyectos": 14,
       "leyes": 0,
-      "co_patrocinios": 8,
+      "co_patrocinios": 9,
       "etapas": {
         "Primer Debate": 5,
-        "Segundo Debate": 3,
+        "Segundo Debate": 2,
         "Enviado al Ejecutivo": 1,
         "Objetado por Ejecutivo": 1,
         "Retirado por proponente": 1,
@@ -1741,12 +1734,6 @@
           "ficha": "8319",
           "titulo": "QUE MODIFICA Y ADICIONA DISPOSICIONES A LA LEY 47 DE 1946, ORGANICA DE EDUCACION, EN MATERIA DE REGULACION, VIOLENCIA, REUTILIZACION Y COMERCIALIZACION DE TEXTOS ESCOLARES, UNIFORMES Y UTILES",
           "fecha": "09-03-2026",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "8302",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS DE LA LEY 47 DE 1946, ORGANICA DE EDUCACION, SOBRE REUTILIZACION DE TEXTOS ESCOLARES Y PROTECCION AL CONSUMIDOR",
-          "fecha": "02-03-2026",
           "etapa": "Segundo Debate"
         },
         {
@@ -2217,6 +2204,137 @@
       "comisiones_cantidad": 1
     },
     {
+      "nombre": "Yarelis Rodríguez",
+      "partido": "Coalición Vamos",
+      "circuito": "8-2",
+      "provincia": "Panamá",
+      "suplente": "José Andrés González",
+      "foto": "https://espaciocivico.org/api/drive-image/1CDpks0hALy6EBT17Y2afzUvqAWkP92cC",
+      "perfil": "https://espaciocivico.org/diputados/yarelis-rodriguez",
+      "slug": "yarelis-rodriguez",
+      "proyectos": 14,
+      "leyes": 1,
+      "co_patrocinios": 100,
+      "etapas": {
+        "Primer Debate": 3,
+        "Segundo Debate": 4,
+        "Ley": 1,
+        "Segundo Debate(Objetado)": 1,
+        "Archivado": 2,
+        "Negado": 1,
+        "Objetado por Ejecutivo": 2
+      },
+      "leyes_detalle": [
+        {
+          "ficha": "7958",
+          "titulo": "QUE ESTABLECE UN MARCO LEGAL PARA LA PREVENCION, DIAGNOSTICO Y CONTROL DE LAS ENFERMEDADES NO TRANSMISIBLES",
+          "fecha": "23-07-2025"
+        }
+      ],
+      "proyectos_detalle": [
+        {
+          "ficha": "8356",
+          "titulo": "QUE MODIFICA LA LEY 44 DE 2002 Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "27-03-2026",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8302",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS DE LA LEY 47 DE 1946, ORGANICA DE EDUCACION, SOBRE REUTILIZACION DE TEXTOS ESCOLARES Y PROTECCION AL CONSUMIDOR",
+          "fecha": "02-03-2026",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "8055",
+          "titulo": "QUE ESTABLECE MEDIDAS ESPECIALES PARA LA REMEDIACION, RESTAURACION ECOLOGICA Y MANEJO SOSTENIBLE DE LA CUENCA HIDROGRAFICA DEL RIO LA VILLA Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "26-08-2025",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "7958",
+          "titulo": "QUE ESTABLECE UN MARCO LEGAL PARA LA PREVENCION, DIAGNOSTICO Y CONTROL DE LAS ENFERMEDADES NO TRANSMISIBLES",
+          "fecha": "23-07-2025",
+          "etapa": "Ley"
+        },
+        {
+          "ficha": "7940",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS DEL CODIGO PENAL RELACIONADOS CON LOS DELITOS CONTRA LA IDENTIDAD Y TRAFICO DE PERSONAS MENORES DE EDAD",
+          "fecha": "17-07-2025",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "8396",
+          "titulo": "POR LA QUE SE ADOPTA Y ACTUALIZA LA ORGANIZACION JUDICIAL DE LA PROVINCIA DE PANAMA OESTE Y MODIFICA EL CODIGO JUDICIAL",
+          "fecha": "18-03-2025",
+          "etapa": "Segundo Debate(Objetado)"
+        },
+        {
+          "ficha": "7684",
+          "titulo": "QUE ESTABLECE Y REGULA LOS COMITES DE SALUD DE LAS COMUNIDADES Y DEROGA EL DECRETO DE GABINETE 401 DE 1970",
+          "fecha": "08-10-2024",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "7540",
+          "titulo": "QUE INTEGRA LA EDUCACION SOCIOEMOCIONAL EN EL SISTEMA EDUCATIVO DE PRIMER Y SEGUNDO NIVEL, EN EL TERRITORIO NACIONAL",
+          "fecha": "14-08-2024",
+          "etapa": "Archivado"
+        },
+        {
+          "ficha": "7502",
+          "titulo": "QUE DEROGA LA LEY 16 DEL 17 DE JUNIO DE 2016, SOBRE JUSTICIA COMUNITARIA DE PAZ, CREA LA JURISDICCION ESPECIAL DE JUSTICIA COMUNITARIA DE PAZ, ESTABLECE NUEVAS NORMAS PARA SU APLICACION, REFORMA ARTICULOS DE OTRAS LEYES Y DICTA DISPOSICIONES SOBRE METODOS ALTERNOS DE RESOLUCION DE CONFLICTOS",
+          "fecha": "01-08-2024",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "7462",
+          "titulo": "DECLARACION DEL DIA NACIONAL DEL FUTBOLISTA EN PANAMA",
+          "fecha": "24-07-2024",
+          "etapa": "Negado"
+        },
+        {
+          "ficha": "7463",
+          "titulo": "LEY INTEGRAL DE LA INDUSTRIA DE LOS DEPORTES ELECTRONICOS (ESPORTS)",
+          "fecha": "24-07-2024",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "7461",
+          "titulo": "QUE REGULA EL USO OBLIGATORIO DE SILLAS DE RETENCION INFANTIL EN VEHICULOS PARTICULARES Y DICTA OTRAS DISPOSICIONES.",
+          "fecha": "23-07-2024",
+          "etapa": "Objetado por Ejecutivo"
+        },
+        {
+          "ficha": "7432",
+          "titulo": "LEY QUE ESTABLECE POLITICAS DE DE PREVENCION Y PROTECCION CONTRA LA VIOLENCIA SEXUAL DIGITAL Y MEDIATICA; ADICIONA DISPOSICIONES AL CODIGO PENAL Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "08-07-2024",
+          "etapa": "Archivado"
+        },
+        {
+          "ficha": "7423",
+          "titulo": "QUE ESTABLECE LA PROTECCION, INCLUSION Y ABORDAJE INTEGRAL DE LAS PERSONAS CON TRASTORNO DEL ESPECTRO AUTISTA",
+          "fecha": "04-07-2024",
+          "etapa": "Objetado por Ejecutivo"
+        }
+      ],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-2",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/yarelis-rodriguez",
+      "planilla_texto": "B/. 17,000",
+      "planilla_valor": 17000.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
+      "comisiones": [
+        "Trabajo, Salud y Desarrollo Social",
+        "Población, Ambiente y Desarrollo"
+      ],
+      "comisiones_cantidad": 2
+    },
+    {
       "nombre": "José Pérez Barboni",
       "partido": "Movimiento Otro Camino",
       "circuito": "8-3",
@@ -2472,141 +2590,6 @@
       "comisiones_cantidad": 1
     },
     {
-      "nombre": "Luis Camacho Castro",
-      "partido": "Realizando Metas",
-      "circuito": "8-2",
-      "provincia": "Panamá",
-      "suplente": "Hilda Guzman De Boyd",
-      "foto": "https://espaciocivico.org/api/drive-image/1IepU3c-QMYJreqNIGzZ0EhWT0ZAYi_Kh",
-      "perfil": "https://espaciocivico.org/diputados/luis-camacho-castro",
-      "slug": "luis-camacho-castro",
-      "proyectos": 13,
-      "leyes": 3,
-      "co_patrocinios": 32,
-      "etapas": {
-        "Preliminar": 1,
-        "Retirado por proponente": 1,
-        "Primer Debate": 2,
-        "Ley": 3,
-        "Negado": 2,
-        "Segundo Debate(Objetado)": 1,
-        "Enviado a subcomisión para analisis": 2,
-        "Archivado": 1
-      },
-      "leyes_detalle": [
-        {
-          "ficha": "7830",
-          "titulo": "QUE MODIFICA UN ARTÍCULO DEL CÓDIGO PENAL",
-          "fecha": "25-03-2025"
-        },
-        {
-          "ficha": "8159",
-          "titulo": "QUE SUBROGA LA LEY 7 DE 1997, QUE CREA LA DEFENSORÍA DEL PUEBLO, Y MODIFICA LA LEY 6 DE 2017, QUE CREA EL MECANISMO NACIONAL PARA LA PREVENCIÓN DE LA TORTURA Y OTROS TRATOS O PENAS CRUELES, INHUMANAS O DEGRADANTES",
-          "fecha": "23-10-2024"
-        },
-        {
-          "ficha": "8250",
-          "titulo": "QUE CREA EL PATRONATO DEL FESTIVAL NACIONAL DEL TORO GUAPO DE ANTON Y DICTA OTRA DISPOSICION",
-          "fecha": "25-09-2024"
-        }
-      ],
-      "proyectos_detalle": [
-        {
-          "ficha": "8332",
-          "titulo": "QUE MODIFICA LEY 6 DE 1987, SOBRE BENEFICIOS A JUBILADOS, PENSIONADOS Y TERCERA EDAD, MODIFICADA POR LA LEY 18 DE 1998, LA LEY 15 DE 1992, LA LEY 37 DE 2001, LA LEY 14 DE 2003, LA LEY 51 DE 2005 Y LA LEY 30 DE 2008",
-          "fecha": "16-03-2026",
-          "etapa": "Preliminar"
-        },
-        {
-          "ficha": "8295",
-          "titulo": "QUE MODIFICA EL CODIGO PROCESAL PENAL (LEY 63 DE 2008) PARA DECLARAR LA INAPELABILIDAD DE LAS SENTENCIAS ABSOLUTORIA DICTADA EN PRIMERA INSTANCIA Y LIMITA LA CAPACIDAD DEL MINISTERIO PUBLICO Y DE LA QUERELLA PARA RECURRIRLAS.",
-          "fecha": "24-02-2026",
-          "etapa": "Retirado por proponente"
-        },
-        {
-          "ficha": "7981",
-          "titulo": "QUE ADICIONA PARAGRAFO AL NUMERAL 5 DEL ARTICULO 50 DEL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL",
-          "fecha": "05-08-2025",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "7830",
-          "titulo": "QUE MODIFICA UN ARTÍCULO DEL CÓDIGO PENAL",
-          "fecha": "25-03-2025",
-          "etapa": "Ley"
-        },
-        {
-          "ficha": "7827",
-          "titulo": "QUE MODIFICA EL ARTICULO 196 DEL CODIGO PENAL DE LA REPUBLICA DE PANAMA",
-          "fecha": "24-03-2025",
-          "etapa": "Negado"
-        },
-        {
-          "ficha": "8159",
-          "titulo": "QUE SUBROGA LA LEY 7 DE 1997, QUE CREA LA DEFENSORÍA DEL PUEBLO, Y MODIFICA LA LEY 6 DE 2017, QUE CREA EL MECANISMO NACIONAL PARA LA PREVENCIÓN DE LA TORTURA Y OTROS TRATOS O PENAS CRUELES, INHUMANAS O DEGRADANTES",
-          "fecha": "23-10-2024",
-          "etapa": "Ley"
-        },
-        {
-          "ficha": "7695",
-          "titulo": "QUE ESTABLECE EL REGIMEN ESPECIAL REGIONAL DE SEDES DE OFICINAS ADMINISTRATIVAS DE APOYO INTERNO (BACKOFFICE) PARA LA GENERACION DE EMPLEO FORMAL Y FOMENTO DE INVERSION EN EL DISTRITO DE SAN MIGUELITO",
-          "fecha": "14-10-2024",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8253",
-          "titulo": "POR LA CUAL SE CREA EL PROGRAMA DE INCENTIVOS Y OPORTUNIDADES DE EMPLEO A RESOCIALIZADOS",
-          "fecha": "30-09-2024",
-          "etapa": "Segundo Debate(Objetado)"
-        },
-        {
-          "ficha": "8250",
-          "titulo": "QUE CREA EL PATRONATO DEL FESTIVAL NACIONAL DEL TORO GUAPO DE ANTON Y DICTA OTRA DISPOSICION",
-          "fecha": "25-09-2024",
-          "etapa": "Ley"
-        },
-        {
-          "ficha": "7560",
-          "titulo": "QUE DEROGA NORMAS DE LA LEY 49 DE 1984, QUE DICTA EL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL",
-          "fecha": "22-08-2024",
-          "etapa": "Enviado a subcomisión para analisis"
-        },
-        {
-          "ficha": "7503",
-          "titulo": "QUE DICTA DISPOSICIONES SOBRE AMNISTIA, INDULTO, REBAJA DE PENA Y CONCESION DE LIBERTAD CONDICIONAL, MODIFICA EL CODIGO PENAL Y EL CODIGO PROCESAL PENAL",
-          "fecha": "29-07-2024",
-          "etapa": "Archivado"
-        },
-        {
-          "ficha": "7431",
-          "titulo": "QUE REFORMA EL ARTICULO 389 DEL CODIGO PENAL, PARA ADICIONAR EL PREVARICATO A JUECES Y FISCALES",
-          "fecha": "08-07-2024",
-          "etapa": "Negado"
-        },
-        {
-          "ficha": "7414",
-          "titulo": "QUE REFORMA EL ARTICULO 173 DEL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL",
-          "fecha": "03-07-2024",
-          "etapa": "Enviado a subcomisión para analisis"
-        }
-      ],
-      "provincia_monitoreo": "Panamá",
-      "circuito_monitoreo": "8-2",
-      "perfil_monitoreo": "https://espaciocivico.org/diputados/luis-camacho-castro",
-      "planilla_texto": "B/. 24,450",
-      "planilla_valor": 24450.0,
-      "asistencia_pleno": 5.0,
-      "asistencia_comisiones": 5.0,
-      "viajes_ponderacion": 5.0,
-      "declaracion_intereses": 1.0,
-      "declaracion_patrimonio": 1.0,
-      "calificacion": 3.0,
-      "comisiones": [
-        "Gobierno, Justicia y Asuntos Constitucionales"
-      ],
-      "comisiones_cantidad": 1
-    },
-    {
       "nombre": "Neftalí Zamora",
       "partido": "Coalición Vamos",
       "circuito": "8-5",
@@ -2730,131 +2713,6 @@
       "comisiones_cantidad": 1
     },
     {
-      "nombre": "Yarelis Rodríguez",
-      "partido": "Coalición Vamos",
-      "circuito": "8-2",
-      "provincia": "Panamá",
-      "suplente": "José Andrés González",
-      "foto": "https://espaciocivico.org/api/drive-image/1CDpks0hALy6EBT17Y2afzUvqAWkP92cC",
-      "perfil": "https://espaciocivico.org/diputados/yarelis-rodriguez",
-      "slug": "yarelis-rodriguez",
-      "proyectos": 13,
-      "leyes": 1,
-      "co_patrocinios": 101,
-      "etapas": {
-        "Primer Debate": 3,
-        "Segundo Debate": 3,
-        "Ley": 1,
-        "Segundo Debate(Objetado)": 1,
-        "Archivado": 2,
-        "Negado": 1,
-        "Objetado por Ejecutivo": 2
-      },
-      "leyes_detalle": [
-        {
-          "ficha": "7958",
-          "titulo": "QUE ESTABLECE UN MARCO LEGAL PARA LA PREVENCION, DIAGNOSTICO Y CONTROL DE LAS ENFERMEDADES NO TRANSMISIBLES",
-          "fecha": "23-07-2025"
-        }
-      ],
-      "proyectos_detalle": [
-        {
-          "ficha": "8356",
-          "titulo": "QUE MODIFICA LA LEY 44 DE 2002 Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "27-03-2026",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8055",
-          "titulo": "QUE ESTABLECE MEDIDAS ESPECIALES PARA LA REMEDIACION, RESTAURACION ECOLOGICA Y MANEJO SOSTENIBLE DE LA CUENCA HIDROGRAFICA DEL RIO LA VILLA Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "26-08-2025",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "7958",
-          "titulo": "QUE ESTABLECE UN MARCO LEGAL PARA LA PREVENCION, DIAGNOSTICO Y CONTROL DE LAS ENFERMEDADES NO TRANSMISIBLES",
-          "fecha": "23-07-2025",
-          "etapa": "Ley"
-        },
-        {
-          "ficha": "7940",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS DEL CODIGO PENAL RELACIONADOS CON LOS DELITOS CONTRA LA IDENTIDAD Y TRAFICO DE PERSONAS MENORES DE EDAD",
-          "fecha": "17-07-2025",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "8396",
-          "titulo": "POR LA QUE SE ADOPTA Y ACTUALIZA LA ORGANIZACION JUDICIAL DE LA PROVINCIA DE PANAMA OESTE Y MODIFICA EL CODIGO JUDICIAL",
-          "fecha": "18-03-2025",
-          "etapa": "Segundo Debate(Objetado)"
-        },
-        {
-          "ficha": "7684",
-          "titulo": "QUE ESTABLECE Y REGULA LOS COMITES DE SALUD DE LAS COMUNIDADES Y DEROGA EL DECRETO DE GABINETE 401 DE 1970",
-          "fecha": "08-10-2024",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "7540",
-          "titulo": "QUE INTEGRA LA EDUCACION SOCIOEMOCIONAL EN EL SISTEMA EDUCATIVO DE PRIMER Y SEGUNDO NIVEL, EN EL TERRITORIO NACIONAL",
-          "fecha": "14-08-2024",
-          "etapa": "Archivado"
-        },
-        {
-          "ficha": "7502",
-          "titulo": "QUE DEROGA LA LEY 16 DEL 17 DE JUNIO DE 2016, SOBRE JUSTICIA COMUNITARIA DE PAZ, CREA LA JURISDICCION ESPECIAL DE JUSTICIA COMUNITARIA DE PAZ, ESTABLECE NUEVAS NORMAS PARA SU APLICACION, REFORMA ARTICULOS DE OTRAS LEYES Y DICTA DISPOSICIONES SOBRE METODOS ALTERNOS DE RESOLUCION DE CONFLICTOS",
-          "fecha": "01-08-2024",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "7462",
-          "titulo": "DECLARACION DEL DIA NACIONAL DEL FUTBOLISTA EN PANAMA",
-          "fecha": "24-07-2024",
-          "etapa": "Negado"
-        },
-        {
-          "ficha": "7463",
-          "titulo": "LEY INTEGRAL DE LA INDUSTRIA DE LOS DEPORTES ELECTRONICOS (ESPORTS)",
-          "fecha": "24-07-2024",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "7461",
-          "titulo": "QUE REGULA EL USO OBLIGATORIO DE SILLAS DE RETENCION INFANTIL EN VEHICULOS PARTICULARES Y DICTA OTRAS DISPOSICIONES.",
-          "fecha": "23-07-2024",
-          "etapa": "Objetado por Ejecutivo"
-        },
-        {
-          "ficha": "7432",
-          "titulo": "LEY QUE ESTABLECE POLITICAS DE DE PREVENCION Y PROTECCION CONTRA LA VIOLENCIA SEXUAL DIGITAL Y MEDIATICA; ADICIONA DISPOSICIONES AL CODIGO PENAL Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "08-07-2024",
-          "etapa": "Archivado"
-        },
-        {
-          "ficha": "7423",
-          "titulo": "QUE ESTABLECE LA PROTECCION, INCLUSION Y ABORDAJE INTEGRAL DE LAS PERSONAS CON TRASTORNO DEL ESPECTRO AUTISTA",
-          "fecha": "04-07-2024",
-          "etapa": "Objetado por Ejecutivo"
-        }
-      ],
-      "provincia_monitoreo": "Panamá",
-      "circuito_monitoreo": "8-2",
-      "perfil_monitoreo": "https://espaciocivico.org/diputados/yarelis-rodriguez",
-      "planilla_texto": "B/. 17,000",
-      "planilla_valor": 17000.0,
-      "asistencia_pleno": 5.0,
-      "asistencia_comisiones": 5.0,
-      "viajes_ponderacion": 5.0,
-      "declaracion_intereses": null,
-      "declaracion_patrimonio": 5.0,
-      "calificacion": 5.0,
-      "comisiones": [
-        "Trabajo, Salud y Desarrollo Social",
-        "Población, Ambiente y Desarrollo"
-      ],
-      "comisiones_cantidad": 2
-    },
-    {
       "nombre": "Dana Castañeda",
       "partido": "Realizando Metas",
       "circuito": "2-3",
@@ -2964,6 +2822,130 @@
         "Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
       ],
       "comisiones_cantidad": 2
+    },
+    {
+      "nombre": "Luis Camacho Castro",
+      "partido": "Realizando Metas",
+      "circuito": "8-2",
+      "provincia": "Panamá",
+      "suplente": "Hilda Guzman De Boyd",
+      "foto": "https://espaciocivico.org/api/drive-image/1IepU3c-QMYJreqNIGzZ0EhWT0ZAYi_Kh",
+      "perfil": "https://espaciocivico.org/diputados/luis-camacho-castro",
+      "slug": "luis-camacho-castro",
+      "proyectos": 12,
+      "leyes": 2,
+      "co_patrocinios": 33,
+      "etapas": {
+        "Preliminar": 1,
+        "Retirado por proponente": 1,
+        "Primer Debate": 2,
+        "Ley": 2,
+        "Negado": 2,
+        "Segundo Debate(Objetado)": 1,
+        "Enviado a subcomisión para analisis": 2,
+        "Archivado": 1
+      },
+      "leyes_detalle": [
+        {
+          "ficha": "7830",
+          "titulo": "QUE MODIFICA UN ARTÍCULO DEL CÓDIGO PENAL",
+          "fecha": "25-03-2025"
+        },
+        {
+          "ficha": "8159",
+          "titulo": "QUE SUBROGA LA LEY 7 DE 1997, QUE CREA LA DEFENSORÍA DEL PUEBLO, Y MODIFICA LA LEY 6 DE 2017, QUE CREA EL MECANISMO NACIONAL PARA LA PREVENCIÓN DE LA TORTURA Y OTROS TRATOS O PENAS CRUELES, INHUMANAS O DEGRADANTES",
+          "fecha": "23-10-2024"
+        }
+      ],
+      "proyectos_detalle": [
+        {
+          "ficha": "8332",
+          "titulo": "QUE MODIFICA LEY 6 DE 1987, SOBRE BENEFICIOS A JUBILADOS, PENSIONADOS Y TERCERA EDAD, MODIFICADA POR LA LEY 18 DE 1998, LA LEY 15 DE 1992, LA LEY 37 DE 2001, LA LEY 14 DE 2003, LA LEY 51 DE 2005 Y LA LEY 30 DE 2008",
+          "fecha": "16-03-2026",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "8295",
+          "titulo": "QUE MODIFICA EL CODIGO PROCESAL PENAL (LEY 63 DE 2008) PARA DECLARAR LA INAPELABILIDAD DE LAS SENTENCIAS ABSOLUTORIA DICTADA EN PRIMERA INSTANCIA Y LIMITA LA CAPACIDAD DEL MINISTERIO PUBLICO Y DE LA QUERELLA PARA RECURRIRLAS.",
+          "fecha": "24-02-2026",
+          "etapa": "Retirado por proponente"
+        },
+        {
+          "ficha": "7981",
+          "titulo": "QUE ADICIONA PARAGRAFO AL NUMERAL 5 DEL ARTICULO 50 DEL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL",
+          "fecha": "05-08-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "7830",
+          "titulo": "QUE MODIFICA UN ARTÍCULO DEL CÓDIGO PENAL",
+          "fecha": "25-03-2025",
+          "etapa": "Ley"
+        },
+        {
+          "ficha": "7827",
+          "titulo": "QUE MODIFICA EL ARTICULO 196 DEL CODIGO PENAL DE LA REPUBLICA DE PANAMA",
+          "fecha": "24-03-2025",
+          "etapa": "Negado"
+        },
+        {
+          "ficha": "8159",
+          "titulo": "QUE SUBROGA LA LEY 7 DE 1997, QUE CREA LA DEFENSORÍA DEL PUEBLO, Y MODIFICA LA LEY 6 DE 2017, QUE CREA EL MECANISMO NACIONAL PARA LA PREVENCIÓN DE LA TORTURA Y OTROS TRATOS O PENAS CRUELES, INHUMANAS O DEGRADANTES",
+          "fecha": "23-10-2024",
+          "etapa": "Ley"
+        },
+        {
+          "ficha": "7695",
+          "titulo": "QUE ESTABLECE EL REGIMEN ESPECIAL REGIONAL DE SEDES DE OFICINAS ADMINISTRATIVAS DE APOYO INTERNO (BACKOFFICE) PARA LA GENERACION DE EMPLEO FORMAL Y FOMENTO DE INVERSION EN EL DISTRITO DE SAN MIGUELITO",
+          "fecha": "14-10-2024",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8253",
+          "titulo": "POR LA CUAL SE CREA EL PROGRAMA DE INCENTIVOS Y OPORTUNIDADES DE EMPLEO A RESOCIALIZADOS",
+          "fecha": "30-09-2024",
+          "etapa": "Segundo Debate(Objetado)"
+        },
+        {
+          "ficha": "7560",
+          "titulo": "QUE DEROGA NORMAS DE LA LEY 49 DE 1984, QUE DICTA EL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL",
+          "fecha": "22-08-2024",
+          "etapa": "Enviado a subcomisión para analisis"
+        },
+        {
+          "ficha": "7503",
+          "titulo": "QUE DICTA DISPOSICIONES SOBRE AMNISTIA, INDULTO, REBAJA DE PENA Y CONCESION DE LIBERTAD CONDICIONAL, MODIFICA EL CODIGO PENAL Y EL CODIGO PROCESAL PENAL",
+          "fecha": "29-07-2024",
+          "etapa": "Archivado"
+        },
+        {
+          "ficha": "7431",
+          "titulo": "QUE REFORMA EL ARTICULO 389 DEL CODIGO PENAL, PARA ADICIONAR EL PREVARICATO A JUECES Y FISCALES",
+          "fecha": "08-07-2024",
+          "etapa": "Negado"
+        },
+        {
+          "ficha": "7414",
+          "titulo": "QUE REFORMA EL ARTICULO 173 DEL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL",
+          "fecha": "03-07-2024",
+          "etapa": "Enviado a subcomisión para analisis"
+        }
+      ],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-2",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/luis-camacho-castro",
+      "planilla_texto": "B/. 24,450",
+      "planilla_valor": 24450.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 3.0,
+      "comisiones": [
+        "Gobierno, Justicia y Asuntos Constitucionales"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Jamis Acosta",
@@ -3200,6 +3182,123 @@
       "comisiones_cantidad": 2
     },
     {
+      "nombre": "Roberto Zuñiga",
+      "partido": "Coalición Vamos",
+      "circuito": "8-4",
+      "provincia": "Panamá",
+      "suplente": "Herminia Thompson",
+      "foto": "https://espaciocivico.org/api/drive-image/1ikvRFnKl6U2bMNySKm5amHNDKYppcskS",
+      "perfil": "https://espaciocivico.org/diputados/roberto-zuniga",
+      "slug": "roberto-zuniga",
+      "proyectos": 11,
+      "leyes": 2,
+      "co_patrocinios": 123,
+      "etapas": {
+        "Primer Debate": 1,
+        "Segundo Debate": 3,
+        "Archivado": 1,
+        "Enviado a subcomisión para analisis": 1,
+        "Enviado al Ejecutivo": 1,
+        "Preliminar": 2,
+        "Ley": 2
+      },
+      "leyes_detalle": [
+        {
+          "ficha": "8250",
+          "titulo": "QUE CREA EL PATRONATO DEL FESTIVAL NACIONAL DEL TORO GUAPO DE ANTON Y DICTA OTRA DISPOSICION",
+          "fecha": "25-09-2024"
+        },
+        {
+          "ficha": "8194",
+          "titulo": "QUE ADICIONA UN CAPITULO A LA LEY 16 DE 1995, QUE REORGANIZA EL INSTITUTO NACIONAL DE DEPORTES, Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "13-08-2024"
+        }
+      ],
+      "proyectos_detalle": [
+        {
+          "ficha": "8307",
+          "titulo": "QUE ESTABLECE MEDIDA INTEGRALES PARA LA ERRADICACION, PREVENCION, DETECCION TEMPRANA, ATENCION Y CONTROL DEL CANCER DE CUELLO UTERINO EN LA REPUBLICA DE PANAMA",
+          "fecha": "03-03-2026",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8293",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 35 DE 30 DE MAYO DE 2018, QUE REGULA LOS SERVICIOS DE SANGRE Y TRANSFUSIONES SANGUINEAS",
+          "fecha": "23-02-2026",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "8259",
+          "titulo": "QUE REGULA LA TRAMITACION DIGITAL DE PERMISOS PARA EL ESPECTACULO PUBLICO O ACTIVIDAD DE DIVERSION TEMPORAL Y DICTA OTRAS DISPOSICIONES.",
+          "fecha": "26-01-2026",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "8242",
+          "titulo": "QUE ADICIONA UN ARTICULO AL CODIGO PENAL EN MATERIA DE ENRIQUECIMIENTO INJUSTIFICADO",
+          "fecha": "13-01-2026",
+          "etapa": "Archivado"
+        },
+        {
+          "ficha": "8189",
+          "titulo": "QUE MODIFICA LA LEY 1 DE 1994 Y LA LEY 44 DE 2002 Y DICTA OTRAS DISPOSICIONES.",
+          "fecha": "27-10-2025",
+          "etapa": "Enviado a subcomisión para analisis"
+        },
+        {
+          "ficha": "8030",
+          "titulo": "QUE CREA EL PROGRAMA NACIONAL DE DESARROLLO TURÍSTICO Y PATRIMONIAL PARAÍSOS DEL ISTMO EN LA REPÚBLICA DE PANAMÁ",
+          "fecha": "19-08-2025",
+          "etapa": "Enviado al Ejecutivo"
+        },
+        {
+          "ficha": "8003",
+          "titulo": "QUE ESTABLECE DISPOSICIONES SALARIALES DE LOS MAGISTRADOS DE LA REPUBLICA DE PANAMA Y ELIMINA OTROS PRIVILEGIOS",
+          "fecha": "11-08-2025",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "7946",
+          "titulo": "QUE ESTABLECE LA IMPRESCRIPTIBILIDAD DE LOS DELITOS CONTRA LA ADMINISTRACION PUBLICA, INCREMENTA SUS PENAS Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "22-07-2025",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "8250",
+          "titulo": "QUE CREA EL PATRONATO DEL FESTIVAL NACIONAL DEL TORO GUAPO DE ANTON Y DICTA OTRA DISPOSICION",
+          "fecha": "25-09-2024",
+          "etapa": "Ley"
+        },
+        {
+          "ficha": "7647",
+          "titulo": "QUE DESPOLITIZA LAS FEDERACIONES DEPORTIVAS",
+          "fecha": "23-09-2024",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "8194",
+          "titulo": "QUE ADICIONA UN CAPITULO A LA LEY 16 DE 1995, QUE REORGANIZA EL INSTITUTO NACIONAL DE DEPORTES, Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "13-08-2024",
+          "etapa": "Ley"
+        }
+      ],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-4",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/roberto-zuniga",
+      "planilla_texto": "B/. 13,700",
+      "planilla_valor": 13700.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
+      "comisiones": [
+        "Gobierno, Justicia y Asuntos Constitucionales"
+      ],
+      "comisiones_cantidad": 1
+    },
+    {
       "nombre": "Carlos Saldaña",
       "partido": "Coalición Vamos",
       "circuito": "4-1",
@@ -3416,108 +3515,102 @@
       "comisiones_cantidad": 1
     },
     {
-      "nombre": "Roberto Zuñiga",
-      "partido": "Coalición Vamos",
-      "circuito": "8-4",
-      "provincia": "Panamá",
-      "suplente": "Herminia Thompson",
-      "foto": "https://espaciocivico.org/api/drive-image/1ikvRFnKl6U2bMNySKm5amHNDKYppcskS",
-      "perfil": "https://espaciocivico.org/diputados/roberto-zuniga",
-      "slug": "roberto-zuniga",
+      "nombre": "Medin Jiménez Pitti",
+      "partido": "Partido Panameñista",
+      "circuito": "4-4",
+      "provincia": "Chiriquí",
+      "suplente": "Ariel Rios",
+      "foto": "https://espaciocivico.org/api/drive-image/1bzczX1uQsA7ZObR9g3aMyrVZqhphKSfd",
+      "perfil": "https://espaciocivico.org/diputados/medin-jimenez-pitti",
+      "slug": "medin-jimenez-pitti",
       "proyectos": 10,
-      "leyes": 1,
-      "co_patrocinios": 124,
+      "leyes": 0,
+      "co_patrocinios": 40,
       "etapas": {
-        "Primer Debate": 1,
-        "Segundo Debate": 3,
-        "Archivado": 1,
+        "Primer Debate": 2,
         "Enviado a subcomisión para analisis": 1,
+        "Archivado": 1,
+        "Segundo Debate": 3,
+        "Objetado por Ejecutivo": 1,
         "Enviado al Ejecutivo": 1,
-        "Preliminar": 2,
-        "Ley": 1
+        "Retirado por proponente": 1
       },
-      "leyes_detalle": [
-        {
-          "ficha": "8194",
-          "titulo": "QUE ADICIONA UN CAPITULO A LA LEY 16 DE 1995, QUE REORGANIZA EL INSTITUTO NACIONAL DE DEPORTES, Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "13-08-2024"
-        }
-      ],
+      "leyes_detalle": [],
       "proyectos_detalle": [
         {
-          "ficha": "8307",
-          "titulo": "QUE ESTABLECE MEDIDA INTEGRALES PARA LA ERRADICACION, PREVENCION, DETECCION TEMPRANA, ATENCION Y CONTROL DEL CANCER DE CUELLO UTERINO EN LA REPUBLICA DE PANAMA",
-          "fecha": "03-03-2026",
+          "ficha": "8310",
+          "titulo": "LEY MJP (DE PAGO GARANTIZADO AL PRODUCTOR), “QUE REGULA LAS RELACIONES COMERCIALES EN MERCA PANAMA Y GARANTIZA EL PAGO OPORTUNO A LOS PRODUCTORES AGROPECUARIOS”",
+          "fecha": "04-03-2026",
           "etapa": "Primer Debate"
         },
         {
-          "ficha": "8293",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 35 DE 30 DE MAYO DE 2018, QUE REGULA LOS SERVICIOS DE SANGRE Y TRANSFUSIONES SANGUINEAS",
-          "fecha": "23-02-2026",
-          "etapa": "Segundo Debate"
+          "ficha": "8311",
+          "titulo": "LEY MED (LEY DE MANEJO Y EVALUACION DE DAÑOS ELECTRICOS), “QUE ESTABLECE EL REGIMEN DE RESPONSABILIDAD Y COMPENSACION POR DAÑOS A EQUIPOS ELECTRICOS CAUSADOS POR FALLAS EN EL SERVICIO PUBLICO DE ENERGIA ELECTRICA Y DICTA OTRAS DISPOSICIONES\"",
+          "fecha": "04-03-2026",
+          "etapa": "Primer Debate"
         },
         {
-          "ficha": "8259",
-          "titulo": "QUE REGULA LA TRAMITACION DIGITAL DE PERMISOS PARA EL ESPECTACULO PUBLICO O ACTIVIDAD DE DIVERSION TEMPORAL Y DICTA OTRAS DISPOSICIONES.",
-          "fecha": "26-01-2026",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "8242",
-          "titulo": "QUE ADICIONA UN ARTICULO AL CODIGO PENAL EN MATERIA DE ENRIQUECIMIENTO INJUSTIFICADO",
-          "fecha": "13-01-2026",
-          "etapa": "Archivado"
-        },
-        {
-          "ficha": "8189",
-          "titulo": "QUE MODIFICA LA LEY 1 DE 1994 Y LA LEY 44 DE 2002 Y DICTA OTRAS DISPOSICIONES.",
-          "fecha": "27-10-2025",
+          "ficha": "8120",
+          "titulo": "QUE REGULA EL USO, COMERCIALIZACION, PUBLICIDAD, CALIDAD Y SEGURIDAD DE LOS SISTEMAS ELECTRONICOS DE ADMINISTRACION DE NICOTINA, BOLSAS PARA CONSUMO ORAL, PRODUCTOS CALENTADOS PARA INHALACION, LIQUIDOS DE VAPEO Y SISTEMAS SIMILARES SIN NICOTINA, MODIFICA ARTICULOS DE LA LEY 45 DE 1995 Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "17-09-2025",
           "etapa": "Enviado a subcomisión para analisis"
         },
         {
-          "ficha": "8030",
-          "titulo": "QUE CREA EL PROGRAMA NACIONAL DE DESARROLLO TURÍSTICO Y PATRIMONIAL PARAÍSOS DEL ISTMO EN LA REPÚBLICA DE PANAMÁ",
-          "fecha": "19-08-2025",
-          "etapa": "Enviado al Ejecutivo"
+          "ficha": "8024",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 113 DE 18 DE NOVIEMBRE DE 2019, SOBRE ROTULACION Y COMERCIALIZACION DE PRODUCTOS Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "18-08-2025",
+          "etapa": "Archivado"
         },
         {
-          "ficha": "8003",
-          "titulo": "QUE ESTABLECE DISPOSICIONES SALARIALES DE LOS MAGISTRADOS DE LA REPUBLICA DE PANAMA Y ELIMINA OTROS PRIVILEGIOS",
-          "fecha": "11-08-2025",
-          "etapa": "Preliminar"
-        },
-        {
-          "ficha": "7946",
-          "titulo": "QUE ESTABLECE LA IMPRESCRIPTIBILIDAD DE LOS DELITOS CONTRA LA ADMINISTRACION PUBLICA, INCREMENTA SUS PENAS Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "22-07-2025",
-          "etapa": "Preliminar"
-        },
-        {
-          "ficha": "7647",
-          "titulo": "QUE DESPOLITIZA LAS FEDERACIONES DEPORTIVAS",
-          "fecha": "23-09-2024",
+          "ficha": "7939",
+          "titulo": "QUE REGULA LA VENTA DE VEHICULOS POR PARTE DE CONCESIONARIOS, ESTABLECE EL PRECIO SEGUN EL AÑO DE FABRICACION, OBLIGA LA PRONTA NACIONALIZACION DESDE ADUANA Y DISPONE LA REGULACION POR KILOMETRAJE",
+          "fecha": "17-07-2025",
           "etapa": "Segundo Debate"
         },
         {
-          "ficha": "8194",
-          "titulo": "QUE ADICIONA UN CAPITULO A LA LEY 16 DE 1995, QUE REORGANIZA EL INSTITUTO NACIONAL DE DEPORTES, Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "13-08-2024",
-          "etapa": "Ley"
+          "ficha": "7842",
+          "titulo": "QUE CREA LA RUTA DEL TRAPICHE EN REPUBLICA DE PANAMA",
+          "fecha": "09-04-2025",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "7840",
+          "titulo": "QUE ESTABLECE UN RESPALDO ECONOMICO A LOS MICRO EMPRESARIOS DEL TURISMO EN PANAMA",
+          "fecha": "08-04-2025",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "7829",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTÍCULOS A LA LEY 55 DE 1973, QUE REGULA LA ADMINISTRACIÓN, FISCALIZACIÓN Y COBRO DE VARIOS TRIBUTOS MUNICIPALES",
+          "fecha": "24-03-2025",
+          "etapa": "Objetado por Ejecutivo"
+        },
+        {
+          "ficha": "8371",
+          "titulo": "QUE RECONOCE EL PAGO DE LOS APORTES REALIZADOS, POR EXTENSION DE JUBILACION, A LOS EDUCADORES JUBILADOS DE LAS PROMOCIONE DE 1972 Y 1973 CERTIFICADOS POR LA CAJA DE SEGURO SOCIAL",
+          "fecha": "28-01-2025",
+          "etapa": "Enviado al Ejecutivo"
+        },
+        {
+          "ficha": "7452",
+          "titulo": "POR EL CUAL SE ADICIONA UN CAPITULO SOBRE LOS DELITOS CONTRA LA SEGURIDAD ALIMENTARIA AL TITULO DE DELITOS CONTRA LA SEGURIDAD COLECTIVA DE LA LEY 14 DE 26 DE ABRIL DE 2007, QUE ADOPTA EL CODIGO PENAL DE LA REPUBLICA DE PANAMA",
+          "fecha": "22-07-2024",
+          "etapa": "Retirado por proponente"
         }
       ],
-      "provincia_monitoreo": "Panamá",
-      "circuito_monitoreo": "8-4",
-      "perfil_monitoreo": "https://espaciocivico.org/diputados/roberto-zuniga",
-      "planilla_texto": "B/. 13,700",
-      "planilla_valor": 13700.0,
-      "asistencia_pleno": 5.0,
-      "asistencia_comisiones": 5.0,
+      "provincia_monitoreo": "Chiriquí",
+      "circuito_monitoreo": "4-4",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/medin-jimenez-pitti",
+      "planilla_texto": "B/. 23,200",
+      "planilla_valor": 23200.0,
+      "asistencia_pleno": 3.0,
+      "asistencia_comisiones": 3.0,
       "viajes_ponderacion": 5.0,
-      "declaracion_intereses": null,
-      "declaracion_patrimonio": 5.0,
-      "calificacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.1,
       "comisiones": [
-        "Gobierno, Justicia y Asuntos Constitucionales"
+        "Asuntos Agropecuarios, Asuntos Municipales"
       ],
       "comisiones_cantidad": 1
     },
@@ -3617,99 +3710,6 @@
       "calificacion": 5.0,
       "comisiones": [
         "Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
-      ],
-      "comisiones_cantidad": 1
-    },
-    {
-      "nombre": "Medin Jiménez Pitti",
-      "partido": "Partido Panameñista",
-      "circuito": "4-4",
-      "provincia": "Chiriquí",
-      "suplente": "Ariel Rios",
-      "foto": "https://espaciocivico.org/api/drive-image/1bzczX1uQsA7ZObR9g3aMyrVZqhphKSfd",
-      "perfil": "https://espaciocivico.org/diputados/medin-jimenez-pitti",
-      "slug": "medin-jimenez-pitti",
-      "proyectos": 9,
-      "leyes": 0,
-      "co_patrocinios": 41,
-      "etapas": {
-        "Primer Debate": 2,
-        "Enviado a subcomisión para analisis": 1,
-        "Archivado": 1,
-        "Segundo Debate": 3,
-        "Objetado por Ejecutivo": 1,
-        "Retirado por proponente": 1
-      },
-      "leyes_detalle": [],
-      "proyectos_detalle": [
-        {
-          "ficha": "8310",
-          "titulo": "LEY MJP (DE PAGO GARANTIZADO AL PRODUCTOR), “QUE REGULA LAS RELACIONES COMERCIALES EN MERCA PANAMA Y GARANTIZA EL PAGO OPORTUNO A LOS PRODUCTORES AGROPECUARIOS”",
-          "fecha": "04-03-2026",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8311",
-          "titulo": "LEY MED (LEY DE MANEJO Y EVALUACION DE DAÑOS ELECTRICOS), “QUE ESTABLECE EL REGIMEN DE RESPONSABILIDAD Y COMPENSACION POR DAÑOS A EQUIPOS ELECTRICOS CAUSADOS POR FALLAS EN EL SERVICIO PUBLICO DE ENERGIA ELECTRICA Y DICTA OTRAS DISPOSICIONES\"",
-          "fecha": "04-03-2026",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8120",
-          "titulo": "QUE REGULA EL USO, COMERCIALIZACION, PUBLICIDAD, CALIDAD Y SEGURIDAD DE LOS SISTEMAS ELECTRONICOS DE ADMINISTRACION DE NICOTINA, BOLSAS PARA CONSUMO ORAL, PRODUCTOS CALENTADOS PARA INHALACION, LIQUIDOS DE VAPEO Y SISTEMAS SIMILARES SIN NICOTINA, MODIFICA ARTICULOS DE LA LEY 45 DE 1995 Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "17-09-2025",
-          "etapa": "Enviado a subcomisión para analisis"
-        },
-        {
-          "ficha": "8024",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 113 DE 18 DE NOVIEMBRE DE 2019, SOBRE ROTULACION Y COMERCIALIZACION DE PRODUCTOS Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "18-08-2025",
-          "etapa": "Archivado"
-        },
-        {
-          "ficha": "7939",
-          "titulo": "QUE REGULA LA VENTA DE VEHICULOS POR PARTE DE CONCESIONARIOS, ESTABLECE EL PRECIO SEGUN EL AÑO DE FABRICACION, OBLIGA LA PRONTA NACIONALIZACION DESDE ADUANA Y DISPONE LA REGULACION POR KILOMETRAJE",
-          "fecha": "17-07-2025",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "7842",
-          "titulo": "QUE CREA LA RUTA DEL TRAPICHE EN REPUBLICA DE PANAMA",
-          "fecha": "09-04-2025",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "7840",
-          "titulo": "QUE ESTABLECE UN RESPALDO ECONOMICO A LOS MICRO EMPRESARIOS DEL TURISMO EN PANAMA",
-          "fecha": "08-04-2025",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "7829",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTÍCULOS A LA LEY 55 DE 1973, QUE REGULA LA ADMINISTRACIÓN, FISCALIZACIÓN Y COBRO DE VARIOS TRIBUTOS MUNICIPALES",
-          "fecha": "24-03-2025",
-          "etapa": "Objetado por Ejecutivo"
-        },
-        {
-          "ficha": "7452",
-          "titulo": "POR EL CUAL SE ADICIONA UN CAPITULO SOBRE LOS DELITOS CONTRA LA SEGURIDAD ALIMENTARIA AL TITULO DE DELITOS CONTRA LA SEGURIDAD COLECTIVA DE LA LEY 14 DE 26 DE ABRIL DE 2007, QUE ADOPTA EL CODIGO PENAL DE LA REPUBLICA DE PANAMA",
-          "fecha": "22-07-2024",
-          "etapa": "Retirado por proponente"
-        }
-      ],
-      "provincia_monitoreo": "Chiriquí",
-      "circuito_monitoreo": "4-4",
-      "perfil_monitoreo": "https://espaciocivico.org/diputados/medin-jimenez-pitti",
-      "planilla_texto": "B/. 23,200",
-      "planilla_valor": 23200.0,
-      "asistencia_pleno": 3.0,
-      "asistencia_comisiones": 3.0,
-      "viajes_ponderacion": 5.0,
-      "declaracion_intereses": 1.0,
-      "declaracion_patrimonio": 1.0,
-      "calificacion": 2.1,
-      "comisiones": [
-        "Asuntos Agropecuarios, Asuntos Municipales"
       ],
       "comisiones_cantidad": 1
     },
@@ -5410,73 +5410,6 @@
       "comisiones_cantidad": 1
     },
     {
-      "nombre": "Ronald de Gracia",
-      "partido": "Realizando Metas",
-      "circuito": "7-2",
-      "provincia": "Los Santos",
-      "suplente": "Luis Enrique Batista",
-      "foto": "https://espaciocivico.org/api/drive-image/1UVWdM7SQlFSbtmT1LFx6zHjJ7stYrIXR",
-      "perfil": "https://espaciocivico.org/diputados/ronald-de-gracia",
-      "slug": "ronald-de-gracia",
-      "proyectos": 4,
-      "leyes": 1,
-      "co_patrocinios": 28,
-      "etapas": {
-        "Retirado por proponente": 1,
-        "Segundo Debate": 1,
-        "Segundo Debate(Objetado)": 1,
-        "Ley": 1
-      },
-      "leyes_detalle": [
-        {
-          "ficha": "7441",
-          "titulo": "QUE MODIFICA EL CODIGO PENAL Y EL CODIGO PROCESAL PENAL EN MATERIA RELACIONADA CON EL DELITO DE HURTO PECUARIO",
-          "fecha": "11-07-2024"
-        }
-      ],
-      "proyectos_detalle": [
-        {
-          "ficha": "8129",
-          "titulo": "QUE MODIFICA UN ARTICULO DE LA LEY 51, DEL 28 DE JUNIO DE 2017, QUE REGULA EL TRANSPORTE DE CARGA POR CARRETERA, TRANSITO Y TRANSPORTE",
-          "fecha": "22-09-2025",
-          "etapa": "Retirado por proponente"
-        },
-        {
-          "ficha": "8060",
-          "titulo": "QUE CREA EL PATRONATO DEL HOSPITAL REGIONAL DE AZUERO ANITA MORENO EN LA PROVINCIA DE LOS SANTOS",
-          "fecha": "27-08-2025",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "8397",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 30 DE 2000, QUE PROMUEVE LA LIMPIEZA DE LOS ESPACIOS PUBLICOS",
-          "fecha": "30-07-2024",
-          "etapa": "Segundo Debate(Objetado)"
-        },
-        {
-          "ficha": "7441",
-          "titulo": "QUE MODIFICA EL CODIGO PENAL Y EL CODIGO PROCESAL PENAL EN MATERIA RELACIONADA CON EL DELITO DE HURTO PECUARIO",
-          "fecha": "11-07-2024",
-          "etapa": "Ley"
-        }
-      ],
-      "provincia_monitoreo": "Los Santos",
-      "circuito_monitoreo": "7-2",
-      "perfil_monitoreo": "https://espaciocivico.org/diputados/ronald-de-gracia",
-      "planilla_texto": "B/. 39,725",
-      "planilla_valor": 39725.0,
-      "asistencia_pleno": 5.0,
-      "asistencia_comisiones": 3.0,
-      "viajes_ponderacion": 5.0,
-      "declaracion_intereses": 1.0,
-      "declaracion_patrimonio": 1.0,
-      "calificacion": 2.6,
-      "comisiones": [
-        "Trabajo, Salud y Desarrollo Social"
-      ],
-      "comisiones_cantidad": 1
-    },
-    {
       "nombre": "Tomas Benavides",
       "partido": "Realizando Metas",
       "circuito": "9-2",
@@ -5811,6 +5744,66 @@
       "comisiones_cantidad": 1
     },
     {
+      "nombre": "Ronald de Gracia",
+      "partido": "Realizando Metas",
+      "circuito": "7-2",
+      "provincia": "Los Santos",
+      "suplente": "Luis Enrique Batista",
+      "foto": "https://espaciocivico.org/api/drive-image/1UVWdM7SQlFSbtmT1LFx6zHjJ7stYrIXR",
+      "perfil": "https://espaciocivico.org/diputados/ronald-de-gracia",
+      "slug": "ronald-de-gracia",
+      "proyectos": 3,
+      "leyes": 1,
+      "co_patrocinios": 29,
+      "etapas": {
+        "Retirado por proponente": 1,
+        "Segundo Debate": 1,
+        "Ley": 1
+      },
+      "leyes_detalle": [
+        {
+          "ficha": "7441",
+          "titulo": "QUE MODIFICA EL CODIGO PENAL Y EL CODIGO PROCESAL PENAL EN MATERIA RELACIONADA CON EL DELITO DE HURTO PECUARIO",
+          "fecha": "11-07-2024"
+        }
+      ],
+      "proyectos_detalle": [
+        {
+          "ficha": "8129",
+          "titulo": "QUE MODIFICA UN ARTICULO DE LA LEY 51, DEL 28 DE JUNIO DE 2017, QUE REGULA EL TRANSPORTE DE CARGA POR CARRETERA, TRANSITO Y TRANSPORTE",
+          "fecha": "22-09-2025",
+          "etapa": "Retirado por proponente"
+        },
+        {
+          "ficha": "8060",
+          "titulo": "QUE CREA EL PATRONATO DEL HOSPITAL REGIONAL DE AZUERO ANITA MORENO EN LA PROVINCIA DE LOS SANTOS",
+          "fecha": "27-08-2025",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "7441",
+          "titulo": "QUE MODIFICA EL CODIGO PENAL Y EL CODIGO PROCESAL PENAL EN MATERIA RELACIONADA CON EL DELITO DE HURTO PECUARIO",
+          "fecha": "11-07-2024",
+          "etapa": "Ley"
+        }
+      ],
+      "provincia_monitoreo": "Los Santos",
+      "circuito_monitoreo": "7-2",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/ronald-de-gracia",
+      "planilla_texto": "B/. 39,725",
+      "planilla_valor": 39725.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.6,
+      "comisiones": [
+        "Trabajo, Salud y Desarrollo Social"
+      ],
+      "comisiones_cantidad": 1
+    },
+    {
       "nombre": "Shirley Castañedas",
       "partido": "Realizando Metas",
       "circuito": "13-1",
@@ -5860,6 +5853,59 @@
       "calificacion": 2.4,
       "comisiones": [
         "Gobierno, Justicia y Asuntos Constitucionales"
+      ],
+      "comisiones_cantidad": 1
+    },
+    {
+      "nombre": "Victor Castillo",
+      "partido": "Realizando Metas",
+      "circuito": "3-1",
+      "provincia": "Colón",
+      "suplente": "Alejandro Salazar",
+      "foto": "https://espaciocivico.org/api/drive-image/1hSYeYwas_z-dnZz4wHuEK5d2dY2b-bdW",
+      "perfil": "https://espaciocivico.org/diputados/victor-castillo",
+      "slug": "victor-castillo",
+      "proyectos": 3,
+      "leyes": 0,
+      "co_patrocinios": 16,
+      "etapas": {
+        "Preliminar": 2,
+        "Segundo Debate(Objetado)": 1
+      },
+      "leyes_detalle": [],
+      "proyectos_detalle": [
+        {
+          "ficha": "8393",
+          "titulo": "QUE REGULA LAS CAMPAÑAS PUBLICAS DE RECAUDACION DE DONACIONES SOLIDARIAS, PROTEGE LA CONFIANZA SOCIAL Y ADICIONA DISPOSICIONES AL CODIGO PENAL PARA SANCIONAR EL FRAUDE MEDIANTE ENGAÑO SOLIDARIO",
+          "fecha": "27-04-2026",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "8066",
+          "titulo": "QUE CREA EL HOGAR \"RAZON DE VIVIR\" PARA ADULTOS MAYORES, EL CUAL ESTARA UBICADO EN LA PROVINCIA DE COLON Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "28-08-2025",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "8397",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 30 DE 2000, QUE PROMUEVE LA LIMPIEZA DE LOS ESPACIOS PUBLICOS",
+          "fecha": "30-07-2024",
+          "etapa": "Segundo Debate(Objetado)"
+        }
+      ],
+      "provincia_monitoreo": "Colón",
+      "circuito_monitoreo": "3-1",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/victor-castillo",
+      "planilla_texto": "B/. 12,400",
+      "planilla_valor": 12400.0,
+      "asistencia_pleno": 3.0,
+      "asistencia_comisiones": 2.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 1.9,
+      "comisiones": [
+        "Mujer, Niñez, Juventud y Familia"
       ],
       "comisiones_cantidad": 1
     },
@@ -6150,52 +6196,6 @@
       "calificacion": 2.6,
       "comisiones": [
         "Gobierno, Justicia y Asuntos Constitucionales"
-      ],
-      "comisiones_cantidad": 1
-    },
-    {
-      "nombre": "Victor Castillo",
-      "partido": "Realizando Metas",
-      "circuito": "3-1",
-      "provincia": "Colón",
-      "suplente": "Alejandro Salazar",
-      "foto": "https://espaciocivico.org/api/drive-image/1hSYeYwas_z-dnZz4wHuEK5d2dY2b-bdW",
-      "perfil": "https://espaciocivico.org/diputados/victor-castillo",
-      "slug": "victor-castillo",
-      "proyectos": 2,
-      "leyes": 0,
-      "co_patrocinios": 17,
-      "etapas": {
-        "Preliminar": 2
-      },
-      "leyes_detalle": [],
-      "proyectos_detalle": [
-        {
-          "ficha": "8393",
-          "titulo": "QUE REGULA LAS CAMPAÑAS PUBLICAS DE RECAUDACION DE DONACIONES SOLIDARIAS, PROTEGE LA CONFIANZA SOCIAL Y ADICIONA DISPOSICIONES AL CODIGO PENAL PARA SANCIONAR EL FRAUDE MEDIANTE ENGAÑO SOLIDARIO",
-          "fecha": "27-04-2026",
-          "etapa": "Preliminar"
-        },
-        {
-          "ficha": "8066",
-          "titulo": "QUE CREA EL HOGAR \"RAZON DE VIVIR\" PARA ADULTOS MAYORES, EL CUAL ESTARA UBICADO EN LA PROVINCIA DE COLON Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "28-08-2025",
-          "etapa": "Preliminar"
-        }
-      ],
-      "provincia_monitoreo": "Colón",
-      "circuito_monitoreo": "3-1",
-      "perfil_monitoreo": "https://espaciocivico.org/diputados/victor-castillo",
-      "planilla_texto": "B/. 12,400",
-      "planilla_valor": 12400.0,
-      "asistencia_pleno": 3.0,
-      "asistencia_comisiones": 2.0,
-      "viajes_ponderacion": 5.0,
-      "declaracion_intereses": 1.0,
-      "declaracion_patrimonio": 1.0,
-      "calificacion": 1.9,
-      "comisiones": [
-        "Mujer, Niñez, Juventud y Familia"
       ],
       "comisiones_cantidad": 1
     },
@@ -7128,34 +7128,34 @@
         "all": 165
       }
     },
-    "Panamá Oeste": {
+    "Panamá": {
       "2024": {
-        "Ley": 23,
-        "debate": 34,
-        "analisis": 18,
-        "sinAvance": 20,
-        "all": 95
+        "Ley": 24,
+        "debate": 51,
+        "analisis": 24,
+        "sinAvance": 36,
+        "all": 135
       },
       "2025": {
-        "Ley": 5,
-        "debate": 77,
-        "analisis": 31,
-        "sinAvance": 14,
-        "all": 127
+        "Ley": 11,
+        "debate": 124,
+        "analisis": 53,
+        "sinAvance": 43,
+        "all": 231
       },
       "2026": {
         "Ley": 1,
-        "debate": 34,
-        "analisis": 9,
-        "sinAvance": 3,
-        "all": 47
+        "debate": 58,
+        "analisis": 17,
+        "sinAvance": 11,
+        "all": 87
       },
       "all": {
-        "Ley": 29,
-        "debate": 145,
-        "analisis": 58,
-        "sinAvance": 37,
-        "all": 269
+        "Ley": 36,
+        "debate": 233,
+        "analisis": 94,
+        "sinAvance": 90,
+        "all": 453
       }
     },
     "Ngöbe Buglé": {
@@ -7218,34 +7218,34 @@
         "all": 240
       }
     },
-    "Panamá": {
+    "Panamá Oeste": {
       "2024": {
-        "Ley": 24,
-        "debate": 51,
-        "analisis": 24,
-        "sinAvance": 36,
-        "all": 135
+        "Ley": 23,
+        "debate": 34,
+        "analisis": 18,
+        "sinAvance": 20,
+        "all": 95
       },
       "2025": {
-        "Ley": 11,
-        "debate": 124,
-        "analisis": 53,
-        "sinAvance": 43,
-        "all": 231
+        "Ley": 5,
+        "debate": 77,
+        "analisis": 31,
+        "sinAvance": 14,
+        "all": 127
       },
       "2026": {
         "Ley": 1,
-        "debate": 58,
-        "analisis": 17,
-        "sinAvance": 11,
-        "all": 87
+        "debate": 34,
+        "analisis": 9,
+        "sinAvance": 3,
+        "all": 47
       },
       "all": {
-        "Ley": 36,
-        "debate": 233,
-        "analisis": 94,
-        "sinAvance": 90,
-        "all": 453
+        "Ley": 29,
+        "debate": 145,
+        "analisis": 58,
+        "sinAvance": 37,
+        "all": 269
       }
     },
     "Herrera": {
