@@ -1,12 +1,12 @@
 {
-  "fecha_extraccion": "20260716_110313",
+  "fecha_extraccion": "20260717_104950",
   "fuente": "https://sistemas.asamblea.gob.pa/segLegis/viewsPublico/SeguimientoLegislativo",
   "fuente_metricas": "https://espaciocivico.org/buscador/diputados-monitoreo?order=field_asistencia_comisiones_an&sort=asc",
-  "total_proyectos": 836,
+  "total_proyectos": 842,
   "total_leyes": 102,
   "total_diputados": 71,
   "etapas": {
-    "Preliminar": 129,
+    "Preliminar": 135,
     "Ley": 102,
     "Primer Debate": 164,
     "Segundo Debate": 167,
@@ -40,7 +40,7 @@
     "2026-02": 31,
     "2026-03": 61,
     "2026-04": 32,
-    "2026-07": 49
+    "2026-07": 55
   },
   "diputados": [
     {
@@ -54,7 +54,7 @@
       "slug": "ernesto-cedeno",
       "proyectos": 62,
       "leyes": 3,
-      "co_patrocinios": 47,
+      "co_patrocinios": 48,
       "etapas": {
         "Preliminar": 21,
         "Negado": 7,
@@ -483,15 +483,15 @@
       "foto": "https://espaciocivico.org/api/drive-image/1WXR4HeE_hvLDjR9igLCi33w6Rah2EpoJ",
       "perfil": "https://espaciocivico.org/diputados/alexandra-brenes",
       "slug": "alexandra-brenes",
-      "proyectos": 24,
+      "proyectos": 25,
       "leyes": 0,
-      "co_patrocinios": 98,
+      "co_patrocinios": 99,
       "etapas": {
         "Preliminar": 4,
         "Primer Debate": 5,
         "Segundo Debate": 8,
         "Retirado por proponente": 2,
-        "Negado": 2,
+        "Negado": 3,
         "Archivado": 2,
         "Enviado a subcomisión para analisis": 1
       },
@@ -636,6 +636,12 @@
           "etapa": "Retirado por proponente"
         },
         {
+          "ficha": "8252",
+          "titulo": "QUE ESTABLECE EL MARCO JURIDICO PARA EL DERECHO DEL ACCESO AL AGUA POTABLE, DICTA MEDIDAS PARA SU CONVERSACION E INCENTIVA SU PROTECCION Y LA DEL AMBIENTE DE ACUERDO CON LOS ESTANDARES INTERNACIONALES",
+          "fecha": "08-07-2024",
+          "etapa": "Negado"
+        },
+        {
           "ficha": "7412",
           "titulo": "QUE MODIFICA EL REGLAMENTO ORGANICO DE REGIMEN INTERNO DE LA ASAMBLEA NACIONAL",
           "fecha": "02-07-2024",
@@ -667,15 +673,15 @@
       "foto": "https://espaciocivico.org/api/drive-image/1LtL0bmfKWnmQ-JRnFNMQrLKBz-jYqzWL",
       "perfil": "https://espaciocivico.org/diputados/jorge-bloise-iglesias",
       "slug": "jorge-bloise-iglesias",
-      "proyectos": 24,
+      "proyectos": 25,
       "leyes": 0,
-      "co_patrocinios": 130,
+      "co_patrocinios": 132,
       "etapas": {
         "Preliminar": 2,
         "Segundo Debate": 12,
         "Retirado por proponente": 3,
         "Primer Debate": 3,
-        "Negado": 4
+        "Negado": 5
       },
       "leyes_detalle": [],
       "proyectos_detalle": [
@@ -806,6 +812,12 @@
           "etapa": "Negado"
         },
         {
+          "ficha": "7547",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS AL TEXTO UNICO DE LA LEY 22 DE 27 DE JUNIO DE 2006",
+          "fecha": "19-08-2024",
+          "etapa": "Negado"
+        },
+        {
           "ficha": "7489",
           "titulo": "QUE MODIFICA Y ADICIONA LA LEY 1 DE 11 DE ENERO DE 1965 (CONFORME HA SIDO REFORMADA), POR MEDIO DE LA CUAL SE CREA EL INSTITUTO PARA LA FORMACION Y APROVECHAMIENTO DE RECURSOS HUMANOS, QUE MODIFICA EL CONSEJO NACIONAL UN DIRECTOR GENERAL Y UN SUBDIRECTOR GENERAL Y CREA UNA COMISION TECNICO DE EVALUACION, EN EL OTORGAMIENTO DE BECAS, PRESTAMOS, AUXILIOS Y OTRAS PRESTACIONES ECONOMICAS DE LA REPUBLICA DE PANAMA",
           "fecha": "30-07-2024",
@@ -851,7 +863,7 @@
       "slug": "eduardo-gaitan",
       "proyectos": 22,
       "leyes": 1,
-      "co_patrocinios": 90,
+      "co_patrocinios": 91,
       "etapas": {
         "Primer Debate": 9,
         "Preliminar": 3,
@@ -1018,6 +1030,205 @@
       "comisiones_cantidad": 1
     },
     {
+      "nombre": "Manuel Cheng",
+      "partido": "Coalición Vamos",
+      "circuito": "13-1",
+      "provincia": "Panamá Oeste",
+      "suplente": "Yamileth Esther Rodríguez",
+      "foto": "https://espaciocivico.org/api/drive-image/1AstNu8E1UOdc0gfC5_BdULrlKMnzOEJP",
+      "perfil": "https://espaciocivico.org/diputados/manuel-cheng",
+      "slug": "manuel-cheng",
+      "proyectos": 22,
+      "leyes": 5,
+      "co_patrocinios": 77,
+      "etapas": {
+        "Preliminar": 4,
+        "Primer Debate": 6,
+        "Segundo Debate": 2,
+        "Ley": 5,
+        "Archivado": 1,
+        "Retirado por proponente": 2,
+        "Negado": 1,
+        "Enviado a subcomisión para analisis": 1
+      },
+      "leyes_detalle": [
+        {
+          "ficha": "8064",
+          "titulo": "QUE ADICIONA UN ARTÍCULO AL CÓDIGO PENAL, PARA TIPIFICAR EL DELITO DE EXHIBICIONISMO, Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "27-08-2025"
+        },
+        {
+          "ficha": "8265",
+          "titulo": "QUE REGULA EL ACOGIMIENTO COMO MEDIDA DE PROTECCION DE CARACTER TEMPORAL",
+          "fecha": "05-09-2024"
+        },
+        {
+          "ficha": "7567",
+          "titulo": "QUE DECLARA EL 1 DE NOVIEMBRE DE CADA AÑO DÍA DEL NIÑO Y LA NIÑA EN LA REPÚBLICA DE PANAMÁ",
+          "fecha": "27-08-2024"
+        },
+        {
+          "ficha": "8289",
+          "titulo": "QUE ESTABLECE LA UTILIZACION DE PRODUCTOS RECICLADOS DE NEUMATICOS FUERA DE USO EN LAS MEZCLAS ASFALTICAS PARA LA SUPERFICIE DE RODADURA Y LOS RECIACLADOS DE PAVIMIENTO ASFALTICOS EN LAS MEZCLAS ASFALTICAS Y BASES ESTABILIZADAS EN LA RED VIAL",
+          "fecha": "06-08-2024"
+        },
+        {
+          "ficha": "7421",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 53 DE 2005, QUE DICTA NORMAS PARA LA MODERNIZACION DE LA GACETA OFICIAL, SOBRE PUBLICACION DE TEXTOS UNICOS EN FORMATO DE DATOS ABIERTOS",
+          "fecha": "04-07-2024"
+        }
+      ],
+      "proyectos_detalle": [
+        {
+          "ficha": "8400",
+          "titulo": "QUE ADOPTA NORMAS PARA EL BIENESTAR INTEGRAL EN EL TRABAJO Y LA PREVENCION DEL ESTRES LABORAL",
+          "fecha": "02-07-2026",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "8401",
+          "titulo": "POR LA CUAL SE MODIFICA LA LEY 53 DE 5 DE AGOSTO DE 2008, QUE REGULA LA PROFESION DE TERAPIA RESPIRATORIA Y DICTA OTRAS DISPOSICIONES.",
+          "fecha": "02-07-2026",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "8288",
+          "titulo": "QUE FOMENTA LA MOVILIDAD SEGURA, ACCESIBLE, CONFIABLE Y SOSTENIBLE, FORTALECE LA EDUCACION Y LA SEGURIDAD VIAL Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "10-02-2026",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8264",
+          "titulo": "POR LA CUAL SE MODIFICA LA LEY 53 DE 5 DE AGOSTO DE 2008, QUE REGULA LA PROFESIÓN DE TERAPIA RESPIRATORIA Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "27-01-2026",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "8248",
+          "titulo": "QUE ADOPTA MEDIDAS PARA SANCIONAR LOS DISPAROS AL AIRE",
+          "fecha": "19-01-2026",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8229",
+          "titulo": "QUE DEMOCRATIZA LAS ELECCIONES DE AUTORIDADES UNIVERSITARIAS EN LAS UNIVERSIDADES OFICIALES DE LA REPUBLICA DE PANAMA",
+          "fecha": "13-01-2026",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "8215",
+          "titulo": "QUE ADICIONA EL CAPITULO DE DELITOS CONTRA LOS SERVICIOS PUBLICOS DE EMERGENCIA AL CODIGO PENAL SANCIONANDO LAS LLAMADAS FALSAS EN LA REPUBLICA DE PANAMA.",
+          "fecha": "05-01-2026",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8064",
+          "titulo": "QUE ADICIONA UN ARTÍCULO AL CÓDIGO PENAL, PARA TIPIFICAR EL DELITO DE EXHIBICIONISMO, Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "27-08-2025",
+          "etapa": "Ley"
+        },
+        {
+          "ficha": "8019",
+          "titulo": "QUE REGULA LA PARTICIACION DE LAS ASOCIACIONES DE PADRES DE FAMILIA EN LAS INSTITUCIONES EDUCATIVAS OFICIALES Y PARTICULARES Y DICTA OTRAS DISPOCISIONES",
+          "fecha": "18-08-2025",
+          "etapa": "Archivado"
+        },
+        {
+          "ficha": "7917",
+          "titulo": "QUE TIPIFICA EL DELITO DE EXHIBICIONISMO, LO INCORPORA AL CODIGO PENAL DE LA REPUBLICA DE PANAMA Y DICTA OTRA DISPOSICION",
+          "fecha": "09-07-2025",
+          "etapa": "Retirado por proponente"
+        },
+        {
+          "ficha": "7905",
+          "titulo": "QUE ADOPTA NORMAS PARA EL BIENESTAR INTEGRAL EN EL TRABAJO Y LA PREVENCION DEL ESTRES LABORAL.",
+          "fecha": "07-07-2025",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "7855",
+          "titulo": "QUE ADICIONA UN CAPITULO NUEVO AL TITULO X DE LA LEY 49 DE 1984 QUE ADOPTA EL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL, PARA DESARROLLAR LA FUNCION ADMINISTRATIVA DEL VOTO DE CENSURA EN LA REPUBLICA DE PANAMA",
+          "fecha": "23-04-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8265",
+          "titulo": "QUE REGULA EL ACOGIMIENTO COMO MEDIDA DE PROTECCION DE CARACTER TEMPORAL",
+          "fecha": "05-09-2024",
+          "etapa": "Ley"
+        },
+        {
+          "ficha": "7581",
+          "titulo": "QUE ESTABLECE EL MARCO LEGAL, LA PROMOCION Y DESARROLLO DE LA INTELIGENCIA ARTIFICIAL EN LA REPUBLICA DE PANAMA",
+          "fecha": "28-08-2024",
+          "etapa": "Negado"
+        },
+        {
+          "ficha": "7567",
+          "titulo": "QUE DECLARA EL 1 DE NOVIEMBRE DE CADA AÑO DÍA DEL NIÑO Y LA NIÑA EN LA REPÚBLICA DE PANAMÁ",
+          "fecha": "27-08-2024",
+          "etapa": "Ley"
+        },
+        {
+          "ficha": "8289",
+          "titulo": "QUE ESTABLECE LA UTILIZACION DE PRODUCTOS RECICLADOS DE NEUMATICOS FUERA DE USO EN LAS MEZCLAS ASFALTICAS PARA LA SUPERFICIE DE RODADURA Y LOS RECIACLADOS DE PAVIMIENTO ASFALTICOS EN LAS MEZCLAS ASFALTICAS Y BASES ESTABILIZADAS EN LA RED VIAL",
+          "fecha": "06-08-2024",
+          "etapa": "Ley"
+        },
+        {
+          "ficha": "7470",
+          "titulo": "POR EL CUAL SE ESTABLECE EL REGIMEN JURIDICO DE LA REUTILIZACION DE LAS AGUAS DEPURADAS (CIRCULACION HIDRICA) COMO PARTE DE LA GESTION INTEGRADA DE CIRCULACION DE LOS RECURSOS HIDRICOS",
+          "fecha": "25-07-2024",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "7447",
+          "titulo": "QUE REFORMA LA LEY 36 DE 2016, QUE ESTABLECE LA NORMATIVA PARA LA PROTECCION INTEGRAL DE LOS DERECHOS DE LAS PERSONAS ADULTAS MAYORES Y DICTA OTRAS DISPOSIOCIONES",
+          "fecha": "18-07-2024",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "7428",
+          "titulo": "QUE ESTABLECE Y REGULA LA FORMACION DUAL COMO MODALIDAD EDUCATIVA EN EL TERRITORIO NACIONAL",
+          "fecha": "08-07-2024",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "7421",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 53 DE 2005, QUE DICTA NORMAS PARA LA MODERNIZACION DE LA GACETA OFICIAL, SOBRE PUBLICACION DE TEXTOS UNICOS EN FORMATO DE DATOS ABIERTOS",
+          "fecha": "04-07-2024",
+          "etapa": "Ley"
+        },
+        {
+          "ficha": "7406",
+          "titulo": "QUE CREA EL PLAN NACIONAL INTEGRAL DE REHABILITACION Y RESOCIALIZACION PARA PERSONAS EN SITUACION DE CALLE EN LA REPUBLICA DE PANAMA",
+          "fecha": "02-07-2024",
+          "etapa": "Enviado a subcomisión para analisis"
+        },
+        {
+          "ficha": "7410",
+          "titulo": "QUE CREA LA FIGURA DEL AUDITORIA DE CUMPLIMIENTO NORMATIVO ESTATAL PARA LAS ENTIDADES PUBLICAS COMO GARANTE DE LA TRANSPARENCIA INSTITUCIONAL",
+          "fecha": "02-07-2024",
+          "etapa": "Retirado por proponente"
+        }
+      ],
+      "provincia_monitoreo": "Panamá Oeste",
+      "circuito_monitoreo": "13-1",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/manuel-cheng",
+      "planilla_texto": "B/. 25,750",
+      "planilla_valor": 25750.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 3.6,
+      "comisiones": [
+        "Infraestructura Pública y Asuntos del Canal, Comunicación y Transporte"
+      ],
+      "comisiones_cantidad": 1
+    },
+    {
       "nombre": "Janine Prado",
       "partido": "Coalición Vamos",
       "circuito": "9-1",
@@ -1026,9 +1237,9 @@
       "foto": "https://espaciocivico.org/api/drive-image/1M6i3K-1YCPExJixXNfk58EXAPV9nTCwP",
       "perfil": "https://espaciocivico.org/diputados/janine-prado",
       "slug": "janine-prado",
-      "proyectos": 21,
-      "leyes": 1,
-      "co_patrocinios": 138,
+      "proyectos": 20,
+      "leyes": 0,
+      "co_patrocinios": 141,
       "etapas": {
         "Preliminar": 6,
         "Primer Debate": 4,
@@ -1036,16 +1247,9 @@
         "Negado": 2,
         "Archivado": 2,
         "Enviado a subcomisión para analisis": 2,
-        "Ley": 1,
         "Retirado por proponente": 1
       },
-      "leyes_detalle": [
-        {
-          "ficha": "8265",
-          "titulo": "QUE REGULA EL ACOGIMIENTO COMO MEDIDA DE PROTECCION DE CARACTER TEMPORAL",
-          "fecha": "05-09-2024"
-        }
-      ],
+      "leyes_detalle": [],
       "proyectos_detalle": [
         {
           "ficha": "8437",
@@ -1156,12 +1360,6 @@
           "etapa": "Enviado a subcomisión para analisis"
         },
         {
-          "ficha": "8265",
-          "titulo": "QUE REGULA EL ACOGIMIENTO COMO MEDIDA DE PROTECCION DE CARACTER TEMPORAL",
-          "fecha": "05-09-2024",
-          "etapa": "Ley"
-        },
-        {
           "ficha": "7536",
           "titulo": "QUE ESTABLECE LA PROTECCION DE LA INTEGRIDAD E INDEMNIDAD SEXUAL DE LAS PERSONAS MENORES DE EDAD Y MODIFICA EL CODIGO PENAL, EL CODIGO PROCESAL PENAL Y LA LEY 69 DE 2007",
           "fecha": "13-08-2024",
@@ -1191,188 +1389,6 @@
       "comisiones_cantidad": 1
     },
     {
-      "nombre": "Manuel Cheng",
-      "partido": "Coalición Vamos",
-      "circuito": "13-1",
-      "provincia": "Panamá Oeste",
-      "suplente": "Yamileth Esther Rodríguez",
-      "foto": "https://espaciocivico.org/api/drive-image/1AstNu8E1UOdc0gfC5_BdULrlKMnzOEJP",
-      "perfil": "https://espaciocivico.org/diputados/manuel-cheng",
-      "slug": "manuel-cheng",
-      "proyectos": 20,
-      "leyes": 4,
-      "co_patrocinios": 79,
-      "etapas": {
-        "Preliminar": 4,
-        "Primer Debate": 6,
-        "Segundo Debate": 2,
-        "Ley": 4,
-        "Archivado": 1,
-        "Retirado por proponente": 1,
-        "Negado": 1,
-        "Enviado a subcomisión para analisis": 1
-      },
-      "leyes_detalle": [
-        {
-          "ficha": "8064",
-          "titulo": "QUE ADICIONA UN ARTÍCULO AL CÓDIGO PENAL, PARA TIPIFICAR EL DELITO DE EXHIBICIONISMO, Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "27-08-2025"
-        },
-        {
-          "ficha": "7567",
-          "titulo": "QUE DECLARA EL 1 DE NOVIEMBRE DE CADA AÑO DÍA DEL NIÑO Y LA NIÑA EN LA REPÚBLICA DE PANAMÁ",
-          "fecha": "27-08-2024"
-        },
-        {
-          "ficha": "8289",
-          "titulo": "QUE ESTABLECE LA UTILIZACION DE PRODUCTOS RECICLADOS DE NEUMATICOS FUERA DE USO EN LAS MEZCLAS ASFALTICAS PARA LA SUPERFICIE DE RODADURA Y LOS RECIACLADOS DE PAVIMIENTO ASFALTICOS EN LAS MEZCLAS ASFALTICAS Y BASES ESTABILIZADAS EN LA RED VIAL",
-          "fecha": "06-08-2024"
-        },
-        {
-          "ficha": "7421",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 53 DE 2005, QUE DICTA NORMAS PARA LA MODERNIZACION DE LA GACETA OFICIAL, SOBRE PUBLICACION DE TEXTOS UNICOS EN FORMATO DE DATOS ABIERTOS",
-          "fecha": "04-07-2024"
-        }
-      ],
-      "proyectos_detalle": [
-        {
-          "ficha": "8400",
-          "titulo": "QUE ADOPTA NORMAS PARA EL BIENESTAR INTEGRAL EN EL TRABAJO Y LA PREVENCION DEL ESTRES LABORAL",
-          "fecha": "02-07-2026",
-          "etapa": "Preliminar"
-        },
-        {
-          "ficha": "8401",
-          "titulo": "POR LA CUAL SE MODIFICA LA LEY 53 DE 5 DE AGOSTO DE 2008, QUE REGULA LA PROFESION DE TERAPIA RESPIRATORIA Y DICTA OTRAS DISPOSICIONES.",
-          "fecha": "02-07-2026",
-          "etapa": "Preliminar"
-        },
-        {
-          "ficha": "8288",
-          "titulo": "QUE FOMENTA LA MOVILIDAD SEGURA, ACCESIBLE, CONFIABLE Y SOSTENIBLE, FORTALECE LA EDUCACION Y LA SEGURIDAD VIAL Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "10-02-2026",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8264",
-          "titulo": "POR LA CUAL SE MODIFICA LA LEY 53 DE 5 DE AGOSTO DE 2008, QUE REGULA LA PROFESIÓN DE TERAPIA RESPIRATORIA Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "27-01-2026",
-          "etapa": "Preliminar"
-        },
-        {
-          "ficha": "8248",
-          "titulo": "QUE ADOPTA MEDIDAS PARA SANCIONAR LOS DISPAROS AL AIRE",
-          "fecha": "19-01-2026",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8229",
-          "titulo": "QUE DEMOCRATIZA LAS ELECCIONES DE AUTORIDADES UNIVERSITARIAS EN LAS UNIVERSIDADES OFICIALES DE LA REPUBLICA DE PANAMA",
-          "fecha": "13-01-2026",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "8215",
-          "titulo": "QUE ADICIONA EL CAPITULO DE DELITOS CONTRA LOS SERVICIOS PUBLICOS DE EMERGENCIA AL CODIGO PENAL SANCIONANDO LAS LLAMADAS FALSAS EN LA REPUBLICA DE PANAMA.",
-          "fecha": "05-01-2026",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8064",
-          "titulo": "QUE ADICIONA UN ARTÍCULO AL CÓDIGO PENAL, PARA TIPIFICAR EL DELITO DE EXHIBICIONISMO, Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "27-08-2025",
-          "etapa": "Ley"
-        },
-        {
-          "ficha": "8019",
-          "titulo": "QUE REGULA LA PARTICIACION DE LAS ASOCIACIONES DE PADRES DE FAMILIA EN LAS INSTITUCIONES EDUCATIVAS OFICIALES Y PARTICULARES Y DICTA OTRAS DISPOCISIONES",
-          "fecha": "18-08-2025",
-          "etapa": "Archivado"
-        },
-        {
-          "ficha": "7917",
-          "titulo": "QUE TIPIFICA EL DELITO DE EXHIBICIONISMO, LO INCORPORA AL CODIGO PENAL DE LA REPUBLICA DE PANAMA Y DICTA OTRA DISPOSICION",
-          "fecha": "09-07-2025",
-          "etapa": "Retirado por proponente"
-        },
-        {
-          "ficha": "7905",
-          "titulo": "QUE ADOPTA NORMAS PARA EL BIENESTAR INTEGRAL EN EL TRABAJO Y LA PREVENCION DEL ESTRES LABORAL.",
-          "fecha": "07-07-2025",
-          "etapa": "Preliminar"
-        },
-        {
-          "ficha": "7855",
-          "titulo": "QUE ADICIONA UN CAPITULO NUEVO AL TITULO X DE LA LEY 49 DE 1984 QUE ADOPTA EL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL, PARA DESARROLLAR LA FUNCION ADMINISTRATIVA DEL VOTO DE CENSURA EN LA REPUBLICA DE PANAMA",
-          "fecha": "23-04-2025",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "7581",
-          "titulo": "QUE ESTABLECE EL MARCO LEGAL, LA PROMOCION Y DESARROLLO DE LA INTELIGENCIA ARTIFICIAL EN LA REPUBLICA DE PANAMA",
-          "fecha": "28-08-2024",
-          "etapa": "Negado"
-        },
-        {
-          "ficha": "7567",
-          "titulo": "QUE DECLARA EL 1 DE NOVIEMBRE DE CADA AÑO DÍA DEL NIÑO Y LA NIÑA EN LA REPÚBLICA DE PANAMÁ",
-          "fecha": "27-08-2024",
-          "etapa": "Ley"
-        },
-        {
-          "ficha": "8289",
-          "titulo": "QUE ESTABLECE LA UTILIZACION DE PRODUCTOS RECICLADOS DE NEUMATICOS FUERA DE USO EN LAS MEZCLAS ASFALTICAS PARA LA SUPERFICIE DE RODADURA Y LOS RECIACLADOS DE PAVIMIENTO ASFALTICOS EN LAS MEZCLAS ASFALTICAS Y BASES ESTABILIZADAS EN LA RED VIAL",
-          "fecha": "06-08-2024",
-          "etapa": "Ley"
-        },
-        {
-          "ficha": "7470",
-          "titulo": "POR EL CUAL SE ESTABLECE EL REGIMEN JURIDICO DE LA REUTILIZACION DE LAS AGUAS DEPURADAS (CIRCULACION HIDRICA) COMO PARTE DE LA GESTION INTEGRADA DE CIRCULACION DE LOS RECURSOS HIDRICOS",
-          "fecha": "25-07-2024",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "7447",
-          "titulo": "QUE REFORMA LA LEY 36 DE 2016, QUE ESTABLECE LA NORMATIVA PARA LA PROTECCION INTEGRAL DE LOS DERECHOS DE LAS PERSONAS ADULTAS MAYORES Y DICTA OTRAS DISPOSIOCIONES",
-          "fecha": "18-07-2024",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "7428",
-          "titulo": "QUE ESTABLECE Y REGULA LA FORMACION DUAL COMO MODALIDAD EDUCATIVA EN EL TERRITORIO NACIONAL",
-          "fecha": "08-07-2024",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "7421",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 53 DE 2005, QUE DICTA NORMAS PARA LA MODERNIZACION DE LA GACETA OFICIAL, SOBRE PUBLICACION DE TEXTOS UNICOS EN FORMATO DE DATOS ABIERTOS",
-          "fecha": "04-07-2024",
-          "etapa": "Ley"
-        },
-        {
-          "ficha": "7406",
-          "titulo": "QUE CREA EL PLAN NACIONAL INTEGRAL DE REHABILITACION Y RESOCIALIZACION PARA PERSONAS EN SITUACION DE CALLE EN LA REPUBLICA DE PANAMA",
-          "fecha": "02-07-2024",
-          "etapa": "Enviado a subcomisión para analisis"
-        }
-      ],
-      "provincia_monitoreo": "Panamá Oeste",
-      "circuito_monitoreo": "13-1",
-      "perfil_monitoreo": "https://espaciocivico.org/diputados/manuel-cheng",
-      "planilla_texto": "B/. 25,750",
-      "planilla_valor": 25750.0,
-      "asistencia_pleno": 5.0,
-      "asistencia_comisiones": 3.0,
-      "viajes_ponderacion": 5.0,
-      "declaracion_intereses": null,
-      "declaracion_patrimonio": 1.0,
-      "calificacion": 3.6,
-      "comisiones": [
-        "Infraestructura Pública y Asuntos del Canal, Comunicación y Transporte"
-      ],
-      "comisiones_cantidad": 1
-    },
-    {
       "nombre": "Marcos Castillero",
       "partido": "Partido Revolucionario Democrático",
       "circuito": "6-3",
@@ -1383,7 +1399,7 @@
       "slug": "marcos-castillero",
       "proyectos": 18,
       "leyes": 2,
-      "co_patrocinios": 26,
+      "co_patrocinios": 28,
       "etapas": {
         "Primer Debate": 2,
         "Segundo Debate": 5,
@@ -1532,160 +1548,143 @@
       "comisiones_cantidad": 1
     },
     {
-      "nombre": "Roberto Zuñiga",
-      "partido": "Coalición Vamos",
+      "nombre": "Graciela Hernández",
+      "partido": "Movimiento Otro Camino",
       "circuito": "8-4",
       "provincia": "Panamá",
-      "suplente": "Herminia Thompson",
-      "foto": "https://espaciocivico.org/api/drive-image/1ikvRFnKl6U2bMNySKm5amHNDKYppcskS",
-      "perfil": "https://espaciocivico.org/diputados/roberto-zuniga",
-      "slug": "roberto-zuniga",
-      "proyectos": 18,
-      "leyes": 3,
-      "co_patrocinios": 118,
+      "suplente": "Pedro Quijano",
+      "foto": "https://espaciocivico.org/api/drive-image/1g1lq6mRDeY-qB6I9C0QLC7mTQyBikJlv",
+      "perfil": "https://espaciocivico.org/diputados/graciela-hernandez",
+      "slug": "graciela-hernandez",
+      "proyectos": 17,
+      "leyes": 1,
+      "co_patrocinios": 59,
       "etapas": {
-        "Preliminar": 4,
-        "Primer Debate": 1,
-        "Segundo Debate": 5,
+        "Primer Debate": 4,
+        "Segundo Debate": 4,
+        "Tercer Debate": 1,
         "Archivado": 1,
-        "Enviado a subcomisión para analisis": 1,
-        "Ley": 3,
-        "Segundo Debate(Objetado)": 1,
-        "Negado": 1,
-        "Retirado por proponente": 1
+        "Negado": 3,
+        "Preliminar": 2,
+        "Ley": 1,
+        "Segundo Debate(Objetado)": 1
       },
       "leyes_detalle": [
         {
-          "ficha": "8030",
-          "titulo": "QUE CREA EL PROGRAMA NACIONAL DE DESARROLLO TURÍSTICO Y PATRIMONIAL PARAÍSOS DEL ISTMO EN LA REPÚBLICA DE PANAMÁ",
-          "fecha": "19-08-2025"
-        },
-        {
-          "ficha": "8250",
-          "titulo": "QUE CREA EL PATRONATO DEL FESTIVAL NACIONAL DEL TORO GUAPO DE ANTON Y DICTA OTRA DISPOSICION",
-          "fecha": "25-09-2024"
-        },
-        {
-          "ficha": "8194",
-          "titulo": "QUE ADICIONA UN CAPITULO A LA LEY 16 DE 1995, QUE REORGANIZA EL INSTITUTO NACIONAL DE DEPORTES, Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "13-08-2024"
+          "ficha": "7563",
+          "titulo": "QUE ESTABLECE EL APROVECHAMIENTO Y UTILIZACIÓN DEL AGUA PLUVIAL EN LOS PROYECTOS DEL MINISTERIO DE EDUCACIÓN Y EL MINISTERIO DE SALUD",
+          "fecha": "26-08-2024"
         }
       ],
       "proyectos_detalle": [
         {
-          "ficha": "8444",
-          "titulo": "QUE ELEVA A DELITO LA VENTA CLANDESTINA DE LOTERIA EN EL TERRITORIO NACIONAL Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "13-07-2026",
-          "etapa": "Preliminar"
-        },
-        {
-          "ficha": "8414",
-          "titulo": "QUE ESTABLECE LA IMPRESCRIPTIBILIDAD DE LOS DELITOS CONTRA LA ADMINISTRACION PUBLICA, INCREMENTA SUS PENAS Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "02-07-2026",
-          "etapa": "Preliminar"
-        },
-        {
-          "ficha": "8307",
-          "titulo": "QUE ESTABLECE MEDIDA INTEGRALES PARA LA ERRADICACION, PREVENCION, DETECCION TEMPRANA, ATENCION Y CONTROL DEL CANCER DE CUELLO UTERINO EN LA REPUBLICA DE PANAMA",
-          "fecha": "03-03-2026",
+          "ficha": "8382",
+          "titulo": "QUE REGULA LOS PABELLONES NACIONALES Y OFICIALES DE LA REPUBLICA DE PANAMA EN EL AMBITO INTERNACIONAL",
+          "fecha": "21-04-2026",
           "etapa": "Primer Debate"
         },
         {
-          "ficha": "8293",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 35 DE 30 DE MAYO DE 2018, QUE REGULA LOS SERVICIOS DE SANGRE Y TRANSFUSIONES SANGUINEAS",
-          "fecha": "23-02-2026",
+          "ficha": "8357",
+          "titulo": "QUE OPTIMIZA LA VERIFICACION DE USO DE SUELO EN EL OTORGAMIENTO Y RENOVACION DE AVISOS DE OPERACION A TRAVES DE LA PLATAFORMA PANAMA EMPRENDE Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "27-03-2026",
           "etapa": "Segundo Debate"
         },
         {
-          "ficha": "8259",
-          "titulo": "QUE REGULA LA TRAMITACION DIGITAL DE PERMISOS PARA EL ESPECTACULO PUBLICO O ACTIVIDAD DE DIVERSION TEMPORAL Y DICTA OTRAS DISPOSICIONES.",
-          "fecha": "26-01-2026",
+          "ficha": "8324",
+          "titulo": "QUE CREA LA ORDEN NACIONAL DE HONOR FUTBOLiSTICO \"LUIS TEJADA\".",
+          "fecha": "11-03-2026",
           "etapa": "Segundo Debate"
         },
         {
-          "ficha": "8242",
-          "titulo": "QUE ADICIONA UN ARTICULO AL CODIGO PENAL EN MATERIA DE ENRIQUECIMIENTO INJUSTIFICADO",
-          "fecha": "13-01-2026",
+          "ficha": "8083",
+          "titulo": "QUE PROMUEVE QUE EL 10% DEL PRODUCTO DE LAS CONCESIONES EN MATERIA TELECOMUNICACIONES SEA DESTINADO PARA EL FINANCIAMIENTO DEL PROGRAMA DE INVALIDEZ, VEJEZ Y MUERTE (IVM) DE LA CAJA DE SEGURO SOCIAL",
+          "fecha": "03-09-2025",
+          "etapa": "Tercer Debate"
+        },
+        {
+          "ficha": "8073",
+          "titulo": "QUE ADICIONAN LOS ARTICULOS 10-A, 10-B, SE MODIFICA LOS ARTICULOS 9 Y 20 Y SE DEROGAN LOS ARTICULOS 18, 19,21 Y 22 DE LA LEY No. 54 DE 1998 Y SE DICTAN OTRAS DISPOSICIONES",
+          "fecha": "01-09-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8046",
+          "titulo": "QUE OTORGA CARACTER VINCULANTE A LOS RESULTADOS DE LAS CONSULTAS CIUDADANAS Y DICTA OTRAS DISPOSICIONES.",
+          "fecha": "25-08-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8017",
+          "titulo": "SE PROMUEVE LA CREACION DEL SISTEMA DE INVERSION SOSTENIBLE Y DESARROLLO CIUDADANO (SISDEC) COMO MECANISMO DE REDISTRIBUCION REGIONAL DE LOS APORTES RECIBIDOS POR EL TESORO NACIONAL DE PARTE DEL CANAL DE PANAMO Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "18-08-2025",
           "etapa": "Archivado"
         },
         {
-          "ficha": "8189",
-          "titulo": "QUE MODIFICA LA LEY 1 DE 1994 Y LA LEY 44 DE 2002 Y DICTA OTRAS DISPOSICIONES.",
-          "fecha": "27-10-2025",
-          "etapa": "Enviado a subcomisión para analisis"
-        },
-        {
-          "ficha": "8030",
-          "titulo": "QUE CREA EL PROGRAMA NACIONAL DE DESARROLLO TURÍSTICO Y PATRIMONIAL PARAÍSOS DEL ISTMO EN LA REPÚBLICA DE PANAMÁ",
-          "fecha": "19-08-2025",
-          "etapa": "Ley"
-        },
-        {
-          "ficha": "8003",
-          "titulo": "QUE ESTABLECE DISPOSICIONES SALARIALES DE LOS MAGISTRADOS DE LA REPUBLICA DE PANAMA Y ELIMINA OTROS PRIVILEGIOS",
+          "ficha": "7997",
+          "titulo": "QUE CREA LA JUNTA TECNICA DE ADMINISTRACION DE PROPIEDAD HORIZONTAL DEL MINISTERIO DE VIVIENDA Y ORDENAMIENTO TERRITORIAL, LA LICENCIA DE ADMINISTRADOR DE PROPIEDAD HORIZONTAL Y DICTA OTRAS DISPOSICIONES",
           "fecha": "11-08-2025",
-          "etapa": "Preliminar"
-        },
-        {
-          "ficha": "7946",
-          "titulo": "QUE ESTABLECE LA IMPRESCRIPTIBILIDAD DE LOS DELITOS CONTRA LA ADMINISTRACION PUBLICA, INCREMENTA SUS PENAS Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "22-07-2025",
-          "etapa": "Preliminar"
-        },
-        {
-          "ficha": "8396",
-          "titulo": "POR LA QUE SE ADOPTA Y ACTUALIZA LA ORGANIZACION JUDICIAL DE LA PROVINCIA DE PANAMA OESTE Y MODIFICA EL CODIGO JUDICIAL",
-          "fecha": "18-03-2025",
-          "etapa": "Segundo Debate(Objetado)"
-        },
-        {
-          "ficha": "7705",
-          "titulo": "QUE PRESERVA LAS ROMPIENTES APROPIADAS PARA LA PRACTICA DEPORTIVA",
-          "fecha": "16-10-2024",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "8250",
-          "titulo": "QUE CREA EL PATRONATO DEL FESTIVAL NACIONAL DEL TORO GUAPO DE ANTON Y DICTA OTRA DISPOSICION",
-          "fecha": "25-09-2024",
-          "etapa": "Ley"
-        },
-        {
-          "ficha": "7647",
-          "titulo": "QUE DESPOLITIZA LAS FEDERACIONES DEPORTIVAS",
-          "fecha": "23-09-2024",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "8194",
-          "titulo": "QUE ADICIONA UN CAPITULO A LA LEY 16 DE 1995, QUE REORGANIZA EL INSTITUTO NACIONAL DE DEPORTES, Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "13-08-2024",
-          "etapa": "Ley"
-        },
-        {
-          "ficha": "8252",
-          "titulo": "QUE ESTABLECE EL MARCO JURIDICO PARA EL DERECHO DEL ACCESO AL AGUA POTABLE, DICTA MEDIDAS PARA SU CONVERSACION E INCENTIVA SU PROTECCION Y LA DEL AMBIENTE DE ACUERDO CON LOS ESTANDARES INTERNACIONALES",
-          "fecha": "08-07-2024",
           "etapa": "Negado"
         },
         {
-          "ficha": "7405",
-          "titulo": "QUE TRANSPARENTA LAS GESTIONES DE LOS SERVIDORES PUBLICOS DE ALTA JERARQUIA",
-          "fecha": "02-07-2024",
+          "ficha": "7990",
+          "titulo": "QUE ESTABLECE LA APERTURA Y PROMOCION DE ESCUELAS NOCTURNAS PARA ADULTOS EN CADA CORREGIMIENTO DE LA REPUBLICA DE PANAMA Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "06-08-2025",
           "etapa": "Segundo Debate"
         },
         {
-          "ficha": "7410",
-          "titulo": "QUE CREA LA FIGURA DEL AUDITORIA DE CUMPLIMIENTO NORMATIVO ESTATAL PARA LAS ENTIDADES PUBLICAS COMO GARANTE DE LA TRANSPARENCIA INSTITUCIONAL",
-          "fecha": "02-07-2024",
-          "etapa": "Retirado por proponente"
+          "ficha": "7959",
+          "titulo": "QUE LIMITA LA ADQUISICIÓN Y VENTA DE BIENES DEL ESTADO POR PARTE DE SERVIDORES PÚBLICOS DURANTE EL EJERCICIO DE SUS FUNCIONES Y POR UN PERÍODO DE CINCO AÑOS POSTERIORES A LA CULMINACIÓN DE LAS MISMAS",
+          "fecha": "23-07-2025",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "7931",
+          "titulo": "QUE ESTABLECE LA OBLIGACION DE RENDICION INTEGRAL DE CUENTAS DE LOS RECURSOS PUBLICOS UTILIZADOS DURANTE EL ESTADO DE EMERGENCIA POR LA PANDEMIA POR COVID-19, Y CUALESQUIERA OTRAS QUE SE DEN DENTRO DEL ESPIRITU DEL ARTICULO 55 DE LA CONSTITUCION POLITICA Y DICTA DISPOSICIONES PARA LA DETERMINACION DE RESPONSABILIDADES",
+          "fecha": "15-07-2025",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "7904",
+          "titulo": "QUE ESTABLECE LA OBLIGATORIEDAD DE LA RESTITUCION INTEGRA DE LOS DINEROS, BIENES Y FONDOS PAGADOS INDEBIDAMENTE O SUSTRAIDOS, DEL ERARIO, COMO CONSECUENCIA DE LA COMISION DE LOS DELITOS CONTRA LA ADMINISTRACION PUBLICA CONFORME SE EXPRESA EN EL TITULO X, CAPITULO I, II, III, V Y IX DEL CODIGO PENAL Y SE DICTAN OTRAS DISPOSICIONES",
+          "fecha": "07-07-2025",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "7753",
+          "titulo": "QUE ESTABLECE LAS CAPSULAS DE COMUNICACION EDUCATIVA",
+          "fecha": "20-01-2025",
+          "etapa": "Negado"
+        },
+        {
+          "ficha": "7743",
+          "titulo": "QUE ADICIONA ARTICULOS A LEY NO. 59 DE 28 DE NOVIEMBRE DE 2005, MODIFICADA POR LA LEY 25 DE 19 DE ABRIL DE 2018, SOBRE PROTECCION LABORAL PARA PERSONAS CON ENFERMEDADES CRONICAS, INVOLUTIVAS Y/O DEGENERATIVAS QUE PRODUZCAN INCAPACIDAD LABORAL",
+          "fecha": "14-01-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "7644",
+          "titulo": "QUE DESVINCULA EL DEPORTE DE INFLUENCIAS POLITICAS.",
+          "fecha": "18-09-2024",
+          "etapa": "Negado"
+        },
+        {
+          "ficha": "7563",
+          "titulo": "QUE ESTABLECE EL APROVECHAMIENTO Y UTILIZACIÓN DEL AGUA PLUVIAL EN LOS PROYECTOS DEL MINISTERIO DE EDUCACIÓN Y EL MINISTERIO DE SALUD",
+          "fecha": "26-08-2024",
+          "etapa": "Ley"
+        },
+        {
+          "ficha": "8397",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 30 DE 2000, QUE PROMUEVE LA LIMPIEZA DE LOS ESPACIOS PUBLICOS",
+          "fecha": "30-07-2024",
+          "etapa": "Segundo Debate(Objetado)"
         }
       ],
       "provincia_monitoreo": "Panamá",
       "circuito_monitoreo": "8-4",
-      "perfil_monitoreo": "https://espaciocivico.org/diputados/roberto-zuniga",
-      "planilla_texto": "B/. 13,700",
-      "planilla_valor": 13700.0,
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/graciela-hernandez",
+      "planilla_texto": "B/. 22,650",
+      "planilla_valor": 22650.0,
       "asistencia_pleno": 5.0,
       "asistencia_comisiones": 5.0,
       "viajes_ponderacion": 5.0,
@@ -1693,7 +1692,149 @@
       "declaracion_patrimonio": 5.0,
       "calificacion": 5.0,
       "comisiones": [
-        "Gobierno, Justicia y Asuntos Constitucionales"
+        "Educación, Cultura y Deportes",
+        "Población, Ambiente y Desarrollo"
+      ],
+      "comisiones_cantidad": 2
+    },
+    {
+      "nombre": "Lenin Alberto Ulate",
+      "partido": "Coalición Vamos",
+      "circuito": "13-1",
+      "provincia": "Panamá Oeste",
+      "suplente": "Margareth Pimentel",
+      "foto": "https://espaciocivico.org/api/drive-image/1BdKRjt5UcRwHzIvD3c0SqnP6Wi71SP4l",
+      "perfil": "https://espaciocivico.org/diputados/lenin-alberto-ulate",
+      "slug": "lenin-alberto-ulate",
+      "proyectos": 17,
+      "leyes": 0,
+      "co_patrocinios": 135,
+      "etapas": {
+        "Preliminar": 3,
+        "Segundo Debate": 4,
+        "Primer Debate": 4,
+        "Objetado por Ejecutivo": 1,
+        "Archivado": 3,
+        "Enviado a subcomisión para analisis": 2
+      },
+      "leyes_detalle": [],
+      "proyectos_detalle": [
+        {
+          "ficha": "8451",
+          "titulo": "QUE ADICIONA DISPOSICIONES A LA LEY 81 DE 26 DE MARZO DE 2019, SOBRE EL TRATAMIENTO DE DATOS DE DISPOSITIVOS MÓVILES EN INVESTIGACIONES PENALES",
+          "fecha": "15-07-2026",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "8452",
+          "titulo": "QUE MODIFICA Y ADICIONA DISPOSICIONES AL CÓDIGO PENAL PARA SANCIONAR LA ALTERACIÓN DE IDENTIFICADORES DE DISPOSITIVOS MÓVILES Y FORTALECER EL DELITO DE RECEPTACIÓN",
+          "fecha": "15-07-2026",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "8448",
+          "titulo": "QUE ESTABLECE EL REGIMEN JURIDICO PARA LA OPERACION Y EL MANTENIMIENTO DE LAS PLANTAS DE TRATAMIENTO DE AGUAS RESIDUALES (PTAR) EN LA REPUBLICA DE PANAMA",
+          "fecha": "14-07-2026",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "8300",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 33 DE 2018, QUE ESTABLECE LA POLITICA BASURA CERO, PARA REGULAR LA GESTION INTEGRAL DE RESIDUOS EN EVENTOS Y ACTIVIDADES DE CONCURRENCIA MASIVA",
+          "fecha": "02-03-2026",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "8282",
+          "titulo": "QUE MODIFICA EL ARTICULO 79 Y ADICIONA ARTICULOS A LA LEY 45 DE 2007, QUE DICTA NORMAS SOBRE PROTECCION AL CONSUMIDOR Y DEFENSA DE LA COMPETENCIA Y OTRA DISPOSICION",
+          "fecha": "09-02-2026",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "8271",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 111 DE 30 DE DICIEMBRE DE 1974, QUE DECLARA DE UTILIDAD PUBLICA UN AREA EN LA PENINSULA DE VACAMONTE PARA EL DESARROLLO DE UN PUERTO PESQUERO",
+          "fecha": "02-02-2026",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8168",
+          "titulo": "QUE ESTABLECE EL REGIMEN LEGAL DE LOS SITIOS DE DISPOSICION FINAL DE RESIDUOS EN LA REPUBLICA DE PANAMA, REGULA SU DISEÑO, OPERACION, CLAUSURA Y POSCLAUSURA, Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "14-10-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8156",
+          "titulo": "QUE REGULA LA PROTECCION DE DENUNCIANTES Y TESTIGOS DE FALTAS ADMINISTRATIVAS QUE AFECTAN EL PATRIMONIO DEL ESTADO EN LA REPUBLICA DE PANAMA Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "06-10-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8063",
+          "titulo": "QUE PROTEGE, CONSERVA Y RESTAURA LA CUENCA HIDROGRAFICA DEL RIO CAIMITO Y ESTABLECE UN REGIMEN DE GESTION INTEGRAL DE SUS RECURSOS HIDRICOS",
+          "fecha": "27-08-2025",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "8008",
+          "titulo": "QUE REGULA EL NOMBRAMIENTO, FUNCIONES, RESPONSABILIDADES Y REQUISITOS MÍNIMOS DEL TESORERO(A) DE LAS JUNTAS COMUNALES EN LA REPUBLICA DE PANAMA",
+          "fecha": "13-08-2025",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "7976",
+          "titulo": "QUE DESARROLLA Y FOMENTA EL TURISMO DEPORTIVO EN LA REPÚBLICA DE PANAMÁ",
+          "fecha": "31-07-2025",
+          "etapa": "Objetado por Ejecutivo"
+        },
+        {
+          "ficha": "7887",
+          "titulo": "QUE REGULA EL USO DE AGENTES QUIMICOS Y MUNICIONES DE CONTROL DE MULTITUDES POR PARTE DE LOS ESTAMENTOS DE SEGURIDAD DEL ESTADO",
+          "fecha": "02-07-2025",
+          "etapa": "Archivado"
+        },
+        {
+          "ficha": "7826",
+          "titulo": "POR MEDIO DE LA CUAL SE FOMENTA LA PROFESIONALIZACION DE LAS DAMAS DE BARRIDO, RECOLECTORES, PERSONAL OPERATIVO Y TODOS LOS SERVIDORES PUBLICOS INVOLUCRADOS EN EL PROCESO DE RECOLECCION DE RESIDUOS, GARANTIZANDO EL RECONOCIMIENTO DE SU LABOR Y SEGURIDAD",
+          "fecha": "24-03-2025",
+          "etapa": "Enviado a subcomisión para analisis"
+        },
+        {
+          "ficha": "7787",
+          "titulo": "QUE ADOPTA MEDIDAS PARA SUBSANAR Y RESPONSABILIZAR LOS PROCESOS DE CONSTRUCCION DE LAS PROMOTORAS Y CONSTRUCTORAS, Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "10-02-2025",
+          "etapa": "Enviado a subcomisión para analisis"
+        },
+        {
+          "ficha": "7759",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 6 DE 16 DE JUNIO DE 1987, SOBRE BENEFICIOS A LOS JUBILADOS, PENSIONADOS Y DE LA TERCERA EDAD Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "22-01-2025",
+          "etapa": "Archivado"
+        },
+        {
+          "ficha": "7573",
+          "titulo": "QUE MODIFICA LA LEY 33 DE 25 DE ABRIL DE 2013, POR MEDIO DE LA CUAL SE CREA LA AUTORIDAD NACIONAL DE TRANSPARENCIA Y ACCESO A LA INFORMACIÓN (ANTAI), Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "27-08-2024",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "7420",
+          "titulo": "QUE MODIFICA LOS ARTICULOS 1550 Y 1555 DEL CODIGO JUDICIAL",
+          "fecha": "03-07-2024",
+          "etapa": "Archivado"
+        }
+      ],
+      "provincia_monitoreo": "Panamá Oeste",
+      "circuito_monitoreo": "13-1",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/lenin-alberto-ulate",
+      "planilla_texto": "B/. 10,300",
+      "planilla_valor": 10300.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
+      "comisiones": [
+        "Población, Ambiente y Desarrollo"
       ],
       "comisiones_cantidad": 1
     },
@@ -1708,7 +1849,7 @@
       "slug": "crispiano-adames",
       "proyectos": 16,
       "leyes": 1,
-      "co_patrocinios": 11,
+      "co_patrocinios": 12,
       "etapas": {
         "Segundo Debate": 2,
         "Primer Debate": 3,
@@ -1841,296 +1982,129 @@
       "comisiones_cantidad": 1
     },
     {
-      "nombre": "Graciela Hernández",
-      "partido": "Movimiento Otro Camino",
-      "circuito": "8-4",
-      "provincia": "Panamá",
-      "suplente": "Pedro Quijano",
-      "foto": "https://espaciocivico.org/api/drive-image/1g1lq6mRDeY-qB6I9C0QLC7mTQyBikJlv",
-      "perfil": "https://espaciocivico.org/diputados/graciela-hernandez",
-      "slug": "graciela-hernandez",
-      "proyectos": 16,
-      "leyes": 1,
-      "co_patrocinios": 59,
-      "etapas": {
-        "Primer Debate": 4,
-        "Segundo Debate": 4,
-        "Tercer Debate": 1,
-        "Archivado": 1,
-        "Negado": 3,
-        "Preliminar": 2,
-        "Ley": 1
-      },
-      "leyes_detalle": [
-        {
-          "ficha": "7563",
-          "titulo": "QUE ESTABLECE EL APROVECHAMIENTO Y UTILIZACIÓN DEL AGUA PLUVIAL EN LOS PROYECTOS DEL MINISTERIO DE EDUCACIÓN Y EL MINISTERIO DE SALUD",
-          "fecha": "26-08-2024"
-        }
-      ],
-      "proyectos_detalle": [
-        {
-          "ficha": "8382",
-          "titulo": "QUE REGULA LOS PABELLONES NACIONALES Y OFICIALES DE LA REPUBLICA DE PANAMA EN EL AMBITO INTERNACIONAL",
-          "fecha": "21-04-2026",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8357",
-          "titulo": "QUE OPTIMIZA LA VERIFICACION DE USO DE SUELO EN EL OTORGAMIENTO Y RENOVACION DE AVISOS DE OPERACION A TRAVES DE LA PLATAFORMA PANAMA EMPRENDE Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "27-03-2026",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "8324",
-          "titulo": "QUE CREA LA ORDEN NACIONAL DE HONOR FUTBOLiSTICO \"LUIS TEJADA\".",
-          "fecha": "11-03-2026",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "8083",
-          "titulo": "QUE PROMUEVE QUE EL 10% DEL PRODUCTO DE LAS CONCESIONES EN MATERIA TELECOMUNICACIONES SEA DESTINADO PARA EL FINANCIAMIENTO DEL PROGRAMA DE INVALIDEZ, VEJEZ Y MUERTE (IVM) DE LA CAJA DE SEGURO SOCIAL",
-          "fecha": "03-09-2025",
-          "etapa": "Tercer Debate"
-        },
-        {
-          "ficha": "8073",
-          "titulo": "QUE ADICIONAN LOS ARTICULOS 10-A, 10-B, SE MODIFICA LOS ARTICULOS 9 Y 20 Y SE DEROGAN LOS ARTICULOS 18, 19,21 Y 22 DE LA LEY No. 54 DE 1998 Y SE DICTAN OTRAS DISPOSICIONES",
-          "fecha": "01-09-2025",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8046",
-          "titulo": "QUE OTORGA CARACTER VINCULANTE A LOS RESULTADOS DE LAS CONSULTAS CIUDADANAS Y DICTA OTRAS DISPOSICIONES.",
-          "fecha": "25-08-2025",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8017",
-          "titulo": "SE PROMUEVE LA CREACION DEL SISTEMA DE INVERSION SOSTENIBLE Y DESARROLLO CIUDADANO (SISDEC) COMO MECANISMO DE REDISTRIBUCION REGIONAL DE LOS APORTES RECIBIDOS POR EL TESORO NACIONAL DE PARTE DEL CANAL DE PANAMO Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "18-08-2025",
-          "etapa": "Archivado"
-        },
-        {
-          "ficha": "7997",
-          "titulo": "QUE CREA LA JUNTA TECNICA DE ADMINISTRACION DE PROPIEDAD HORIZONTAL DEL MINISTERIO DE VIVIENDA Y ORDENAMIENTO TERRITORIAL, LA LICENCIA DE ADMINISTRADOR DE PROPIEDAD HORIZONTAL Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "11-08-2025",
-          "etapa": "Negado"
-        },
-        {
-          "ficha": "7990",
-          "titulo": "QUE ESTABLECE LA APERTURA Y PROMOCION DE ESCUELAS NOCTURNAS PARA ADULTOS EN CADA CORREGIMIENTO DE LA REPUBLICA DE PANAMA Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "06-08-2025",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "7959",
-          "titulo": "QUE LIMITA LA ADQUISICIÓN Y VENTA DE BIENES DEL ESTADO POR PARTE DE SERVIDORES PÚBLICOS DURANTE EL EJERCICIO DE SUS FUNCIONES Y POR UN PERÍODO DE CINCO AÑOS POSTERIORES A LA CULMINACIÓN DE LAS MISMAS",
-          "fecha": "23-07-2025",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "7931",
-          "titulo": "QUE ESTABLECE LA OBLIGACION DE RENDICION INTEGRAL DE CUENTAS DE LOS RECURSOS PUBLICOS UTILIZADOS DURANTE EL ESTADO DE EMERGENCIA POR LA PANDEMIA POR COVID-19, Y CUALESQUIERA OTRAS QUE SE DEN DENTRO DEL ESPIRITU DEL ARTICULO 55 DE LA CONSTITUCION POLITICA Y DICTA DISPOSICIONES PARA LA DETERMINACION DE RESPONSABILIDADES",
-          "fecha": "15-07-2025",
-          "etapa": "Preliminar"
-        },
-        {
-          "ficha": "7904",
-          "titulo": "QUE ESTABLECE LA OBLIGATORIEDAD DE LA RESTITUCION INTEGRA DE LOS DINEROS, BIENES Y FONDOS PAGADOS INDEBIDAMENTE O SUSTRAIDOS, DEL ERARIO, COMO CONSECUENCIA DE LA COMISION DE LOS DELITOS CONTRA LA ADMINISTRACION PUBLICA CONFORME SE EXPRESA EN EL TITULO X, CAPITULO I, II, III, V Y IX DEL CODIGO PENAL Y SE DICTAN OTRAS DISPOSICIONES",
-          "fecha": "07-07-2025",
-          "etapa": "Preliminar"
-        },
-        {
-          "ficha": "7753",
-          "titulo": "QUE ESTABLECE LAS CAPSULAS DE COMUNICACION EDUCATIVA",
-          "fecha": "20-01-2025",
-          "etapa": "Negado"
-        },
-        {
-          "ficha": "7743",
-          "titulo": "QUE ADICIONA ARTICULOS A LEY NO. 59 DE 28 DE NOVIEMBRE DE 2005, MODIFICADA POR LA LEY 25 DE 19 DE ABRIL DE 2018, SOBRE PROTECCION LABORAL PARA PERSONAS CON ENFERMEDADES CRONICAS, INVOLUTIVAS Y/O DEGENERATIVAS QUE PRODUZCAN INCAPACIDAD LABORAL",
-          "fecha": "14-01-2025",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "7644",
-          "titulo": "QUE DESVINCULA EL DEPORTE DE INFLUENCIAS POLITICAS.",
-          "fecha": "18-09-2024",
-          "etapa": "Negado"
-        },
-        {
-          "ficha": "7563",
-          "titulo": "QUE ESTABLECE EL APROVECHAMIENTO Y UTILIZACIÓN DEL AGUA PLUVIAL EN LOS PROYECTOS DEL MINISTERIO DE EDUCACIÓN Y EL MINISTERIO DE SALUD",
-          "fecha": "26-08-2024",
-          "etapa": "Ley"
-        }
-      ],
-      "provincia_monitoreo": "Panamá",
-      "circuito_monitoreo": "8-4",
-      "perfil_monitoreo": "https://espaciocivico.org/diputados/graciela-hernandez",
-      "planilla_texto": "B/. 22,650",
-      "planilla_valor": 22650.0,
-      "asistencia_pleno": 5.0,
-      "asistencia_comisiones": 5.0,
-      "viajes_ponderacion": 5.0,
-      "declaracion_intereses": null,
-      "declaracion_patrimonio": 5.0,
-      "calificacion": 5.0,
-      "comisiones": [
-        "Educación, Cultura y Deportes",
-        "Población, Ambiente y Desarrollo"
-      ],
-      "comisiones_cantidad": 2
-    },
-    {
-      "nombre": "José Pérez Barboni",
-      "partido": "Movimiento Otro Camino",
+      "nombre": "Walkiria Chandler",
+      "partido": "Coalición Vamos",
       "circuito": "8-3",
       "provincia": "Panamá",
-      "suplente": "Kevin 'Robinho' Carrillo",
-      "foto": "https://espaciocivico.org/api/drive-image/1jdQaEAFfkqKtIVahwrTSz0AuFmYjhrde",
-      "perfil": "https://espaciocivico.org/diputados/jose-perez-barboni",
-      "slug": "jose-perez-barboni",
+      "suplente": "Charlie Ho",
+      "foto": "https://espaciocivico.org/api/drive-image/1VmiaUx0rzlt-Zj2v4hcYcM1EpV0ai2XD",
+      "perfil": "https://espaciocivico.org/diputados/walkiria-chandler",
+      "slug": "walkiria-chandler",
       "proyectos": 16,
-      "leyes": 4,
-      "co_patrocinios": 98,
+      "leyes": 0,
+      "co_patrocinios": 82,
       "etapas": {
-        "Preliminar": 1,
-        "Ley": 4,
+        "Preliminar": 3,
+        "Primer Debate": 4,
         "Segundo Debate": 2,
-        "Primer Debate": 1,
-        "Enviado a subcomisión para analisis": 2,
-        "Negado": 1,
-        "Objetado por Ejecutivo": 2,
-        "Segundo Debate(Objetado)": 2,
-        "Archivado": 1
+        "Enviado a subcomisión para analisis": 5,
+        "Objetado por Ejecutivo": 1,
+        "Retirado por proponente": 1
       },
-      "leyes_detalle": [
-        {
-          "ficha": "8291",
-          "titulo": "QUE DECLARA LA PLAZA BELISARIO PORRAS PATRIMONIO CULTURAL MATERIAL DE LA NACIÓN PANAMEÑA",
-          "fecha": "12-02-2026"
-        },
-        {
-          "ficha": "7645",
-          "titulo": "QUE ESTABLECE EL PROGRAMA DE INTERCAMBIO VOLUNTARIO DE ARMAS DE FUEGO, MUNICIONES, EXPLOSIVOS Y MATERIALES RELACIONADOS POR COMIDA",
-          "fecha": "18-09-2024"
-        },
-        {
-          "ficha": "7516",
-          "titulo": "QUE ESTABLECE EL RÉGIMEN DE CÁMARAS CORPORALES UTILIZADAS POR LA POLICÍA NACIONAL",
-          "fecha": "06-08-2024"
-        },
-        {
-          "ficha": "7487",
-          "titulo": "QUE DECLARA PATRIMONIO CULTURAL PANAMEÑO LA RUTA COLONIAL TRANSISTMICA DE PANAMA",
-          "fecha": "30-07-2024"
-        }
-      ],
+      "leyes_detalle": [],
       "proyectos_detalle": [
         {
-          "ficha": "8413",
-          "titulo": "QUE OBLIGA AL PAGO DE UNA PENSION ALIMENTICIA A LOS CONDUCTORES QUE CONDUZCAN BAJO LOS EFECTOS DEL ALCOHOL O DE DROGAS Y QUE HAYAN CAUSADO LA MUERTE DE UN PADRE, MADRE O TUTOR DE UNA PERSONA MENOR DE EDAD Y DICTA OTRA DISPOSICION",
-          "fecha": "02-07-2026",
+          "ficha": "8443",
+          "titulo": "QUE REGULA LA PUBLICIDAD COMERCIAL DIFUNDIDA POR CREADORES DE CONTENIDO DIGITAL Y MODIFICA UN ARTICULO DE LA LEY 45 DE 31 DE OCTUBRE DE 2007",
+          "fecha": "13-07-2026",
           "etapa": "Preliminar"
         },
         {
-          "ficha": "8291",
-          "titulo": "QUE DECLARA LA PLAZA BELISARIO PORRAS PATRIMONIO CULTURAL MATERIAL DE LA NACIÓN PANAMEÑA",
-          "fecha": "12-02-2026",
-          "etapa": "Ley"
+          "ficha": "8434",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS AL CODIGO DE LA FAMILIA Y CREA LA PENSION COMPENSATORIA MATRIMONIAL",
+          "fecha": "09-07-2026",
+          "etapa": "Preliminar"
         },
         {
-          "ficha": "8214",
-          "titulo": "QUE MODIFICA ARTÍCULOS DE LA LEY 40 DE 1999, DEL RÉGIMEN ESPECIAL DE RESPONSABILIDAD PENAL PARA LA ADOLESCENCIA",
-          "fecha": "05-01-2026",
-          "etapa": "Segundo Debate"
+          "ficha": "8421",
+          "titulo": "POR LA CUAL SE REGULA LA RADIODIFUSION DE EMERGENCIA EN LA REPUBLICA DE PANAMA, SE CREA LA RED DE DIFUSION PARA EMERGENCIAS Y RESILIENCIA (REDER) Y SE ESTABLECE LA FRECUENCIA UNICA DE EMERGENCIAS NACIONALES (FUEN).",
+          "fecha": "07-07-2026",
+          "etapa": "Preliminar"
         },
         {
-          "ficha": "8001",
-          "titulo": "QUE MODIFICA UN ARTICULO DE LA LEY 467 DE 24 DE ABRIL DE 2025, “QUE SUBROGA LA LEY 16 DE 2016, QUE INSTITUYE LA JUSTICIA COMUNITARIA DE PAZ, Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "11-08-2025",
+          "ficha": "8283",
+          "titulo": "QUE MODIFICA UN ARTICULO DEL CODIGO PROCESAL PENAL",
+          "fecha": "09-02-2026",
           "etapa": "Primer Debate"
         },
         {
-          "ficha": "7899",
-          "titulo": "QUE ESTABLECE NORMATIVA POR INDEMNIZACIÓN A DAÑOS VEHICULARES DE PARTICULARES, EMPRESAS Y TRANSPORTE PUBLICO OCASIONADAS POR LAS INSTITUCIONES GUBERNAMENTALES Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "03-07-2025",
+          "ficha": "8150",
+          "titulo": "QUE MODIFICA ARTICULOS DEL CODIGO PENAL Y EL CODIGO PROCESAL PENAL, SOBRE LA PRESCRIPCION DE LOS DELITOS CONTRA LA LIBERTAD E INTEGRIDAD SEXUAL CUANDO LA VICTIMA SEA MENOR DE EDAD",
+          "fecha": "06-10-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8091",
+          "titulo": "QUE MODIFICA Y ADICIONA A LA LEY 83 DE 9 DE NOVIEMBRE DE 2012, QUE REGULA EL USO DE MEDIOS ELECTRONICOS PARA LOS TRAMITES GUBERNAMENTALES",
+          "fecha": "08-09-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8025",
+          "titulo": "QUE REGULA Y LIMITA LA ACTIVIDAD DE CABILDEO EN LA REPUBLICA DE PANAMA",
+          "fecha": "18-08-2025",
           "etapa": "Segundo Debate"
         },
         {
-          "ficha": "7832",
-          "titulo": "QUE DISMINUYE EL IMPUESTO SOBRE LA RENTA A LAS PERSONAS NATURALES Y ELIMINA LOS BENEFICIOS FISCALES EN LA POLITICA",
-          "fecha": "27-03-2025",
+          "ficha": "7837",
+          "titulo": "QUE MODIFICA, ADICIONA Y DEROGA DISPOSICIONES DE LA LEY 9 DE 1 DE MARZO DE 2006, CON EL OBJETIVO DE RESTAURAR Y CONSERVAR LAS POBLACIONES DE TIBURONES Y RAYAS EN LA REPUBLICA DE PANAMA",
+          "fecha": "02-04-2025",
           "etapa": "Enviado a subcomisión para analisis"
         },
         {
-          "ficha": "7822",
-          "titulo": "QUE ESTABLECE HONORARIOS POR SERVICIOS CONSULARES Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "20-03-2025",
-          "etapa": "Negado"
+          "ficha": "7756",
+          "titulo": "QUE ESTABLECE EL REGIMEN DE NACIMIENTOS SALUDABLES EN LA REPUBLICA DE PANAMA",
+          "fecha": "21-01-2025",
+          "etapa": "Segundo Debate"
         },
         {
-          "ficha": "7808",
-          "titulo": "QUE REDUCE LOS GASTOS DE ALQUILER DE OFICINAS EN EL SECTOR PÚBLICO Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "17-03-2025",
+          "ficha": "7755",
+          "titulo": "QUE ESTABLECE EL PROCESO SUCESORIO SIMPLIFICADO ANTE NOTARIO",
+          "fecha": "20-01-2025",
           "etapa": "Objetado por Ejecutivo"
         },
         {
-          "ficha": "7645",
-          "titulo": "QUE ESTABLECE EL PROGRAMA DE INTERCAMBIO VOLUNTARIO DE ARMAS DE FUEGO, MUNICIONES, EXPLOSIVOS Y MATERIALES RELACIONADOS POR COMIDA",
-          "fecha": "18-09-2024",
-          "etapa": "Ley"
+          "ficha": "7748",
+          "titulo": "QUE MODIFICA ARTICULOS DE LA LEY 14 DE 18 DE MAYO DE 2007, QUE ADOPTA EL CODIGO PENAL Y DE LA LEY 63 DE 28 DE AGOSTO DE 2008, QUE ADOPTA EL CODIGO PROCESAL PENAL",
+          "fecha": "15-01-2025",
+          "etapa": "Enviado a subcomisión para analisis"
         },
         {
-          "ficha": "7532",
-          "titulo": "QUE MODIFICA UN ARTICULO DEL CODIGO DE PROCEDIMIENTO TRIBUTARIO, REFERENTE A LA EVALUCACION DE PROYECTOS QUE AFECTEN LA RECAUDACION, Y DICTA OTRA DISPOSICION",
+          "ficha": "7738",
+          "titulo": "QUE CREA UNA PLATAFORMA DIGITAL PARA LA PUBLICACION DE VACANTES Y SELECCION DE PERSONAL EN EL SECTOR PUBLICO",
+          "fecha": "13-01-2025",
+          "etapa": "Enviado a subcomisión para analisis"
+        },
+        {
+          "ficha": "7607",
+          "titulo": "CONSERVACION Y MANTENIMIENTO DE BIENES NACIONALES",
+          "fecha": "05-09-2024",
+          "etapa": "Retirado por proponente"
+        },
+        {
+          "ficha": "7529",
+          "titulo": "LEY GENERAL DE ALIMENTACION ADECUADA Y SOSTENIBLE DE LA REPUBLICA DE PANAMA",
           "fecha": "13-08-2024",
-          "etapa": "Objetado por Ejecutivo"
+          "etapa": "Primer Debate"
         },
         {
-          "ficha": "8384",
-          "titulo": "QUE ESTABLECE EL MES DE AGOSTO, COMO EL MES DE LA CONMEMORACION, EL RECONOCIMIENTO Y LA EXALTACION DE LOS PUEBLOS ORIGINARIOS DE LA REPUBLICA DE PANAMA",
-          "fecha": "08-08-2024",
-          "etapa": "Segundo Debate(Objetado)"
-        },
-        {
-          "ficha": "7516",
-          "titulo": "QUE ESTABLECE EL RÉGIMEN DE CÁMARAS CORPORALES UTILIZADAS POR LA POLICÍA NACIONAL",
-          "fecha": "06-08-2024",
-          "etapa": "Ley"
-        },
-        {
-          "ficha": "7487",
-          "titulo": "QUE DECLARA PATRIMONIO CULTURAL PANAMEÑO LA RUTA COLONIAL TRANSISTMICA DE PANAMA",
+          "ficha": "7486",
+          "titulo": "QUE MODIFICA EL CODIGO PENAL Y DICTA OTRAS DISPOSICIONES RELACIONADAS AL COMERCIO ILICITO Y CONTRABANDO",
           "fecha": "30-07-2024",
-          "etapa": "Ley"
+          "etapa": "Enviado a subcomisión para analisis"
         },
         {
-          "ficha": "8397",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 30 DE 2000, QUE PROMUEVE LA LIMPIEZA DE LOS ESPACIOS PUBLICOS",
-          "fecha": "30-07-2024",
-          "etapa": "Segundo Debate(Objetado)"
-        },
-        {
-          "ficha": "7403",
-          "titulo": "QUE ESTABLECE NORMAS MINIMAS DE TRANSPARENCIA EN EL OTORGAMIENTO DE BECAS EN LA REPUBLICA DE PANAMA",
-          "fecha": "02-07-2024",
-          "etapa": "Archivado"
-        },
-        {
-          "ficha": "7411",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS DEL TEXTO UNICO DE LA LEY 49 DE 1984, QUE ADOPTA EL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL",
-          "fecha": "02-07-2024",
+          "ficha": "7438",
+          "titulo": "QUE MODIFICA EL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL",
+          "fecha": "09-07-2024",
           "etapa": "Enviado a subcomisión para analisis"
         }
       ],
       "provincia_monitoreo": "Panamá",
       "circuito_monitoreo": "8-3",
-      "perfil_monitoreo": "https://espaciocivico.org/diputados/jose-perez-barboni",
-      "planilla_texto": "B/. 14,500",
-      "planilla_valor": 14500.0,
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/walkiria-chandler",
+      "planilla_texto": "B/. 12,500",
+      "planilla_valor": 12500.0,
       "asistencia_pleno": 5.0,
       "asistencia_comisiones": 5.0,
       "viajes_ponderacion": 5.0,
@@ -2138,7 +2112,7 @@
       "declaracion_patrimonio": 5.0,
       "calificacion": 5.0,
       "comisiones": [
-        "Gobierno, Justicia y Asuntos Constitucionales"
+        "Comunicación y Transporte, Relaciones Exteriores"
       ],
       "comisiones_cantidad": 1
     },
@@ -2280,393 +2254,146 @@
       "comisiones_cantidad": 2
     },
     {
-      "nombre": "Lenin Alberto Ulate",
-      "partido": "Coalición Vamos",
-      "circuito": "13-1",
-      "provincia": "Panamá Oeste",
-      "suplente": "Margareth Pimentel",
-      "foto": "https://espaciocivico.org/api/drive-image/1BdKRjt5UcRwHzIvD3c0SqnP6Wi71SP4l",
-      "perfil": "https://espaciocivico.org/diputados/lenin-alberto-ulate",
-      "slug": "lenin-alberto-ulate",
-      "proyectos": 15,
-      "leyes": 0,
-      "co_patrocinios": 132,
-      "etapas": {
-        "Preliminar": 1,
-        "Segundo Debate": 4,
-        "Primer Debate": 4,
-        "Objetado por Ejecutivo": 1,
-        "Archivado": 2,
-        "Enviado a subcomisión para analisis": 2,
-        "Negado": 1
-      },
-      "leyes_detalle": [],
-      "proyectos_detalle": [
-        {
-          "ficha": "8448",
-          "titulo": "QUE ESTABLECE EL REGIMEN JURIDICO PARA LA OPERACION Y EL MANTENIMIENTO DE LAS PLANTAS DE TRATAMIENTO DE AGUAS RESIDUALES (PTAR) EN LA REPUBLICA DE PANAMA",
-          "fecha": "14-07-2026",
-          "etapa": "Preliminar"
-        },
-        {
-          "ficha": "8300",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 33 DE 2018, QUE ESTABLECE LA POLITICA BASURA CERO, PARA REGULAR LA GESTION INTEGRAL DE RESIDUOS EN EVENTOS Y ACTIVIDADES DE CONCURRENCIA MASIVA",
-          "fecha": "02-03-2026",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "8282",
-          "titulo": "QUE MODIFICA EL ARTICULO 79 Y ADICIONA ARTICULOS A LA LEY 45 DE 2007, QUE DICTA NORMAS SOBRE PROTECCION AL CONSUMIDOR Y DEFENSA DE LA COMPETENCIA Y OTRA DISPOSICION",
-          "fecha": "09-02-2026",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "8271",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 111 DE 30 DE DICIEMBRE DE 1974, QUE DECLARA DE UTILIDAD PUBLICA UN AREA EN LA PENINSULA DE VACAMONTE PARA EL DESARROLLO DE UN PUERTO PESQUERO",
-          "fecha": "02-02-2026",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8168",
-          "titulo": "QUE ESTABLECE EL REGIMEN LEGAL DE LOS SITIOS DE DISPOSICION FINAL DE RESIDUOS EN LA REPUBLICA DE PANAMA, REGULA SU DISEÑO, OPERACION, CLAUSURA Y POSCLAUSURA, Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "14-10-2025",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8156",
-          "titulo": "QUE REGULA LA PROTECCION DE DENUNCIANTES Y TESTIGOS DE FALTAS ADMINISTRATIVAS QUE AFECTAN EL PATRIMONIO DEL ESTADO EN LA REPUBLICA DE PANAMA Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "06-10-2025",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8063",
-          "titulo": "QUE PROTEGE, CONSERVA Y RESTAURA LA CUENCA HIDROGRAFICA DEL RIO CAIMITO Y ESTABLECE UN REGIMEN DE GESTION INTEGRAL DE SUS RECURSOS HIDRICOS",
-          "fecha": "27-08-2025",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "8008",
-          "titulo": "QUE REGULA EL NOMBRAMIENTO, FUNCIONES, RESPONSABILIDADES Y REQUISITOS MÍNIMOS DEL TESORERO(A) DE LAS JUNTAS COMUNALES EN LA REPUBLICA DE PANAMA",
-          "fecha": "13-08-2025",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "7976",
-          "titulo": "QUE DESARROLLA Y FOMENTA EL TURISMO DEPORTIVO EN LA REPÚBLICA DE PANAMÁ",
-          "fecha": "31-07-2025",
-          "etapa": "Objetado por Ejecutivo"
-        },
-        {
-          "ficha": "7887",
-          "titulo": "QUE REGULA EL USO DE AGENTES QUIMICOS Y MUNICIONES DE CONTROL DE MULTITUDES POR PARTE DE LOS ESTAMENTOS DE SEGURIDAD DEL ESTADO",
-          "fecha": "02-07-2025",
-          "etapa": "Archivado"
-        },
-        {
-          "ficha": "7826",
-          "titulo": "POR MEDIO DE LA CUAL SE FOMENTA LA PROFESIONALIZACION DE LAS DAMAS DE BARRIDO, RECOLECTORES, PERSONAL OPERATIVO Y TODOS LOS SERVIDORES PUBLICOS INVOLUCRADOS EN EL PROCESO DE RECOLECCION DE RESIDUOS, GARANTIZANDO EL RECONOCIMIENTO DE SU LABOR Y SEGURIDAD",
-          "fecha": "24-03-2025",
-          "etapa": "Enviado a subcomisión para analisis"
-        },
-        {
-          "ficha": "7787",
-          "titulo": "QUE ADOPTA MEDIDAS PARA SUBSANAR Y RESPONSABILIZAR LOS PROCESOS DE CONSTRUCCION DE LAS PROMOTORAS Y CONSTRUCTORAS, Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "10-02-2025",
-          "etapa": "Enviado a subcomisión para analisis"
-        },
-        {
-          "ficha": "7759",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 6 DE 16 DE JUNIO DE 1987, SOBRE BENEFICIOS A LOS JUBILADOS, PENSIONADOS Y DE LA TERCERA EDAD Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "22-01-2025",
-          "etapa": "Archivado"
-        },
-        {
-          "ficha": "7573",
-          "titulo": "QUE MODIFICA LA LEY 33 DE 25 DE ABRIL DE 2013, POR MEDIO DE LA CUAL SE CREA LA AUTORIDAD NACIONAL DE TRANSPARENCIA Y ACCESO A LA INFORMACIÓN (ANTAI), Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "27-08-2024",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "7547",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS AL TEXTO UNICO DE LA LEY 22 DE 27 DE JUNIO DE 2006",
-          "fecha": "19-08-2024",
-          "etapa": "Negado"
-        }
-      ],
-      "provincia_monitoreo": "Panamá Oeste",
-      "circuito_monitoreo": "13-1",
-      "perfil_monitoreo": "https://espaciocivico.org/diputados/lenin-alberto-ulate",
-      "planilla_texto": "B/. 10,300",
-      "planilla_valor": 10300.0,
-      "asistencia_pleno": 5.0,
-      "asistencia_comisiones": 5.0,
-      "viajes_ponderacion": 5.0,
-      "declaracion_intereses": null,
-      "declaracion_patrimonio": 5.0,
-      "calificacion": 5.0,
-      "comisiones": [
-        "Población, Ambiente y Desarrollo"
-      ],
-      "comisiones_cantidad": 1
-    },
-    {
-      "nombre": "Neftalí Zamora",
-      "partido": "Coalición Vamos",
-      "circuito": "8-5",
+      "nombre": "José Pérez Barboni",
+      "partido": "Movimiento Otro Camino",
+      "circuito": "8-3",
       "provincia": "Panamá",
-      "suplente": "Daryelis Aponte",
-      "foto": "https://espaciocivico.org/api/drive-image/1geqBMqEZSodIQSn8rP4Yw-jf2toM09XZ",
-      "perfil": "https://espaciocivico.org/diputados/neftali-zamora",
-      "slug": "neftali-zamora",
+      "suplente": "Kevin 'Robinho' Carrillo",
+      "foto": "https://espaciocivico.org/api/drive-image/1jdQaEAFfkqKtIVahwrTSz0AuFmYjhrde",
+      "perfil": "https://espaciocivico.org/diputados/jose-perez-barboni",
+      "slug": "jose-perez-barboni",
       "proyectos": 15,
-      "leyes": 2,
-      "co_patrocinios": 73,
+      "leyes": 4,
+      "co_patrocinios": 104,
       "etapas": {
-        "Primer Debate": 7,
-        "Negado": 1,
+        "Preliminar": 2,
+        "Ley": 4,
         "Segundo Debate": 2,
-        "Archivado": 2,
-        "Enviado a subcomisión para analisis": 1,
-        "Ley": 2
+        "Primer Debate": 1,
+        "Enviado a subcomisión para analisis": 2,
+        "Negado": 1,
+        "Objetado por Ejecutivo": 2,
+        "Archivado": 1
       },
       "leyes_detalle": [
         {
-          "ficha": "8339",
-          "titulo": "QUE REFORMA LA LEY 105 DE 1973, QUE ORGANIZA LAS JUNTAS COMUNALES Y LA LEY 106 DE 1973, SOBRE REGIMEN MUNICIPAL Y DICTA OTRA DISPOSICION",
-          "fecha": "18-07-2024"
+          "ficha": "8291",
+          "titulo": "QUE DECLARA LA PLAZA BELISARIO PORRAS PATRIMONIO CULTURAL MATERIAL DE LA NACIÓN PANAMEÑA",
+          "fecha": "12-02-2026"
         },
         {
-          "ficha": "8366",
-          "titulo": "QUE ESTABLECE HORARIOS EXTENDIDOS EN CENTRO DE SALUD EN LA REPUBLICA DE PANAMA",
-          "fecha": "03-07-2024"
+          "ficha": "7645",
+          "titulo": "QUE ESTABLECE EL PROGRAMA DE INTERCAMBIO VOLUNTARIO DE ARMAS DE FUEGO, MUNICIONES, EXPLOSIVOS Y MATERIALES RELACIONADOS POR COMIDA",
+          "fecha": "18-09-2024"
+        },
+        {
+          "ficha": "7516",
+          "titulo": "QUE ESTABLECE EL RÉGIMEN DE CÁMARAS CORPORALES UTILIZADAS POR LA POLICÍA NACIONAL",
+          "fecha": "06-08-2024"
+        },
+        {
+          "ficha": "7487",
+          "titulo": "QUE DECLARA PATRIMONIO CULTURAL PANAMEÑO LA RUTA COLONIAL TRANSISTMICA DE PANAMA",
+          "fecha": "30-07-2024"
         }
       ],
       "proyectos_detalle": [
         {
-          "ficha": "8354",
-          "titulo": "QUE INCENTIVA Y FORTALECE EL MERCADO DE ESPECTACULOS PUBLICOS",
-          "fecha": "27-03-2026",
-          "etapa": "Primer Debate"
+          "ficha": "8453",
+          "titulo": "SOBRE MEDIDAS DE PREVENCIÓN Y CONTROL EN TORNO A LA PRODUCCIÓN, PREPARACIÓN Y TRÁFICO DE DROGAS SINTÉTICAS Y SUS PRECURSORES",
+          "fecha": "15-07-2026",
+          "etapa": "Preliminar"
         },
         {
-          "ficha": "8326",
-          "titulo": "GENERAL CONTRA LA ESTAFA DIGITAL",
-          "fecha": "11-03-2026",
-          "etapa": "Primer Debate"
+          "ficha": "8413",
+          "titulo": "QUE OBLIGA AL PAGO DE UNA PENSION ALIMENTICIA A LOS CONDUCTORES QUE CONDUZCAN BAJO LOS EFECTOS DEL ALCOHOL O DE DROGAS Y QUE HAYAN CAUSADO LA MUERTE DE UN PADRE, MADRE O TUTOR DE UNA PERSONA MENOR DE EDAD Y DICTA OTRA DISPOSICION",
+          "fecha": "02-07-2026",
+          "etapa": "Preliminar"
         },
         {
-          "ficha": "8327",
-          "titulo": "QUE ADICIONA UN ARTICULO A LA LEY 69 DE 2007",
-          "fecha": "11-03-2026",
-          "etapa": "Primer Debate"
+          "ficha": "8291",
+          "titulo": "QUE DECLARA LA PLAZA BELISARIO PORRAS PATRIMONIO CULTURAL MATERIAL DE LA NACIÓN PANAMEÑA",
+          "fecha": "12-02-2026",
+          "etapa": "Ley"
         },
         {
-          "ficha": "8261",
-          "titulo": "QUE MODIFICA LA LEY 63 DE 2015",
-          "fecha": "26-01-2026",
-          "etapa": "Primer Debate"
+          "ficha": "8214",
+          "titulo": "QUE MODIFICA ARTÍCULOS DE LA LEY 40 DE 1999, DEL RÉGIMEN ESPECIAL DE RESPONSABILIDAD PENAL PARA LA ADOLESCENCIA",
+          "fecha": "05-01-2026",
+          "etapa": "Segundo Debate"
         },
         {
-          "ficha": "8088",
-          "titulo": "QUE LIBERA LAS CONCESIONES DE TRANSPORTE PUBLICO TERRESTRE DE PASAJEROS.",
-          "fecha": "08-09-2025",
-          "etapa": "Negado"
-        },
-        {
-          "ficha": "8005",
-          "titulo": "QUE ELIMINA LAS JUBILACIONES ESPECIALES",
+          "ficha": "8001",
+          "titulo": "QUE MODIFICA UN ARTICULO DE LA LEY 467 DE 24 DE ABRIL DE 2025, “QUE SUBROGA LA LEY 16 DE 2016, QUE INSTITUYE LA JUSTICIA COMUNITARIA DE PAZ, Y DICTA OTRAS DISPOSICIONES",
           "fecha": "11-08-2025",
           "etapa": "Primer Debate"
         },
         {
-          "ficha": "7912",
-          "titulo": "QUE REGULA EL HOSPEDAJE TURÍSTICO DE CORTA ESTANCIA Y POSIBILITA SU TRIBUTACIÓN",
-          "fecha": "09-07-2025",
+          "ficha": "7899",
+          "titulo": "QUE ESTABLECE NORMATIVA POR INDEMNIZACIÓN A DAÑOS VEHICULARES DE PARTICULARES, EMPRESAS Y TRANSPORTE PUBLICO OCASIONADAS POR LAS INSTITUCIONES GUBERNAMENTALES Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "03-07-2025",
           "etapa": "Segundo Debate"
         },
         {
-          "ficha": "7901",
-          "titulo": "QUE DEROGA EL DECRETO LEY N° 4 DE 25 DE FEBRERO DE 1982 QUE ORGANIZA LOS BINGOS NACIONALES",
-          "fecha": "03-07-2025",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "7902",
-          "titulo": "QUE CONVOCA A UN PLEBISCITO NACIONAL SOBRE LA PERMANENCIA DE LA REPUBLICA DE PANAMA EN EL PARLAMENTO CENTROAMERICANO",
-          "fecha": "03-07-2025",
-          "etapa": "Archivado"
-        },
-        {
-          "ficha": "7811",
-          "titulo": "QUE MODIFICA EL ARTICULO 717 DEL CODIGO FISCAL DE LA REPUBLICA DE PANAMA.",
-          "fecha": "19-03-2025",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "7812",
-          "titulo": "QUE MODIFICA EL ARTICULO 100 Y ADICIONA EL ARTICULO 100-A A LA LEY 41 DE 1998, GENERAL DE AMBIENTE",
-          "fecha": "19-03-2025",
+          "ficha": "7832",
+          "titulo": "QUE DISMINUYE EL IMPUESTO SOBRE LA RENTA A LAS PERSONAS NATURALES Y ELIMINA LOS BENEFICIOS FISCALES EN LA POLITICA",
+          "fecha": "27-03-2025",
           "etapa": "Enviado a subcomisión para analisis"
         },
         {
-          "ficha": "7498",
-          "titulo": "QUE ESTABLECE LA CINTA NORTEÑA COMO PATRIMONIO MUNICIPAL DEL MUNICIPIO DE PANAMA Y DEROGA LA LEY N.O 1 DE 7 DE ENERO DE 2016",
-          "fecha": "31-07-2024",
-          "etapa": "Primer Debate"
+          "ficha": "7822",
+          "titulo": "QUE ESTABLECE HONORARIOS POR SERVICIOS CONSULARES Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "20-03-2025",
+          "etapa": "Negado"
         },
         {
-          "ficha": "8339",
-          "titulo": "QUE REFORMA LA LEY 105 DE 1973, QUE ORGANIZA LAS JUNTAS COMUNALES Y LA LEY 106 DE 1973, SOBRE REGIMEN MUNICIPAL Y DICTA OTRA DISPOSICION",
-          "fecha": "18-07-2024",
-          "etapa": "Ley"
-        },
-        {
-          "ficha": "7420",
-          "titulo": "QUE MODIFICA LOS ARTICULOS 1550 Y 1555 DEL CODIGO JUDICIAL",
-          "fecha": "03-07-2024",
-          "etapa": "Archivado"
-        },
-        {
-          "ficha": "8366",
-          "titulo": "QUE ESTABLECE HORARIOS EXTENDIDOS EN CENTRO DE SALUD EN LA REPUBLICA DE PANAMA",
-          "fecha": "03-07-2024",
-          "etapa": "Ley"
-        }
-      ],
-      "provincia_monitoreo": "Panamá",
-      "circuito_monitoreo": "8-5",
-      "perfil_monitoreo": "https://espaciocivico.org/diputados/neftali-zamora",
-      "planilla_texto": "B/. 14,000",
-      "planilla_valor": 14000.0,
-      "asistencia_pleno": 5.0,
-      "asistencia_comisiones": 5.0,
-      "viajes_ponderacion": 5.0,
-      "declaracion_intereses": null,
-      "declaracion_patrimonio": 5.0,
-      "calificacion": 5.0,
-      "comisiones": [
-        "Presupuesto, Asuntos Municipales"
-      ],
-      "comisiones_cantidad": 1
-    },
-    {
-      "nombre": "Walkiria Chandler",
-      "partido": "Coalición Vamos",
-      "circuito": "8-3",
-      "provincia": "Panamá",
-      "suplente": "Charlie Ho",
-      "foto": "https://espaciocivico.org/api/drive-image/1VmiaUx0rzlt-Zj2v4hcYcM1EpV0ai2XD",
-      "perfil": "https://espaciocivico.org/diputados/walkiria-chandler",
-      "slug": "walkiria-chandler",
-      "proyectos": 15,
-      "leyes": 0,
-      "co_patrocinios": 82,
-      "etapas": {
-        "Preliminar": 3,
-        "Primer Debate": 4,
-        "Segundo Debate": 1,
-        "Enviado a subcomisión para analisis": 5,
-        "Objetado por Ejecutivo": 1,
-        "Retirado por proponente": 1
-      },
-      "leyes_detalle": [],
-      "proyectos_detalle": [
-        {
-          "ficha": "8443",
-          "titulo": "QUE REGULA LA PUBLICIDAD COMERCIAL DIFUNDIDA POR CREADORES DE CONTENIDO DIGITAL Y MODIFICA UN ARTICULO DE LA LEY 45 DE 31 DE OCTUBRE DE 2007",
-          "fecha": "13-07-2026",
-          "etapa": "Preliminar"
-        },
-        {
-          "ficha": "8434",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS AL CODIGO DE LA FAMILIA Y CREA LA PENSION COMPENSATORIA MATRIMONIAL",
-          "fecha": "09-07-2026",
-          "etapa": "Preliminar"
-        },
-        {
-          "ficha": "8421",
-          "titulo": "POR LA CUAL SE REGULA LA RADIODIFUSION DE EMERGENCIA EN LA REPUBLICA DE PANAMA, SE CREA LA RED DE DIFUSION PARA EMERGENCIAS Y RESILIENCIA (REDER) Y SE ESTABLECE LA FRECUENCIA UNICA DE EMERGENCIAS NACIONALES (FUEN).",
-          "fecha": "07-07-2026",
-          "etapa": "Preliminar"
-        },
-        {
-          "ficha": "8283",
-          "titulo": "QUE MODIFICA UN ARTICULO DEL CODIGO PROCESAL PENAL",
-          "fecha": "09-02-2026",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8150",
-          "titulo": "QUE MODIFICA ARTICULOS DEL CODIGO PENAL Y EL CODIGO PROCESAL PENAL, SOBRE LA PRESCRIPCION DE LOS DELITOS CONTRA LA LIBERTAD E INTEGRIDAD SEXUAL CUANDO LA VICTIMA SEA MENOR DE EDAD",
-          "fecha": "06-10-2025",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8091",
-          "titulo": "QUE MODIFICA Y ADICIONA A LA LEY 83 DE 9 DE NOVIEMBRE DE 2012, QUE REGULA EL USO DE MEDIOS ELECTRONICOS PARA LOS TRAMITES GUBERNAMENTALES",
-          "fecha": "08-09-2025",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8025",
-          "titulo": "QUE REGULA Y LIMITA LA ACTIVIDAD DE CABILDEO EN LA REPUBLICA DE PANAMA",
-          "fecha": "18-08-2025",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "7837",
-          "titulo": "QUE MODIFICA, ADICIONA Y DEROGA DISPOSICIONES DE LA LEY 9 DE 1 DE MARZO DE 2006, CON EL OBJETIVO DE RESTAURAR Y CONSERVAR LAS POBLACIONES DE TIBURONES Y RAYAS EN LA REPUBLICA DE PANAMA",
-          "fecha": "02-04-2025",
-          "etapa": "Enviado a subcomisión para analisis"
-        },
-        {
-          "ficha": "7755",
-          "titulo": "QUE ESTABLECE EL PROCESO SUCESORIO SIMPLIFICADO ANTE NOTARIO",
-          "fecha": "20-01-2025",
+          "ficha": "7808",
+          "titulo": "QUE REDUCE LOS GASTOS DE ALQUILER DE OFICINAS EN EL SECTOR PÚBLICO Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "17-03-2025",
           "etapa": "Objetado por Ejecutivo"
         },
         {
-          "ficha": "7748",
-          "titulo": "QUE MODIFICA ARTICULOS DE LA LEY 14 DE 18 DE MAYO DE 2007, QUE ADOPTA EL CODIGO PENAL Y DE LA LEY 63 DE 28 DE AGOSTO DE 2008, QUE ADOPTA EL CODIGO PROCESAL PENAL",
-          "fecha": "15-01-2025",
-          "etapa": "Enviado a subcomisión para analisis"
+          "ficha": "7645",
+          "titulo": "QUE ESTABLECE EL PROGRAMA DE INTERCAMBIO VOLUNTARIO DE ARMAS DE FUEGO, MUNICIONES, EXPLOSIVOS Y MATERIALES RELACIONADOS POR COMIDA",
+          "fecha": "18-09-2024",
+          "etapa": "Ley"
         },
         {
-          "ficha": "7738",
-          "titulo": "QUE CREA UNA PLATAFORMA DIGITAL PARA LA PUBLICACION DE VACANTES Y SELECCION DE PERSONAL EN EL SECTOR PUBLICO",
-          "fecha": "13-01-2025",
-          "etapa": "Enviado a subcomisión para analisis"
-        },
-        {
-          "ficha": "7607",
-          "titulo": "CONSERVACION Y MANTENIMIENTO DE BIENES NACIONALES",
-          "fecha": "05-09-2024",
-          "etapa": "Retirado por proponente"
-        },
-        {
-          "ficha": "7529",
-          "titulo": "LEY GENERAL DE ALIMENTACION ADECUADA Y SOSTENIBLE DE LA REPUBLICA DE PANAMA",
+          "ficha": "7532",
+          "titulo": "QUE MODIFICA UN ARTICULO DEL CODIGO DE PROCEDIMIENTO TRIBUTARIO, REFERENTE A LA EVALUCACION DE PROYECTOS QUE AFECTEN LA RECAUDACION, Y DICTA OTRA DISPOSICION",
           "fecha": "13-08-2024",
-          "etapa": "Primer Debate"
+          "etapa": "Objetado por Ejecutivo"
         },
         {
-          "ficha": "7486",
-          "titulo": "QUE MODIFICA EL CODIGO PENAL Y DICTA OTRAS DISPOSICIONES RELACIONADAS AL COMERCIO ILICITO Y CONTRABANDO",
+          "ficha": "7516",
+          "titulo": "QUE ESTABLECE EL RÉGIMEN DE CÁMARAS CORPORALES UTILIZADAS POR LA POLICÍA NACIONAL",
+          "fecha": "06-08-2024",
+          "etapa": "Ley"
+        },
+        {
+          "ficha": "7487",
+          "titulo": "QUE DECLARA PATRIMONIO CULTURAL PANAMEÑO LA RUTA COLONIAL TRANSISTMICA DE PANAMA",
           "fecha": "30-07-2024",
-          "etapa": "Enviado a subcomisión para analisis"
+          "etapa": "Ley"
         },
         {
-          "ficha": "7438",
-          "titulo": "QUE MODIFICA EL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL",
-          "fecha": "09-07-2024",
+          "ficha": "7403",
+          "titulo": "QUE ESTABLECE NORMAS MINIMAS DE TRANSPARENCIA EN EL OTORGAMIENTO DE BECAS EN LA REPUBLICA DE PANAMA",
+          "fecha": "02-07-2024",
+          "etapa": "Archivado"
+        },
+        {
+          "ficha": "7411",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS DEL TEXTO UNICO DE LA LEY 49 DE 1984, QUE ADOPTA EL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL",
+          "fecha": "02-07-2024",
           "etapa": "Enviado a subcomisión para analisis"
         }
       ],
       "provincia_monitoreo": "Panamá",
       "circuito_monitoreo": "8-3",
-      "perfil_monitoreo": "https://espaciocivico.org/diputados/walkiria-chandler",
-      "planilla_texto": "B/. 12,500",
-      "planilla_valor": 12500.0,
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/jose-perez-barboni",
+      "planilla_texto": "B/. 14,500",
+      "planilla_valor": 14500.0,
       "asistencia_pleno": 5.0,
       "asistencia_comisiones": 5.0,
       "viajes_ponderacion": 5.0,
@@ -2674,9 +2401,406 @@
       "declaracion_patrimonio": 5.0,
       "calificacion": 5.0,
       "comisiones": [
-        "Comunicación y Transporte, Relaciones Exteriores"
+        "Gobierno, Justicia y Asuntos Constitucionales"
       ],
       "comisiones_cantidad": 1
+    },
+    {
+      "nombre": "Luis Duke",
+      "partido": "Coalición Vamos",
+      "circuito": "8-2",
+      "provincia": "Panamá",
+      "suplente": "Grettel Garrido",
+      "foto": "https://espaciocivico.org/api/drive-image/1qu3Y5QOuHgVHbvCgM4IVvPcL7pj-as8G",
+      "perfil": "https://espaciocivico.org/diputados/luis-duke",
+      "slug": "luis-duke",
+      "proyectos": 15,
+      "leyes": 1,
+      "co_patrocinios": 116,
+      "etapas": {
+        "Preliminar": 1,
+        "Primer Debate": 2,
+        "Archivado": 3,
+        "Segundo Debate": 2,
+        "Enviado a subcomisión para analisis": 3,
+        "Retirado por proponente": 1,
+        "Ley": 1,
+        "Suspendido": 1,
+        "Objetado por Ejecutivo": 1
+      },
+      "leyes_detalle": [
+        {
+          "ficha": "7669",
+          "titulo": "QUE FACULTA A LA SECRETARIA NACIONAL DE CIENCIA, TECNOLOGIA E INNOVACION A TRANSPARENTAR, REGULAR Y ADMINISTRAR SUS PROGRAMAS DE BECAS",
+          "fecha": "26-09-2024"
+        }
+      ],
+      "proyectos_detalle": [
+        {
+          "ficha": "8454",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTÍCULOS AL TEXTO ÚNICO DEL CÓDIGO PENAL, PARA SANCIONAR CON CÁRCEL LA DEVOLUCIÓN ILÍCITA DE EMOLUMENTOS PÚBLICOS",
+          "fecha": "15-07-2026",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "8334",
+          "titulo": "QUE ELIMINA LAS PARTIDAS PRESUPUESTARIAS DISCRECIONALES Y GARANTIZA LA TRANSPARENCIA EN EL USO DE FONDOS PUBLICOS",
+          "fecha": "17-03-2026",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8254",
+          "titulo": "QUE MODIFICA ARTICULOS DE LA LEY 106 DE 1973 SOBRE REGIMEN MUNICIPAL Y DICTA OTRAS DISPOSICIONES EN MATERIA DE GESTION DE RESIDUOS SOILIDOS",
+          "fecha": "21-01-2026",
+          "etapa": "Archivado"
+        },
+        {
+          "ficha": "8222",
+          "titulo": "POR LA CUAL SE FORTALECE LA CONTRATACION PUBLICA EN LA REPUBLICA DE PANAMA Y SE CREA EL LISTADO PUBLICO DIGITAL DE PERSONAS CONDENADAS Y SANCIONADAS POR DELITOS CONTRA LA ADMINISTRACION PUBLICA",
+          "fecha": "08-01-2026",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "8075",
+          "titulo": "QUE PROHIBE EL USO DE FONDOS PUBLICOS PARA EL PAGO DE SEGUROS PRIVADOS DE SALUD DE LOS FUNCIONARIOS PUBLICOS",
+          "fecha": "01-09-2025",
+          "etapa": "Enviado a subcomisión para analisis"
+        },
+        {
+          "ficha": "7898",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS AL TEXTO UNICO DE LA LEY 14 DE 2007 QUE CONSAGRA EL CODIGO PENAL DE LA REPUBLICA DE PANAMA EN MATERIA DE DISPAROS ALEATORIOS AL AIRE O EN CUALQUIER DIRECCION",
+          "fecha": "03-07-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "7900",
+          "titulo": "QUE ESTABLECE REQUISITOS PARA EL NOMBRAMIENTO CARGOS SUPERIORES Y DIRECTORES DE LA AUTORIDAD NACIONAL DE ADMINISTRACION DE TIERRAS, AUTORIDAD DE TURISMO DE PANAMA, EMPRESA NACIONAL DE AUTOPISTA, INSTITUTO DE MERCADEO AGROPECUARIO, LOTERIA NACIONAL DE BENEFICENCIA, EL REGISTRO PÚBLICO Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "03-07-2025",
+          "etapa": "Archivado"
+        },
+        {
+          "ficha": "7824",
+          "titulo": "QUE CREA EL SISTEMA DE MATRICULA ESCOLAR DIGITAL EN LA REPUBLICA DE PANAMA",
+          "fecha": "20-03-2025",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "7757",
+          "titulo": "QUE PROMUEVE Y REGULA LOS VEHICULOS ELECTRICOS DE MOVILIDAD PERSONAL EN LA REPUBLICA DE PANAMA",
+          "fecha": "22-01-2025",
+          "etapa": "Retirado por proponente"
+        },
+        {
+          "ficha": "7735",
+          "titulo": "QUE ESTABLECE LA DISTRIBUCION EQUITATIVA DEL RECURSO MUNICIPAL DEL IMPUESTO DE CIRCULACION VEHICULAR Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "08-01-2025",
+          "etapa": "Enviado a subcomisión para analisis"
+        },
+        {
+          "ficha": "7669",
+          "titulo": "QUE FACULTA A LA SECRETARIA NACIONAL DE CIENCIA, TECNOLOGIA E INNOVACION A TRANSPARENTAR, REGULAR Y ADMINISTRAR SUS PROGRAMAS DE BECAS",
+          "fecha": "26-09-2024",
+          "etapa": "Ley"
+        },
+        {
+          "ficha": "7641",
+          "titulo": "QUE ADICIONA EL PROCEDIMIENTO DE DESIGNACIÓN A CARGOS PUBLICOS, REFORMA EL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "18-09-2024",
+          "etapa": "Enviado a subcomisión para analisis"
+        },
+        {
+          "ficha": "7551",
+          "titulo": "QUE TRANSPARENTA LAS ACTAS Y OTROS ARCHIVOS DEL CONSEJO DE GABINETE",
+          "fecha": "20-08-2024",
+          "etapa": "Suspendido"
+        },
+        {
+          "ficha": "7543",
+          "titulo": "QUE PROMUEVE EL DEPORTE SEGURO",
+          "fecha": "14-08-2024",
+          "etapa": "Objetado por Ejecutivo"
+        },
+        {
+          "ficha": "7422",
+          "titulo": "QUE TRANSPARENTA LAS ACTAS Y OTROS ARCHIVOS DEL CONSEJO DE GABINETE",
+          "fecha": "04-07-2024",
+          "etapa": "Archivado"
+        }
+      ],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-2",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/luis-duke",
+      "planilla_texto": "B/. 35,600",
+      "planilla_valor": 35600.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
+      "comisiones": [
+        "Gobierno, Justicia y Asuntos Constitucionales"
+      ],
+      "comisiones_cantidad": 1
+    },
+    {
+      "nombre": "Patsy Lee Rentería",
+      "partido": "Partido Popular",
+      "circuito": "13-4",
+      "provincia": "Panamá Oeste",
+      "suplente": "Ezequiel Cedeño",
+      "foto": "https://espaciocivico.org/api/drive-image/1j-BLrnzwbewFubNVYPQmsx7XYPiQX_Wo",
+      "perfil": "https://espaciocivico.org/diputados/patsy-lee-renteria",
+      "slug": "patsy-lee-renteria",
+      "proyectos": 15,
+      "leyes": 0,
+      "co_patrocinios": 87,
+      "etapas": {
+        "Preliminar": 1,
+        "Primer Debate": 6,
+        "Segundo Debate": 5,
+        "Enviado al Ejecutivo": 1,
+        "Negado": 1,
+        "Archivado": 1
+      },
+      "leyes_detalle": [],
+      "proyectos_detalle": [
+        {
+          "ficha": "8378",
+          "titulo": "QUE MODIFICA EL ARTICULO 17 DE LA LEY 1 DE 2 DE FEBRERO DE 2015 QUE DECLARA AREA PROTEGIDA AL REFUGIO DE VIDA SILVESTRE SITIO RAMSAR HUMEDAL BAHIA DE PANAMA",
+          "fecha": "15-04-2026",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "8367",
+          "titulo": "QUE CREA EL SELLO ARTESANAL PARA PRODUCTOS ARTESANALES DE CONSUMO Y DE USO TOPICO, ESTABLECE MECANISMO DE TRAZABILIDAD, COORDINACIÓN INTERINSTITUCIONAL Y DICTA OTRAS DISPOSICIONES.",
+          "fecha": "06-04-2026",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8312",
+          "titulo": "QUE ESTABLECE LA OBLIGATORIEDAD DE PROGRAMAS DE ACOMPAÑAMIENTO PSICOLOGICO PARA ELPERSONAL QUE ATIENDE SINIESTROS, EMERGENCIAS Y ESCENAS DE VIOLENCIA EXTREMA Y DICTA OTRAS DISIPACIONES",
+          "fecha": "05-03-2026",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8236",
+          "titulo": "POR LA CUAL SE ESTABLECE EL MARCO PARA LA ATENCION DE EMERGENCIAS Y MANEJO RESPONSABLE DE ABEJAS EN LA REPUBLICA DE PANAMA Y SE DICTAN OTRAS DISPOSICIONES",
+          "fecha": "13-01-2026",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8213",
+          "titulo": "QUE ESTABLECE EL MARCO GENERAL PARA EL USO PRIORITARIAMENTE DEPORTIVO Y LA GESTION DE LAS CANCHAS MUNICIPALES.",
+          "fecha": "05-01-2026",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "8203",
+          "titulo": "QUE CREA EL PATRONATO DEL CENTRO DE FORMACION Y DESARROLLO DE ADOLESCENTES (CEFODEA) DE SAN MIGUELITO",
+          "fecha": "30-10-2025",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "8192",
+          "titulo": "QUE CREA EL CENTRO AGROINDUSTRIAL Y BIOECONOMICO DE LA PROVINCIA DE PANAMA OESTE",
+          "fecha": "28-10-2025",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "8153",
+          "titulo": "QUE REGULA LA INSTALACION, PROTECCION, MANTENIMIENTO Y GESTION DEL SISTEMA DE HIDRANTES EN LA REPUBLICA DE PANAMA",
+          "fecha": "06-10-2025",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "8102",
+          "titulo": "QUE REGULA LA DISPOSICION, RECICLAJE Y VALORACION DEL ACEITE DE COCINA DE USO DOMESTICO EN LA REPUBLICA DE PANAMA",
+          "fecha": "10-09-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "7978",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 11 DE 2011, GENERAL DE LA ARTESANIA NACIONAL, Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "31-07-2025",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "7908",
+          "titulo": "QUE RESTRINGE LA IMPORTACION DE CIERTOS ARTICULOS Y DEROGA LA LEY 21 DE 30 DE ENERO DE 1967",
+          "fecha": "07-07-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "7878",
+          "titulo": "QUE REGULA LA ORGANIZACIÓN DE LAS ASOCIACIONES DE PADRES DE FAMILIAS EN LOS CENTROS EDUCATIVOS OFICIALES DEL PRIMER Y SEGUNDO NIVEL DE ENSEÑANZA",
+          "fecha": "02-07-2025",
+          "etapa": "Enviado al Ejecutivo"
+        },
+        {
+          "ficha": "7825",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 24 DE 1980, QUE CREA EL INSTITUTO PANAMEÑO AUTONOMO COOPERATIVO, Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "24-03-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "7731",
+          "titulo": "QUE ESTABLECE EL MARCO REGULATORIO GENERAL PARA PATRONATOS, COMISIONES, PROGRAMAS Y OTRAS ENTIDADES SIMILARES CREADAS PARA EL SECTOR AGROPECUARIO DONDE PARTICIPA EL ESTADO Y ESTABLECE MEDIDAS PARA LA TRANSPARENCIA y LA RENDICION DE CUENTAS EN LOS PATRONATOS DE FERIAS Y DICTA OTRAS DISPOSICIONES.",
+          "fecha": "06-01-2025",
+          "etapa": "Negado"
+        },
+        {
+          "ficha": "7585",
+          "titulo": "QUE REORGANIZA EL HOSPITAL REGIONAL NICOLAS A. SOLANO, CREA SU PATRONATO Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "28-08-2024",
+          "etapa": "Archivado"
+        }
+      ],
+      "provincia_monitoreo": "Panamá Oeste",
+      "circuito_monitoreo": "13-4",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/patsy-lee-renteria",
+      "planilla_texto": "B/. 15,600",
+      "planilla_valor": 15600.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 4.6,
+      "comisiones": [
+        "Asuntos Agropecuarios, Asuntos Municipales"
+      ],
+      "comisiones_cantidad": 1
+    },
+    {
+      "nombre": "Dana Castañeda",
+      "partido": "Realizando Metas",
+      "circuito": "2-3",
+      "provincia": "Coclé",
+      "suplente": "Maiquely Añino",
+      "foto": "https://espaciocivico.org/api/drive-image/1YUtF-yJooFQNig4wD88dwxjilYEDA5__",
+      "perfil": "https://espaciocivico.org/diputados/dana-castaneda",
+      "slug": "dana-castaneda",
+      "proyectos": 14,
+      "leyes": 1,
+      "co_patrocinios": 16,
+      "etapas": {
+        "Preliminar": 2,
+        "Segundo Debate": 3,
+        "Primer Debate": 6,
+        "Ley": 1,
+        "Enviado a subcomisión para analisis": 1,
+        "Suspendido": 1
+      },
+      "leyes_detalle": [
+        {
+          "ficha": "8250",
+          "titulo": "QUE CREA EL PATRONATO DEL FESTIVAL NACIONAL DEL TORO GUAPO DE ANTON Y DICTA OTRA DISPOSICION",
+          "fecha": "25-09-2024"
+        }
+      ],
+      "proyectos_detalle": [
+        {
+          "ficha": "8450",
+          "titulo": "QUE MODIFICA EL CODLGO PENAL EN MATERIA DE DELITOS CONTRA EL HONOR DE LA PERSONA NATURAL",
+          "fecha": "15-07-2026",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "8379",
+          "titulo": "QUE CREA LA RUTA RAPIDA ONCOLOGICA, ESTABLECE EL USO DE BRAZALETES DE PRIORIZACION CLINICA PARA PACIENTES CON SOSPECHA Y DIAGNOSTICO DE CANCER, Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "15-04-2026",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "8355",
+          "titulo": "QUE MODIFICA UNA DISPOSICION DEL CODIGO DE RECURSOS MINERALES Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "27-03-2026",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "8304",
+          "titulo": "QUE ADICIONA ARTICULOS A LA LEY 80 DE 2012, SOBRE INCENTIVOS PARA EL FOMENTO DE LA ACTIVIDAD TURISTICA Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "02-03-2026",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "8134",
+          "titulo": "QUE MODIFICA LA LEY 58 DE 1998, QUE ESTABLECE LA DIVISION POLITICO ADMINISTRATIVA DE LAS PROVINCIAS DE COCLE, HERRERA, LOS SANTOS Y VERAGUAS",
+          "fecha": "23-09-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8080",
+          "titulo": "QUE ADICIONA UN ARTICULO A LA LEY 32 DE 2013, QUE CREA LA AUTORIDAD DE PASAPORTES DE PANAMA",
+          "fecha": "03-09-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "7975",
+          "titulo": "QUE MODIFICA UN ARTICULO DE LA LEY 37 DE 2009, QUE DESCENTRALIZA LA ADMINISTRACION PUBLICA",
+          "fecha": "30-07-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "7944",
+          "titulo": "QUE MODIFICA UN ARTÍCULO DE LA LEY 86 DE 2010, SOBRE EL PROGRAMA B/.120.00 A LOS 70, Y AMPLÍA LA COBERTURA DEL PROGRAMA A LOS ADULTOS MAYORES DE 65 AÑOS",
+          "fecha": "17-07-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "7853",
+          "titulo": "QUE REFORMA ARTICULOS DEL TEXTO UNICO DE LA LEY 49 DE 1984 \"QUE ADOPTA EL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL",
+          "fecha": "22-04-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8250",
+          "titulo": "QUE CREA EL PATRONATO DEL FESTIVAL NACIONAL DEL TORO GUAPO DE ANTON Y DICTA OTRA DISPOSICION",
+          "fecha": "25-09-2024",
+          "etapa": "Ley"
+        },
+        {
+          "ficha": "7601",
+          "titulo": "QUE CREA EL PROGRAMA NACIONAL DE PREVENCION DE LA SALUD Y LA ATENCION PRIMARIA DE LA REPUBLICA DE PANAMA, Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "05-09-2024",
+          "etapa": "Enviado a subcomisión para analisis"
+        },
+        {
+          "ficha": "7603",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 47 DE 1946, ORGANICA DE EDUCACION, Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "05-09-2024",
+          "etapa": "Suspendido"
+        },
+        {
+          "ficha": "7604",
+          "titulo": "POR EL CUAL SE ESTABLECE EL MARGEN BRUTO MAXIMO VENTA DE INSUMOS AGROPECUARIOS EN LA REPUBLICA DE PANAMA Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "05-09-2024",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "7538",
+          "titulo": "QUE MODIFICA LA LEY 3 DE 1985, QUE ESTABLECE UN REGIMEN DE INTERESES PREFERENCIALES EN CIERTOS PRESTAMOS HIPOTECARIOS, Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "14-08-2024",
+          "etapa": "Segundo Debate"
+        }
+      ],
+      "provincia_monitoreo": "Coclé",
+      "circuito_monitoreo": "2-3",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/dana-castaneda",
+      "planilla_texto": "B/. 120,675",
+      "planilla_valor": 120675.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 3.0,
+      "comisiones": [
+        "Mujer, Niñez, Juventud y Familia",
+        "Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+      ],
+      "comisiones_cantidad": 2
     },
     {
       "nombre": "Jorge González",
@@ -2689,7 +2813,7 @@
       "slug": "jorge-gonzalez",
       "proyectos": 14,
       "leyes": 0,
-      "co_patrocinios": 112,
+      "co_patrocinios": 113,
       "etapas": {
         "Preliminar": 7,
         "Archivado": 2,
@@ -2801,260 +2925,6 @@
       "comisiones_cantidad": 1
     },
     {
-      "nombre": "Luis Duke",
-      "partido": "Coalición Vamos",
-      "circuito": "8-2",
-      "provincia": "Panamá",
-      "suplente": "Grettel Garrido",
-      "foto": "https://espaciocivico.org/api/drive-image/1qu3Y5QOuHgVHbvCgM4IVvPcL7pj-as8G",
-      "perfil": "https://espaciocivico.org/diputados/luis-duke",
-      "slug": "luis-duke",
-      "proyectos": 14,
-      "leyes": 1,
-      "co_patrocinios": 113,
-      "etapas": {
-        "Primer Debate": 2,
-        "Archivado": 3,
-        "Segundo Debate": 2,
-        "Enviado a subcomisión para analisis": 3,
-        "Retirado por proponente": 1,
-        "Ley": 1,
-        "Suspendido": 1,
-        "Objetado por Ejecutivo": 1
-      },
-      "leyes_detalle": [
-        {
-          "ficha": "7669",
-          "titulo": "QUE FACULTA A LA SECRETARIA NACIONAL DE CIENCIA, TECNOLOGIA E INNOVACION A TRANSPARENTAR, REGULAR Y ADMINISTRAR SUS PROGRAMAS DE BECAS",
-          "fecha": "26-09-2024"
-        }
-      ],
-      "proyectos_detalle": [
-        {
-          "ficha": "8334",
-          "titulo": "QUE ELIMINA LAS PARTIDAS PRESUPUESTARIAS DISCRECIONALES Y GARANTIZA LA TRANSPARENCIA EN EL USO DE FONDOS PUBLICOS",
-          "fecha": "17-03-2026",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8254",
-          "titulo": "QUE MODIFICA ARTICULOS DE LA LEY 106 DE 1973 SOBRE REGIMEN MUNICIPAL Y DICTA OTRAS DISPOSICIONES EN MATERIA DE GESTION DE RESIDUOS SOILIDOS",
-          "fecha": "21-01-2026",
-          "etapa": "Archivado"
-        },
-        {
-          "ficha": "8222",
-          "titulo": "POR LA CUAL SE FORTALECE LA CONTRATACION PUBLICA EN LA REPUBLICA DE PANAMA Y SE CREA EL LISTADO PUBLICO DIGITAL DE PERSONAS CONDENADAS Y SANCIONADAS POR DELITOS CONTRA LA ADMINISTRACION PUBLICA",
-          "fecha": "08-01-2026",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "8075",
-          "titulo": "QUE PROHIBE EL USO DE FONDOS PUBLICOS PARA EL PAGO DE SEGUROS PRIVADOS DE SALUD DE LOS FUNCIONARIOS PUBLICOS",
-          "fecha": "01-09-2025",
-          "etapa": "Enviado a subcomisión para analisis"
-        },
-        {
-          "ficha": "7898",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS AL TEXTO UNICO DE LA LEY 14 DE 2007 QUE CONSAGRA EL CODIGO PENAL DE LA REPUBLICA DE PANAMA EN MATERIA DE DISPAROS ALEATORIOS AL AIRE O EN CUALQUIER DIRECCION",
-          "fecha": "03-07-2025",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "7900",
-          "titulo": "QUE ESTABLECE REQUISITOS PARA EL NOMBRAMIENTO CARGOS SUPERIORES Y DIRECTORES DE LA AUTORIDAD NACIONAL DE ADMINISTRACION DE TIERRAS, AUTORIDAD DE TURISMO DE PANAMA, EMPRESA NACIONAL DE AUTOPISTA, INSTITUTO DE MERCADEO AGROPECUARIO, LOTERIA NACIONAL DE BENEFICENCIA, EL REGISTRO PÚBLICO Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "03-07-2025",
-          "etapa": "Archivado"
-        },
-        {
-          "ficha": "7824",
-          "titulo": "QUE CREA EL SISTEMA DE MATRICULA ESCOLAR DIGITAL EN LA REPUBLICA DE PANAMA",
-          "fecha": "20-03-2025",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "7757",
-          "titulo": "QUE PROMUEVE Y REGULA LOS VEHICULOS ELECTRICOS DE MOVILIDAD PERSONAL EN LA REPUBLICA DE PANAMA",
-          "fecha": "22-01-2025",
-          "etapa": "Retirado por proponente"
-        },
-        {
-          "ficha": "7735",
-          "titulo": "QUE ESTABLECE LA DISTRIBUCION EQUITATIVA DEL RECURSO MUNICIPAL DEL IMPUESTO DE CIRCULACION VEHICULAR Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "08-01-2025",
-          "etapa": "Enviado a subcomisión para analisis"
-        },
-        {
-          "ficha": "7669",
-          "titulo": "QUE FACULTA A LA SECRETARIA NACIONAL DE CIENCIA, TECNOLOGIA E INNOVACION A TRANSPARENTAR, REGULAR Y ADMINISTRAR SUS PROGRAMAS DE BECAS",
-          "fecha": "26-09-2024",
-          "etapa": "Ley"
-        },
-        {
-          "ficha": "7641",
-          "titulo": "QUE ADICIONA EL PROCEDIMIENTO DE DESIGNACIÓN A CARGOS PUBLICOS, REFORMA EL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "18-09-2024",
-          "etapa": "Enviado a subcomisión para analisis"
-        },
-        {
-          "ficha": "7551",
-          "titulo": "QUE TRANSPARENTA LAS ACTAS Y OTROS ARCHIVOS DEL CONSEJO DE GABINETE",
-          "fecha": "20-08-2024",
-          "etapa": "Suspendido"
-        },
-        {
-          "ficha": "7543",
-          "titulo": "QUE PROMUEVE EL DEPORTE SEGURO",
-          "fecha": "14-08-2024",
-          "etapa": "Objetado por Ejecutivo"
-        },
-        {
-          "ficha": "7422",
-          "titulo": "QUE TRANSPARENTA LAS ACTAS Y OTROS ARCHIVOS DEL CONSEJO DE GABINETE",
-          "fecha": "04-07-2024",
-          "etapa": "Archivado"
-        }
-      ],
-      "provincia_monitoreo": "Panamá",
-      "circuito_monitoreo": "8-2",
-      "perfil_monitoreo": "https://espaciocivico.org/diputados/luis-duke",
-      "planilla_texto": "B/. 35,600",
-      "planilla_valor": 35600.0,
-      "asistencia_pleno": 5.0,
-      "asistencia_comisiones": 5.0,
-      "viajes_ponderacion": 5.0,
-      "declaracion_intereses": null,
-      "declaracion_patrimonio": 5.0,
-      "calificacion": 5.0,
-      "comisiones": [
-        "Gobierno, Justicia y Asuntos Constitucionales"
-      ],
-      "comisiones_cantidad": 1
-    },
-    {
-      "nombre": "Patsy Lee Rentería",
-      "partido": "Partido Popular",
-      "circuito": "13-4",
-      "provincia": "Panamá Oeste",
-      "suplente": "Ezequiel Cedeño",
-      "foto": "https://espaciocivico.org/api/drive-image/1j-BLrnzwbewFubNVYPQmsx7XYPiQX_Wo",
-      "perfil": "https://espaciocivico.org/diputados/patsy-lee-renteria",
-      "slug": "patsy-lee-renteria",
-      "proyectos": 14,
-      "leyes": 0,
-      "co_patrocinios": 87,
-      "etapas": {
-        "Preliminar": 1,
-        "Primer Debate": 6,
-        "Segundo Debate": 4,
-        "Enviado al Ejecutivo": 1,
-        "Negado": 1,
-        "Archivado": 1
-      },
-      "leyes_detalle": [],
-      "proyectos_detalle": [
-        {
-          "ficha": "8378",
-          "titulo": "QUE MODIFICA EL ARTICULO 17 DE LA LEY 1 DE 2 DE FEBRERO DE 2015 QUE DECLARA AREA PROTEGIDA AL REFUGIO DE VIDA SILVESTRE SITIO RAMSAR HUMEDAL BAHIA DE PANAMA",
-          "fecha": "15-04-2026",
-          "etapa": "Preliminar"
-        },
-        {
-          "ficha": "8367",
-          "titulo": "QUE CREA EL SELLO ARTESANAL PARA PRODUCTOS ARTESANALES DE CONSUMO Y DE USO TOPICO, ESTABLECE MECANISMO DE TRAZABILIDAD, COORDINACIÓN INTERINSTITUCIONAL Y DICTA OTRAS DISPOSICIONES.",
-          "fecha": "06-04-2026",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8312",
-          "titulo": "QUE ESTABLECE LA OBLIGATORIEDAD DE PROGRAMAS DE ACOMPAÑAMIENTO PSICOLOGICO PARA ELPERSONAL QUE ATIENDE SINIESTROS, EMERGENCIAS Y ESCENAS DE VIOLENCIA EXTREMA Y DICTA OTRAS DISIPACIONES",
-          "fecha": "05-03-2026",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8236",
-          "titulo": "POR LA CUAL SE ESTABLECE EL MARCO PARA LA ATENCION DE EMERGENCIAS Y MANEJO RESPONSABLE DE ABEJAS EN LA REPUBLICA DE PANAMA Y SE DICTAN OTRAS DISPOSICIONES",
-          "fecha": "13-01-2026",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8213",
-          "titulo": "QUE ESTABLECE EL MARCO GENERAL PARA EL USO PRIORITARIAMENTE DEPORTIVO Y LA GESTION DE LAS CANCHAS MUNICIPALES.",
-          "fecha": "05-01-2026",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "8192",
-          "titulo": "QUE CREA EL CENTRO AGROINDUSTRIAL Y BIOECONOMICO DE LA PROVINCIA DE PANAMA OESTE",
-          "fecha": "28-10-2025",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "8153",
-          "titulo": "QUE REGULA LA INSTALACION, PROTECCION, MANTENIMIENTO Y GESTION DEL SISTEMA DE HIDRANTES EN LA REPUBLICA DE PANAMA",
-          "fecha": "06-10-2025",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "8102",
-          "titulo": "QUE REGULA LA DISPOSICION, RECICLAJE Y VALORACION DEL ACEITE DE COCINA DE USO DOMESTICO EN LA REPUBLICA DE PANAMA",
-          "fecha": "10-09-2025",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "7978",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 11 DE 2011, GENERAL DE LA ARTESANIA NACIONAL, Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "31-07-2025",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "7908",
-          "titulo": "QUE RESTRINGE LA IMPORTACION DE CIERTOS ARTICULOS Y DEROGA LA LEY 21 DE 30 DE ENERO DE 1967",
-          "fecha": "07-07-2025",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "7878",
-          "titulo": "QUE REGULA LA ORGANIZACIÓN DE LAS ASOCIACIONES DE PADRES DE FAMILIAS EN LOS CENTROS EDUCATIVOS OFICIALES DEL PRIMER Y SEGUNDO NIVEL DE ENSEÑANZA",
-          "fecha": "02-07-2025",
-          "etapa": "Enviado al Ejecutivo"
-        },
-        {
-          "ficha": "7825",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 24 DE 1980, QUE CREA EL INSTITUTO PANAMEÑO AUTONOMO COOPERATIVO, Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "24-03-2025",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "7731",
-          "titulo": "QUE ESTABLECE EL MARCO REGULATORIO GENERAL PARA PATRONATOS, COMISIONES, PROGRAMAS Y OTRAS ENTIDADES SIMILARES CREADAS PARA EL SECTOR AGROPECUARIO DONDE PARTICIPA EL ESTADO Y ESTABLECE MEDIDAS PARA LA TRANSPARENCIA y LA RENDICION DE CUENTAS EN LOS PATRONATOS DE FERIAS Y DICTA OTRAS DISPOSICIONES.",
-          "fecha": "06-01-2025",
-          "etapa": "Negado"
-        },
-        {
-          "ficha": "7585",
-          "titulo": "QUE REORGANIZA EL HOSPITAL REGIONAL NICOLAS A. SOLANO, CREA SU PATRONATO Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "28-08-2024",
-          "etapa": "Archivado"
-        }
-      ],
-      "provincia_monitoreo": "Panamá Oeste",
-      "circuito_monitoreo": "13-4",
-      "perfil_monitoreo": "https://espaciocivico.org/diputados/patsy-lee-renteria",
-      "planilla_texto": "B/. 15,600",
-      "planilla_valor": 15600.0,
-      "asistencia_pleno": 5.0,
-      "asistencia_comisiones": 3.0,
-      "viajes_ponderacion": 5.0,
-      "declaracion_intereses": null,
-      "declaracion_patrimonio": 5.0,
-      "calificacion": 4.6,
-      "comisiones": [
-        "Asuntos Agropecuarios, Asuntos Municipales"
-      ],
-      "comisiones_cantidad": 1
-    },
-    {
       "nombre": "Luis Camacho Castro",
       "partido": "Realizando Metas",
       "circuito": "8-2",
@@ -3065,7 +2935,7 @@
       "slug": "luis-camacho-castro",
       "proyectos": 13,
       "leyes": 2,
-      "co_patrocinios": 33,
+      "co_patrocinios": 34,
       "etapas": {
         "Preliminar": 2,
         "Retirado por proponente": 1,
@@ -3185,113 +3055,249 @@
       "comisiones_cantidad": 1
     },
     {
-      "nombre": "Dana Castañeda",
-      "partido": "Realizando Metas",
-      "circuito": "2-3",
-      "provincia": "Coclé",
-      "suplente": "Maiquely Añino",
-      "foto": "https://espaciocivico.org/api/drive-image/1YUtF-yJooFQNig4wD88dwxjilYEDA5__",
-      "perfil": "https://espaciocivico.org/diputados/dana-castaneda",
-      "slug": "dana-castaneda",
-      "proyectos": 12,
-      "leyes": 0,
-      "co_patrocinios": 17,
+      "nombre": "Neftalí Zamora",
+      "partido": "Coalición Vamos",
+      "circuito": "8-5",
+      "provincia": "Panamá",
+      "suplente": "Daryelis Aponte",
+      "foto": "https://espaciocivico.org/api/drive-image/1geqBMqEZSodIQSn8rP4Yw-jf2toM09XZ",
+      "perfil": "https://espaciocivico.org/diputados/neftali-zamora",
+      "slug": "neftali-zamora",
+      "proyectos": 13,
+      "leyes": 1,
+      "co_patrocinios": 75,
       "etapas": {
-        "Preliminar": 1,
-        "Segundo Debate": 3,
-        "Primer Debate": 6,
+        "Primer Debate": 7,
+        "Negado": 1,
+        "Segundo Debate": 2,
+        "Archivado": 1,
         "Enviado a subcomisión para analisis": 1,
-        "Suspendido": 1
+        "Ley": 1
       },
-      "leyes_detalle": [],
+      "leyes_detalle": [
+        {
+          "ficha": "8339",
+          "titulo": "QUE REFORMA LA LEY 105 DE 1973, QUE ORGANIZA LAS JUNTAS COMUNALES Y LA LEY 106 DE 1973, SOBRE REGIMEN MUNICIPAL Y DICTA OTRA DISPOSICION",
+          "fecha": "18-07-2024"
+        }
+      ],
       "proyectos_detalle": [
         {
-          "ficha": "8379",
-          "titulo": "QUE CREA LA RUTA RAPIDA ONCOLOGICA, ESTABLECE EL USO DE BRAZALETES DE PRIORIZACION CLINICA PARA PACIENTES CON SOSPECHA Y DIAGNOSTICO DE CANCER, Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "15-04-2026",
-          "etapa": "Preliminar"
+          "ficha": "8354",
+          "titulo": "QUE INCENTIVA Y FORTALECE EL MERCADO DE ESPECTACULOS PUBLICOS",
+          "fecha": "27-03-2026",
+          "etapa": "Primer Debate"
         },
         {
-          "ficha": "8355",
-          "titulo": "QUE MODIFICA UNA DISPOSICION DEL CODIGO DE RECURSOS MINERALES Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "27-03-2026",
+          "ficha": "8326",
+          "titulo": "GENERAL CONTRA LA ESTAFA DIGITAL",
+          "fecha": "11-03-2026",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8327",
+          "titulo": "QUE ADICIONA UN ARTICULO A LA LEY 69 DE 2007",
+          "fecha": "11-03-2026",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8261",
+          "titulo": "QUE MODIFICA LA LEY 63 DE 2015",
+          "fecha": "26-01-2026",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8088",
+          "titulo": "QUE LIBERA LAS CONCESIONES DE TRANSPORTE PUBLICO TERRESTRE DE PASAJEROS.",
+          "fecha": "08-09-2025",
+          "etapa": "Negado"
+        },
+        {
+          "ficha": "8005",
+          "titulo": "QUE ELIMINA LAS JUBILACIONES ESPECIALES",
+          "fecha": "11-08-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "7912",
+          "titulo": "QUE REGULA EL HOSPEDAJE TURÍSTICO DE CORTA ESTANCIA Y POSIBILITA SU TRIBUTACIÓN",
+          "fecha": "09-07-2025",
           "etapa": "Segundo Debate"
         },
         {
-          "ficha": "8304",
-          "titulo": "QUE ADICIONA ARTICULOS A LA LEY 80 DE 2012, SOBRE INCENTIVOS PARA EL FOMENTO DE LA ACTIVIDAD TURISTICA Y DICTA OTRAS DISPOSICIONES",
+          "ficha": "7901",
+          "titulo": "QUE DEROGA EL DECRETO LEY N° 4 DE 25 DE FEBRERO DE 1982 QUE ORGANIZA LOS BINGOS NACIONALES",
+          "fecha": "03-07-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "7902",
+          "titulo": "QUE CONVOCA A UN PLEBISCITO NACIONAL SOBRE LA PERMANENCIA DE LA REPUBLICA DE PANAMA EN EL PARLAMENTO CENTROAMERICANO",
+          "fecha": "03-07-2025",
+          "etapa": "Archivado"
+        },
+        {
+          "ficha": "7811",
+          "titulo": "QUE MODIFICA EL ARTICULO 717 DEL CODIGO FISCAL DE LA REPUBLICA DE PANAMA.",
+          "fecha": "19-03-2025",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "7812",
+          "titulo": "QUE MODIFICA EL ARTICULO 100 Y ADICIONA EL ARTICULO 100-A A LA LEY 41 DE 1998, GENERAL DE AMBIENTE",
+          "fecha": "19-03-2025",
+          "etapa": "Enviado a subcomisión para analisis"
+        },
+        {
+          "ficha": "7498",
+          "titulo": "QUE ESTABLECE LA CINTA NORTEÑA COMO PATRIMONIO MUNICIPAL DEL MUNICIPIO DE PANAMA Y DEROGA LA LEY N.O 1 DE 7 DE ENERO DE 2016",
+          "fecha": "31-07-2024",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8339",
+          "titulo": "QUE REFORMA LA LEY 105 DE 1973, QUE ORGANIZA LAS JUNTAS COMUNALES Y LA LEY 106 DE 1973, SOBRE REGIMEN MUNICIPAL Y DICTA OTRA DISPOSICION",
+          "fecha": "18-07-2024",
+          "etapa": "Ley"
+        }
+      ],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-5",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/neftali-zamora",
+      "planilla_texto": "B/. 14,000",
+      "planilla_valor": 14000.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
+      "comisiones": [
+        "Presupuesto, Asuntos Municipales"
+      ],
+      "comisiones_cantidad": 1
+    },
+    {
+      "nombre": "Yarelis Rodríguez",
+      "partido": "Coalición Vamos",
+      "circuito": "8-2",
+      "provincia": "Panamá",
+      "suplente": "José Andrés González",
+      "foto": "https://espaciocivico.org/api/drive-image/1CDpks0hALy6EBT17Y2afzUvqAWkP92cC",
+      "perfil": "https://espaciocivico.org/diputados/yarelis-rodriguez",
+      "slug": "yarelis-rodriguez",
+      "proyectos": 13,
+      "leyes": 1,
+      "co_patrocinios": 106,
+      "etapas": {
+        "Primer Debate": 3,
+        "Segundo Debate": 4,
+        "Ley": 1,
+        "Archivado": 2,
+        "Negado": 1,
+        "Objetado por Ejecutivo": 2
+      },
+      "leyes_detalle": [
+        {
+          "ficha": "7958",
+          "titulo": "QUE ESTABLECE UN MARCO LEGAL PARA LA PREVENCION, DIAGNOSTICO Y CONTROL DE LAS ENFERMEDADES NO TRANSMISIBLES",
+          "fecha": "23-07-2025"
+        }
+      ],
+      "proyectos_detalle": [
+        {
+          "ficha": "8356",
+          "titulo": "QUE MODIFICA LA LEY 44 DE 2002 Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "27-03-2026",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8302",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS DE LA LEY 47 DE 1946, ORGANICA DE EDUCACION, SOBRE REUTILIZACION DE TEXTOS ESCOLARES Y PROTECCION AL CONSUMIDOR",
           "fecha": "02-03-2026",
           "etapa": "Segundo Debate"
         },
         {
-          "ficha": "8134",
-          "titulo": "QUE MODIFICA LA LEY 58 DE 1998, QUE ESTABLECE LA DIVISION POLITICO ADMINISTRATIVA DE LAS PROVINCIAS DE COCLE, HERRERA, LOS SANTOS Y VERAGUAS",
-          "fecha": "23-09-2025",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8080",
-          "titulo": "QUE ADICIONA UN ARTICULO A LA LEY 32 DE 2013, QUE CREA LA AUTORIDAD DE PASAPORTES DE PANAMA",
-          "fecha": "03-09-2025",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "7975",
-          "titulo": "QUE MODIFICA UN ARTICULO DE LA LEY 37 DE 2009, QUE DESCENTRALIZA LA ADMINISTRACION PUBLICA",
-          "fecha": "30-07-2025",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "7944",
-          "titulo": "QUE MODIFICA UN ARTÍCULO DE LA LEY 86 DE 2010, SOBRE EL PROGRAMA B/.120.00 A LOS 70, Y AMPLÍA LA COBERTURA DEL PROGRAMA A LOS ADULTOS MAYORES DE 65 AÑOS",
-          "fecha": "17-07-2025",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "7853",
-          "titulo": "QUE REFORMA ARTICULOS DEL TEXTO UNICO DE LA LEY 49 DE 1984 \"QUE ADOPTA EL REGLAMENTO ORGANICO DEL REGIMEN INTERNO DE LA ASAMBLEA NACIONAL",
-          "fecha": "22-04-2025",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "7601",
-          "titulo": "QUE CREA EL PROGRAMA NACIONAL DE PREVENCION DE LA SALUD Y LA ATENCION PRIMARIA DE LA REPUBLICA DE PANAMA, Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "05-09-2024",
-          "etapa": "Enviado a subcomisión para analisis"
-        },
-        {
-          "ficha": "7603",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 47 DE 1946, ORGANICA DE EDUCACION, Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "05-09-2024",
-          "etapa": "Suspendido"
-        },
-        {
-          "ficha": "7604",
-          "titulo": "POR EL CUAL SE ESTABLECE EL MARGEN BRUTO MAXIMO VENTA DE INSUMOS AGROPECUARIOS EN LA REPUBLICA DE PANAMA Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "05-09-2024",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "7538",
-          "titulo": "QUE MODIFICA LA LEY 3 DE 1985, QUE ESTABLECE UN REGIMEN DE INTERESES PREFERENCIALES EN CIERTOS PRESTAMOS HIPOTECARIOS, Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "14-08-2024",
+          "ficha": "8055",
+          "titulo": "QUE ESTABLECE MEDIDAS ESPECIALES PARA LA REMEDIACION, RESTAURACION ECOLOGICA Y MANEJO SOSTENIBLE DE LA CUENCA HIDROGRAFICA DEL RIO LA VILLA Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "26-08-2025",
           "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "7958",
+          "titulo": "QUE ESTABLECE UN MARCO LEGAL PARA LA PREVENCION, DIAGNOSTICO Y CONTROL DE LAS ENFERMEDADES NO TRANSMISIBLES",
+          "fecha": "23-07-2025",
+          "etapa": "Ley"
+        },
+        {
+          "ficha": "7940",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS DEL CODIGO PENAL RELACIONADOS CON LOS DELITOS CONTRA LA IDENTIDAD Y TRAFICO DE PERSONAS MENORES DE EDAD",
+          "fecha": "17-07-2025",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "7684",
+          "titulo": "QUE ESTABLECE Y REGULA LOS COMITES DE SALUD DE LAS COMUNIDADES Y DEROGA EL DECRETO DE GABINETE 401 DE 1970",
+          "fecha": "08-10-2024",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "7540",
+          "titulo": "QUE INTEGRA LA EDUCACION SOCIOEMOCIONAL EN EL SISTEMA EDUCATIVO DE PRIMER Y SEGUNDO NIVEL, EN EL TERRITORIO NACIONAL",
+          "fecha": "14-08-2024",
+          "etapa": "Archivado"
+        },
+        {
+          "ficha": "7502",
+          "titulo": "QUE DEROGA LA LEY 16 DEL 17 DE JUNIO DE 2016, SOBRE JUSTICIA COMUNITARIA DE PAZ, CREA LA JURISDICCION ESPECIAL DE JUSTICIA COMUNITARIA DE PAZ, ESTABLECE NUEVAS NORMAS PARA SU APLICACION, REFORMA ARTICULOS DE OTRAS LEYES Y DICTA DISPOSICIONES SOBRE METODOS ALTERNOS DE RESOLUCION DE CONFLICTOS",
+          "fecha": "01-08-2024",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "7462",
+          "titulo": "DECLARACION DEL DIA NACIONAL DEL FUTBOLISTA EN PANAMA",
+          "fecha": "24-07-2024",
+          "etapa": "Negado"
+        },
+        {
+          "ficha": "7463",
+          "titulo": "LEY INTEGRAL DE LA INDUSTRIA DE LOS DEPORTES ELECTRONICOS (ESPORTS)",
+          "fecha": "24-07-2024",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "7461",
+          "titulo": "QUE REGULA EL USO OBLIGATORIO DE SILLAS DE RETENCION INFANTIL EN VEHICULOS PARTICULARES Y DICTA OTRAS DISPOSICIONES.",
+          "fecha": "23-07-2024",
+          "etapa": "Objetado por Ejecutivo"
+        },
+        {
+          "ficha": "7432",
+          "titulo": "LEY QUE ESTABLECE POLITICAS DE DE PREVENCION Y PROTECCION CONTRA LA VIOLENCIA SEXUAL DIGITAL Y MEDIATICA; ADICIONA DISPOSICIONES AL CODIGO PENAL Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "08-07-2024",
+          "etapa": "Archivado"
+        },
+        {
+          "ficha": "7423",
+          "titulo": "QUE ESTABLECE LA PROTECCION, INCLUSION Y ABORDAJE INTEGRAL DE LAS PERSONAS CON TRASTORNO DEL ESPECTRO AUTISTA",
+          "fecha": "04-07-2024",
+          "etapa": "Objetado por Ejecutivo"
         }
       ],
-      "provincia_monitoreo": "Coclé",
-      "circuito_monitoreo": "2-3",
-      "perfil_monitoreo": "https://espaciocivico.org/diputados/dana-castaneda",
-      "planilla_texto": "B/. 120,675",
-      "planilla_valor": 120675.0,
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-2",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/yarelis-rodriguez",
+      "planilla_texto": "B/. 17,000",
+      "planilla_valor": 17000.0,
       "asistencia_pleno": 5.0,
       "asistencia_comisiones": 5.0,
       "viajes_ponderacion": 5.0,
-      "declaracion_intereses": 1.0,
-      "declaracion_patrimonio": 1.0,
-      "calificacion": 3.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
       "comisiones": [
-        "Mujer, Niñez, Juventud y Familia",
-        "Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+        "Trabajo, Salud y Desarrollo Social",
+        "Población, Ambiente y Desarrollo"
       ],
       "comisiones_cantidad": 2
     },
@@ -3420,111 +3426,116 @@
       "comisiones_cantidad": 1
     },
     {
-      "nombre": "Yarelis Rodríguez",
+      "nombre": "Roberto Zuñiga",
       "partido": "Coalición Vamos",
-      "circuito": "8-2",
+      "circuito": "8-4",
       "provincia": "Panamá",
-      "suplente": "José Andrés González",
-      "foto": "https://espaciocivico.org/api/drive-image/1CDpks0hALy6EBT17Y2afzUvqAWkP92cC",
-      "perfil": "https://espaciocivico.org/diputados/yarelis-rodriguez",
-      "slug": "yarelis-rodriguez",
+      "suplente": "Herminia Thompson",
+      "foto": "https://espaciocivico.org/api/drive-image/1ikvRFnKl6U2bMNySKm5amHNDKYppcskS",
+      "perfil": "https://espaciocivico.org/diputados/roberto-zuniga",
+      "slug": "roberto-zuniga",
       "proyectos": 12,
-      "leyes": 1,
-      "co_patrocinios": 102,
+      "leyes": 2,
+      "co_patrocinios": 127,
       "etapas": {
-        "Primer Debate": 3,
+        "Preliminar": 4,
+        "Primer Debate": 1,
         "Segundo Debate": 3,
-        "Ley": 1,
-        "Archivado": 2,
-        "Negado": 1,
-        "Objetado por Ejecutivo": 2
+        "Archivado": 1,
+        "Enviado a subcomisión para analisis": 1,
+        "Ley": 2
       },
       "leyes_detalle": [
         {
-          "ficha": "7958",
-          "titulo": "QUE ESTABLECE UN MARCO LEGAL PARA LA PREVENCION, DIAGNOSTICO Y CONTROL DE LAS ENFERMEDADES NO TRANSMISIBLES",
-          "fecha": "23-07-2025"
+          "ficha": "8030",
+          "titulo": "QUE CREA EL PROGRAMA NACIONAL DE DESARROLLO TURÍSTICO Y PATRIMONIAL PARAÍSOS DEL ISTMO EN LA REPÚBLICA DE PANAMÁ",
+          "fecha": "19-08-2025"
+        },
+        {
+          "ficha": "8194",
+          "titulo": "QUE ADICIONA UN CAPITULO A LA LEY 16 DE 1995, QUE REORGANIZA EL INSTITUTO NACIONAL DE DEPORTES, Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "13-08-2024"
         }
       ],
       "proyectos_detalle": [
         {
-          "ficha": "8356",
-          "titulo": "QUE MODIFICA LA LEY 44 DE 2002 Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "27-03-2026",
+          "ficha": "8444",
+          "titulo": "QUE ELEVA A DELITO LA VENTA CLANDESTINA DE LOTERIA EN EL TERRITORIO NACIONAL Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "13-07-2026",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "8414",
+          "titulo": "QUE ESTABLECE LA IMPRESCRIPTIBILIDAD DE LOS DELITOS CONTRA LA ADMINISTRACION PUBLICA, INCREMENTA SUS PENAS Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "02-07-2026",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "8307",
+          "titulo": "QUE ESTABLECE MEDIDA INTEGRALES PARA LA ERRADICACION, PREVENCION, DETECCION TEMPRANA, ATENCION Y CONTROL DEL CANCER DE CUELLO UTERINO EN LA REPUBLICA DE PANAMA",
+          "fecha": "03-03-2026",
           "etapa": "Primer Debate"
         },
         {
-          "ficha": "8055",
-          "titulo": "QUE ESTABLECE MEDIDAS ESPECIALES PARA LA REMEDIACION, RESTAURACION ECOLOGICA Y MANEJO SOSTENIBLE DE LA CUENCA HIDROGRAFICA DEL RIO LA VILLA Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "26-08-2025",
+          "ficha": "8293",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 35 DE 30 DE MAYO DE 2018, QUE REGULA LOS SERVICIOS DE SANGRE Y TRANSFUSIONES SANGUINEAS",
+          "fecha": "23-02-2026",
           "etapa": "Segundo Debate"
         },
         {
-          "ficha": "7958",
-          "titulo": "QUE ESTABLECE UN MARCO LEGAL PARA LA PREVENCION, DIAGNOSTICO Y CONTROL DE LAS ENFERMEDADES NO TRANSMISIBLES",
-          "fecha": "23-07-2025",
+          "ficha": "8259",
+          "titulo": "QUE REGULA LA TRAMITACION DIGITAL DE PERMISOS PARA EL ESPECTACULO PUBLICO O ACTIVIDAD DE DIVERSION TEMPORAL Y DICTA OTRAS DISPOSICIONES.",
+          "fecha": "26-01-2026",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "8242",
+          "titulo": "QUE ADICIONA UN ARTICULO AL CODIGO PENAL EN MATERIA DE ENRIQUECIMIENTO INJUSTIFICADO",
+          "fecha": "13-01-2026",
+          "etapa": "Archivado"
+        },
+        {
+          "ficha": "8189",
+          "titulo": "QUE MODIFICA LA LEY 1 DE 1994 Y LA LEY 44 DE 2002 Y DICTA OTRAS DISPOSICIONES.",
+          "fecha": "27-10-2025",
+          "etapa": "Enviado a subcomisión para analisis"
+        },
+        {
+          "ficha": "8030",
+          "titulo": "QUE CREA EL PROGRAMA NACIONAL DE DESARROLLO TURÍSTICO Y PATRIMONIAL PARAÍSOS DEL ISTMO EN LA REPÚBLICA DE PANAMÁ",
+          "fecha": "19-08-2025",
           "etapa": "Ley"
         },
         {
-          "ficha": "7940",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS DEL CODIGO PENAL RELACIONADOS CON LOS DELITOS CONTRA LA IDENTIDAD Y TRAFICO DE PERSONAS MENORES DE EDAD",
-          "fecha": "17-07-2025",
+          "ficha": "8003",
+          "titulo": "QUE ESTABLECE DISPOSICIONES SALARIALES DE LOS MAGISTRADOS DE LA REPUBLICA DE PANAMA Y ELIMINA OTROS PRIVILEGIOS",
+          "fecha": "11-08-2025",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "7946",
+          "titulo": "QUE ESTABLECE LA IMPRESCRIPTIBILIDAD DE LOS DELITOS CONTRA LA ADMINISTRACION PUBLICA, INCREMENTA SUS PENAS Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "22-07-2025",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "7647",
+          "titulo": "QUE DESPOLITIZA LAS FEDERACIONES DEPORTIVAS",
+          "fecha": "23-09-2024",
           "etapa": "Segundo Debate"
         },
         {
-          "ficha": "7684",
-          "titulo": "QUE ESTABLECE Y REGULA LOS COMITES DE SALUD DE LAS COMUNIDADES Y DEROGA EL DECRETO DE GABINETE 401 DE 1970",
-          "fecha": "08-10-2024",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "7540",
-          "titulo": "QUE INTEGRA LA EDUCACION SOCIOEMOCIONAL EN EL SISTEMA EDUCATIVO DE PRIMER Y SEGUNDO NIVEL, EN EL TERRITORIO NACIONAL",
-          "fecha": "14-08-2024",
-          "etapa": "Archivado"
-        },
-        {
-          "ficha": "7502",
-          "titulo": "QUE DEROGA LA LEY 16 DEL 17 DE JUNIO DE 2016, SOBRE JUSTICIA COMUNITARIA DE PAZ, CREA LA JURISDICCION ESPECIAL DE JUSTICIA COMUNITARIA DE PAZ, ESTABLECE NUEVAS NORMAS PARA SU APLICACION, REFORMA ARTICULOS DE OTRAS LEYES Y DICTA DISPOSICIONES SOBRE METODOS ALTERNOS DE RESOLUCION DE CONFLICTOS",
-          "fecha": "01-08-2024",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "7462",
-          "titulo": "DECLARACION DEL DIA NACIONAL DEL FUTBOLISTA EN PANAMA",
-          "fecha": "24-07-2024",
-          "etapa": "Negado"
-        },
-        {
-          "ficha": "7463",
-          "titulo": "LEY INTEGRAL DE LA INDUSTRIA DE LOS DEPORTES ELECTRONICOS (ESPORTS)",
-          "fecha": "24-07-2024",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "7461",
-          "titulo": "QUE REGULA EL USO OBLIGATORIO DE SILLAS DE RETENCION INFANTIL EN VEHICULOS PARTICULARES Y DICTA OTRAS DISPOSICIONES.",
-          "fecha": "23-07-2024",
-          "etapa": "Objetado por Ejecutivo"
-        },
-        {
-          "ficha": "7432",
-          "titulo": "LEY QUE ESTABLECE POLITICAS DE DE PREVENCION Y PROTECCION CONTRA LA VIOLENCIA SEXUAL DIGITAL Y MEDIATICA; ADICIONA DISPOSICIONES AL CODIGO PENAL Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "08-07-2024",
-          "etapa": "Archivado"
-        },
-        {
-          "ficha": "7423",
-          "titulo": "QUE ESTABLECE LA PROTECCION, INCLUSION Y ABORDAJE INTEGRAL DE LAS PERSONAS CON TRASTORNO DEL ESPECTRO AUTISTA",
-          "fecha": "04-07-2024",
-          "etapa": "Objetado por Ejecutivo"
+          "ficha": "8194",
+          "titulo": "QUE ADICIONA UN CAPITULO A LA LEY 16 DE 1995, QUE REORGANIZA EL INSTITUTO NACIONAL DE DEPORTES, Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "13-08-2024",
+          "etapa": "Ley"
         }
       ],
       "provincia_monitoreo": "Panamá",
-      "circuito_monitoreo": "8-2",
-      "perfil_monitoreo": "https://espaciocivico.org/diputados/yarelis-rodriguez",
-      "planilla_texto": "B/. 17,000",
-      "planilla_valor": 17000.0,
+      "circuito_monitoreo": "8-4",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/roberto-zuniga",
+      "planilla_texto": "B/. 13,700",
+      "planilla_valor": 13700.0,
       "asistencia_pleno": 5.0,
       "asistencia_comisiones": 5.0,
       "viajes_ponderacion": 5.0,
@@ -3532,10 +3543,9 @@
       "declaracion_patrimonio": 5.0,
       "calificacion": 5.0,
       "comisiones": [
-        "Trabajo, Salud y Desarrollo Social",
-        "Población, Ambiente y Desarrollo"
+        "Gobierno, Justicia y Asuntos Constitucionales"
       ],
-      "comisiones_cantidad": 2
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Carlos Saldaña",
@@ -3657,13 +3667,13 @@
       "foto": "https://espaciocivico.org/api/drive-image/1Y3Ain4tNLQHmbw3eqealTt79AESfx0Fc",
       "perfil": "https://espaciocivico.org/diputados/francisco-brea",
       "slug": "francisco-brea",
-      "proyectos": 10,
+      "proyectos": 11,
       "leyes": 3,
       "co_patrocinios": 52,
       "etapas": {
         "Preliminar": 1,
         "Primer Debate": 3,
-        "Segundo Debate": 3,
+        "Segundo Debate": 4,
         "Ley": 3
       },
       "leyes_detalle": [
@@ -3733,6 +3743,12 @@
           "etapa": "Segundo Debate"
         },
         {
+          "ficha": "7705",
+          "titulo": "QUE PRESERVA LAS ROMPIENTES APROPIADAS PARA LA PRACTICA DEPORTIVA",
+          "fecha": "16-10-2024",
+          "etapa": "Segundo Debate"
+        },
+        {
           "ficha": "7525",
           "titulo": "QUE REFORMA LA LEY 79 DE 2011, SOBRE TRATA DE PERSONAS Y ACTIVIDADES CONEXAS, Y EL CÓDIGO PENAL, Y DICTA OTRAS DISPOSICIONES",
           "fecha": "12-08-2024",
@@ -3770,14 +3786,14 @@
       "foto": "https://espaciocivico.org/api/drive-image/1hcMWMaf8IEKqoOgsfK81PBJDFKmT3BZl",
       "perfil": "https://espaciocivico.org/diputados/miguel-angel-campos",
       "slug": "miguel-angel-campos",
-      "proyectos": 10,
-      "leyes": 2,
-      "co_patrocinios": 191,
+      "proyectos": 11,
+      "leyes": 3,
+      "co_patrocinios": 194,
       "etapas": {
         "Segundo Debate": 4,
         "Primer Debate": 2,
         "Enviado a subcomisión para analisis": 1,
-        "Ley": 2,
+        "Ley": 3,
         "Archivado": 1
       },
       "leyes_detalle": [
@@ -3790,6 +3806,11 @@
           "ficha": "8011",
           "titulo": "QUE ADICIONA CAPITULOS A LA LEY 16 DE 1995, QUE REORGANIZA EL INSTITUTO NACIONAL DE DEPORTES, RELATIVOS AL PROGRAMA DE ALTO RENDIMIENTO DEPORTIVO Y DE MEDICINA APLICADA AL DEPORTE",
           "fecha": "06-08-2024"
+        },
+        {
+          "ficha": "8366",
+          "titulo": "QUE ESTABLECE HORARIOS EXTENDIDOS EN CENTRO DE SALUD EN LA REPUBLICA DE PANAMA",
+          "fecha": "03-07-2024"
         }
       ],
       "proyectos_detalle": [
@@ -3852,6 +3873,12 @@
           "titulo": "QUE MODIFICA LA LEY 1 DE 11 DE ENERO DE 1965 Y PROHIBE EL ACCESO A AUXILIOS ECONOMICOS A FUNCIONARIOS DE ALTO MANDO Y JURISDICCION, Y A SUS FAMILIARES CON PARENTESCO HASTA EL CUARTO GRADO DE CONSANGUINIDAD Y SEGUNDO DE AFINIDAD",
           "fecha": "03-07-2024",
           "etapa": "Archivado"
+        },
+        {
+          "ficha": "8366",
+          "titulo": "QUE ESTABLECE HORARIOS EXTENDIDOS EN CENTRO DE SALUD EN LA REPUBLICA DE PANAMA",
+          "fecha": "03-07-2024",
+          "etapa": "Ley"
         }
       ],
       "provincia_monitoreo": "Veraguas",
@@ -3872,6 +3899,106 @@
       "comisiones_cantidad": 2
     },
     {
+      "nombre": "Medin Jiménez Pitti",
+      "partido": "Partido Panameñista",
+      "circuito": "4-4",
+      "provincia": "Chiriquí",
+      "suplente": "Ariel Rios",
+      "foto": "https://espaciocivico.org/api/drive-image/1bzczX1uQsA7ZObR9g3aMyrVZqhphKSfd",
+      "perfil": "https://espaciocivico.org/diputados/medin-jimenez-pitti",
+      "slug": "medin-jimenez-pitti",
+      "proyectos": 10,
+      "leyes": 0,
+      "co_patrocinios": 40,
+      "etapas": {
+        "Primer Debate": 2,
+        "Enviado a subcomisión para analisis": 1,
+        "Archivado": 1,
+        "Segundo Debate": 3,
+        "Objetado por Ejecutivo": 1,
+        "Enviado al Ejecutivo": 1,
+        "Retirado por proponente": 1
+      },
+      "leyes_detalle": [],
+      "proyectos_detalle": [
+        {
+          "ficha": "8310",
+          "titulo": "LEY MJP (DE PAGO GARANTIZADO AL PRODUCTOR), “QUE REGULA LAS RELACIONES COMERCIALES EN MERCA PANAMA Y GARANTIZA EL PAGO OPORTUNO A LOS PRODUCTORES AGROPECUARIOS”",
+          "fecha": "04-03-2026",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8311",
+          "titulo": "LEY MED (LEY DE MANEJO Y EVALUACION DE DAÑOS ELECTRICOS), “QUE ESTABLECE EL REGIMEN DE RESPONSABILIDAD Y COMPENSACION POR DAÑOS A EQUIPOS ELECTRICOS CAUSADOS POR FALLAS EN EL SERVICIO PUBLICO DE ENERGIA ELECTRICA Y DICTA OTRAS DISPOSICIONES\"",
+          "fecha": "04-03-2026",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8120",
+          "titulo": "QUE REGULA EL USO, COMERCIALIZACION, PUBLICIDAD, CALIDAD Y SEGURIDAD DE LOS SISTEMAS ELECTRONICOS DE ADMINISTRACION DE NICOTINA, BOLSAS PARA CONSUMO ORAL, PRODUCTOS CALENTADOS PARA INHALACION, LIQUIDOS DE VAPEO Y SISTEMAS SIMILARES SIN NICOTINA, MODIFICA ARTICULOS DE LA LEY 45 DE 1995 Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "17-09-2025",
+          "etapa": "Enviado a subcomisión para analisis"
+        },
+        {
+          "ficha": "8024",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 113 DE 18 DE NOVIEMBRE DE 2019, SOBRE ROTULACION Y COMERCIALIZACION DE PRODUCTOS Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "18-08-2025",
+          "etapa": "Archivado"
+        },
+        {
+          "ficha": "7939",
+          "titulo": "QUE REGULA LA VENTA DE VEHICULOS POR PARTE DE CONCESIONARIOS, ESTABLECE EL PRECIO SEGUN EL AÑO DE FABRICACION, OBLIGA LA PRONTA NACIONALIZACION DESDE ADUANA Y DISPONE LA REGULACION POR KILOMETRAJE",
+          "fecha": "17-07-2025",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "7842",
+          "titulo": "QUE CREA LA RUTA DEL TRAPICHE EN REPUBLICA DE PANAMA",
+          "fecha": "09-04-2025",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "7840",
+          "titulo": "QUE ESTABLECE UN RESPALDO ECONOMICO A LOS MICRO EMPRESARIOS DEL TURISMO EN PANAMA",
+          "fecha": "08-04-2025",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "7829",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTÍCULOS A LA LEY 55 DE 1973, QUE REGULA LA ADMINISTRACIÓN, FISCALIZACIÓN Y COBRO DE VARIOS TRIBUTOS MUNICIPALES",
+          "fecha": "24-03-2025",
+          "etapa": "Objetado por Ejecutivo"
+        },
+        {
+          "ficha": "8371",
+          "titulo": "QUE RECONOCE EL PAGO DE LOS APORTES REALIZADOS, POR EXTENSION DE JUBILACION, A LOS EDUCADORES JUBILADOS DE LAS PROMOCIONE DE 1972 Y 1973 CERTIFICADOS POR LA CAJA DE SEGURO SOCIAL",
+          "fecha": "28-01-2025",
+          "etapa": "Enviado al Ejecutivo"
+        },
+        {
+          "ficha": "7452",
+          "titulo": "POR EL CUAL SE ADICIONA UN CAPITULO SOBRE LOS DELITOS CONTRA LA SEGURIDAD ALIMENTARIA AL TITULO DE DELITOS CONTRA LA SEGURIDAD COLECTIVA DE LA LEY 14 DE 26 DE ABRIL DE 2007, QUE ADOPTA EL CODIGO PENAL DE LA REPUBLICA DE PANAMA",
+          "fecha": "22-07-2024",
+          "etapa": "Retirado por proponente"
+        }
+      ],
+      "provincia_monitoreo": "Chiriquí",
+      "circuito_monitoreo": "4-4",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/medin-jimenez-pitti",
+      "planilla_texto": "B/. 23,200",
+      "planilla_valor": 23200.0,
+      "asistencia_pleno": 3.0,
+      "asistencia_comisiones": 3.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": 1.0,
+      "declaracion_patrimonio": 1.0,
+      "calificacion": 2.1,
+      "comisiones": [
+        "Asuntos Agropecuarios, Asuntos Municipales"
+      ],
+      "comisiones_cantidad": 1
+    },
+    {
       "nombre": "Paulette Thomas",
       "partido": "Coalición Vamos",
       "circuito": "8-3",
@@ -3882,7 +4009,7 @@
       "slug": "paulette-thomas",
       "proyectos": 10,
       "leyes": 3,
-      "co_patrocinios": 81,
+      "co_patrocinios": 84,
       "etapas": {
         "Preliminar": 1,
         "Segundo Debate": 4,
@@ -3933,12 +4060,6 @@
           "etapa": "Segundo Debate"
         },
         {
-          "ficha": "8203",
-          "titulo": "QUE CREA EL PATRONATO DEL CENTRO DE FORMACION Y DESARROLLO DE ADOLESCENTES (CEFODEA) DE SAN MIGUELITO",
-          "fecha": "30-10-2025",
-          "etapa": "Segundo Debate"
-        },
-        {
           "ficha": "7879",
           "titulo": "QUE ADOPTA MEDIDAS Y DECLARA DE INTERES NACIONAL GARANTIZAR EL SERVICIO ELECTRICO CONTINUO Y EFICAZ PARA PACIENTES ELECTRODEPENDIENTES",
           "fecha": "02-07-2025",
@@ -3967,6 +4088,12 @@
           "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS AL CODIGO PENAL Y AL CODIGO PROCESAL PENAL",
           "fecha": "25-07-2024",
           "etapa": "Ley"
+        },
+        {
+          "ficha": "7405",
+          "titulo": "QUE TRANSPARENTA LAS GESTIONES DE LOS SERVIDORES PUBLICOS DE ALTA JERARQUIA",
+          "fecha": "02-07-2024",
+          "etapa": "Segundo Debate"
         }
       ],
       "provincia_monitoreo": "Panamá",
@@ -3985,6 +4112,105 @@
         "Mujer, Niñez, Juventud y Familia"
       ],
       "comisiones_cantidad": 2
+    },
+    {
+      "nombre": "Yamireliz Chong",
+      "partido": "Coalición Vamos",
+      "circuito": "3-1",
+      "provincia": "Colón",
+      "suplente": "Moises Abdul Wilson",
+      "foto": "https://espaciocivico.org/api/drive-image/1clc288nbtAKzM6R_yPggugkcSqBSN_R1",
+      "perfil": "https://espaciocivico.org/diputados/yamireliz-chong",
+      "slug": "yamireliz-chong",
+      "proyectos": 10,
+      "leyes": 0,
+      "co_patrocinios": 111,
+      "etapas": {
+        "Primer Debate": 3,
+        "Preliminar": 2,
+        "Segundo Debate": 2,
+        "Objetado por Ejecutivo": 1,
+        "Segundo Debate(Objetado)": 1,
+        "Enviado a subcomisión para analisis": 1
+      },
+      "leyes_detalle": [],
+      "proyectos_detalle": [
+        {
+          "ficha": "8350",
+          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS SOBRE PROCEDIMIENTO EXCEPCIONAL DE CONTRATACION DEL TEXTO UNICO DE LA LEY 22 DE 27 DE JUNIO DE 2006, ORDENADO POR LA LEY 153 DE 2020 Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "26-03-2026",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8318",
+          "titulo": "QUE ESTABLECE UN PROCEDIMIENTO EXCEPCIONAL PARA EL TRASPASO DE LOS SISTEMAS O PLANTAS DE TRATAMIENTO DE LAS AGUAS RESIDUALES Y MODIFICA LA LEY 77 DE 28 DE DICIEMBRE DE 2001",
+          "fecha": "09-03-2026",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "8292",
+          "titulo": "QUE REGULA LA PROMOCION E IMPLEMENTACION DEL HIDROGENO VERDE COMO COMBUSTIBLE EN LA REPUBLICA DE PANAMA",
+          "fecha": "12-02-2026",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "8122",
+          "titulo": "QUE ADICIONA ARTICULOS AL CODIGO PENAL EN MATERIA RELACIONADA A DELITOS CULPOSOS EN LA PRESTACION DE SERVICIOS DE SALUD Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "17-09-2025",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "8050",
+          "titulo": "QUE ADICIONA ARTICULOS A LA LEY 45 DE 2007, QUE DICTA NORMAS SOBRE PROTECCION AL CONSUMIDOR Y DEFENSA DE LA COMPETENCIA Y OTRA DISPOSICION",
+          "fecha": "25-08-2025",
+          "etapa": "Segundo Debate"
+        },
+        {
+          "ficha": "7968",
+          "titulo": "QUE REGULA LAS ACTIVIDADES DE COBRANZA REALIZADAS POR LAS AGENCIAS DE COBRO Y ESTABLECE DISPOSICIONES PARA LA PROTECCION DEL DERECHO A LA INTIMIDAD DE LOS CONSUMIDORES",
+          "fecha": "28-07-2025",
+          "etapa": "Objetado por Ejecutivo"
+        },
+        {
+          "ficha": "7838",
+          "titulo": "QUE CREA INCENTIVOS ECONOMICOS PARA FACILITAR LA ADQUISICION DE VIVIENDAS USADAS O DE SEGUNDA MANO Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "03-04-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8396",
+          "titulo": "POR LA QUE SE ADOPTA Y ACTUALIZA LA ORGANIZACION JUDICIAL DE LA PROVINCIA DE PANAMA OESTE Y MODIFICA EL CODIGO JUDICIAL",
+          "fecha": "18-03-2025",
+          "etapa": "Segundo Debate(Objetado)"
+        },
+        {
+          "ficha": "7786",
+          "titulo": "QUE MODIFICA LA LEY 6 DE 1 DE FEBRERO DE 2006, QUE REGLAMENTA EL ORDENAMIENTO TERRITORIAL PARA EL DESARROLLO URBANO Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "10-02-2025",
+          "etapa": "Enviado a subcomisión para analisis"
+        },
+        {
+          "ficha": "7497",
+          "titulo": "QUE INTEGRA A JOVENES PROFESIONALES EN EL MERCADO LABORAL",
+          "fecha": "31-07-2024",
+          "etapa": "Primer Debate"
+        }
+      ],
+      "provincia_monitoreo": "Colón",
+      "circuito_monitoreo": "3-1",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/yamireliz-chong",
+      "planilla_texto": "B/. 9,100",
+      "planilla_valor": 9100.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
+      "comisiones": [
+        "Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
+      ],
+      "comisiones_cantidad": 1
     },
     {
       "nombre": "Augusto Palacios",
@@ -4183,95 +4409,105 @@
       "comisiones_cantidad": 1
     },
     {
-      "nombre": "Medin Jiménez Pitti",
-      "partido": "Partido Panameñista",
-      "circuito": "4-4",
-      "provincia": "Chiriquí",
-      "suplente": "Ariel Rios",
-      "foto": "https://espaciocivico.org/api/drive-image/1bzczX1uQsA7ZObR9g3aMyrVZqhphKSfd",
-      "perfil": "https://espaciocivico.org/diputados/medin-jimenez-pitti",
-      "slug": "medin-jimenez-pitti",
+      "nombre": "Raúl Pineda",
+      "partido": "Partido Revolucionario Democrático",
+      "circuito": "8-2",
+      "provincia": "Panamá",
+      "suplente": "Joana Cedeño",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "perfil": "https://espaciocivico.org/diputados/raul-pineda",
+      "slug": "raul-pineda",
       "proyectos": 9,
-      "leyes": 0,
-      "co_patrocinios": 41,
+      "leyes": 2,
+      "co_patrocinios": 7,
       "etapas": {
-        "Primer Debate": 2,
-        "Enviado a subcomisión para analisis": 1,
+        "Preliminar": 3,
+        "Primer Debate": 1,
         "Archivado": 1,
-        "Segundo Debate": 3,
-        "Objetado por Ejecutivo": 1,
-        "Retirado por proponente": 1
+        "Ley": 2,
+        "Segundo Debate": 2
       },
-      "leyes_detalle": [],
+      "leyes_detalle": [
+        {
+          "ficha": "8051",
+          "titulo": "QUE ADOPTA MEDIDAS PARA LA PREVENCION Y CONTROL DE LA LUDOPATIA EN PANAMA",
+          "fecha": "25-08-2025"
+        },
+        {
+          "ficha": "8020",
+          "titulo": "QUE ESTABLECE LA IDENTIFICACION OBLIGATORIA DEL ORIGEN Y LA DIFERENCIACION DE PRODUCTOS ALIMENTICIOS ORIGINALES, SUCEDANEOS E IMITACIONES EN PANAMA",
+          "fecha": "18-08-2025"
+        }
+      ],
       "proyectos_detalle": [
         {
-          "ficha": "8310",
-          "titulo": "LEY MJP (DE PAGO GARANTIZADO AL PRODUCTOR), “QUE REGULA LAS RELACIONES COMERCIALES EN MERCA PANAMA Y GARANTIZA EL PAGO OPORTUNO A LOS PRODUCTORES AGROPECUARIOS”",
-          "fecha": "04-03-2026",
+          "ficha": "8449",
+          "titulo": "QUE ESTABLECE EL RÉGIMEN ESPECIAL DE PROTECCIÓN DEL CONSUMIDOR FINANCIEROS Y DICTA OTRAS DISPOSICIONES COMPLEMENTARIAS",
+          "fecha": "15-07-2026",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "8387",
+          "titulo": "QUE REGULA LAS PLATAFORMAS DIGITALES DE SERVICIOS DE ENTREGA, MENSAJERIA Y TRANSPORTE SELECTIVO, ESTABLECE EL REGIMEN JURIDICO DE LOS TRABAJADORES DE PLATAFORMAS DIGITALES Y DICTA OTRAS DISPOSICIONES EN LA REPUBLICA DE PANAMA",
+          "fecha": "21-04-2026",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "8374",
+          "titulo": "QUE RECONOCE LOS PROTECTORES SOLARES COMO MEDICAMENTOS, ESTABLECE SU REGULACION SANITARIA Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "13-04-2026",
+          "etapa": "Preliminar"
+        },
+        {
+          "ficha": "8251",
+          "titulo": "QUE MODIFICA LA LEY 51 DE 29 DE SEPTIEMBRE DE 2010, AMPLIA LA COMPETENCIA DE LA AUTORIDAD DE ASEO URBANO Y DOMICILIARIO E INCORPORA DE MANERA DEFINITIVA AL DISTRITO DE SAN MIGUELITO.",
+          "fecha": "21-01-2026",
           "etapa": "Primer Debate"
         },
         {
-          "ficha": "8311",
-          "titulo": "LEY MED (LEY DE MANEJO Y EVALUACION DE DAÑOS ELECTRICOS), “QUE ESTABLECE EL REGIMEN DE RESPONSABILIDAD Y COMPENSACION POR DAÑOS A EQUIPOS ELECTRICOS CAUSADOS POR FALLAS EN EL SERVICIO PUBLICO DE ENERGIA ELECTRICA Y DICTA OTRAS DISPOSICIONES\"",
-          "fecha": "04-03-2026",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8120",
-          "titulo": "QUE REGULA EL USO, COMERCIALIZACION, PUBLICIDAD, CALIDAD Y SEGURIDAD DE LOS SISTEMAS ELECTRONICOS DE ADMINISTRACION DE NICOTINA, BOLSAS PARA CONSUMO ORAL, PRODUCTOS CALENTADOS PARA INHALACION, LIQUIDOS DE VAPEO Y SISTEMAS SIMILARES SIN NICOTINA, MODIFICA ARTICULOS DE LA LEY 45 DE 1995 Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "17-09-2025",
-          "etapa": "Enviado a subcomisión para analisis"
-        },
-        {
-          "ficha": "8024",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS A LA LEY 113 DE 18 DE NOVIEMBRE DE 2019, SOBRE ROTULACION Y COMERCIALIZACION DE PRODUCTOS Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "18-08-2025",
+          "ficha": "8112",
+          "titulo": "QUE MODIFICA Y ADICIONA DISPOSICIONES A LA LEY 45 DE 2007, SOBRE DE PROTECCION AL CONSUMIDOR Y DEFENSA DE LA COMPETENCIA",
+          "fecha": "15-09-2025",
           "etapa": "Archivado"
         },
         {
-          "ficha": "7939",
-          "titulo": "QUE REGULA LA VENTA DE VEHICULOS POR PARTE DE CONCESIONARIOS, ESTABLECE EL PRECIO SEGUN EL AÑO DE FABRICACION, OBLIGA LA PRONTA NACIONALIZACION DESDE ADUANA Y DISPONE LA REGULACION POR KILOMETRAJE",
-          "fecha": "17-07-2025",
+          "ficha": "8051",
+          "titulo": "QUE ADOPTA MEDIDAS PARA LA PREVENCION Y CONTROL DE LA LUDOPATIA EN PANAMA",
+          "fecha": "25-08-2025",
+          "etapa": "Ley"
+        },
+        {
+          "ficha": "8020",
+          "titulo": "QUE ESTABLECE LA IDENTIFICACION OBLIGATORIA DEL ORIGEN Y LA DIFERENCIACION DE PRODUCTOS ALIMENTICIOS ORIGINALES, SUCEDANEOS E IMITACIONES EN PANAMA",
+          "fecha": "18-08-2025",
+          "etapa": "Ley"
+        },
+        {
+          "ficha": "7953",
+          "titulo": "QUE GARANTIZA EL ACCESO GRATUITO A ESTACIONAMIENTOS PARA CONTRIBUYENTES EN OFICINAS PUBLICAS CON ATENCION PRESENCIAL",
+          "fecha": "23-07-2025",
           "etapa": "Segundo Debate"
         },
         {
-          "ficha": "7842",
-          "titulo": "QUE CREA LA RUTA DEL TRAPICHE EN REPUBLICA DE PANAMA",
-          "fecha": "09-04-2025",
+          "ficha": "7465",
+          "titulo": "QUE MODIFICA ARTICULO DE LA LEY 45 DE 31 DE OCTUBRE DE 2007, SOBRE PROTECCION AL CONSUMIDOR Y DEFENSA DE LA COMPETENCIA",
+          "fecha": "24-07-2024",
           "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "7840",
-          "titulo": "QUE ESTABLECE UN RESPALDO ECONOMICO A LOS MICRO EMPRESARIOS DEL TURISMO EN PANAMA",
-          "fecha": "08-04-2025",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "7829",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTÍCULOS A LA LEY 55 DE 1973, QUE REGULA LA ADMINISTRACIÓN, FISCALIZACIÓN Y COBRO DE VARIOS TRIBUTOS MUNICIPALES",
-          "fecha": "24-03-2025",
-          "etapa": "Objetado por Ejecutivo"
-        },
-        {
-          "ficha": "7452",
-          "titulo": "POR EL CUAL SE ADICIONA UN CAPITULO SOBRE LOS DELITOS CONTRA LA SEGURIDAD ALIMENTARIA AL TITULO DE DELITOS CONTRA LA SEGURIDAD COLECTIVA DE LA LEY 14 DE 26 DE ABRIL DE 2007, QUE ADOPTA EL CODIGO PENAL DE LA REPUBLICA DE PANAMA",
-          "fecha": "22-07-2024",
-          "etapa": "Retirado por proponente"
         }
       ],
-      "provincia_monitoreo": "Chiriquí",
-      "circuito_monitoreo": "4-4",
-      "perfil_monitoreo": "https://espaciocivico.org/diputados/medin-jimenez-pitti",
-      "planilla_texto": "B/. 23,200",
-      "planilla_valor": 23200.0,
-      "asistencia_pleno": 3.0,
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-2",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/raul-pineda",
+      "planilla_texto": "B/. 81,600",
+      "planilla_valor": 81600.0,
+      "asistencia_pleno": 1.0,
       "asistencia_comisiones": 3.0,
       "viajes_ponderacion": 5.0,
       "declaracion_intereses": 1.0,
       "declaracion_patrimonio": 1.0,
-      "calificacion": 2.1,
+      "calificacion": 1.6,
       "comisiones": [
-        "Asuntos Agropecuarios, Asuntos Municipales"
+        "Economía y Finanzas, Asuntos Agropecuarios"
       ],
       "comisiones_cantidad": 1
     },
@@ -4281,7 +4517,7 @@
       "circuito": "4-3",
       "provincia": "Chiriquí",
       "suplente": "Elsa Espinoza",
-      "foto": "https://espaciocivico.org/api/drive-image/1z8CwEOPCxvjQ9llva6ePMFkIzc55aPDp",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/ricardo-vigil-lopez",
       "slug": "ricardo-vigil-lopez",
       "proyectos": 9,
@@ -4374,109 +4610,17 @@
       "comisiones_cantidad": 1
     },
     {
-      "nombre": "Yamireliz Chong",
-      "partido": "Coalición Vamos",
-      "circuito": "3-1",
-      "provincia": "Colón",
-      "suplente": "Moises Abdul Wilson",
-      "foto": "https://espaciocivico.org/api/drive-image/1clc288nbtAKzM6R_yPggugkcSqBSN_R1",
-      "perfil": "https://espaciocivico.org/diputados/yamireliz-chong",
-      "slug": "yamireliz-chong",
-      "proyectos": 9,
-      "leyes": 0,
-      "co_patrocinios": 111,
-      "etapas": {
-        "Primer Debate": 3,
-        "Preliminar": 2,
-        "Segundo Debate": 2,
-        "Objetado por Ejecutivo": 1,
-        "Enviado a subcomisión para analisis": 1
-      },
-      "leyes_detalle": [],
-      "proyectos_detalle": [
-        {
-          "ficha": "8350",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS SOBRE PROCEDIMIENTO EXCEPCIONAL DE CONTRATACION DEL TEXTO UNICO DE LA LEY 22 DE 27 DE JUNIO DE 2006, ORDENADO POR LA LEY 153 DE 2020 Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "26-03-2026",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8318",
-          "titulo": "QUE ESTABLECE UN PROCEDIMIENTO EXCEPCIONAL PARA EL TRASPASO DE LOS SISTEMAS O PLANTAS DE TRATAMIENTO DE LAS AGUAS RESIDUALES Y MODIFICA LA LEY 77 DE 28 DE DICIEMBRE DE 2001",
-          "fecha": "09-03-2026",
-          "etapa": "Preliminar"
-        },
-        {
-          "ficha": "8292",
-          "titulo": "QUE REGULA LA PROMOCION E IMPLEMENTACION DEL HIDROGENO VERDE COMO COMBUSTIBLE EN LA REPUBLICA DE PANAMA",
-          "fecha": "12-02-2026",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "8122",
-          "titulo": "QUE ADICIONA ARTICULOS AL CODIGO PENAL EN MATERIA RELACIONADA A DELITOS CULPOSOS EN LA PRESTACION DE SERVICIOS DE SALUD Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "17-09-2025",
-          "etapa": "Preliminar"
-        },
-        {
-          "ficha": "8050",
-          "titulo": "QUE ADICIONA ARTICULOS A LA LEY 45 DE 2007, QUE DICTA NORMAS SOBRE PROTECCION AL CONSUMIDOR Y DEFENSA DE LA COMPETENCIA Y OTRA DISPOSICION",
-          "fecha": "25-08-2025",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "7968",
-          "titulo": "QUE REGULA LAS ACTIVIDADES DE COBRANZA REALIZADAS POR LAS AGENCIAS DE COBRO Y ESTABLECE DISPOSICIONES PARA LA PROTECCION DEL DERECHO A LA INTIMIDAD DE LOS CONSUMIDORES",
-          "fecha": "28-07-2025",
-          "etapa": "Objetado por Ejecutivo"
-        },
-        {
-          "ficha": "7838",
-          "titulo": "QUE CREA INCENTIVOS ECONOMICOS PARA FACILITAR LA ADQUISICION DE VIVIENDAS USADAS O DE SEGUNDA MANO Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "03-04-2025",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "7786",
-          "titulo": "QUE MODIFICA LA LEY 6 DE 1 DE FEBRERO DE 2006, QUE REGLAMENTA EL ORDENAMIENTO TERRITORIAL PARA EL DESARROLLO URBANO Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "10-02-2025",
-          "etapa": "Enviado a subcomisión para analisis"
-        },
-        {
-          "ficha": "7497",
-          "titulo": "QUE INTEGRA A JOVENES PROFESIONALES EN EL MERCADO LABORAL",
-          "fecha": "31-07-2024",
-          "etapa": "Primer Debate"
-        }
-      ],
-      "provincia_monitoreo": "Colón",
-      "circuito_monitoreo": "3-1",
-      "perfil_monitoreo": "https://espaciocivico.org/diputados/yamireliz-chong",
-      "planilla_texto": "B/. 9,100",
-      "planilla_valor": 9100.0,
-      "asistencia_pleno": 5.0,
-      "asistencia_comisiones": 5.0,
-      "viajes_ponderacion": 5.0,
-      "declaracion_intereses": null,
-      "declaracion_patrimonio": 5.0,
-      "calificacion": 5.0,
-      "comisiones": [
-        "Credenciales, Reglamento, Ética Parlamentaria y Asuntos Judiciales"
-      ],
-      "comisiones_cantidad": 1
-    },
-    {
       "nombre": "Yuzaida Marín",
       "partido": "Realizando Metas",
       "circuito": "13-4",
       "provincia": "Panamá Oeste",
       "suplente": "Abdiel Núñez",
-      "foto": "https://espaciocivico.org/api/drive-image/1CuWKrXk9dFZTB67s4FPOyzaFZHkyhZr_",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/yuzaida-marin",
       "slug": "yuzaida-marin",
       "proyectos": 9,
       "leyes": 1,
-      "co_patrocinios": 31,
+      "co_patrocinios": 32,
       "etapas": {
         "Segundo Debate": 2,
         "Retirado por proponente": 1,
@@ -4575,7 +4719,7 @@
       "slug": "ariana-coba",
       "proyectos": 8,
       "leyes": 2,
-      "co_patrocinios": 59,
+      "co_patrocinios": 60,
       "etapas": {
         "Primer Debate": 4,
         "Enviado a subcomisión para analisis": 1,
@@ -4764,7 +4908,7 @@
       "slug": "javier-sucre",
       "proyectos": 8,
       "leyes": 0,
-      "co_patrocinios": 6,
+      "co_patrocinios": 7,
       "etapas": {
         "Preliminar": 1,
         "Negado": 1,
@@ -4929,103 +5073,6 @@
       "comisiones_cantidad": 1
     },
     {
-      "nombre": "Raúl Pineda",
-      "partido": "Partido Revolucionario Democrático",
-      "circuito": "8-2",
-      "provincia": "Panamá",
-      "suplente": "Joana Cedeño",
-      "foto": "https://espaciocivico.org/api/drive-image/1NUJpKCIyY7uNj23WAfPSnnuvcuYySFVY",
-      "perfil": "https://espaciocivico.org/diputados/raul-pineda",
-      "slug": "raul-pineda",
-      "proyectos": 8,
-      "leyes": 2,
-      "co_patrocinios": 6,
-      "etapas": {
-        "Preliminar": 2,
-        "Primer Debate": 1,
-        "Archivado": 1,
-        "Ley": 2,
-        "Segundo Debate": 2
-      },
-      "leyes_detalle": [
-        {
-          "ficha": "8051",
-          "titulo": "QUE ADOPTA MEDIDAS PARA LA PREVENCION Y CONTROL DE LA LUDOPATIA EN PANAMA",
-          "fecha": "25-08-2025"
-        },
-        {
-          "ficha": "8020",
-          "titulo": "QUE ESTABLECE LA IDENTIFICACION OBLIGATORIA DEL ORIGEN Y LA DIFERENCIACION DE PRODUCTOS ALIMENTICIOS ORIGINALES, SUCEDANEOS E IMITACIONES EN PANAMA",
-          "fecha": "18-08-2025"
-        }
-      ],
-      "proyectos_detalle": [
-        {
-          "ficha": "8387",
-          "titulo": "QUE REGULA LAS PLATAFORMAS DIGITALES DE SERVICIOS DE ENTREGA, MENSAJERIA Y TRANSPORTE SELECTIVO, ESTABLECE EL REGIMEN JURIDICO DE LOS TRABAJADORES DE PLATAFORMAS DIGITALES Y DICTA OTRAS DISPOSICIONES EN LA REPUBLICA DE PANAMA",
-          "fecha": "21-04-2026",
-          "etapa": "Preliminar"
-        },
-        {
-          "ficha": "8374",
-          "titulo": "QUE RECONOCE LOS PROTECTORES SOLARES COMO MEDICAMENTOS, ESTABLECE SU REGULACION SANITARIA Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "13-04-2026",
-          "etapa": "Preliminar"
-        },
-        {
-          "ficha": "8251",
-          "titulo": "QUE MODIFICA LA LEY 51 DE 29 DE SEPTIEMBRE DE 2010, AMPLIA LA COMPETENCIA DE LA AUTORIDAD DE ASEO URBANO Y DOMICILIARIO E INCORPORA DE MANERA DEFINITIVA AL DISTRITO DE SAN MIGUELITO.",
-          "fecha": "21-01-2026",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8112",
-          "titulo": "QUE MODIFICA Y ADICIONA DISPOSICIONES A LA LEY 45 DE 2007, SOBRE DE PROTECCION AL CONSUMIDOR Y DEFENSA DE LA COMPETENCIA",
-          "fecha": "15-09-2025",
-          "etapa": "Archivado"
-        },
-        {
-          "ficha": "8051",
-          "titulo": "QUE ADOPTA MEDIDAS PARA LA PREVENCION Y CONTROL DE LA LUDOPATIA EN PANAMA",
-          "fecha": "25-08-2025",
-          "etapa": "Ley"
-        },
-        {
-          "ficha": "8020",
-          "titulo": "QUE ESTABLECE LA IDENTIFICACION OBLIGATORIA DEL ORIGEN Y LA DIFERENCIACION DE PRODUCTOS ALIMENTICIOS ORIGINALES, SUCEDANEOS E IMITACIONES EN PANAMA",
-          "fecha": "18-08-2025",
-          "etapa": "Ley"
-        },
-        {
-          "ficha": "7953",
-          "titulo": "QUE GARANTIZA EL ACCESO GRATUITO A ESTACIONAMIENTOS PARA CONTRIBUYENTES EN OFICINAS PUBLICAS CON ATENCION PRESENCIAL",
-          "fecha": "23-07-2025",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "7465",
-          "titulo": "QUE MODIFICA ARTICULO DE LA LEY 45 DE 31 DE OCTUBRE DE 2007, SOBRE PROTECCION AL CONSUMIDOR Y DEFENSA DE LA COMPETENCIA",
-          "fecha": "24-07-2024",
-          "etapa": "Segundo Debate"
-        }
-      ],
-      "provincia_monitoreo": "Panamá",
-      "circuito_monitoreo": "8-2",
-      "perfil_monitoreo": "https://espaciocivico.org/diputados/raul-pineda",
-      "planilla_texto": "B/. 81,600",
-      "planilla_valor": 81600.0,
-      "asistencia_pleno": 1.0,
-      "asistencia_comisiones": 3.0,
-      "viajes_ponderacion": 5.0,
-      "declaracion_intereses": 1.0,
-      "declaracion_patrimonio": 1.0,
-      "calificacion": 1.6,
-      "comisiones": [
-        "Economía y Finanzas, Asuntos Agropecuarios"
-      ],
-      "comisiones_cantidad": 1
-    },
-    {
       "nombre": "Jorge Herrera",
       "partido": "Partido Panameñista",
       "circuito": "2-4",
@@ -5034,13 +5081,14 @@
       "foto": "https://espaciocivico.org/api/drive-image/1fXApB5ybl0wk1oGyJBrEojNOvmqiSJv8",
       "perfil": "https://espaciocivico.org/diputados/jorge-herrera",
       "slug": "jorge-herrera",
-      "proyectos": 6,
+      "proyectos": 7,
       "leyes": 2,
-      "co_patrocinios": 32,
+      "co_patrocinios": 31,
       "etapas": {
         "Ley": 2,
         "Suspendido": 1,
         "Primer Debate": 1,
+        "Segundo Debate(Objetado)": 1,
         "Retirado por proponente": 1,
         "Archivado": 1
       },
@@ -5080,6 +5128,12 @@
           "titulo": "QUE ESTABLECE LA RED NACIONAL DE CASAS HOGARES Y/O ALBERGUES",
           "fecha": "27-08-2024",
           "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8384",
+          "titulo": "QUE ESTABLECE EL MES DE AGOSTO, COMO EL MES DE LA CONMEMORACION, EL RECONOCIMIENTO Y LA EXALTACION DE LOS PUEBLOS ORIGINARIOS DE LA REPUBLICA DE PANAMA",
+          "fecha": "08-08-2024",
+          "etapa": "Segundo Debate(Objetado)"
         },
         {
           "ficha": "7510",
@@ -5252,73 +5306,6 @@
       "comisiones_cantidad": 2
     },
     {
-      "nombre": "Betserai Richards",
-      "partido": "Seguimos",
-      "circuito": "8-6",
-      "provincia": "Panamá",
-      "suplente": "Maylin Prince",
-      "foto": "https://espaciocivico.org/api/drive-image/1_NgnTX1kUZG382WzQ9bnG1DT2HCFzoaQ",
-      "perfil": "https://espaciocivico.org/diputados/betserai-richards",
-      "slug": "betserai-richards",
-      "proyectos": 5,
-      "leyes": 0,
-      "co_patrocinios": 97,
-      "etapas": {
-        "Segundo Debate": 1,
-        "Primer Debate": 2,
-        "Enviado a subcomisión para analisis": 1,
-        "Archivado": 1
-      },
-      "leyes_detalle": [],
-      "proyectos_detalle": [
-        {
-          "ficha": "8302",
-          "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS DE LA LEY 47 DE 1946, ORGANICA DE EDUCACION, SOBRE REUTILIZACION DE TEXTOS ESCOLARES Y PROTECCION AL CONSUMIDOR",
-          "fecha": "02-03-2026",
-          "etapa": "Segundo Debate"
-        },
-        {
-          "ficha": "8107",
-          "titulo": "QUE ESTABLECE UN REGIMEN ECONOMICO PARA REGULAR LOS TOPES MAXIMOS DE COBRO EN LOS CORREDORES NORTE, ESTE Y SUR, Y DICTA OTRAS DISPOSICIONES.",
-          "fecha": "15-09-2025",
-          "etapa": "Primer Debate"
-        },
-        {
-          "ficha": "8010",
-          "titulo": "QUE ESTABLECE MEDIDAS PARA LA TRANSPARENCIA Y RENDICION DE CUENTAS SOBRE LOS APORTES DEL CANAL DE PANAMA AL TESORO NACIONAL",
-          "fecha": "13-08-2025",
-          "etapa": "Enviado a subcomisión para analisis"
-        },
-        {
-          "ficha": "7919",
-          "titulo": "QUE ESTABLECE DISPOSICIONES SOBRE LOS INGRESOS DE LAS NOTARIAS PUBLICAS",
-          "fecha": "09-07-2025",
-          "etapa": "Archivado"
-        },
-        {
-          "ficha": "7490",
-          "titulo": "QUE MODIFICA LA LEY 6 DE 2002, QUE DICTA NORMAS PARA LA TRANSPARENCIA EN LA GESTION PUBLICA, ESTABLECE LA ACCION DE HABEAS DATA Y DICTA OTRAS DISPOSICIONES",
-          "fecha": "30-07-2024",
-          "etapa": "Primer Debate"
-        }
-      ],
-      "provincia_monitoreo": "Panamá",
-      "circuito_monitoreo": "8-6",
-      "perfil_monitoreo": "https://espaciocivico.org/diputados/betserai-richards",
-      "planilla_texto": "B/. 23,100",
-      "planilla_valor": 23100.0,
-      "asistencia_pleno": 5.0,
-      "asistencia_comisiones": 5.0,
-      "viajes_ponderacion": 5.0,
-      "declaracion_intereses": null,
-      "declaracion_patrimonio": 5.0,
-      "calificacion": 5.0,
-      "comisiones": [
-        "Trabajo, Salud y Desarrollo Social"
-      ],
-      "comisiones_cantidad": 1
-    },
-    {
       "nombre": "Edwin Vergara",
       "partido": "Partido Panameñista",
       "circuito": "13-3",
@@ -5398,7 +5385,7 @@
       "slug": "manuel-samaniego",
       "proyectos": 5,
       "leyes": 1,
-      "co_patrocinios": 87,
+      "co_patrocinios": 88,
       "etapas": {
         "Primer Debate": 1,
         "Segundo Debate": 1,
@@ -5529,6 +5516,66 @@
       "calificacion": 2.8,
       "comisiones": [
         "Comunicación y Transporte, Asuntos Agropecuarios"
+      ],
+      "comisiones_cantidad": 1
+    },
+    {
+      "nombre": "Betserai Richards",
+      "partido": "Seguimos",
+      "circuito": "8-6",
+      "provincia": "Panamá",
+      "suplente": "Maylin Prince",
+      "foto": "https://espaciocivico.org/api/drive-image/1_NgnTX1kUZG382WzQ9bnG1DT2HCFzoaQ",
+      "perfil": "https://espaciocivico.org/diputados/betserai-richards",
+      "slug": "betserai-richards",
+      "proyectos": 4,
+      "leyes": 0,
+      "co_patrocinios": 99,
+      "etapas": {
+        "Primer Debate": 2,
+        "Enviado a subcomisión para analisis": 1,
+        "Archivado": 1
+      },
+      "leyes_detalle": [],
+      "proyectos_detalle": [
+        {
+          "ficha": "8107",
+          "titulo": "QUE ESTABLECE UN REGIMEN ECONOMICO PARA REGULAR LOS TOPES MAXIMOS DE COBRO EN LOS CORREDORES NORTE, ESTE Y SUR, Y DICTA OTRAS DISPOSICIONES.",
+          "fecha": "15-09-2025",
+          "etapa": "Primer Debate"
+        },
+        {
+          "ficha": "8010",
+          "titulo": "QUE ESTABLECE MEDIDAS PARA LA TRANSPARENCIA Y RENDICION DE CUENTAS SOBRE LOS APORTES DEL CANAL DE PANAMA AL TESORO NACIONAL",
+          "fecha": "13-08-2025",
+          "etapa": "Enviado a subcomisión para analisis"
+        },
+        {
+          "ficha": "7919",
+          "titulo": "QUE ESTABLECE DISPOSICIONES SOBRE LOS INGRESOS DE LAS NOTARIAS PUBLICAS",
+          "fecha": "09-07-2025",
+          "etapa": "Archivado"
+        },
+        {
+          "ficha": "7490",
+          "titulo": "QUE MODIFICA LA LEY 6 DE 2002, QUE DICTA NORMAS PARA LA TRANSPARENCIA EN LA GESTION PUBLICA, ESTABLECE LA ACCION DE HABEAS DATA Y DICTA OTRAS DISPOSICIONES",
+          "fecha": "30-07-2024",
+          "etapa": "Primer Debate"
+        }
+      ],
+      "provincia_monitoreo": "Panamá",
+      "circuito_monitoreo": "8-6",
+      "perfil_monitoreo": "https://espaciocivico.org/diputados/betserai-richards",
+      "planilla_texto": "B/. 23,100",
+      "planilla_valor": 23100.0,
+      "asistencia_pleno": 5.0,
+      "asistencia_comisiones": 5.0,
+      "viajes_ponderacion": 5.0,
+      "declaracion_intereses": null,
+      "declaracion_patrimonio": 5.0,
+      "calificacion": 5.0,
+      "comisiones": [
+        "Trabajo, Salud y Desarrollo Social"
       ],
       "comisiones_cantidad": 1
     },
@@ -5664,7 +5711,7 @@
       "circuito": "3-1",
       "provincia": "Colón",
       "suplente": "Lalo' Antonio",
-      "foto": "https://espaciocivico.org/api/drive-image/1l64FLwc0g2vmPoSlnMbRWcIzT0BBthgE",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/rogelio-revello",
       "slug": "rogelio-revello",
       "proyectos": 4,
@@ -5731,7 +5778,7 @@
       "circuito": "9-2",
       "provincia": "Veraguas",
       "suplente": "Ricardo Martinelli Linares",
-      "foto": "https://espaciocivico.org/api/drive-image/1jut9OWQ0kDwtST7BWOkS0UCeU5303_Ux",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/tomas-benavides",
       "slug": "tomas-benavides",
       "proyectos": 4,
@@ -5851,7 +5898,7 @@
       "slug": "flor-brenes",
       "proyectos": 3,
       "leyes": 1,
-      "co_patrocinios": 13,
+      "co_patrocinios": 14,
       "etapas": {
         "Segundo Debate": 1,
         "Enviado a subcomisión para analisis": 1,
@@ -6018,7 +6065,7 @@
       "circuito": "12-1",
       "provincia": "Ngöbe Buglé",
       "suplente": "Rosalia \"Beligo\" Ellis",
-      "foto": "https://espaciocivico.org/api/drive-image/1vnUYdZM57guE55fT821CJpq0NZyXINko",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/roberto-archibold",
       "slug": "roberto-archibold",
       "proyectos": 3,
@@ -6071,7 +6118,7 @@
       "circuito": "7-2",
       "provincia": "Los Santos",
       "suplente": "Luis Enrique Batista",
-      "foto": "https://espaciocivico.org/api/drive-image/1UVWdM7SQlFSbtmT1LFx6zHjJ7stYrIXR",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/ronald-de-gracia",
       "slug": "ronald-de-gracia",
       "proyectos": 3,
@@ -6184,7 +6231,7 @@
       "circuito": "1-1",
       "provincia": "Bocas del Toro",
       "suplente": "Elias Beker",
-      "foto": "https://espaciocivico.org/api/drive-image/1uGcarNpw4uxMJ2cpmukAGm3WLFFPj5DY",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/yesica-romero",
       "slug": "yesica-romero",
       "proyectos": 3,
@@ -6350,7 +6397,7 @@
       "slug": "nestor-guardia",
       "proyectos": 2,
       "leyes": 0,
-      "co_patrocinios": 4,
+      "co_patrocinios": 5,
       "etapas": {
         "Primer Debate": 1,
         "Segundo Debate": 1
@@ -6439,7 +6486,7 @@
       "circuito": "8-6",
       "provincia": "Panamá",
       "suplente": "Claudina Herrera Rodríguez",
-      "foto": "https://espaciocivico.org/api/drive-image/1rO4y1MfZdU8mIGaHWRLWgTInVJm2YjFk",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/raphael-buchanan",
       "slug": "raphael-buchanan",
       "proyectos": 2,
@@ -6486,7 +6533,7 @@
       "circuito": "3-1",
       "provincia": "Colón",
       "suplente": "Alejandro Salazar",
-      "foto": "https://espaciocivico.org/api/drive-image/1hSYeYwas_z-dnZz4wHuEK5d2dY2b-bdW",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/victor-castillo",
       "slug": "victor-castillo",
       "proyectos": 2,
@@ -6537,7 +6584,7 @@
       "slug": "benicio-robinson",
       "proyectos": 1,
       "leyes": 0,
-      "co_patrocinios": 3,
+      "co_patrocinios": 4,
       "etapas": {
         "Objetado por Ejecutivo": 1
       },
@@ -6738,7 +6785,7 @@
       "slug": "jaime-vargas",
       "proyectos": 0,
       "leyes": 0,
-      "co_patrocinios": 16,
+      "co_patrocinios": 17,
       "etapas": {},
       "leyes_detalle": [],
       "proyectos_detalle": [],
@@ -6826,7 +6873,7 @@
       "circuito": "8-3",
       "provincia": "Panamá",
       "suplente": "Mercedes Gálvez",
-      "foto": "https://espaciocivico.org/api/drive-image/1xCbjqWbYVyszVHiohbQ6ZyYaosrR_cTk",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/sergio-galvez",
       "slug": "sergio-galvez",
       "proyectos": 0,
@@ -6956,6 +7003,12 @@
       "leyes": 0
     },
     {
+      "nombre": "LUIS MENCOMO",
+      "tipo": "ciudadano",
+      "proyectos": 2,
+      "leyes": 0
+    },
+    {
       "nombre": "LUIS CARLOS MANUEL GÓMEZ RUDY",
       "tipo": "ciudadano",
       "proyectos": 2,
@@ -7040,7 +7093,7 @@
       "leyes": 0
     },
     {
-      "nombre": "ENRIQUE DE OBARRIO",
+      "nombre": "RICARDO LEVY",
       "tipo": "ciudadano",
       "proyectos": 1,
       "leyes": 0
@@ -7190,12 +7243,6 @@
       "leyes": 0
     },
     {
-      "nombre": "IZABEL CAMPOS",
-      "tipo": "ciudadano",
-      "proyectos": 1,
-      "leyes": 0
-    },
-    {
       "nombre": "PABLO POVEDA",
       "tipo": "ciudadano",
       "proyectos": 1,
@@ -7221,12 +7268,6 @@
     },
     {
       "nombre": "MARTIR POLANCO",
-      "tipo": "ciudadano",
-      "proyectos": 1,
-      "leyes": 0
-    },
-    {
-      "nombre": "LUIS MENCOMO",
       "tipo": "ciudadano",
       "proyectos": 1,
       "leyes": 0
@@ -7331,37 +7372,37 @@
   "por_partido": {
     "Coalición Vamos": {
       "diputados": 19,
-      "proyectos": 387,
+      "proyectos": 392,
       "leyes": 36
     },
     "Movimiento Otro Camino": {
       "diputados": 3,
-      "proyectos": 198,
+      "proyectos": 203,
       "leyes": 21
     },
     "Partido Panameñista": {
       "diputados": 8,
-      "proyectos": 166,
+      "proyectos": 167,
       "leyes": 23
     },
     "Realizando Metas": {
       "diputados": 14,
-      "proyectos": 164,
+      "proyectos": 166,
       "leyes": 23
     },
     "Partido Revolucionario Democrático": {
       "diputados": 13,
-      "proyectos": 144,
+      "proyectos": 146,
       "leyes": 14
     },
     "Partido Popular": {
       "diputados": 2,
-      "proyectos": 109,
+      "proyectos": 110,
       "leyes": 15
     },
     "Seguimos": {
       "diputados": 1,
-      "proyectos": 102,
+      "proyectos": 103,
       "leyes": 12
     },
     "Cambio Democrático": {
@@ -7383,37 +7424,37 @@
   "por_provincia": {
     "Panamá": {
       "diputados": 25,
-      "proyectos": 488,
+      "proyectos": 494,
       "leyes": 39
     },
     "Panamá Oeste": {
       "diputados": 8,
-      "proyectos": 272,
+      "proyectos": 278,
       "leyes": 32
     },
     "Veraguas": {
       "diputados": 5,
-      "proyectos": 249,
+      "proyectos": 254,
       "leyes": 26
     },
     "Chiriquí": {
       "diputados": 9,
-      "proyectos": 206,
+      "proyectos": 207,
       "leyes": 26
     },
     "Colón": {
       "diputados": 5,
-      "proyectos": 168,
+      "proyectos": 169,
       "leyes": 18
     },
     "Coclé": {
       "diputados": 5,
-      "proyectos": 97,
+      "proyectos": 99,
       "leyes": 14
     },
     "Herrera": {
       "diputados": 3,
-      "proyectos": 80,
+      "proyectos": 82,
       "leyes": 15
     },
     "Ngöbe Buglé": {
@@ -7428,81 +7469,21 @@
     },
     "Guna Yala": {
       "diputados": 2,
-      "proyectos": 40,
+      "proyectos": 41,
       "leyes": 2
     },
     "Emberá-Wounaan": {
       "diputados": 2,
-      "proyectos": 35,
+      "proyectos": 36,
       "leyes": 1
     },
     "Bocas del Toro": {
       "diputados": 2,
-      "proyectos": 27,
+      "proyectos": 28,
       "leyes": 1
     }
   },
   "por_provincia_filtros": {
-    "Emberá-Wounaan": {
-      "2024": {
-        "Ley": 0,
-        "debate": 1,
-        "analisis": 0,
-        "sinAvance": 1,
-        "all": 2
-      },
-      "2025": {
-        "Ley": 1,
-        "debate": 13,
-        "analisis": 8,
-        "sinAvance": 1,
-        "all": 23
-      },
-      "2026": {
-        "Ley": 0,
-        "debate": 6,
-        "analisis": 2,
-        "sinAvance": 2,
-        "all": 10
-      },
-      "all": {
-        "Ley": 1,
-        "debate": 20,
-        "analisis": 10,
-        "sinAvance": 4,
-        "all": 35
-      }
-    },
-    "Panamá Oeste": {
-      "2024": {
-        "Ley": 23,
-        "debate": 34,
-        "analisis": 18,
-        "sinAvance": 20,
-        "all": 95
-      },
-      "2025": {
-        "Ley": 8,
-        "debate": 74,
-        "analisis": 31,
-        "sinAvance": 14,
-        "all": 127
-      },
-      "2026": {
-        "Ley": 1,
-        "debate": 34,
-        "analisis": 12,
-        "sinAvance": 3,
-        "all": 50
-      },
-      "all": {
-        "Ley": 32,
-        "debate": 142,
-        "analisis": 61,
-        "sinAvance": 37,
-        "all": 272
-      }
-    },
     "Panamá": {
       "2024": {
         "Ley": 24,
@@ -7521,16 +7502,166 @@
       "2026": {
         "Ley": 1,
         "debate": 58,
-        "analisis": 52,
+        "analisis": 58,
         "sinAvance": 11,
-        "all": 122
+        "all": 128
       },
       "all": {
         "Ley": 39,
         "debate": 230,
-        "analisis": 129,
+        "analisis": 135,
         "sinAvance": 90,
-        "all": 488
+        "all": 494
+      }
+    },
+    "Emberá-Wounaan": {
+      "2024": {
+        "Ley": 0,
+        "debate": 1,
+        "analisis": 0,
+        "sinAvance": 1,
+        "all": 2
+      },
+      "2025": {
+        "Ley": 1,
+        "debate": 13,
+        "analisis": 8,
+        "sinAvance": 1,
+        "all": 23
+      },
+      "2026": {
+        "Ley": 0,
+        "debate": 6,
+        "analisis": 3,
+        "sinAvance": 2,
+        "all": 11
+      },
+      "all": {
+        "Ley": 1,
+        "debate": 20,
+        "analisis": 11,
+        "sinAvance": 4,
+        "all": 36
+      }
+    },
+    "Bocas del Toro": {
+      "2024": {
+        "Ley": 0,
+        "debate": 3,
+        "analisis": 3,
+        "sinAvance": 2,
+        "all": 8
+      },
+      "2025": {
+        "Ley": 0,
+        "debate": 8,
+        "analisis": 6,
+        "sinAvance": 0,
+        "all": 14
+      },
+      "2026": {
+        "Ley": 1,
+        "debate": 3,
+        "analisis": 2,
+        "sinAvance": 0,
+        "all": 6
+      },
+      "all": {
+        "Ley": 1,
+        "debate": 14,
+        "analisis": 11,
+        "sinAvance": 2,
+        "all": 28
+      }
+    },
+    "Coclé": {
+      "2024": {
+        "Ley": 11,
+        "debate": 12,
+        "analisis": 6,
+        "sinAvance": 6,
+        "all": 35
+      },
+      "2025": {
+        "Ley": 3,
+        "debate": 35,
+        "analisis": 9,
+        "sinAvance": 4,
+        "all": 51
+      },
+      "2026": {
+        "Ley": 0,
+        "debate": 9,
+        "analisis": 4,
+        "sinAvance": 0,
+        "all": 13
+      },
+      "all": {
+        "Ley": 14,
+        "debate": 56,
+        "analisis": 19,
+        "sinAvance": 10,
+        "all": 99
+      }
+    },
+    "Guna Yala": {
+      "2024": {
+        "Ley": 2,
+        "debate": 6,
+        "analisis": 3,
+        "sinAvance": 1,
+        "all": 12
+      },
+      "2025": {
+        "Ley": 0,
+        "debate": 11,
+        "analisis": 9,
+        "sinAvance": 2,
+        "all": 22
+      },
+      "2026": {
+        "Ley": 0,
+        "debate": 4,
+        "analisis": 1,
+        "sinAvance": 2,
+        "all": 7
+      },
+      "all": {
+        "Ley": 2,
+        "debate": 21,
+        "analisis": 13,
+        "sinAvance": 5,
+        "all": 41
+      }
+    },
+    "Herrera": {
+      "2024": {
+        "Ley": 11,
+        "debate": 15,
+        "analisis": 10,
+        "sinAvance": 8,
+        "all": 44
+      },
+      "2025": {
+        "Ley": 4,
+        "debate": 20,
+        "analisis": 2,
+        "sinAvance": 3,
+        "all": 29
+      },
+      "2026": {
+        "Ley": 0,
+        "debate": 6,
+        "analisis": 2,
+        "sinAvance": 1,
+        "all": 9
+      },
+      "all": {
+        "Ley": 15,
+        "debate": 41,
+        "analisis": 14,
+        "sinAvance": 12,
+        "all": 82
       }
     },
     "Chiriquí": {
@@ -7551,46 +7682,46 @@
       "2026": {
         "Ley": 1,
         "debate": 23,
-        "analisis": 8,
+        "analisis": 9,
         "sinAvance": 2,
-        "all": 34
+        "all": 35
       },
       "all": {
         "Ley": 26,
         "debate": 108,
-        "analisis": 38,
+        "analisis": 39,
         "sinAvance": 34,
-        "all": 206
+        "all": 207
       }
     },
-    "Colón": {
+    "Panamá Oeste": {
       "2024": {
-        "Ley": 13,
-        "debate": 20,
-        "analisis": 7,
-        "sinAvance": 12,
-        "all": 52
+        "Ley": 23,
+        "debate": 34,
+        "analisis": 18,
+        "sinAvance": 20,
+        "all": 95
       },
       "2025": {
-        "Ley": 4,
-        "debate": 44,
-        "analisis": 26,
-        "sinAvance": 8,
-        "all": 82
+        "Ley": 8,
+        "debate": 74,
+        "analisis": 31,
+        "sinAvance": 14,
+        "all": 127
       },
       "2026": {
         "Ley": 1,
-        "debate": 21,
-        "analisis": 9,
+        "debate": 34,
+        "analisis": 18,
         "sinAvance": 3,
-        "all": 34
+        "all": 56
       },
       "all": {
-        "Ley": 18,
-        "debate": 85,
-        "analisis": 42,
-        "sinAvance": 23,
-        "all": 168
+        "Ley": 32,
+        "debate": 142,
+        "analisis": 67,
+        "sinAvance": 37,
+        "all": 278
       }
     },
     "Veraguas": {
@@ -7611,16 +7742,46 @@
       "2026": {
         "Ley": 1,
         "debate": 31,
-        "analisis": 14,
+        "analisis": 19,
         "sinAvance": 3,
-        "all": 49
+        "all": 54
       },
       "all": {
         "Ley": 26,
         "debate": 134,
-        "analisis": 52,
+        "analisis": 57,
         "sinAvance": 37,
-        "all": 249
+        "all": 254
+      }
+    },
+    "Colón": {
+      "2024": {
+        "Ley": 13,
+        "debate": 20,
+        "analisis": 7,
+        "sinAvance": 12,
+        "all": 52
+      },
+      "2025": {
+        "Ley": 4,
+        "debate": 44,
+        "analisis": 26,
+        "sinAvance": 8,
+        "all": 82
+      },
+      "2026": {
+        "Ley": 1,
+        "debate": 21,
+        "analisis": 10,
+        "sinAvance": 3,
+        "all": 35
+      },
+      "all": {
+        "Ley": 18,
+        "debate": 85,
+        "analisis": 43,
+        "sinAvance": 23,
+        "all": 169
       }
     },
     "Ngöbe Buglé": {
@@ -7653,96 +7814,6 @@
         "all": 70
       }
     },
-    "Herrera": {
-      "2024": {
-        "Ley": 11,
-        "debate": 15,
-        "analisis": 10,
-        "sinAvance": 8,
-        "all": 44
-      },
-      "2025": {
-        "Ley": 4,
-        "debate": 20,
-        "analisis": 2,
-        "sinAvance": 3,
-        "all": 29
-      },
-      "2026": {
-        "Ley": 0,
-        "debate": 6,
-        "analisis": 0,
-        "sinAvance": 1,
-        "all": 7
-      },
-      "all": {
-        "Ley": 15,
-        "debate": 41,
-        "analisis": 12,
-        "sinAvance": 12,
-        "all": 80
-      }
-    },
-    "Coclé": {
-      "2024": {
-        "Ley": 11,
-        "debate": 12,
-        "analisis": 6,
-        "sinAvance": 6,
-        "all": 35
-      },
-      "2025": {
-        "Ley": 3,
-        "debate": 35,
-        "analisis": 9,
-        "sinAvance": 4,
-        "all": 51
-      },
-      "2026": {
-        "Ley": 0,
-        "debate": 9,
-        "analisis": 2,
-        "sinAvance": 0,
-        "all": 11
-      },
-      "all": {
-        "Ley": 14,
-        "debate": 56,
-        "analisis": 17,
-        "sinAvance": 10,
-        "all": 97
-      }
-    },
-    "Bocas del Toro": {
-      "2024": {
-        "Ley": 0,
-        "debate": 3,
-        "analisis": 3,
-        "sinAvance": 2,
-        "all": 8
-      },
-      "2025": {
-        "Ley": 0,
-        "debate": 8,
-        "analisis": 6,
-        "sinAvance": 0,
-        "all": 14
-      },
-      "2026": {
-        "Ley": 1,
-        "debate": 3,
-        "analisis": 1,
-        "sinAvance": 0,
-        "all": 5
-      },
-      "all": {
-        "Ley": 1,
-        "debate": 14,
-        "analisis": 10,
-        "sinAvance": 2,
-        "all": 27
-      }
-    },
     "Los Santos": {
       "2024": {
         "Ley": 8,
@@ -7771,36 +7842,6 @@
         "analisis": 6,
         "sinAvance": 3,
         "all": 49
-      }
-    },
-    "Guna Yala": {
-      "2024": {
-        "Ley": 2,
-        "debate": 6,
-        "analisis": 3,
-        "sinAvance": 1,
-        "all": 12
-      },
-      "2025": {
-        "Ley": 0,
-        "debate": 11,
-        "analisis": 9,
-        "sinAvance": 2,
-        "all": 22
-      },
-      "2026": {
-        "Ley": 0,
-        "debate": 4,
-        "analisis": 0,
-        "sinAvance": 2,
-        "all": 6
-      },
-      "all": {
-        "Ley": 2,
-        "debate": 21,
-        "analisis": 12,
-        "sinAvance": 5,
-        "all": 40
       }
     }
   }
