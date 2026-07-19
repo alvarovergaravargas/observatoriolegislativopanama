@@ -1,14 +1,14 @@
 {
-  "fecha_extraccion": "20260718_102047",
+  "fecha_extraccion": "20260719_103728",
   "fuente": "https://sistemas.asamblea.gob.pa/segLegis/viewsPublico/SeguimientoLegislativo",
   "fuente_metricas": "https://espaciocivico.org/buscador/diputados-monitoreo?order=field_asistencia_comisiones_an&sort=asc",
-  "total_proyectos": 845,
+  "total_proyectos": 846,
   "total_leyes": 102,
   "total_diputados": 71,
   "etapas": {
+    "Primer Debate": 165,
     "Preliminar": 138,
     "Ley": 102,
-    "Primer Debate": 164,
     "Segundo Debate": 167,
     "Negado": 53,
     "Archivado": 62,
@@ -40,7 +40,7 @@
     "2026-02": 31,
     "2026-03": 61,
     "2026-04": 32,
-    "2026-07": 58
+    "2026-07": 59
   },
   "diputados": [
     {
@@ -483,12 +483,12 @@
       "foto": "https://espaciocivico.org/api/drive-image/1WXR4HeE_hvLDjR9igLCi33w6Rah2EpoJ",
       "perfil": "https://espaciocivico.org/diputados/alexandra-brenes",
       "slug": "alexandra-brenes",
-      "proyectos": 24,
+      "proyectos": 25,
       "leyes": 0,
       "co_patrocinios": 100,
       "etapas": {
+        "Primer Debate": 6,
         "Preliminar": 4,
-        "Primer Debate": 5,
         "Segundo Debate": 8,
         "Retirado por proponente": 2,
         "Negado": 2,
@@ -497,6 +497,12 @@
       },
       "leyes_detalle": [],
       "proyectos_detalle": [
+        {
+          "ficha": "8459",
+          "titulo": "Proyecto de Prueba",
+          "fecha": "19-07-2026",
+          "etapa": "Primer Debate"
+        },
         {
           "ficha": "8417",
           "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS AL CODIGO PENAL RELACIONADOS A LA INTEGRIDAD Y TRANSPARENCIA EN EL DEPORTE",
@@ -664,7 +670,7 @@
       "circuito": "8-4",
       "provincia": "Panamá",
       "suplente": "Vicky de Novey",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1LtL0bmfKWnmQ-JRnFNMQrLKBz-jYqzWL",
       "perfil": "https://espaciocivico.org/diputados/jorge-bloise-iglesias",
       "slug": "jorge-bloise-iglesias",
       "proyectos": 24,
@@ -1549,7 +1555,7 @@
       "circuito": "6-3",
       "provincia": "Herrera",
       "suplente": "Marcelino Arenas Peña",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1dJMS71bHvC3LW-KcddiP3oQ888jxlEXY",
       "perfil": "https://espaciocivico.org/diputados/marcos-castillero",
       "slug": "marcos-castillero",
       "proyectos": 18,
@@ -1874,7 +1880,7 @@
       "circuito": "13-1",
       "provincia": "Panamá Oeste",
       "suplente": "Margareth Pimentel",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1BdKRjt5UcRwHzIvD3c0SqnP6Wi71SP4l",
       "perfil": "https://espaciocivico.org/diputados/lenin-alberto-ulate",
       "slug": "lenin-alberto-ulate",
       "proyectos": 17,
@@ -2586,7 +2592,7 @@
       "circuito": "8-2",
       "provincia": "Panamá",
       "suplente": "Grettel Garrido",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1qu3Y5QOuHgVHbvCgM4IVvPcL7pj-as8G",
       "perfil": "https://espaciocivico.org/diputados/luis-duke",
       "slug": "luis-duke",
       "proyectos": 15,
@@ -2853,7 +2859,7 @@
       "circuito": "8-5",
       "provincia": "Panamá",
       "suplente": "Iveet Vargas Batista",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1M5jz4Dz0AgT_nZJg5qoqI4-O3zY0podR",
       "perfil": "https://espaciocivico.org/diputados/jorge-gonzalez",
       "slug": "jorge-gonzalez",
       "proyectos": 14,
@@ -3215,7 +3221,7 @@
       "circuito": "8-2",
       "provincia": "Panamá",
       "suplente": "Hilda Guzman De Boyd",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1IepU3c-QMYJreqNIGzZ0EhWT0ZAYi_Kh",
       "perfil": "https://espaciocivico.org/diputados/luis-camacho-castro",
       "slug": "luis-camacho-castro",
       "proyectos": 13,
@@ -4232,7 +4238,7 @@
       "circuito": "4-4",
       "provincia": "Chiriquí",
       "suplente": "Ariel Rios",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1bzczX1uQsA7ZObR9g3aMyrVZqhphKSfd",
       "perfil": "https://espaciocivico.org/diputados/medin-jimenez-pitti",
       "slug": "medin-jimenez-pitti",
       "proyectos": 9,
@@ -4325,7 +4331,7 @@
       "circuito": "8-2",
       "provincia": "Panamá",
       "suplente": "Joana Cedeño",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1NUJpKCIyY7uNj23WAfPSnnuvcuYySFVY",
       "perfil": "https://espaciocivico.org/diputados/raul-pineda",
       "slug": "raul-pineda",
       "proyectos": 9,
@@ -4994,7 +5000,7 @@
       "circuito": "13-4",
       "provincia": "Panamá Oeste",
       "suplente": "Ariel Ortega",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1qbJMf2FNxBUDSKzOE1zQOy3imsGfHBC2",
       "perfil": "https://espaciocivico.org/diputados/lilia-batista",
       "slug": "lilia-batista",
       "proyectos": 8,
@@ -6015,7 +6021,7 @@
       "circuito": "6-1",
       "provincia": "Herrera",
       "suplente": "Malena Del Carmen Rios",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1JmvtLrYr4g1bf5A0PPI68FOuLwuvHq70",
       "perfil": "https://espaciocivico.org/diputados/manuel-cohen",
       "slug": "manuel-cohen",
       "proyectos": 3,
@@ -6845,7 +6851,7 @@
       "circuito": "12-2",
       "provincia": "Ngöbe Buglé",
       "suplente": "Dominga Bejerano Mitre",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1iQ6etwoF70tDfhYBkhDhcpoJdDm_H6og",
       "perfil": "https://espaciocivico.org/diputados/nixon-andrade",
       "slug": "nixon-andrade",
       "proyectos": 0,
@@ -7381,7 +7387,7 @@
   "por_partido": {
     "Coalición Vamos": {
       "diputados": 19,
-      "proyectos": 393,
+      "proyectos": 394,
       "leyes": 36
     },
     "Movimiento Otro Camino": {
@@ -7433,7 +7439,7 @@
   "por_provincia": {
     "Panamá": {
       "diputados": 25,
-      "proyectos": 496,
+      "proyectos": 497,
       "leyes": 39
     },
     "Panamá Oeste": {
@@ -7510,17 +7516,17 @@
       },
       "2026": {
         "Ley": 1,
-        "debate": 58,
+        "debate": 59,
         "analisis": 60,
         "sinAvance": 11,
-        "all": 130
+        "all": 131
       },
       "all": {
         "Ley": 39,
-        "debate": 230,
+        "debate": 231,
         "analisis": 137,
         "sinAvance": 90,
-        "all": 496
+        "all": 497
       }
     },
     "Bocas del Toro": {
@@ -7553,34 +7559,34 @@
         "all": 28
       }
     },
-    "Guna Yala": {
+    "Herrera": {
       "2024": {
-        "Ley": 2,
-        "debate": 6,
-        "analisis": 3,
-        "sinAvance": 1,
-        "all": 12
+        "Ley": 11,
+        "debate": 15,
+        "analisis": 10,
+        "sinAvance": 8,
+        "all": 44
       },
       "2025": {
-        "Ley": 0,
-        "debate": 11,
-        "analisis": 9,
-        "sinAvance": 2,
-        "all": 22
+        "Ley": 4,
+        "debate": 20,
+        "analisis": 2,
+        "sinAvance": 3,
+        "all": 29
       },
       "2026": {
         "Ley": 0,
-        "debate": 4,
-        "analisis": 1,
-        "sinAvance": 2,
-        "all": 7
+        "debate": 6,
+        "analisis": 2,
+        "sinAvance": 1,
+        "all": 9
       },
       "all": {
-        "Ley": 2,
-        "debate": 21,
-        "analisis": 13,
-        "sinAvance": 5,
-        "all": 41
+        "Ley": 15,
+        "debate": 41,
+        "analisis": 14,
+        "sinAvance": 12,
+        "all": 82
       }
     },
     "Coclé": {
@@ -7613,36 +7619,6 @@
         "all": 99
       }
     },
-    "Herrera": {
-      "2024": {
-        "Ley": 11,
-        "debate": 15,
-        "analisis": 10,
-        "sinAvance": 8,
-        "all": 44
-      },
-      "2025": {
-        "Ley": 4,
-        "debate": 20,
-        "analisis": 2,
-        "sinAvance": 3,
-        "all": 29
-      },
-      "2026": {
-        "Ley": 0,
-        "debate": 6,
-        "analisis": 2,
-        "sinAvance": 1,
-        "all": 9
-      },
-      "all": {
-        "Ley": 15,
-        "debate": 41,
-        "analisis": 14,
-        "sinAvance": 12,
-        "all": 82
-      }
-    },
     "Emberá-Wounaan": {
       "2024": {
         "Ley": 0,
@@ -7671,6 +7647,66 @@
         "analisis": 11,
         "sinAvance": 4,
         "all": 36
+      }
+    },
+    "Guna Yala": {
+      "2024": {
+        "Ley": 2,
+        "debate": 6,
+        "analisis": 3,
+        "sinAvance": 1,
+        "all": 12
+      },
+      "2025": {
+        "Ley": 0,
+        "debate": 11,
+        "analisis": 9,
+        "sinAvance": 2,
+        "all": 22
+      },
+      "2026": {
+        "Ley": 0,
+        "debate": 4,
+        "analisis": 1,
+        "sinAvance": 2,
+        "all": 7
+      },
+      "all": {
+        "Ley": 2,
+        "debate": 21,
+        "analisis": 13,
+        "sinAvance": 5,
+        "all": 41
+      }
+    },
+    "Chiriquí": {
+      "2024": {
+        "Ley": 17,
+        "debate": 26,
+        "analisis": 11,
+        "sinAvance": 19,
+        "all": 73
+      },
+      "2025": {
+        "Ley": 8,
+        "debate": 59,
+        "analisis": 19,
+        "sinAvance": 13,
+        "all": 99
+      },
+      "2026": {
+        "Ley": 1,
+        "debate": 23,
+        "analisis": 9,
+        "sinAvance": 2,
+        "all": 35
+      },
+      "all": {
+        "Ley": 26,
+        "debate": 108,
+        "analisis": 39,
+        "sinAvance": 34,
+        "all": 207
       }
     },
     "Panamá Oeste": {
@@ -7731,36 +7767,6 @@
         "analisis": 57,
         "sinAvance": 37,
         "all": 254
-      }
-    },
-    "Chiriquí": {
-      "2024": {
-        "Ley": 17,
-        "debate": 26,
-        "analisis": 11,
-        "sinAvance": 19,
-        "all": 73
-      },
-      "2025": {
-        "Ley": 8,
-        "debate": 59,
-        "analisis": 19,
-        "sinAvance": 13,
-        "all": 99
-      },
-      "2026": {
-        "Ley": 1,
-        "debate": 23,
-        "analisis": 9,
-        "sinAvance": 2,
-        "all": 35
-      },
-      "all": {
-        "Ley": 26,
-        "debate": 108,
-        "analisis": 39,
-        "sinAvance": 34,
-        "all": 207
       }
     },
     "Colón": {
