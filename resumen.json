@@ -1,14 +1,14 @@
 {
-  "fecha_extraccion": "20260720_114802",
+  "fecha_extraccion": "20260721_111105",
   "fuente": "https://sistemas.asamblea.gob.pa/segLegis/viewsPublico/SeguimientoLegislativo",
   "fuente_metricas": "https://espaciocivico.org/buscador/diputados-monitoreo?order=field_asistencia_comisiones_an&sort=asc",
-  "total_proyectos": 846,
+  "total_proyectos": 845,
   "total_leyes": 102,
   "total_diputados": 71,
   "etapas": {
-    "Primer Debate": 165,
     "Preliminar": 138,
     "Ley": 102,
+    "Primer Debate": 164,
     "Segundo Debate": 167,
     "Negado": 53,
     "Archivado": 62,
@@ -40,7 +40,7 @@
     "2026-02": 31,
     "2026-03": 61,
     "2026-04": 32,
-    "2026-07": 59
+    "2026-07": 58
   },
   "diputados": [
     {
@@ -483,12 +483,12 @@
       "foto": "https://espaciocivico.org/api/drive-image/1WXR4HeE_hvLDjR9igLCi33w6Rah2EpoJ",
       "perfil": "https://espaciocivico.org/diputados/alexandra-brenes",
       "slug": "alexandra-brenes",
-      "proyectos": 25,
+      "proyectos": 24,
       "leyes": 0,
       "co_patrocinios": 100,
       "etapas": {
-        "Primer Debate": 6,
         "Preliminar": 4,
+        "Primer Debate": 5,
         "Segundo Debate": 8,
         "Retirado por proponente": 2,
         "Negado": 2,
@@ -497,12 +497,6 @@
       },
       "leyes_detalle": [],
       "proyectos_detalle": [
-        {
-          "ficha": "8459",
-          "titulo": "Proyecto de Prueba",
-          "fecha": "19-07-2026",
-          "etapa": "Primer Debate"
-        },
         {
           "ficha": "8417",
           "titulo": "QUE MODIFICA Y ADICIONA ARTICULOS AL CODIGO PENAL RELACIONADOS A LA INTEGRIDAD Y TRANSPARENCIA EN EL DEPORTE",
@@ -2338,7 +2332,7 @@
       "proyectos_detalle": [
         {
           "ficha": "8457",
-          "titulo": "QUE ADICIOA UN ARTICULO AL TEXTO UNICO DE LA LEY 22 DE 2006, QUE REGULA LA CONTRATACION PUBLICA Y CREA EL PORTAL PANAMA EN CONCESIONES.",
+          "titulo": "QUE ADICIONA UN ARTICULO AL TEXTO UNICO DE LA LEY 22 DE 2006, QUE REGULA LA CONTRATACION PUBLICA Y CREA EL PORTAL PANAMA EN CONCESIONES.",
           "fecha": "16-07-2026",
           "etapa": "Preliminar"
         },
@@ -2730,7 +2724,7 @@
       "circuito": "8-3",
       "provincia": "Panamá",
       "suplente": "Charlie Ho",
-      "foto": "https://espaciocivico.org/api/drive-image/1VmiaUx0rzlt-Zj2v4hcYcM1EpV0ai2XD",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/walkiria-chandler",
       "slug": "walkiria-chandler",
       "proyectos": 15,
@@ -2981,7 +2975,7 @@
       "circuito": "13-4",
       "provincia": "Panamá Oeste",
       "suplente": "Ezequiel Cedeño",
-      "foto": "https://espaciocivico.org/api/drive-image/1j-BLrnzwbewFubNVYPQmsx7XYPiQX_Wo",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/patsy-lee-renteria",
       "slug": "patsy-lee-renteria",
       "proyectos": 14,
@@ -3121,7 +3115,7 @@
       "proyectos_detalle": [
         {
           "ficha": "8450",
-          "titulo": "QUE MODIFICA EL CODLGO PENAL EN MATERIA DE DELITOS CONTRA EL HONOR DE LA PERSONA NATURAL",
+          "titulo": "QUE MODIFICA EL CODIGO PENAL EN MATERIA DE DELITOS CONTRA EL HONOR DE LA PERSONA NATURAL",
           "fecha": "15-07-2026",
           "etapa": "Preliminar"
         },
@@ -3475,7 +3469,7 @@
       "circuito": "8-2",
       "provincia": "Panamá",
       "suplente": "José Andrés González",
-      "foto": "https://espaciocivico.org/api/drive-image/1CDpks0hALy6EBT17Y2afzUvqAWkP92cC",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/yarelis-rodriguez",
       "slug": "yarelis-rodriguez",
       "proyectos": 12,
@@ -4532,7 +4526,7 @@
       "circuito": "3-1",
       "provincia": "Colón",
       "suplente": "Moises Abdul Wilson",
-      "foto": "https://espaciocivico.org/api/drive-image/1clc288nbtAKzM6R_yPggugkcSqBSN_R1",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/yamireliz-chong",
       "slug": "yamireliz-chong",
       "proyectos": 9,
@@ -5720,7 +5714,7 @@
       "circuito": "3-1",
       "provincia": "Colón",
       "suplente": "Lalo' Antonio",
-      "foto": "https://espaciocivico.org/api/drive-image/1l64FLwc0g2vmPoSlnMbRWcIzT0BBthgE",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/rogelio-revello",
       "slug": "rogelio-revello",
       "proyectos": 4,
@@ -5787,7 +5781,7 @@
       "circuito": "9-2",
       "provincia": "Veraguas",
       "suplente": "Ricardo Martinelli Linares",
-      "foto": "https://espaciocivico.org/api/drive-image/1jut9OWQ0kDwtST7BWOkS0UCeU5303_Ux",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/tomas-benavides",
       "slug": "tomas-benavides",
       "proyectos": 4,
@@ -6074,7 +6068,7 @@
       "circuito": "12-1",
       "provincia": "Ngöbe Buglé",
       "suplente": "Rosalia \"Beligo\" Ellis",
-      "foto": "https://espaciocivico.org/api/drive-image/1vnUYdZM57guE55fT821CJpq0NZyXINko",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/roberto-archibold",
       "slug": "roberto-archibold",
       "proyectos": 3,
@@ -6187,7 +6181,7 @@
       "circuito": "13-1",
       "provincia": "Panamá Oeste",
       "suplente": "Ricardo Valencia",
-      "foto": "https://espaciocivico.org/api/drive-image/1gW-I7YUMSYAYP-8xtuRTuNF9jX-mcCH5",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/shirley-castanedas",
       "slug": "shirley-castanedas",
       "proyectos": 3,
@@ -6240,7 +6234,7 @@
       "circuito": "1-1",
       "provincia": "Bocas del Toro",
       "suplente": "Elias Beker",
-      "foto": "https://espaciocivico.org/api/drive-image/1uGcarNpw4uxMJ2cpmukAGm3WLFFPj5DY",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/yesica-romero",
       "slug": "yesica-romero",
       "proyectos": 3,
@@ -6542,7 +6536,7 @@
       "circuito": "3-1",
       "provincia": "Colón",
       "suplente": "Alejandro Salazar",
-      "foto": "https://espaciocivico.org/api/drive-image/1hSYeYwas_z-dnZz4wHuEK5d2dY2b-bdW",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/victor-castillo",
       "slug": "victor-castillo",
       "proyectos": 2,
@@ -6882,7 +6876,7 @@
       "circuito": "8-3",
       "provincia": "Panamá",
       "suplente": "Mercedes Gálvez",
-      "foto": "https://espaciocivico.org/api/drive-image/1xCbjqWbYVyszVHiohbQ6ZyYaosrR_cTk",
+      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
       "perfil": "https://espaciocivico.org/diputados/sergio-galvez",
       "slug": "sergio-galvez",
       "proyectos": 0,
@@ -7387,7 +7381,7 @@
   "por_partido": {
     "Coalición Vamos": {
       "diputados": 19,
-      "proyectos": 394,
+      "proyectos": 393,
       "leyes": 36
     },
     "Movimiento Otro Camino": {
@@ -7439,7 +7433,7 @@
   "por_provincia": {
     "Panamá": {
       "diputados": 25,
-      "proyectos": 497,
+      "proyectos": 496,
       "leyes": 39
     },
     "Panamá Oeste": {
@@ -7516,17 +7510,47 @@
       },
       "2026": {
         "Ley": 1,
-        "debate": 59,
+        "debate": 58,
         "analisis": 60,
         "sinAvance": 11,
-        "all": 131
+        "all": 130
       },
       "all": {
         "Ley": 39,
-        "debate": 231,
+        "debate": 230,
         "analisis": 137,
         "sinAvance": 90,
-        "all": 497
+        "all": 496
+      }
+    },
+    "Bocas del Toro": {
+      "2024": {
+        "Ley": 0,
+        "debate": 3,
+        "analisis": 3,
+        "sinAvance": 2,
+        "all": 8
+      },
+      "2025": {
+        "Ley": 0,
+        "debate": 8,
+        "analisis": 6,
+        "sinAvance": 0,
+        "all": 14
+      },
+      "2026": {
+        "Ley": 1,
+        "debate": 3,
+        "analisis": 2,
+        "sinAvance": 0,
+        "all": 6
+      },
+      "all": {
+        "Ley": 1,
+        "debate": 14,
+        "analisis": 11,
+        "sinAvance": 2,
+        "all": 28
       }
     },
     "Coclé": {
@@ -7559,34 +7583,34 @@
         "all": 99
       }
     },
-    "Bocas del Toro": {
+    "Emberá-Wounaan": {
       "2024": {
         "Ley": 0,
-        "debate": 3,
-        "analisis": 3,
-        "sinAvance": 2,
-        "all": 8
+        "debate": 1,
+        "analisis": 0,
+        "sinAvance": 1,
+        "all": 2
       },
       "2025": {
-        "Ley": 0,
-        "debate": 8,
-        "analisis": 6,
-        "sinAvance": 0,
-        "all": 14
+        "Ley": 1,
+        "debate": 13,
+        "analisis": 8,
+        "sinAvance": 1,
+        "all": 23
       },
       "2026": {
-        "Ley": 1,
-        "debate": 3,
-        "analisis": 2,
-        "sinAvance": 0,
-        "all": 6
+        "Ley": 0,
+        "debate": 6,
+        "analisis": 3,
+        "sinAvance": 2,
+        "all": 11
       },
       "all": {
         "Ley": 1,
-        "debate": 14,
+        "debate": 20,
         "analisis": 11,
-        "sinAvance": 2,
-        "all": 28
+        "sinAvance": 4,
+        "all": 36
       }
     },
     "Herrera": {
@@ -7647,36 +7671,6 @@
         "analisis": 13,
         "sinAvance": 5,
         "all": 41
-      }
-    },
-    "Emberá-Wounaan": {
-      "2024": {
-        "Ley": 0,
-        "debate": 1,
-        "analisis": 0,
-        "sinAvance": 1,
-        "all": 2
-      },
-      "2025": {
-        "Ley": 1,
-        "debate": 13,
-        "analisis": 8,
-        "sinAvance": 1,
-        "all": 23
-      },
-      "2026": {
-        "Ley": 0,
-        "debate": 6,
-        "analisis": 3,
-        "sinAvance": 2,
-        "all": 11
-      },
-      "all": {
-        "Ley": 1,
-        "debate": 20,
-        "analisis": 11,
-        "sinAvance": 4,
-        "all": 36
       }
     },
     "Panamá Oeste": {
