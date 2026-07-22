@@ -1,5 +1,5 @@
 {
-  "fecha_extraccion": "20260721_111105",
+  "fecha_extraccion": "20260722_111156",
   "fuente": "https://sistemas.asamblea.gob.pa/segLegis/viewsPublico/SeguimientoLegislativo",
   "fuente_metricas": "https://espaciocivico.org/buscador/diputados-monitoreo?order=field_asistencia_comisiones_an&sort=asc",
   "total_proyectos": 845,
@@ -2591,7 +2591,7 @@
       "slug": "luis-duke",
       "proyectos": 15,
       "leyes": 1,
-      "co_patrocinios": 116,
+      "co_patrocinios": 117,
       "etapas": {
         "Preliminar": 1,
         "Primer Debate": 2,
@@ -2724,7 +2724,7 @@
       "circuito": "8-3",
       "provincia": "Panamá",
       "suplente": "Charlie Ho",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1VmiaUx0rzlt-Zj2v4hcYcM1EpV0ai2XD",
       "perfil": "https://espaciocivico.org/diputados/walkiria-chandler",
       "slug": "walkiria-chandler",
       "proyectos": 15,
@@ -2975,7 +2975,7 @@
       "circuito": "13-4",
       "provincia": "Panamá Oeste",
       "suplente": "Ezequiel Cedeño",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1j-BLrnzwbewFubNVYPQmsx7XYPiQX_Wo",
       "perfil": "https://espaciocivico.org/diputados/patsy-lee-renteria",
       "slug": "patsy-lee-renteria",
       "proyectos": 14,
@@ -3469,7 +3469,7 @@
       "circuito": "8-2",
       "provincia": "Panamá",
       "suplente": "José Andrés González",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1CDpks0hALy6EBT17Y2afzUvqAWkP92cC",
       "perfil": "https://espaciocivico.org/diputados/yarelis-rodriguez",
       "slug": "yarelis-rodriguez",
       "proyectos": 12,
@@ -3869,7 +3869,7 @@
         },
         {
           "ficha": "7933",
-          "titulo": "QUE REGULA LA INVESTIGACION CIENTIFICA Y DOCENCIA CON TRATAMIENTO DIGNO A LOS ANIMALES DE LABORATORIO",
+          "titulo": "QUE CREA EL COMITÉ NACIONAL DE INVESTIGACIÓN ANIMAL DE PANAMÁ (CNIAP) Y DICTA OTRAS DISPOSICIONES.",
           "fecha": "15-07-2025",
           "etapa": "Segundo Debate"
         },
@@ -4526,7 +4526,7 @@
       "circuito": "3-1",
       "provincia": "Colón",
       "suplente": "Moises Abdul Wilson",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1clc288nbtAKzM6R_yPggugkcSqBSN_R1",
       "perfil": "https://espaciocivico.org/diputados/yamireliz-chong",
       "slug": "yamireliz-chong",
       "proyectos": 9,
@@ -5714,7 +5714,7 @@
       "circuito": "3-1",
       "provincia": "Colón",
       "suplente": "Lalo' Antonio",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1l64FLwc0g2vmPoSlnMbRWcIzT0BBthgE",
       "perfil": "https://espaciocivico.org/diputados/rogelio-revello",
       "slug": "rogelio-revello",
       "proyectos": 4,
@@ -5781,7 +5781,7 @@
       "circuito": "9-2",
       "provincia": "Veraguas",
       "suplente": "Ricardo Martinelli Linares",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1jut9OWQ0kDwtST7BWOkS0UCeU5303_Ux",
       "perfil": "https://espaciocivico.org/diputados/tomas-benavides",
       "slug": "tomas-benavides",
       "proyectos": 4,
@@ -6068,7 +6068,7 @@
       "circuito": "12-1",
       "provincia": "Ngöbe Buglé",
       "suplente": "Rosalia \"Beligo\" Ellis",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1vnUYdZM57guE55fT821CJpq0NZyXINko",
       "perfil": "https://espaciocivico.org/diputados/roberto-archibold",
       "slug": "roberto-archibold",
       "proyectos": 3,
@@ -6181,7 +6181,7 @@
       "circuito": "13-1",
       "provincia": "Panamá Oeste",
       "suplente": "Ricardo Valencia",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1gW-I7YUMSYAYP-8xtuRTuNF9jX-mcCH5",
       "perfil": "https://espaciocivico.org/diputados/shirley-castanedas",
       "slug": "shirley-castanedas",
       "proyectos": 3,
@@ -6234,7 +6234,7 @@
       "circuito": "1-1",
       "provincia": "Bocas del Toro",
       "suplente": "Elias Beker",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1uGcarNpw4uxMJ2cpmukAGm3WLFFPj5DY",
       "perfil": "https://espaciocivico.org/diputados/yesica-romero",
       "slug": "yesica-romero",
       "proyectos": 3,
@@ -6536,7 +6536,7 @@
       "circuito": "3-1",
       "provincia": "Colón",
       "suplente": "Alejandro Salazar",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1hSYeYwas_z-dnZz4wHuEK5d2dY2b-bdW",
       "perfil": "https://espaciocivico.org/diputados/victor-castillo",
       "slug": "victor-castillo",
       "proyectos": 2,
@@ -6876,7 +6876,7 @@
       "circuito": "8-3",
       "provincia": "Panamá",
       "suplente": "Mercedes Gálvez",
-      "foto": "https://espaciocivico.org/img/diputados/placeholder.webp",
+      "foto": "https://espaciocivico.org/api/drive-image/1xCbjqWbYVyszVHiohbQ6ZyYaosrR_cTk",
       "perfil": "https://espaciocivico.org/diputados/sergio-galvez",
       "slug": "sergio-galvez",
       "proyectos": 0,
@@ -7523,64 +7523,34 @@
         "all": 496
       }
     },
-    "Bocas del Toro": {
+    "Guna Yala": {
       "2024": {
-        "Ley": 0,
-        "debate": 3,
+        "Ley": 2,
+        "debate": 6,
         "analisis": 3,
-        "sinAvance": 2,
-        "all": 8
+        "sinAvance": 1,
+        "all": 12
       },
       "2025": {
         "Ley": 0,
-        "debate": 8,
-        "analisis": 6,
-        "sinAvance": 0,
-        "all": 14
-      },
-      "2026": {
-        "Ley": 1,
-        "debate": 3,
-        "analisis": 2,
-        "sinAvance": 0,
-        "all": 6
-      },
-      "all": {
-        "Ley": 1,
-        "debate": 14,
-        "analisis": 11,
-        "sinAvance": 2,
-        "all": 28
-      }
-    },
-    "Coclé": {
-      "2024": {
-        "Ley": 11,
-        "debate": 12,
-        "analisis": 6,
-        "sinAvance": 6,
-        "all": 35
-      },
-      "2025": {
-        "Ley": 3,
-        "debate": 35,
+        "debate": 11,
         "analisis": 9,
-        "sinAvance": 4,
-        "all": 51
+        "sinAvance": 2,
+        "all": 22
       },
       "2026": {
         "Ley": 0,
-        "debate": 9,
-        "analisis": 4,
-        "sinAvance": 0,
-        "all": 13
+        "debate": 4,
+        "analisis": 1,
+        "sinAvance": 2,
+        "all": 7
       },
       "all": {
-        "Ley": 14,
-        "debate": 56,
-        "analisis": 19,
-        "sinAvance": 10,
-        "all": 99
+        "Ley": 2,
+        "debate": 21,
+        "analisis": 13,
+        "sinAvance": 5,
+        "all": 41
       }
     },
     "Emberá-Wounaan": {
@@ -7613,6 +7583,36 @@
         "all": 36
       }
     },
+    "Coclé": {
+      "2024": {
+        "Ley": 11,
+        "debate": 12,
+        "analisis": 6,
+        "sinAvance": 6,
+        "all": 35
+      },
+      "2025": {
+        "Ley": 3,
+        "debate": 35,
+        "analisis": 9,
+        "sinAvance": 4,
+        "all": 51
+      },
+      "2026": {
+        "Ley": 0,
+        "debate": 9,
+        "analisis": 4,
+        "sinAvance": 0,
+        "all": 13
+      },
+      "all": {
+        "Ley": 14,
+        "debate": 56,
+        "analisis": 19,
+        "sinAvance": 10,
+        "all": 99
+      }
+    },
     "Herrera": {
       "2024": {
         "Ley": 11,
@@ -7643,34 +7643,64 @@
         "all": 82
       }
     },
-    "Guna Yala": {
+    "Bocas del Toro": {
       "2024": {
-        "Ley": 2,
-        "debate": 6,
+        "Ley": 0,
+        "debate": 3,
         "analisis": 3,
-        "sinAvance": 1,
-        "all": 12
+        "sinAvance": 2,
+        "all": 8
       },
       "2025": {
         "Ley": 0,
-        "debate": 11,
-        "analisis": 9,
-        "sinAvance": 2,
-        "all": 22
+        "debate": 8,
+        "analisis": 6,
+        "sinAvance": 0,
+        "all": 14
       },
       "2026": {
-        "Ley": 0,
-        "debate": 4,
-        "analisis": 1,
-        "sinAvance": 2,
-        "all": 7
+        "Ley": 1,
+        "debate": 3,
+        "analisis": 2,
+        "sinAvance": 0,
+        "all": 6
       },
       "all": {
-        "Ley": 2,
-        "debate": 21,
-        "analisis": 13,
-        "sinAvance": 5,
-        "all": 41
+        "Ley": 1,
+        "debate": 14,
+        "analisis": 11,
+        "sinAvance": 2,
+        "all": 28
+      }
+    },
+    "Veraguas": {
+      "2024": {
+        "Ley": 18,
+        "debate": 33,
+        "analisis": 12,
+        "sinAvance": 20,
+        "all": 83
+      },
+      "2025": {
+        "Ley": 7,
+        "debate": 70,
+        "analisis": 26,
+        "sinAvance": 14,
+        "all": 117
+      },
+      "2026": {
+        "Ley": 1,
+        "debate": 31,
+        "analisis": 19,
+        "sinAvance": 3,
+        "all": 54
+      },
+      "all": {
+        "Ley": 26,
+        "debate": 134,
+        "analisis": 57,
+        "sinAvance": 37,
+        "all": 254
       }
     },
     "Panamá Oeste": {
@@ -7731,36 +7761,6 @@
         "analisis": 39,
         "sinAvance": 34,
         "all": 207
-      }
-    },
-    "Veraguas": {
-      "2024": {
-        "Ley": 18,
-        "debate": 33,
-        "analisis": 12,
-        "sinAvance": 20,
-        "all": 83
-      },
-      "2025": {
-        "Ley": 7,
-        "debate": 70,
-        "analisis": 26,
-        "sinAvance": 14,
-        "all": 117
-      },
-      "2026": {
-        "Ley": 1,
-        "debate": 31,
-        "analisis": 19,
-        "sinAvance": 3,
-        "all": 54
-      },
-      "all": {
-        "Ley": 26,
-        "debate": 134,
-        "analisis": 57,
-        "sinAvance": 37,
-        "all": 254
       }
     },
     "Colón": {
